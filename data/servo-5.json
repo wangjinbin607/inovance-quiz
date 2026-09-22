@@ -1,0 +1,8204 @@
+[
+  {
+    "id": "SRV-108",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "关于 SV670-FS-INT 的安全认证，哪项与当前资料相符？",
+    "options": {
+      "A": "SIL1 的 SS2 标准功能",
+      "B": "仅软件急停，无安全认证",
+      "C": "STO SIL3，符合 IEC 61800-5-2",
+      "D": "只支持机械抱闸"
+    },
+    "answer": [
+      "C"
+    ],
+    "analysis": "认证描述不等于现场风险评估；安全回路仍需按安全手册和整机标准验证。",
+    "source": {
+      "title": "SV670 Series 产品页",
+      "chapter": "知识点 S25",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV670-FS-INT",
+      "安全认证"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-109",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 1,
+    "stem": "请从下列说法中选出 SV680 在速度环性能方面的正确结论。",
+    "options": {
+      "A": "625 kHz 速度环带宽",
+      "B": "3.2 kHz 速度环带宽",
+      "C": "500 μs 速度环周期",
+      "D": "3.5 kHz 速度环带宽"
+    },
+    "answer": [
+      "D"
+    ],
+    "analysis": "SV670 的 3.2 kHz 与 SV680 的 3.5 kHz 不能混写。",
+    "source": {
+      "title": "SV680 Series 产品页",
+      "chapter": "知识点 S26",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV680",
+      "速度环性能"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-110",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "核对 SV680 的电流环算法时，哪一项不能被其他系列的结论替代？",
+    "options": {
+      "A": "100 Mbit/s 电流环",
+      "B": "625 kHz 电流环控制算法",
+      "C": "625 kHz 速度环",
+      "D": "3.5 kHz 电流环"
+    },
+    "answer": [
+      "B"
+    ],
+    "analysis": "环路名称是技术题的关键限定词，采购题也应避免把指标写错列。",
+    "source": {
+      "title": "SV680 Series 产品页",
+      "chapter": "知识点 S27",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV680",
+      "电流环算法"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-111",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "围绕 SV680 的反馈兼容，选出可写入核对表的说法。",
+    "options": {
+      "A": "只支持旋变",
+      "B": "只支持 18 位增量编码器",
+      "C": "23/26 位串行绝对值、EnDat 2.2、BiSS-C、SSI、ABZ",
+      "D": "只支持 23 位多圈且不支持 ABZ"
+    },
+    "answer": [
+      "C"
+    ],
+    "analysis": "“支持多编码器”仍不等于任意编码器任意组合，完整电机与驱动器表才是订货依据。",
+    "source": {
+      "title": "SV680 Series 产品页",
+      "chapter": "知识点 S28",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV680",
+      "反馈兼容"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-112",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "关于 SV680 的电池边界，哪项与当前资料相符？",
+    "options": {
+      "A": "A6/S6 为免电池，V6 必须电池",
+      "B": "V6 为免电池多圈；A6/S6 多圈需电池保持",
+      "C": "三者都是增量编码器",
+      "D": "编码器电池与多圈位置无关"
+    },
+    "answer": [
+      "B"
+    ],
+    "analysis": "电池、单圈/多圈、反馈位数和安全分支要同时写全，不能只写“绝对值”。",
+    "source": {
+      "title": "SV680N系列伺服硬件/通信/调试/安全手册 C00/C06/A05",
+      "chapter": "知识点 S29",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV680",
+      "电池边界"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-113",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 1,
+    "stem": "请从下列说法中选出 IS810N-INT 在功率范围方面的正确结论。",
+    "options": {
+      "A": "0.05～7.5 kW",
+      "B": "2.2～75 kW",
+      "C": "0.85～120 kW",
+      "D": "7.5～200 kW"
+    },
+    "answer": [
+      "C"
+    ],
+    "analysis": "IS810N 与 IS810F 的范围不同，不能用一个范围覆盖 N/F。",
+    "source": {
+      "title": "IS810N-INT系列标准多机传动伺服用户手册-CN-C08、IS810F系列伺服用户手册-CN-B04",
+      "chapter": "知识点 S44",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "IS810N-INT",
+      "功率范围"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-114",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "核对 IS810F 的功率与协议时，哪一项不能被其他系列的结论替代？",
+    "options": {
+      "A": "2.2～75 kW，PROFINET",
+      "B": "0.85～120 kW，EtherCAT",
+      "C": "0.05～7.5 kW，Modbus-RTU",
+      "D": "7.5～200 kW，FSoE"
+    },
+    "answer": [
+      "A"
+    ],
+    "analysis": "IS620F/810F 历史指南范围不能替代当前 B04 用户手册。",
+    "source": {
+      "title": "IS810N-INT系列标准多机传动伺服用户手册-CN-C08、IS810F系列伺服用户手册-CN-B04",
+      "chapter": "知识点 S45",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "IS810F",
+      "功率与协议"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-115",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 1,
+    "stem": "围绕 IS810N-INT 的制动配置，选出可写入核对表的说法。",
+    "options": {
+      "A": "DB 制动器所有规格永久标配",
+      "B": "只能用外置 MDBUN 且不能选配",
+      "C": "IS810N 没有任何制动配置",
+      "D": "DB 制动器由标配改为选配"
+    },
+    "answer": [
+      "D"
+    ],
+    "analysis": "订货时要把制动器作为独立配置核对，不能从旧版本沿用。",
+    "source": {
+      "title": "IS810N-INT系列标准多机传动伺服用户手册-CN-C08、IS810F系列伺服用户手册-CN-B04",
+      "chapter": "知识点 S46",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "IS810N-INT",
+      "制动配置"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-116",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "关于 IS810 的环境边界，哪项与当前资料相符？",
+    "options": {
+      "A": "恒温 25 ℃且不需要机柜",
+      "B": "0～55 ℃，45 ℃以上每升高 1 ℃降额 2%",
+      "C": "-20～60 ℃，50 ℃以上每升高 1 ℃降额 2.5%",
+      "D": "0～40 ℃，40 ℃以上每升高 1 ℃降额 1.5%，最高 50 ℃"
+    },
+    "answer": [
+      "D"
+    ],
+    "analysis": "IS810 还要求机柜内安装、IP20 和海拔条件，环境题不能只看温度。",
+    "source": {
+      "title": "IS810N-INT系列标准多机传动伺服用户手册-CN-C08、IS810F系列伺服用户手册-CN-B04",
+      "chapter": "知识点 S47",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "IS810",
+      "环境边界"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-117",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 1,
+    "stem": "请从下列说法中选出 IS810F 在电气规格方面的正确结论。",
+    "options": {
+      "A": "只需要 USB 供电",
+      "B": "直流母线 537～679 V，控制电源 21.6～26.4 V",
+      "C": "直流母线 350～800 V，控制电源 110 V",
+      "D": "直流母线 200～240 V，控制电源 5 V"
+    },
+    "answer": [
+      "B"
+    ],
+    "analysis": "母线和控制电源是柜体与多机系统设计的硬边界。",
+    "source": {
+      "title": "IS810N-INT系列标准多机传动伺服用户手册-CN-C08、IS810F系列伺服用户手册-CN-B04",
+      "chapter": "知识点 S48",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "IS810F",
+      "电气规格"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-118",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "核对 SV680 的电机类型时，哪一项不能被其他系列的结论替代？",
+    "options": {
+      "A": "只支持旋转电机",
+      "B": "只支持直线电机",
+      "C": "同一驱动模型可控制旋转、DDL 与 DDR 电机",
+      "D": "必须为每种电机更换驱动硬件"
+    },
+    "answer": [
+      "C"
+    ],
+    "analysis": "电机类型兼容不等于无需重新做反馈、相位和参数确认。",
+    "source": {
+      "title": "SV680 Series 产品页",
+      "chapter": "知识点 S53",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV680",
+      "电机类型"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-119",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "围绕 SV680 的多圈编码器，选出可写入核对表的说法。",
+    "options": {
+      "A": "位数与分辨率无关",
+      "B": "26 位一圈超过 67.1 百万脉冲",
+      "C": "23 位编码器没有绝对位置",
+      "D": "26 位一圈只有 2600 脉冲"
+    },
+    "answer": [
+      "B"
+    ],
+    "analysis": "位数是反馈分辨率描述，不应替代完整编码器型号和电池条件。",
+    "source": {
+      "title": "SV680 Series 产品页",
+      "chapter": "知识点 S57",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV680",
+      "多圈编码器"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-120",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "关于 SV630 的功率范围，哪项与当前资料相符？",
+    "options": {
+      "A": "0.05～7.5 kW",
+      "B": "0.4～22 kW",
+      "C": "7.5～120 kW",
+      "D": "15～90 kW"
+    },
+    "answer": [
+      "A"
+    ],
+    "analysis": "功率范围只能按当前分支手册与完整型号确认，不能用相邻系列范围替代。",
+    "source": {
+      "title": "伺服速查审计（已核验）与伺服与电机二次学习补充（2026-09）",
+      "chapter": "知识点 S01",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV630",
+      "功率范围"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-121",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 1,
+    "stem": "请从下列说法中选出 SV630 在通信分支方面的正确结论。",
+    "options": {
+      "A": "A 为 PROFINET，N 为脉冲，P 为 EtherCAT",
+      "B": "A、N、P 只表示功率档位",
+      "C": "三个分支都固定为 EtherCAT",
+      "D": "A 为 CANlink/Modbus，N 为 EtherCAT，P 为 Modbus-RTU"
+    },
+    "answer": [
+      "D"
+    ],
+    "analysis": "分支字母是采购和技术共同的第一层核对项；特殊 C-PS、P-PS 等后缀仍要另查手册。",
+    "source": {
+      "title": "伺服速查审计（已核验）与伺服与电机二次学习补充（2026-09）",
+      "chapter": "知识点 S02",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV630",
+      "通信分支"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-122",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "核对 SV630 的编码器时，哪一项不能被其他系列的结论替代？",
+    "options": {
+      "A": "T3 为 23 位编码器",
+      "B": "T3 为 26 位免电池编码器",
+      "C": "T3 为 18 位编码器",
+      "D": "T3 只代表抱闸"
+    },
+    "answer": [
+      "C"
+    ],
+    "analysis": "不能把 SV630 的 T3 与其他系列的 23 位或 26 位编码器代码混用。",
+    "source": {
+      "title": "伺服速查审计（已核验）与伺服与电机二次学习补充（2026-09）",
+      "chapter": "知识点 S03",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV630",
+      "编码器"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-123",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "围绕 SV630P 的通信接口，选出可写入核对表的说法。",
+    "options": {
+      "A": "CN3/CN4 为双 EtherCAT 口",
+      "B": "CN3/CN4 只在安全机型存在",
+      "C": "CN3 为 STO、CN4 为编码器",
+      "D": "CN3/CN4 为 RS232/RS485 并联"
+    },
+    "answer": [
+      "D"
+    ],
+    "analysis": "接口结论必须带分支和版本，不能把同一位置在不同系列的用途直接横向套用。",
+    "source": {
+      "title": "SV660P系列伺服用户/硬件/功能/选型手册-CN-D01（2026-08）",
+      "chapter": "知识点 S04",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV630P",
+      "通信接口"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-124",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 1,
+    "stem": "关于 SV630P Size A 的制动配置，哪项与当前资料相符？",
+    "options": {
+      "A": "必须外接 MDBUN 才能运行",
+      "B": "标配内置制动电阻并保留 PD 短接片",
+      "C": "无内置制动电阻且无 PD 短接片",
+      "D": "只要是 Size A 就带 STO 扩展"
+    },
+    "answer": [
+      "C"
+    ],
+    "analysis": "采购时要把机座、制动电阻和短接片作为 BOM 条件列出，不能只报功率。",
+    "source": {
+      "title": "SV660P系列伺服用户/硬件/功能/选型手册-CN-D01（2026-08）",
+      "chapter": "知识点 S05",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV630P Size A",
+      "制动配置"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-125",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 1,
+    "stem": "请从下列说法中选出 SV630P S7R6/S012 在输入相制方面的正确结论。",
+    "options": {
+      "A": "支持单相或三相",
+      "B": "只能直流母线输入",
+      "C": "只能三相 380 V",
+      "D": "只能单相 220 V"
+    },
+    "answer": [
+      "A"
+    ],
+    "analysis": "输入相制要与完整型号和现场电网同时确认，不可由系列名称推断。",
+    "source": {
+      "title": "SV660P系列伺服用户/硬件/功能/选型手册-CN-D01（2026-08）",
+      "chapter": "知识点 S06",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV630P S7R6/S012",
+      "输入相制"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-126",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "核对 SV660F 的功率范围时，哪一项不能被其他系列的结论替代？",
+    "options": {
+      "A": "7.5～75 kW",
+      "B": "0.2～18.5 kW",
+      "C": "15～200 kW",
+      "D": "0.05～7.5 kW"
+    },
+    "answer": [
+      "D"
+    ],
+    "analysis": "旧版本或 IS810F 范围不能覆盖 SV660F 当前小功率范围。",
+    "source": {
+      "title": "SV660F系列伺服用户/硬件/功能/选型手册-CN-B01（2026-08）",
+      "chapter": "知识点 S07",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV660F",
+      "功率范围"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-127",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 1,
+    "stem": "围绕 SV660F 的通信分支，选出可写入核对表的说法。",
+    "options": {
+      "A": "EtherCAT",
+      "B": "PROFINET",
+      "C": "Modbus-RTU",
+      "D": "CANopen"
+    },
+    "answer": [
+      "B"
+    ],
+    "analysis": "F、N、P 的协议差异直接影响 GSD/ESI、主站配置和采购型号。",
+    "source": {
+      "title": "SV660F系列伺服用户/硬件/功能/选型手册-CN-B01（2026-08）",
+      "chapter": "知识点 S08",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV660F",
+      "通信分支"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-128",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 1,
+    "stem": "关于 SV660F 的编码器，哪项与当前资料相符？",
+    "options": {
+      "A": "18 位单圈编码器",
+      "B": "26 位免电池编码器",
+      "C": "正余弦编码器专用",
+      "D": "23 位多圈编码器"
+    },
+    "answer": [
+      "D"
+    ],
+    "analysis": "编码器类型必须与电机选型表、驱动器分支和安全功能一起闭环。",
+    "source": {
+      "title": "SV660F系列伺服用户/硬件/功能/选型手册-CN-B01（2026-08）",
+      "chapter": "知识点 S09",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV660F",
+      "编码器"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-129",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "请从下列说法中选出 SV660F CN6 在安全端子方面的正确结论。",
+    "options": {
+      "A": "仅 -FS 机型适用 STO",
+      "B": "CN6 是 PROFINET 端口",
+      "C": "所有普通机型都默认有 STO",
+      "D": "只有 -INT 机型适用 STO"
+    },
+    "answer": [
+      "A"
+    ],
+    "analysis": "安全端子是后缀和硬件条件，不应把系列宣传语当作全系列接线结论。",
+    "source": {
+      "title": "SV660F系列伺服用户/硬件/功能/选型手册-CN-B01（2026-08）",
+      "chapter": "知识点 S10",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV660F CN6",
+      "安全端子"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-130",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "核对 SV660F CN5 的调试接口时，哪一项不能被其他系列的结论替代？",
+    "options": {
+      "A": "RS232",
+      "B": "EtherCAT",
+      "C": "PROFINET IRT",
+      "D": "STO 双通道"
+    },
+    "answer": [
+      "A"
+    ],
+    "analysis": "CN3/CN4、CN5、CN6 的用途必须按当前硬件手册分开核对。",
+    "source": {
+      "title": "SV660F系列伺服用户/硬件/功能/选型手册-CN-B01（2026-08）",
+      "chapter": "知识点 S11",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV660F CN5",
+      "调试接口"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-131",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "围绕 SV660F 的环境边界，选出可写入核对表的说法。",
+    "options": {
+      "A": "-20～60 ℃，50 ℃以上每升高 1 ℃降额 2.5%",
+      "B": "恒温 25 ℃，无需考虑降额",
+      "C": "0～40 ℃，40 ℃以上每升高 1 ℃降额 1.5%",
+      "D": "0～55 ℃，45 ℃以上每升高 1 ℃降额 2%"
+    },
+    "answer": [
+      "D"
+    ],
+    "analysis": "环境数字是具体分支的选型条件，不能套用 SV680 或 IS810 的温度规则。",
+    "source": {
+      "title": "SV660F系列伺服用户/硬件/功能/选型手册-CN-B01（2026-08）",
+      "chapter": "知识点 S12",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV660F",
+      "环境边界"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-132",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "关于 SV660N 的通信分支，哪项与当前资料相符？",
+    "options": {
+      "A": "PROFINET",
+      "B": "Modbus-RTU",
+      "C": "仅脉冲",
+      "D": "EtherCAT"
+    },
+    "answer": [
+      "D"
+    ],
+    "analysis": "N 分支要同步核对 EtherCAT 端口、ESI 文件和主站对象字典。",
+    "source": {
+      "title": "SV660N系列伺服用户/硬件/功能/选型手册-CN-D01（2026-08）",
+      "chapter": "知识点 S13",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV660N",
+      "通信分支"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-133",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 1,
+    "stem": "请从下列说法中选出 SV660N U2 在编码器方面的正确结论。",
+    "options": {
+      "A": "26 位免电池，适用于 50 机座",
+      "B": "23 位多圈，适用于所有机座",
+      "C": "18 位多圈，仅用于安全电机",
+      "D": "20 位单圈，适用于 25 机座"
+    },
+    "answer": [
+      "D"
+    ],
+    "analysis": "U2 不能被简化成“23 位编码器”；机座和反馈类型都要保留。",
+    "source": {
+      "title": "SV660N系列伺服用户/硬件/功能/选型手册-CN-D01（2026-08）",
+      "chapter": "知识点 S14",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV660N U2",
+      "编码器"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-134",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "核对 SV660N S5R5 的输入相制时，哪一项不能被其他系列的结论替代？",
+    "options": {
+      "A": "0.75 kW 单相 220 V 只能接 L1/L2",
+      "B": "0.75 kW 必须接 L1/L2/L3",
+      "C": "只能接直流母线",
+      "D": "只能接三相 380 V"
+    },
+    "answer": [
+      "A"
+    ],
+    "analysis": "相制和端子接法是现场技术边界，也应在采购 BOM 中写清。",
+    "source": {
+      "title": "SV660N系列伺服用户/硬件/功能/选型手册-CN-D01（2026-08）",
+      "chapter": "知识点 S15",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV660N S5R5",
+      "输入相制"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-135",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "围绕 SV660N S7R6/S012 的输入相制，选出可写入核对表的说法。",
+    "options": {
+      "A": "只能单相且必须降额",
+      "B": "只能直流输入",
+      "C": "只能三相且必须降额",
+      "D": "支持单相或三相且无需降额"
+    },
+    "answer": [
+      "D"
+    ],
+    "analysis": "不要把 S5R5 的单相端子边界套到 S7R6/S012。",
+    "source": {
+      "title": "SV660N系列伺服用户/硬件/功能/选型手册-CN-D01（2026-08）",
+      "chapter": "知识点 S16",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV660N S7R6/S012",
+      "输入相制"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-136",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 1,
+    "stem": "关于 SV660P 的通信分支，哪项与当前资料相符？",
+    "options": {
+      "A": "FSoE",
+      "B": "EtherCAT",
+      "C": "Modbus-RTU",
+      "D": "PROFINET"
+    },
+    "answer": [
+      "C"
+    ],
+    "analysis": "P 分支和 F/N 分支的主站文件、端口和参数组不同。",
+    "source": {
+      "title": "SV660P系列伺服用户/硬件/功能/选型手册-CN-D01（2026-08）",
+      "chapter": "知识点 S17",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV660P",
+      "通信分支"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-137",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 1,
+    "stem": "请从下列说法中选出 SV660P CN2 在编码器接口方面的正确结论。",
+    "options": {
+      "A": "只提供两针电源",
+      "B": "1～6 针并含外壳 PE",
+      "C": "RJ45 8 针",
+      "D": "固定 5 针且无 PE"
+    },
+    "answer": [
+      "B"
+    ],
+    "analysis": "针脚不能靠系列印象填写；要回到同机座硬件图。",
+    "source": {
+      "title": "SV660P系列伺服用户/硬件/功能/选型手册-CN-D01（2026-08）",
+      "chapter": "知识点 S18",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV660P CN2",
+      "编码器接口"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-138",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "核对 SV660P 的制动接线时，哪一项不能被其他系列的结论替代？",
+    "options": {
+      "A": "其他机座外接制动电阻前须拆 P+-D 短接",
+      "B": "只有 Size A 要拆短接",
+      "C": "制动电阻与 P+-D 无关",
+      "D": "所有机座都保留 P+-D 短接"
+    },
+    "answer": [
+      "A"
+    ],
+    "analysis": "制动电阻是高能量回路，接线动作必须按对应硬件手册执行。",
+    "source": {
+      "title": "SV660P系列伺服用户/硬件/功能/选型手册-CN-D01（2026-08）",
+      "chapter": "知识点 S19",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV660P",
+      "制动接线"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-139",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "围绕 SV660F/N/P 的版本参数，选出可写入核对表的说法。",
+    "options": {
+      "A": "F=4303.3，N=0905.0，P=0607.4（H01-00）",
+      "B": "F=0607.4，N=4303.3，P=0905.0（H02）",
+      "C": "三个分支都是 0000.0",
+      "D": "只有 P 分支有版本参数"
+    },
+    "answer": [
+      "A"
+    ],
+    "analysis": "参数号必须保留组号；不能把不同分支的版本值混为一个无组号参数。",
+    "source": {
+      "title": "SV660F系列伺服用户/硬件/功能/选型手册-CN-B01（2026-08）",
+      "chapter": "知识点 S20",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV660F/N/P",
+      "版本参数"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-140",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 1,
+    "stem": "关于 SV670-INT 的性能，哪项与当前资料相符？",
+    "options": {
+      "A": "500 μs IRT 周期",
+      "B": "625 kHz 电流环带宽",
+      "C": "3.2 kHz 速度环带宽",
+      "D": "1:1000 调速范围"
+    },
+    "answer": [
+      "C"
+    ],
+    "analysis": "性能指标要注明环路类型和产品分支，不能把 SV680 电流环数字移植过来。",
+    "source": {
+      "title": "SV670 Series 产品页",
+      "chapter": "知识点 S24",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV670-INT",
+      "性能"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-141",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "请从下列说法中选出 SV670-FS-INT 在安全认证方面的正确结论。",
+    "options": {
+      "A": "STO SIL3，符合 IEC 61800-5-2",
+      "B": "SIL1 的 SS2 标准功能",
+      "C": "仅软件急停，无安全认证",
+      "D": "只支持机械抱闸"
+    },
+    "answer": [
+      "A"
+    ],
+    "analysis": "认证描述不等于现场风险评估；安全回路仍需按安全手册和整机标准验证。",
+    "source": {
+      "title": "SV670 Series 产品页",
+      "chapter": "知识点 S25",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV670-FS-INT",
+      "安全认证"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-142",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "核对 SV680 的速度环性能时，哪一项不能被其他系列的结论替代？",
+    "options": {
+      "A": "500 μs 速度环周期",
+      "B": "3.2 kHz 速度环带宽",
+      "C": "625 kHz 速度环带宽",
+      "D": "3.5 kHz 速度环带宽"
+    },
+    "answer": [
+      "D"
+    ],
+    "analysis": "SV670 的 3.2 kHz 与 SV680 的 3.5 kHz 不能混写。",
+    "source": {
+      "title": "SV680 Series 产品页",
+      "chapter": "知识点 S26",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV680",
+      "速度环性能"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-143",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "围绕 SV680 的电流环算法，选出可写入核对表的说法。",
+    "options": {
+      "A": "625 kHz 电流环控制算法",
+      "B": "625 kHz 速度环",
+      "C": "3.5 kHz 电流环",
+      "D": "100 Mbit/s 电流环"
+    },
+    "answer": [
+      "A"
+    ],
+    "analysis": "环路名称是技术题的关键限定词，采购题也应避免把指标写错列。",
+    "source": {
+      "title": "SV680 Series 产品页",
+      "chapter": "知识点 S27",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV680",
+      "电流环算法"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-144",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "关于 SV680 EtherCAT 的通信对象，哪项技术处理符合手册边界？",
+    "options": {
+      "A": "CoE、PDO、SDO、DC 按主站与驱动对象字典核对",
+      "B": "PDO 可任意写",
+      "C": "DC 等于直流电源",
+      "D": "只需模拟量速度"
+    },
+    "answer": [
+      "A"
+    ],
+    "analysis": "周期同步和对象映射分别验证。",
+    "source": {
+      "title": "SV680N系列伺服硬件/通信/调试/安全手册 C00/C06/A05",
+      "chapter": "知识点 T-S17",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV680 EtherCAT",
+      "通信对象"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-145",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 1,
+    "stem": "技术人员核对 EtherCAT PDO 的映射修改时，应采用哪项？",
+    "options": {
+      "A": "写 0 恢复出厂",
+      "B": "只改从站 IP",
+      "C": "有效状态可任意写",
+      "D": "先使 PDO 无效；写 0 清除映射子索引"
+    },
+    "answer": [
+      "D"
+    ],
+    "analysis": "状态机和映射操作按手册顺序。",
+    "source": {
+      "title": "SV680N系列伺服硬件/通信/调试/安全手册 C00/C06/A05",
+      "chapter": "知识点 T-S18",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "EtherCAT PDO",
+      "映射修改"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-146",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 1,
+    "stem": "客户提出 CiA 402 6060h 的模式值疑问，哪项答复有依据？",
+    "options": {
+      "A": "6060h 是波特率",
+      "B": "模式与控制无关",
+      "C": "8/9/10 均是回原",
+      "D": "1/3/4/6/8/9/10 对应位置/速度/转矩/回原/CSP/CSV/CST"
+    },
+    "answer": [
+      "D"
+    ],
+    "analysis": "切模式还需确认状态机与 PDO。",
+    "source": {
+      "title": "SV680N系列伺服硬件/通信/调试/安全手册 C00/C06/A05",
+      "chapter": "知识点 T-S19",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "CiA 402 6060h",
+      "模式值"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-147",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "在伺服回原的现场联调中，哪项机械基准结论可直接用于检查表？",
+    "options": {
+      "A": "无需原点开关",
+      "B": "有弹性的机械极限不宜作高精度原点",
+      "C": "任意模式数字都相同",
+      "D": "橡胶防撞块最适合作原点"
+    },
+    "answer": [
+      "B"
+    ],
+    "analysis": "现场机械设计与模式表一致。",
+    "source": {
+      "title": "SV680N系列伺服硬件/通信/调试/安全手册 C00/C06/A05",
+      "chapter": "知识点 T-S20",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "伺服回原",
+      "机械基准"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-148",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "关于 SV680 的反馈配对，哪项技术处理符合手册边界？",
+    "options": {
+      "A": "支持列表即任意兼容",
+      "B": "ABZ 可代替任意安全编码器",
+      "C": "只看电机功率",
+      "D": "编码器协议、位数、电池和安全电机按同机座配对表核对"
+    },
+    "answer": [
+      "D"
+    ],
+    "analysis": "尤其全闭环和安全功能要闭环验证。",
+    "source": {
+      "title": "SV680N系列伺服硬件/通信/调试/安全手册 C00/C06/A05",
+      "chapter": "知识点 T-S21",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV680",
+      "反馈配对"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-149",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 1,
+    "stem": "技术人员核对 SV680 V6 的多圈保持时，应采用哪项？",
+    "options": {
+      "A": "更换电池不用做位置确认",
+      "B": "所有反馈免电池",
+      "C": "编码器位数等于抱闸状态",
+      "D": "V6 免电池；A6/S6 多圈按电池保持条件验收"
+    },
+    "answer": [
+      "D"
+    ],
+    "analysis": "更换/断电后多圈位置应验证。",
+    "source": {
+      "title": "SV680N系列伺服硬件/通信/调试/安全手册 C00/C06/A05",
+      "chapter": "知识点 T-S22",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV680 V6",
+      "多圈保持"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-150",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 1,
+    "stem": "客户提出 IS810N-INT 的多机母线疑问，哪项答复有依据？",
+    "options": {
+      "A": "母线可接任意电压",
+      "B": "控制电源可接 380 V",
+      "C": "共直流母线与独立 24 V 控制电源应分开核对",
+      "D": "只用 USB 供电"
+    },
+    "answer": [
+      "C"
+    ],
+    "analysis": "系统接线图与模块规格要一致。",
+    "source": {
+      "title": "IS810N-INT系列标准多机传动伺服用户手册-CN-C08、IS810F系列伺服用户手册-CN-B04",
+      "chapter": "知识点 T-S23",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "IS810N-INT",
+      "多机母线"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-151",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 1,
+    "stem": "在 IS810F 的现场联调中，哪项电源范围结论可直接用于检查表？",
+    "options": {
+      "A": "控制电源和母线同端子",
+      "B": "直流母线 537～679 V，控制 21.6～26.4 V",
+      "C": "无需控制电源",
+      "D": "直流母线 200 V，控制 5 V"
+    },
+    "answer": [
+      "B"
+    ],
+    "analysis": "测量应在对应端子进行。",
+    "source": {
+      "title": "IS810N-INT系列标准多机传动伺服用户手册-CN-C08、IS810F系列伺服用户手册-CN-B04",
+      "chapter": "知识点 T-S24",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "IS810F",
+      "电源范围"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-152",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "关于 IS810F PN 的启动控制字，哪项技术处理符合手册边界？",
+    "options": {
+      "A": "只改 IP 即启机",
+      "B": "报文 1 的 16#47E→16#47F 顺序按指南验证",
+      "C": "16#4F7E→16#4F7F",
+      "D": "无需控制字"
+    },
+    "answer": [
+      "B"
+    ],
+    "analysis": "报文类型与主站工艺对象必须配套。",
+    "source": {
+      "title": "IS620F/IS810F PN总线伺服应用指南 V1.07（历史范围仅作版本边界）",
+      "chapter": "知识点 T-S25",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "IS810F PN",
+      "启动控制字"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-153",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 1,
+    "stem": "技术人员核对 PN 报文的位置控制时，应采用哪项？",
+    "options": {
+      "A": "所有报文等价",
+      "B": "102 永远等同基础 EPOS",
+      "C": "111 只是速度模式",
+      "D": "3/102 为 PLC 工艺对象中央位置控制，111 为基本定位器增强"
+    },
+    "answer": [
+      "D"
+    ],
+    "analysis": "不能把不同报文的控制字和功能块混用。",
+    "source": {
+      "title": "IS620F/IS810F PN总线伺服应用指南 V1.07（历史范围仅作版本边界）",
+      "chapter": "知识点 T-S26",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "PN 报文",
+      "位置控制"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-154",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "客户提出 PROFINET IRT 的现场配置疑问，哪项答复有依据？",
+    "options": {
+      "A": "按真实拓扑组态，最短 500 μs；S7-1200 不支持 IRT",
+      "B": "S7-1200 原生支持 IRT",
+      "C": "周期任意设 10 μs",
+      "D": "拓扑与 IRT 无关"
+    },
+    "answer": [
+      "A"
+    ],
+    "analysis": "同步需求先核对主站硬件。",
+    "source": {
+      "title": "IS620F/IS810F PN总线伺服应用指南 V1.07（历史范围仅作版本边界）",
+      "chapter": "知识点 T-S27",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "PROFINET IRT",
+      "现场配置"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-155",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "在 IS650N-PLUS 的现场联调中，哪项主轴调试结论可直接用于检查表？",
+    "options": {
+      "A": "核对定向、刚性攻丝、反馈与全闭环配套",
+      "B": "反馈无需确认",
+      "C": "只按通用风机 V/f 调试",
+      "D": "只改一个速度参数"
+    },
+    "answer": [
+      "A"
+    ],
+    "analysis": "主轴工况还需机械/电机和 PG 证据。",
+    "source": {
+      "title": "IS650N-PLUS系列伺服用户手册-CN-A03（2025-11）及安全手册",
+      "chapter": "知识点 T-S28",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "IS650N-PLUS",
+      "主轴调试"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-156",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "关于 IS650N-PLUS 的环境降额，哪项技术处理符合手册边界？",
+    "options": {
+      "A": "功率档不影响温度边界",
+      "B": "可凝露且无需机柜",
+      "C": "全功率超过 50 ℃无降额",
+      "D": "7.5～22 kW 超过 45 ℃、37～220 kW 超过 40 ℃，均每 ℃降额 1.5%"
+    },
+    "answer": [
+      "D"
+    ],
+    "analysis": "温度规则按机座功率分组。",
+    "source": {
+      "title": "IS650N-PLUS系列伺服用户手册-CN-A03（2025-11）及安全手册",
+      "chapter": "知识点 T-S29",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "IS650N-PLUS",
+      "环境降额"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-157",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "技术人员核对 IS810N-INT 的海拔降额时，应采用哪项？",
+    "options": {
+      "A": "1000 m 以上每升高 100 m 降额 1%，最高 3000 m",
+      "B": "海拔不限",
+      "C": "海拔可用通讯卡补偿",
+      "D": "只在海拔 4000 m 才降额"
+    },
+    "answer": [
+      "A"
+    ],
+    "analysis": "机柜热设计与负载均需复核。",
+    "source": {
+      "title": "IS810N-INT系列标准多机传动伺服用户手册-CN-C08、IS810F系列伺服用户手册-CN-B04",
+      "chapter": "知识点 T-S30",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "IS810N-INT",
+      "海拔降额"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-158",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 1,
+    "stem": "客户提出 IS810N-INT 的柜体条件疑问，哪项答复有依据？",
+    "options": {
+      "A": "IP20 机柜安装、振动不超过 0.6 g",
+      "B": "振动无限制",
+      "C": "机柜条件与安全无关",
+      "D": "整机 IP67 可露天安装"
+    },
+    "answer": [
+      "A"
+    ],
+    "analysis": "安装条件是故障排查的先验检查。",
+    "source": {
+      "title": "IS810N-INT系列标准多机传动伺服用户手册-CN-C08、IS810F系列伺服用户手册-CN-B04",
+      "chapter": "知识点 T-S31",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "IS810N-INT",
+      "柜体条件"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-159",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "在 ISMG 的现场联调中，哪项电机配对结论可直接用于检查表？",
+    "options": {
+      "A": "95C 直接等于 9.5 kW",
+      "B": "95C 回表确认 7.9 kW，并按 IS810N/IS650P 配对表选驱动",
+      "C": "任意驱动可配",
+      "D": "只看 S4 字符串"
+    },
+    "answer": [
+      "B"
+    ],
+    "analysis": "型号解码后仍需查驱动-电机搭配。",
+    "source": {
+      "title": "伺服速查审计（已核验）与伺服与电机二次学习补充（2026-09）",
+      "chapter": "知识点 T-S32",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "ISMG",
+      "电机配对"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-160",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "关于客户故障答复的证据链，哪项技术处理符合手册边界？",
+    "options": {
+      "A": "只根据故障截图猜根因",
+      "B": "清除所有记录再检查",
+      "C": "保留完整型号、版本、参数、故障时间、波形、负载和接线证据",
+      "D": "不询问电机型号"
+    },
+    "answer": [
+      "C"
+    ],
+    "analysis": "故障码必须对应同版本手册。",
+    "source": {
+      "title": "伺服速查审计（已核验）与伺服与电机二次学习补充（2026-09）",
+      "chapter": "知识点 T-S33",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "客户故障答复",
+      "证据链"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-161",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "技术人员核对垂直轴客户问题的停机安全时，应采用哪项？",
+    "options": {
+      "A": "只调高速度环增益",
+      "B": "STO 自动保持负载",
+      "C": "抱闸直接作动态制动",
+      "D": "先评估重力负载与抱闸保持，再验证驱动减速和 STO 时序"
+    },
+    "answer": [
+      "D"
+    ],
+    "analysis": "机械保持、运动控制和功能安全职责分开。",
+    "source": {
+      "title": "MS1-R系列伺服电机安装/选型手册-CN-A05/B04",
+      "chapter": "知识点 T-S34",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "垂直轴客户问题",
+      "停机安全"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-162",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "客户提出伺服参数迁移的版本核对疑问，哪项答复有依据？",
+    "options": {
+      "A": "旧项目参数整包无条件复制",
+      "B": "先核型号分支、电机/反馈、手册版本与功能差异，再分步验证",
+      "C": "只改 IP 即完成",
+      "D": "不用留原始参数"
+    },
+    "answer": [
+      "B"
+    ],
+    "analysis": "不同分支的参数号和功能含义可能变化。",
+    "source": {
+      "title": "伺服速查审计（已核验）与伺服与电机二次学习补充（2026-09）",
+      "chapter": "知识点 T-S35",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "伺服参数迁移",
+      "版本核对"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-163",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "在 SV660F/N/P 的现场联调中，哪项手册版本结论可直接用于检查表？",
+    "options": {
+      "A": "只看系列名",
+      "B": "三个分支共用一个参数值",
+      "C": "只看外壳颜色",
+      "D": "F B01、N/P D01 分支和 H01-00 值分别核对"
+    },
+    "answer": [
+      "D"
+    ],
+    "analysis": "参数迁移前先锁分支和版本。",
+    "source": {
+      "title": "伺服速查审计（已核验）与伺服与电机二次学习补充（2026-09）",
+      "chapter": "知识点 T-S01",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV660F/N/P",
+      "手册版本"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-164",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "关于 SV660F/N 的STO 端子，哪项技术处理符合手册边界？",
+    "options": {
+      "A": "普通分支全有 STO",
+      "B": "CN6 仅 -FS 机型适用，普通分支不能直接按安全版接线",
+      "C": "STO 可用 DI 软件位代替",
+      "D": "CN6 必定是总线口"
+    },
+    "answer": [
+      "B"
+    ],
+    "analysis": "安全端子接线须按硬件后缀确认。",
+    "source": {
+      "title": "SV660F系列伺服用户/硬件/功能/选型手册-CN-B01（2026-08）",
+      "chapter": "知识点 T-S02",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV660F/N",
+      "STO 端子"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-165",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 1,
+    "stem": "技术人员核对 SV660N S5R5 的单相接线时，应采用哪项？",
+    "options": {
+      "A": "必须接 L1/L2/L3",
+      "B": "可直接接 DC 24 V",
+      "C": "无需 PE",
+      "D": "0.75 kW 单相 220 V 仅接 L1/L2"
+    },
+    "answer": [
+      "D"
+    ],
+    "analysis": "相制与端子定义要按同机座图。",
+    "source": {
+      "title": "SV660N系列伺服用户/硬件/功能/选型手册-CN-D01（2026-08）",
+      "chapter": "知识点 T-S03",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV660N S5R5",
+      "单相接线"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-166",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "客户提出 SV660P 的外接制动疑问，哪项答复有依据？",
+    "options": {
+      "A": "其他机座外接制动电阻前拆 P+-D 短接",
+      "B": "带电拆短接",
+      "C": "接电阻仍保留短接",
+      "D": "把电阻接 CN2"
+    },
+    "answer": [
+      "A"
+    ],
+    "analysis": "断电后按机座手册处理高能量端子。",
+    "source": {
+      "title": "SV660P系列伺服用户/硬件/功能/选型手册-CN-D01（2026-08）",
+      "chapter": "知识点 T-S04",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV660P",
+      "外接制动"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-167",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "在 SV670NS 的现场联调中，哪项安全功能集结论可直接用于检查表？",
+    "options": {
+      "A": "安全功能与编码器无关",
+      "B": "STO 可实现 SOS",
+      "C": "六功能只属于对应 NS 安全分支且受编码器约束",
+      "D": "普通 SV670 一律六功能"
+    },
+    "answer": [
+      "C"
+    ],
+    "analysis": "其他编码器可仅 STO/SBC/SS1-t。",
+    "source": {
+      "title": "SV670NS-INT系列伺服用户手册（SIL2安全版）-CN-A01（2026-07）",
+      "chapter": "知识点 T-S05",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV670NS",
+      "安全功能集"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-168",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "关于 SV670NS-INT 的FSoE，哪项技术处理符合手册边界？",
+    "options": {
+      "A": "普通 EtherCAT 扫描即完成安全验收",
+      "B": "主站、安全配置和设备版本三方核对",
+      "C": "只需模拟量触发",
+      "D": "FSoE 与编码器无关"
+    },
+    "answer": [
+      "B"
+    ],
+    "analysis": "功能安全需要独立验证。",
+    "source": {
+      "title": "SV670NS-INT系列伺服用户手册（SIL2安全版）-CN-A01（2026-07）",
+      "chapter": "知识点 T-S06",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV670NS-INT",
+      "FSoE"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-169",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "技术人员核对 SV680N 的安全电机时，应采用哪项？",
+    "options": {
+      "A": "SS1-r/SS2/SOS/SLS 等扩展功能按手册配安全电机",
+      "B": "普通电机无条件实现",
+      "C": "抱闸等于安全电机",
+      "D": "只看 IP 等级"
+    },
+    "answer": [
+      "A"
+    ],
+    "analysis": "安全系统要核对电机反馈和认证条件。",
+    "source": {
+      "title": "SV680N系列伺服硬件/通信/调试/安全手册 C00/C06/A05",
+      "chapter": "知识点 T-S07",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV680N",
+      "安全电机"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-170",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 1,
+    "stem": "客户提出 SV680 STO 的输入电平疑问，哪项答复有依据？",
+    "options": {
+      "A": "5 V USB 可代替",
+      "B": "STO1/STO2 双通道同时高，24 VDC±15%",
+      "C": "两通道低时允许运行",
+      "D": "任一通道高即可"
+    },
+    "answer": [
+      "B"
+    ],
+    "analysis": "STO 不是软件急停。",
+    "source": {
+      "title": "SV680N系列伺服硬件/通信/调试/安全手册 C00/C06/A05",
+      "chapter": "知识点 T-S08",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV680 STO",
+      "输入电平"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-171",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "在 SV680 安全布线的现场联调中，哪项线缆长度结论可直接用于检查表？",
+    "options": {
+      "A": "无需长度限制",
+      "B": "安全 DI/DO 与安全开关最大 30 m",
+      "C": "可直接 300 m 不复核",
+      "D": "只看电机线长度"
+    },
+    "answer": [
+      "B"
+    ],
+    "analysis": "安全线缆和短路防护按安全手册。",
+    "source": {
+      "title": "SV680N系列伺服硬件/通信/调试/安全手册 C00/C06/A05",
+      "chapter": "知识点 T-S09",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV680 安全布线",
+      "线缆长度"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-172",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "关于 MS1 抱闸的垂直轴，哪项技术处理符合手册边界？",
+    "options": {
+      "A": "抱闸可减速制动",
+      "B": "PLC 任意高速开关即可",
+      "C": "停机后不需保持评估",
+      "D": "抱闸只保持停止负载，不能动态制动"
+    },
+    "answer": [
+      "D"
+    ],
+    "analysis": "高风险轴要验证制动时序。",
+    "source": {
+      "title": "MS1-R系列伺服电机安装/选型手册-CN-A05/B04",
+      "chapter": "知识点 T-S10",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MS1 抱闸",
+      "垂直轴"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-173",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 1,
+    "stem": "技术人员核对 MS1 抱闸的供电时，应采用哪项？",
+    "options": {
+      "A": "直接接驱动高压母线",
+      "B": "独立 24 V 供电，电机输入至少 21.6 V",
+      "C": "只需 5 V",
+      "D": "与编码器线共用电源"
+    },
+    "answer": [
+      "B"
+    ],
+    "analysis": "压降和线径要实测。",
+    "source": {
+      "title": "MS1-R系列伺服电机安装/选型手册-CN-A05/B04",
+      "chapter": "知识点 T-S11",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MS1 抱闸",
+      "供电"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-174",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 1,
+    "stem": "客户提出 MS1 抱闸线的线径疑问，哪项答复有依据？",
+    "options": {
+      "A": "只能 10 mm²",
+      "B": "任意细线无需压降",
+      "C": "线径由编码器位数决定",
+      "D": "至少 0.5 mm²，并核对线长压降"
+    },
+    "answer": [
+      "D"
+    ],
+    "analysis": "抱闸供电必须在电机端达标。",
+    "source": {
+      "title": "MS1-R系列伺服电机安装/选型手册-CN-A05/B04",
+      "chapter": "知识点 T-S12",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MS1 抱闸线",
+      "线径"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-175",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 1,
+    "stem": "在 MS1-R 的现场联调中，哪项接线顺序结论可直接用于检查表？",
+    "options": {
+      "A": "先连接编码器后 PE",
+      "B": "只接抱闸即可",
+      "C": "先连接主回路和 PE，再连接编码器线",
+      "D": "PE 可省略"
+    },
+    "answer": [
+      "C"
+    ],
+    "analysis": "避免电位差损坏反馈。",
+    "source": {
+      "title": "MS1-R系列伺服电机安装/选型手册-CN-A05/B04",
+      "chapter": "知识点 T-S13",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MS1-R",
+      "接线顺序"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-176",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "关于 MS1-R 的拖链弯曲，哪项技术处理符合手册边界？",
+    "options": {
+      "A": "固定线 5 倍外径、拖链线 10 倍外径",
+      "B": "拖链仅 5 倍",
+      "C": "只看动力功率",
+      "D": "固定和拖链均 1 倍"
+    },
+    "answer": [
+      "A"
+    ],
+    "analysis": "现场移动工况应使用相应线材。",
+    "source": {
+      "title": "MS1-R系列伺服电机安装/选型手册-CN-A05/B04",
+      "chapter": "知识点 T-S14",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MS1-R",
+      "拖链弯曲"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-177",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 1,
+    "stem": "技术人员核对 E730/E731 的电池测量时，应采用哪项？",
+    "options": {
+      "A": "只重启不测量",
+      "B": "当作过流代码处理",
+      "C": "用 1 kΩ 外接负载测量编码器电池电压",
+      "D": "直接短接电池"
+    },
+    "answer": [
+      "C"
+    ],
+    "analysis": "只保留已核验故障码，不猜其他代码。",
+    "source": {
+      "title": "MS1-R系列伺服电机安装/选型手册-CN-A05/B04",
+      "chapter": "知识点 T-S15",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "E730/E731",
+      "电池测量"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-178",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "客户提出 SV680 EtherCAT 的物理拓扑疑问，哪项答复有依据？",
+    "options": {
+      "A": "100Base-TX 全双工 100 Mbit/s，节点间小于 100 m",
+      "B": "无线无距离限制",
+      "C": "RS485 半双工 1200 m",
+      "D": "只看主站 IP"
+    },
+    "answer": [
+      "A"
+    ],
+    "analysis": "布线与拓扑要按通信手册。",
+    "source": {
+      "title": "SV680N系列伺服硬件/通信/调试/安全手册 C00/C06/A05",
+      "chapter": "知识点 T-S16",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV680 EtherCAT",
+      "物理拓扑"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-179",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "在 SV680 EtherCAT 的现场联调中，哪项通信对象结论可直接用于检查表？",
+    "options": {
+      "A": "DC 等于直流电源",
+      "B": "只需模拟量速度",
+      "C": "CoE、PDO、SDO、DC 按主站与驱动对象字典核对",
+      "D": "PDO 可任意写"
+    },
+    "answer": [
+      "C"
+    ],
+    "analysis": "周期同步和对象映射分别验证。",
+    "source": {
+      "title": "SV680N系列伺服硬件/通信/调试/安全手册 C00/C06/A05",
+      "chapter": "知识点 T-S17",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV680 EtherCAT",
+      "通信对象"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-180",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "关于 EtherCAT PDO 的映射修改，哪项技术处理符合手册边界？",
+    "options": {
+      "A": "有效状态可任意写",
+      "B": "先使 PDO 无效；写 0 清除映射子索引",
+      "C": "写 0 恢复出厂",
+      "D": "只改从站 IP"
+    },
+    "answer": [
+      "B"
+    ],
+    "analysis": "状态机和映射操作按手册顺序。",
+    "source": {
+      "title": "SV680N系列伺服硬件/通信/调试/安全手册 C00/C06/A05",
+      "chapter": "知识点 T-S18",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "EtherCAT PDO",
+      "映射修改"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-181",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 1,
+    "stem": "技术人员核对 CiA 402 6060h 的模式值时，应采用哪项？",
+    "options": {
+      "A": "6060h 是波特率",
+      "B": "8/9/10 均是回原",
+      "C": "1/3/4/6/8/9/10 对应位置/速度/转矩/回原/CSP/CSV/CST",
+      "D": "模式与控制无关"
+    },
+    "answer": [
+      "C"
+    ],
+    "analysis": "切模式还需确认状态机与 PDO。",
+    "source": {
+      "title": "SV680N系列伺服硬件/通信/调试/安全手册 C00/C06/A05",
+      "chapter": "知识点 T-S19",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "CiA 402 6060h",
+      "模式值"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-182",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 1,
+    "stem": "客户提出伺服回原的机械基准疑问，哪项答复有依据？",
+    "options": {
+      "A": "无需原点开关",
+      "B": "有弹性的机械极限不宜作高精度原点",
+      "C": "任意模式数字都相同",
+      "D": "橡胶防撞块最适合作原点"
+    },
+    "answer": [
+      "B"
+    ],
+    "analysis": "现场机械设计与模式表一致。",
+    "source": {
+      "title": "SV680N系列伺服硬件/通信/调试/安全手册 C00/C06/A05",
+      "chapter": "知识点 T-S20",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "伺服回原",
+      "机械基准"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-183",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "在 SV680 的现场联调中，哪项反馈配对结论可直接用于检查表？",
+    "options": {
+      "A": "编码器协议、位数、电池和安全电机按同机座配对表核对",
+      "B": "只看电机功率",
+      "C": "ABZ 可代替任意安全编码器",
+      "D": "支持列表即任意兼容"
+    },
+    "answer": [
+      "A"
+    ],
+    "analysis": "尤其全闭环和安全功能要闭环验证。",
+    "source": {
+      "title": "SV680N系列伺服硬件/通信/调试/安全手册 C00/C06/A05",
+      "chapter": "知识点 T-S21",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV680",
+      "反馈配对"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-184",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "关于 SV680 V6 的多圈保持，哪项技术处理符合手册边界？",
+    "options": {
+      "A": "编码器位数等于抱闸状态",
+      "B": "V6 免电池；A6/S6 多圈按电池保持条件验收",
+      "C": "更换电池不用做位置确认",
+      "D": "所有反馈免电池"
+    },
+    "answer": [
+      "B"
+    ],
+    "analysis": "更换/断电后多圈位置应验证。",
+    "source": {
+      "title": "SV680N系列伺服硬件/通信/调试/安全手册 C00/C06/A05",
+      "chapter": "知识点 T-S22",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV680 V6",
+      "多圈保持"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-185",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 1,
+    "stem": "技术人员核对 IS810N-INT 的多机母线时，应采用哪项？",
+    "options": {
+      "A": "母线可接任意电压",
+      "B": "只用 USB 供电",
+      "C": "共直流母线与独立 24 V 控制电源应分开核对",
+      "D": "控制电源可接 380 V"
+    },
+    "answer": [
+      "C"
+    ],
+    "analysis": "系统接线图与模块规格要一致。",
+    "source": {
+      "title": "IS810N-INT系列标准多机传动伺服用户手册-CN-C08、IS810F系列伺服用户手册-CN-B04",
+      "chapter": "知识点 T-S23",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "IS810N-INT",
+      "多机母线"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-186",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 1,
+    "stem": "客户提出 IS810F 的电源范围疑问，哪项答复有依据？",
+    "options": {
+      "A": "直流母线 200 V，控制 5 V",
+      "B": "直流母线 537～679 V，控制 21.6～26.4 V",
+      "C": "控制电源和母线同端子",
+      "D": "无需控制电源"
+    },
+    "answer": [
+      "B"
+    ],
+    "analysis": "测量应在对应端子进行。",
+    "source": {
+      "title": "IS810N-INT系列标准多机传动伺服用户手册-CN-C08、IS810F系列伺服用户手册-CN-B04",
+      "chapter": "知识点 T-S24",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "IS810F",
+      "电源范围"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-187",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 1,
+    "stem": "在 IS810F PN 的现场联调中，哪项启动控制字结论可直接用于检查表？",
+    "options": {
+      "A": "报文 1 的 16#47E→16#47F 顺序按指南验证",
+      "B": "只改 IP 即启机",
+      "C": "16#4F7E→16#4F7F",
+      "D": "无需控制字"
+    },
+    "answer": [
+      "A"
+    ],
+    "analysis": "报文类型与主站工艺对象必须配套。",
+    "source": {
+      "title": "IS620F/IS810F PN总线伺服应用指南 V1.07（历史范围仅作版本边界）",
+      "chapter": "知识点 T-S25",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "IS810F PN",
+      "启动控制字"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-188",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "关于 PN 报文的位置控制，哪项技术处理符合手册边界？",
+    "options": {
+      "A": "111 只是速度模式",
+      "B": "所有报文等价",
+      "C": "102 永远等同基础 EPOS",
+      "D": "3/102 为 PLC 工艺对象中央位置控制，111 为基本定位器增强"
+    },
+    "answer": [
+      "D"
+    ],
+    "analysis": "不能把不同报文的控制字和功能块混用。",
+    "source": {
+      "title": "IS620F/IS810F PN总线伺服应用指南 V1.07（历史范围仅作版本边界）",
+      "chapter": "知识点 T-S26",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "PN 报文",
+      "位置控制"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-189",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 1,
+    "stem": "技术人员核对 PROFINET IRT 的现场配置时，应采用哪项？",
+    "options": {
+      "A": "按真实拓扑组态，最短 500 μs；S7-1200 不支持 IRT",
+      "B": "拓扑与 IRT 无关",
+      "C": "周期任意设 10 μs",
+      "D": "S7-1200 原生支持 IRT"
+    },
+    "answer": [
+      "A"
+    ],
+    "analysis": "同步需求先核对主站硬件。",
+    "source": {
+      "title": "IS620F/IS810F PN总线伺服应用指南 V1.07（历史范围仅作版本边界）",
+      "chapter": "知识点 T-S27",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "PROFINET IRT",
+      "现场配置"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-190",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "客户提出 IS650N-PLUS 的主轴调试疑问，哪项答复有依据？",
+    "options": {
+      "A": "只改一个速度参数",
+      "B": "只按通用风机 V/f 调试",
+      "C": "核对定向、刚性攻丝、反馈与全闭环配套",
+      "D": "反馈无需确认"
+    },
+    "answer": [
+      "C"
+    ],
+    "analysis": "主轴工况还需机械/电机和 PG 证据。",
+    "source": {
+      "title": "IS650N-PLUS系列伺服用户手册-CN-A03（2025-11）及安全手册",
+      "chapter": "知识点 T-S28",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "IS650N-PLUS",
+      "主轴调试"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-191",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "在 IS650N-PLUS 的现场联调中，哪项环境降额结论可直接用于检查表？",
+    "options": {
+      "A": "全功率超过 50 ℃无降额",
+      "B": "可凝露且无需机柜",
+      "C": "7.5～22 kW 超过 45 ℃、37～220 kW 超过 40 ℃，均每 ℃降额 1.5%",
+      "D": "功率档不影响温度边界"
+    },
+    "answer": [
+      "C"
+    ],
+    "analysis": "温度规则按机座功率分组。",
+    "source": {
+      "title": "IS650N-PLUS系列伺服用户手册-CN-A03（2025-11）及安全手册",
+      "chapter": "知识点 T-S29",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "IS650N-PLUS",
+      "环境降额"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-192",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "关于 IS810N-INT 的海拔降额，哪项技术处理符合手册边界？",
+    "options": {
+      "A": "1000 m 以上每升高 100 m 降额 1%，最高 3000 m",
+      "B": "海拔不限",
+      "C": "海拔可用通讯卡补偿",
+      "D": "只在海拔 4000 m 才降额"
+    },
+    "answer": [
+      "A"
+    ],
+    "analysis": "机柜热设计与负载均需复核。",
+    "source": {
+      "title": "IS810N-INT系列标准多机传动伺服用户手册-CN-C08、IS810F系列伺服用户手册-CN-B04",
+      "chapter": "知识点 T-S30",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "IS810N-INT",
+      "海拔降额"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-193",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 1,
+    "stem": "技术人员核对 IS810N-INT 的柜体条件时，应采用哪项？",
+    "options": {
+      "A": "整机 IP67 可露天安装",
+      "B": "机柜条件与安全无关",
+      "C": "振动无限制",
+      "D": "IP20 机柜安装、振动不超过 0.6 g"
+    },
+    "answer": [
+      "D"
+    ],
+    "analysis": "安装条件是故障排查的先验检查。",
+    "source": {
+      "title": "IS810N-INT系列标准多机传动伺服用户手册-CN-C08、IS810F系列伺服用户手册-CN-B04",
+      "chapter": "知识点 T-S31",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "IS810N-INT",
+      "柜体条件"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-194",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 1,
+    "stem": "客户提出 ISMG 的电机配对疑问，哪项答复有依据？",
+    "options": {
+      "A": "95C 直接等于 9.5 kW",
+      "B": "95C 回表确认 7.9 kW，并按 IS810N/IS650P 配对表选驱动",
+      "C": "任意驱动可配",
+      "D": "只看 S4 字符串"
+    },
+    "answer": [
+      "B"
+    ],
+    "analysis": "型号解码后仍需查驱动-电机搭配。",
+    "source": {
+      "title": "伺服速查审计（已核验）与伺服与电机二次学习补充（2026-09）",
+      "chapter": "知识点 T-S32",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "ISMG",
+      "电机配对"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-195",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "在客户故障答复的现场联调中，哪项证据链结论可直接用于检查表？",
+    "options": {
+      "A": "只根据故障截图猜根因",
+      "B": "清除所有记录再检查",
+      "C": "不询问电机型号",
+      "D": "保留完整型号、版本、参数、故障时间、波形、负载和接线证据"
+    },
+    "answer": [
+      "D"
+    ],
+    "analysis": "故障码必须对应同版本手册。",
+    "source": {
+      "title": "伺服速查审计（已核验）与伺服与电机二次学习补充（2026-09）",
+      "chapter": "知识点 T-S33",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "客户故障答复",
+      "证据链"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-196",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "关于垂直轴客户问题的停机安全，哪项技术处理符合手册边界？",
+    "options": {
+      "A": "抱闸直接作动态制动",
+      "B": "先评估重力负载与抱闸保持，再验证驱动减速和 STO 时序",
+      "C": "STO 自动保持负载",
+      "D": "只调高速度环增益"
+    },
+    "answer": [
+      "B"
+    ],
+    "analysis": "机械保持、运动控制和功能安全职责分开。",
+    "source": {
+      "title": "MS1-R系列伺服电机安装/选型手册-CN-A05/B04",
+      "chapter": "知识点 T-S34",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "垂直轴客户问题",
+      "停机安全"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-197",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "技术人员核对伺服参数迁移的版本核对时，应采用哪项？",
+    "options": {
+      "A": "旧项目参数整包无条件复制",
+      "B": "不用留原始参数",
+      "C": "先核型号分支、电机/反馈、手册版本与功能差异，再分步验证",
+      "D": "只改 IP 即完成"
+    },
+    "answer": [
+      "C"
+    ],
+    "analysis": "不同分支的参数号和功能含义可能变化。",
+    "source": {
+      "title": "伺服速查审计（已核验）与伺服与电机二次学习补充（2026-09）",
+      "chapter": "知识点 T-S35",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "伺服参数迁移",
+      "版本核对"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-198",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "客户提出 SV660F/N/P 的手册版本疑问，哪项答复有依据？",
+    "options": {
+      "A": "只看系列名",
+      "B": "只看外壳颜色",
+      "C": "三个分支共用一个参数值",
+      "D": "F B01、N/P D01 分支和 H01-00 值分别核对"
+    },
+    "answer": [
+      "D"
+    ],
+    "analysis": "参数迁移前先锁分支和版本。",
+    "source": {
+      "title": "伺服速查审计（已核验）与伺服与电机二次学习补充（2026-09）",
+      "chapter": "知识点 T-S01",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV660F/N/P",
+      "手册版本"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-199",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 1,
+    "stem": "在 SV660F/N 的现场联调中，哪项STO 端子结论可直接用于检查表？",
+    "options": {
+      "A": "STO 可用 DI 软件位代替",
+      "B": "CN6 仅 -FS 机型适用，普通分支不能直接按安全版接线",
+      "C": "普通分支全有 STO",
+      "D": "CN6 必定是总线口"
+    },
+    "answer": [
+      "B"
+    ],
+    "analysis": "安全端子接线须按硬件后缀确认。",
+    "source": {
+      "title": "SV660F系列伺服用户/硬件/功能/选型手册-CN-B01（2026-08）",
+      "chapter": "知识点 T-S02",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV660F/N",
+      "STO 端子"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-200",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "关于 SV660N S5R5 的单相接线，哪项技术处理符合手册边界？",
+    "options": {
+      "A": "0.75 kW 单相 220 V 仅接 L1/L2",
+      "B": "无需 PE",
+      "C": "必须接 L1/L2/L3",
+      "D": "可直接接 DC 24 V"
+    },
+    "answer": [
+      "A"
+    ],
+    "analysis": "相制与端子定义要按同机座图。",
+    "source": {
+      "title": "SV660N系列伺服用户/硬件/功能/选型手册-CN-D01（2026-08）",
+      "chapter": "知识点 T-S03",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV660N S5R5",
+      "单相接线"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-201",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 1,
+    "stem": "技术人员核对 SV660P 的外接制动时，应采用哪项？",
+    "options": {
+      "A": "接电阻仍保留短接",
+      "B": "带电拆短接",
+      "C": "其他机座外接制动电阻前拆 P+-D 短接",
+      "D": "把电阻接 CN2"
+    },
+    "answer": [
+      "C"
+    ],
+    "analysis": "断电后按机座手册处理高能量端子。",
+    "source": {
+      "title": "SV660P系列伺服用户/硬件/功能/选型手册-CN-D01（2026-08）",
+      "chapter": "知识点 T-S04",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV660P",
+      "外接制动"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-202",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "客户提出 SV670NS 的安全功能集疑问，哪项答复有依据？",
+    "options": {
+      "A": "安全功能与编码器无关",
+      "B": "六功能只属于对应 NS 安全分支且受编码器约束",
+      "C": "STO 可实现 SOS",
+      "D": "普通 SV670 一律六功能"
+    },
+    "answer": [
+      "B"
+    ],
+    "analysis": "其他编码器可仅 STO/SBC/SS1-t。",
+    "source": {
+      "title": "SV670NS-INT系列伺服用户手册（SIL2安全版）-CN-A01（2026-07）",
+      "chapter": "知识点 T-S05",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV670NS",
+      "安全功能集"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-203",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "在 SV670NS-INT 的现场联调中，哪项FSoE结论可直接用于检查表？",
+    "options": {
+      "A": "主站、安全配置和设备版本三方核对",
+      "B": "FSoE 与编码器无关",
+      "C": "普通 EtherCAT 扫描即完成安全验收",
+      "D": "只需模拟量触发"
+    },
+    "answer": [
+      "A"
+    ],
+    "analysis": "功能安全需要独立验证。",
+    "source": {
+      "title": "SV670NS-INT系列伺服用户手册（SIL2安全版）-CN-A01（2026-07）",
+      "chapter": "知识点 T-S06",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV670NS-INT",
+      "FSoE"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-204",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "关于 SV680N 的安全电机，哪项技术处理符合手册边界？",
+    "options": {
+      "A": "只看 IP 等级",
+      "B": "SS1-r/SS2/SOS/SLS 等扩展功能按手册配安全电机",
+      "C": "抱闸等于安全电机",
+      "D": "普通电机无条件实现"
+    },
+    "answer": [
+      "B"
+    ],
+    "analysis": "安全系统要核对电机反馈和认证条件。",
+    "source": {
+      "title": "SV680N系列伺服硬件/通信/调试/安全手册 C00/C06/A05",
+      "chapter": "知识点 T-S07",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV680N",
+      "安全电机"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-205",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 1,
+    "stem": "技术人员核对 SV680 STO 的输入电平时，应采用哪项？",
+    "options": {
+      "A": "两通道低时允许运行",
+      "B": "STO1/STO2 双通道同时高，24 VDC±15%",
+      "C": "任一通道高即可",
+      "D": "5 V USB 可代替"
+    },
+    "answer": [
+      "B"
+    ],
+    "analysis": "STO 不是软件急停。",
+    "source": {
+      "title": "SV680N系列伺服硬件/通信/调试/安全手册 C00/C06/A05",
+      "chapter": "知识点 T-S08",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV680 STO",
+      "输入电平"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-206",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "客户提出 SV680 安全布线的线缆长度疑问，哪项答复有依据？",
+    "options": {
+      "A": "安全 DI/DO 与安全开关最大 30 m",
+      "B": "可直接 300 m 不复核",
+      "C": "无需长度限制",
+      "D": "只看电机线长度"
+    },
+    "answer": [
+      "A"
+    ],
+    "analysis": "安全线缆和短路防护按安全手册。",
+    "source": {
+      "title": "SV680N系列伺服硬件/通信/调试/安全手册 C00/C06/A05",
+      "chapter": "知识点 T-S09",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV680 安全布线",
+      "线缆长度"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-207",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "在 MS1 抱闸的现场联调中，哪项垂直轴结论可直接用于检查表？",
+    "options": {
+      "A": "停机后不需保持评估",
+      "B": "抱闸可减速制动",
+      "C": "PLC 任意高速开关即可",
+      "D": "抱闸只保持停止负载，不能动态制动"
+    },
+    "answer": [
+      "D"
+    ],
+    "analysis": "高风险轴要验证制动时序。",
+    "source": {
+      "title": "MS1-R系列伺服电机安装/选型手册-CN-A05/B04",
+      "chapter": "知识点 T-S10",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MS1 抱闸",
+      "垂直轴"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-208",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "关于 MS1 抱闸的供电，哪项技术处理符合手册边界？",
+    "options": {
+      "A": "独立 24 V 供电，电机输入至少 21.6 V",
+      "B": "与编码器线共用电源",
+      "C": "只需 5 V",
+      "D": "直接接驱动高压母线"
+    },
+    "answer": [
+      "A"
+    ],
+    "analysis": "压降和线径要实测。",
+    "source": {
+      "title": "MS1-R系列伺服电机安装/选型手册-CN-A05/B04",
+      "chapter": "知识点 T-S11",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MS1 抱闸",
+      "供电"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-209",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 1,
+    "stem": "技术人员核对 MS1 抱闸线的线径时，应采用哪项？",
+    "options": {
+      "A": "至少 0.5 mm²，并核对线长压降",
+      "B": "任意细线无需压降",
+      "C": "线径由编码器位数决定",
+      "D": "只能 10 mm²"
+    },
+    "answer": [
+      "A"
+    ],
+    "analysis": "抱闸供电必须在电机端达标。",
+    "source": {
+      "title": "MS1-R系列伺服电机安装/选型手册-CN-A05/B04",
+      "chapter": "知识点 T-S12",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MS1 抱闸线",
+      "线径"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-210",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 1,
+    "stem": "客户提出 MS1-R 的接线顺序疑问，哪项答复有依据？",
+    "options": {
+      "A": "PE 可省略",
+      "B": "先连接主回路和 PE，再连接编码器线",
+      "C": "先连接编码器后 PE",
+      "D": "只接抱闸即可"
+    },
+    "answer": [
+      "B"
+    ],
+    "analysis": "避免电位差损坏反馈。",
+    "source": {
+      "title": "MS1-R系列伺服电机安装/选型手册-CN-A05/B04",
+      "chapter": "知识点 T-S13",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MS1-R",
+      "接线顺序"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-211",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 1,
+    "stem": "在 MS1-R 的现场联调中，哪项拖链弯曲结论可直接用于检查表？",
+    "options": {
+      "A": "拖链仅 5 倍",
+      "B": "固定和拖链均 1 倍",
+      "C": "固定线 5 倍外径、拖链线 10 倍外径",
+      "D": "只看动力功率"
+    },
+    "answer": [
+      "C"
+    ],
+    "analysis": "现场移动工况应使用相应线材。",
+    "source": {
+      "title": "MS1-R系列伺服电机安装/选型手册-CN-A05/B04",
+      "chapter": "知识点 T-S14",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MS1-R",
+      "拖链弯曲"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-212",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "关于 E730/E731 的电池测量，哪项技术处理符合手册边界？",
+    "options": {
+      "A": "当作过流代码处理",
+      "B": "直接短接电池",
+      "C": "只重启不测量",
+      "D": "用 1 kΩ 外接负载测量编码器电池电压"
+    },
+    "answer": [
+      "D"
+    ],
+    "analysis": "只保留已核验故障码，不猜其他代码。",
+    "source": {
+      "title": "MS1-R系列伺服电机安装/选型手册-CN-A05/B04",
+      "chapter": "知识点 T-S15",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "E730/E731",
+      "电池测量"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-213",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 1,
+    "stem": "技术人员核对 SV680 EtherCAT 的物理拓扑时，应采用哪项？",
+    "options": {
+      "A": "RS485 半双工 1200 m",
+      "B": "100Base-TX 全双工 100 Mbit/s，节点间小于 100 m",
+      "C": "只看主站 IP",
+      "D": "无线无距离限制"
+    },
+    "answer": [
+      "B"
+    ],
+    "analysis": "布线与拓扑要按通信手册。",
+    "source": {
+      "title": "SV680N系列伺服硬件/通信/调试/安全手册 C00/C06/A05",
+      "chapter": "知识点 T-S16",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV680 EtherCAT",
+      "物理拓扑"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-214",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "客户提出 SV680 EtherCAT 的通信对象疑问，哪项答复有依据？",
+    "options": {
+      "A": "CoE、PDO、SDO、DC 按主站与驱动对象字典核对",
+      "B": "PDO 可任意写",
+      "C": "DC 等于直流电源",
+      "D": "只需模拟量速度"
+    },
+    "answer": [
+      "A"
+    ],
+    "analysis": "周期同步和对象映射分别验证。",
+    "source": {
+      "title": "SV680N系列伺服硬件/通信/调试/安全手册 C00/C06/A05",
+      "chapter": "知识点 T-S17",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV680 EtherCAT",
+      "通信对象"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-215",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "在 EtherCAT PDO 的现场联调中，哪项映射修改结论可直接用于检查表？",
+    "options": {
+      "A": "写 0 恢复出厂",
+      "B": "先使 PDO 无效；写 0 清除映射子索引",
+      "C": "只改从站 IP",
+      "D": "有效状态可任意写"
+    },
+    "answer": [
+      "B"
+    ],
+    "analysis": "状态机和映射操作按手册顺序。",
+    "source": {
+      "title": "SV680N系列伺服硬件/通信/调试/安全手册 C00/C06/A05",
+      "chapter": "知识点 T-S18",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "EtherCAT PDO",
+      "映射修改"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-216",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "关于 CiA 402 6060h 的模式值，哪项技术处理符合手册边界？",
+    "options": {
+      "A": "8/9/10 均是回原",
+      "B": "6060h 是波特率",
+      "C": "模式与控制无关",
+      "D": "1/3/4/6/8/9/10 对应位置/速度/转矩/回原/CSP/CSV/CST"
+    },
+    "answer": [
+      "D"
+    ],
+    "analysis": "切模式还需确认状态机与 PDO。",
+    "source": {
+      "title": "SV680N系列伺服硬件/通信/调试/安全手册 C00/C06/A05",
+      "chapter": "知识点 T-S19",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "CiA 402 6060h",
+      "模式值"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-217",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 1,
+    "stem": "技术人员核对伺服回原的机械基准时，应采用哪项？",
+    "options": {
+      "A": "任意模式数字都相同",
+      "B": "有弹性的机械极限不宜作高精度原点",
+      "C": "橡胶防撞块最适合作原点",
+      "D": "无需原点开关"
+    },
+    "answer": [
+      "B"
+    ],
+    "analysis": "现场机械设计与模式表一致。",
+    "source": {
+      "title": "SV680N系列伺服硬件/通信/调试/安全手册 C00/C06/A05",
+      "chapter": "知识点 T-S20",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "伺服回原",
+      "机械基准"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-218",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 1,
+    "stem": "客户提出 SV680 的反馈配对疑问，哪项答复有依据？",
+    "options": {
+      "A": "ABZ 可代替任意安全编码器",
+      "B": "支持列表即任意兼容",
+      "C": "只看电机功率",
+      "D": "编码器协议、位数、电池和安全电机按同机座配对表核对"
+    },
+    "answer": [
+      "D"
+    ],
+    "analysis": "尤其全闭环和安全功能要闭环验证。",
+    "source": {
+      "title": "SV680N系列伺服硬件/通信/调试/安全手册 C00/C06/A05",
+      "chapter": "知识点 T-S21",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV680",
+      "反馈配对"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-219",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "在 SV680 V6 的现场联调中，哪项多圈保持结论可直接用于检查表？",
+    "options": {
+      "A": "编码器位数等于抱闸状态",
+      "B": "更换电池不用做位置确认",
+      "C": "所有反馈免电池",
+      "D": "V6 免电池；A6/S6 多圈按电池保持条件验收"
+    },
+    "answer": [
+      "D"
+    ],
+    "analysis": "更换/断电后多圈位置应验证。",
+    "source": {
+      "title": "SV680N系列伺服硬件/通信/调试/安全手册 C00/C06/A05",
+      "chapter": "知识点 T-S22",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV680 V6",
+      "多圈保持"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-220",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "关于 IS810N-INT 的多机母线，哪项技术处理符合手册边界？",
+    "options": {
+      "A": "只用 USB 供电",
+      "B": "控制电源可接 380 V",
+      "C": "母线可接任意电压",
+      "D": "共直流母线与独立 24 V 控制电源应分开核对"
+    },
+    "answer": [
+      "D"
+    ],
+    "analysis": "系统接线图与模块规格要一致。",
+    "source": {
+      "title": "IS810N-INT系列标准多机传动伺服用户手册-CN-C08、IS810F系列伺服用户手册-CN-B04",
+      "chapter": "知识点 T-S23",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "IS810N-INT",
+      "多机母线"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-221",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 1,
+    "stem": "技术人员核对 IS810F 的电源范围时，应采用哪项？",
+    "options": {
+      "A": "直流母线 200 V，控制 5 V",
+      "B": "控制电源和母线同端子",
+      "C": "直流母线 537～679 V，控制 21.6～26.4 V",
+      "D": "无需控制电源"
+    },
+    "answer": [
+      "C"
+    ],
+    "analysis": "测量应在对应端子进行。",
+    "source": {
+      "title": "IS810N-INT系列标准多机传动伺服用户手册-CN-C08、IS810F系列伺服用户手册-CN-B04",
+      "chapter": "知识点 T-S24",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "IS810F",
+      "电源范围"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-222",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 1,
+    "stem": "客户提出 IS810F PN 的启动控制字疑问，哪项答复有依据？",
+    "options": {
+      "A": "报文 1 的 16#47E→16#47F 顺序按指南验证",
+      "B": "16#4F7E→16#4F7F",
+      "C": "只改 IP 即启机",
+      "D": "无需控制字"
+    },
+    "answer": [
+      "A"
+    ],
+    "analysis": "报文类型与主站工艺对象必须配套。",
+    "source": {
+      "title": "IS620F/IS810F PN总线伺服应用指南 V1.07（历史范围仅作版本边界）",
+      "chapter": "知识点 T-S25",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "IS810F PN",
+      "启动控制字"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-223",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 1,
+    "stem": "在 PN 报文的现场联调中，哪项位置控制结论可直接用于检查表？",
+    "options": {
+      "A": "111 只是速度模式",
+      "B": "102 永远等同基础 EPOS",
+      "C": "所有报文等价",
+      "D": "3/102 为 PLC 工艺对象中央位置控制，111 为基本定位器增强"
+    },
+    "answer": [
+      "D"
+    ],
+    "analysis": "不能把不同报文的控制字和功能块混用。",
+    "source": {
+      "title": "IS620F/IS810F PN总线伺服应用指南 V1.07（历史范围仅作版本边界）",
+      "chapter": "知识点 T-S26",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "PN 报文",
+      "位置控制"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-224",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "关于 PROFINET IRT 的现场配置，哪项技术处理符合手册边界？",
+    "options": {
+      "A": "拓扑与 IRT 无关",
+      "B": "按真实拓扑组态，最短 500 μs；S7-1200 不支持 IRT",
+      "C": "周期任意设 10 μs",
+      "D": "S7-1200 原生支持 IRT"
+    },
+    "answer": [
+      "B"
+    ],
+    "analysis": "同步需求先核对主站硬件。",
+    "source": {
+      "title": "IS620F/IS810F PN总线伺服应用指南 V1.07（历史范围仅作版本边界）",
+      "chapter": "知识点 T-S27",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "PROFINET IRT",
+      "现场配置"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-225",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "技术人员核对 IS650N-PLUS 的主轴调试时，应采用哪项？",
+    "options": {
+      "A": "核对定向、刚性攻丝、反馈与全闭环配套",
+      "B": "反馈无需确认",
+      "C": "只按通用风机 V/f 调试",
+      "D": "只改一个速度参数"
+    },
+    "answer": [
+      "A"
+    ],
+    "analysis": "主轴工况还需机械/电机和 PG 证据。",
+    "source": {
+      "title": "IS650N-PLUS系列伺服用户手册-CN-A03（2025-11）及安全手册",
+      "chapter": "知识点 T-S28",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "IS650N-PLUS",
+      "主轴调试"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-226",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "客户提出 IS650N-PLUS 的环境降额疑问，哪项答复有依据？",
+    "options": {
+      "A": "全功率超过 50 ℃无降额",
+      "B": "可凝露且无需机柜",
+      "C": "7.5～22 kW 超过 45 ℃、37～220 kW 超过 40 ℃，均每 ℃降额 1.5%",
+      "D": "功率档不影响温度边界"
+    },
+    "answer": [
+      "C"
+    ],
+    "analysis": "温度规则按机座功率分组。",
+    "source": {
+      "title": "IS650N-PLUS系列伺服用户手册-CN-A03（2025-11）及安全手册",
+      "chapter": "知识点 T-S29",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "IS650N-PLUS",
+      "环境降额"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-227",
+    "category": "servo",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "在 IS810N-INT 的现场联调中，哪项海拔降额结论可直接用于检查表？",
+    "options": {
+      "A": "海拔不限",
+      "B": "1000 m 以上每升高 100 m 降额 1%，最高 3000 m",
+      "C": "海拔可用通讯卡补偿",
+      "D": "只在海拔 4000 m 才降额"
+    },
+    "answer": [
+      "B"
+    ],
+    "analysis": "机柜热设计与负载均需复核。",
+    "source": {
+      "title": "IS810N-INT系列标准多机传动伺服用户手册-CN-C08、IS810F系列伺服用户手册-CN-B04",
+      "chapter": "知识点 T-S30",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "IS810N-INT",
+      "海拔降额"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-228",
+    "category": "servo",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：SV630P Size A 无内置制动电阻，也无 PD 短接片。",
+    "options": null,
+    "answer": [
+      "T"
+    ],
+    "analysis": "正确边界：SV630P Size A 无内置制动电阻，也无 PD 短接片。 采购时要把机座、制动电阻和短接片作为 BOM 条件列出，不能只报功率。",
+    "source": {
+      "title": "SV660P系列伺服用户/硬件/功能/选型手册-CN-D01（2026-08）",
+      "chapter": "知识点 S05",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV630P Size A",
+      "制动配置"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-229",
+    "category": "servo",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：SV630P 的 S7R6/S012 规格只能接三相 380 V。",
+    "options": null,
+    "answer": [
+      "F"
+    ],
+    "analysis": "正确边界：SV630P 的 S7R6/S012 规格支持单相或三相输入。 输入相制要与完整型号和现场电网同时确认，不可由系列名称推断。",
+    "source": {
+      "title": "SV660P系列伺服用户/硬件/功能/选型手册-CN-D01（2026-08）",
+      "chapter": "知识点 S06",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV630P S7R6/S012",
+      "输入相制"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-230",
+    "category": "servo",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：SV660F 当前 B01 资料的功率范围为 0.05～7.5 kW。",
+    "options": null,
+    "answer": [
+      "T"
+    ],
+    "analysis": "正确边界：SV660F 当前 B01 资料的功率范围为 0.05～7.5 kW。 旧版本或 IS810F 范围不能覆盖 SV660F 当前小功率范围。",
+    "source": {
+      "title": "SV660F系列伺服用户/硬件/功能/选型手册-CN-B01（2026-08）",
+      "chapter": "知识点 S07",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV660F",
+      "功率范围"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-231",
+    "category": "servo",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：SV660F 是 EtherCAT 分支。",
+    "options": null,
+    "answer": [
+      "F"
+    ],
+    "analysis": "正确边界：SV660F 是 PROFINET 分支。 F、N、P 的协议差异直接影响 GSD/ESI、主站配置和采购型号。",
+    "source": {
+      "title": "SV660F系列伺服用户/硬件/功能/选型手册-CN-B01（2026-08）",
+      "chapter": "知识点 S08",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV660F",
+      "通信分支"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-232",
+    "category": "servo",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：SV660F B01 资料配 23 位多圈编码器。",
+    "options": null,
+    "answer": [
+      "T"
+    ],
+    "analysis": "正确边界：SV660F B01 资料配 23 位多圈编码器。 编码器类型必须与电机选型表、驱动器分支和安全功能一起闭环。",
+    "source": {
+      "title": "SV660F系列伺服用户/硬件/功能/选型手册-CN-B01（2026-08）",
+      "chapter": "知识点 S09",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV660F",
+      "编码器"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-233",
+    "category": "servo",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：SV660F 的 CN6 STO 对所有普通机型都无条件适用。",
+    "options": null,
+    "answer": [
+      "F"
+    ],
+    "analysis": "正确边界：SV660F 的 CN6 STO 仅适用于带 -FS 的机型。 安全端子是后缀和硬件条件，不应把系列宣传语当作全系列接线结论。",
+    "source": {
+      "title": "SV660F系列伺服用户/硬件/功能/选型手册-CN-B01（2026-08）",
+      "chapter": "知识点 S10",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV660F CN6",
+      "安全端子"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-234",
+    "category": "servo",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：SV660F 的 CN5 用于 RS232 调试连接。",
+    "options": null,
+    "answer": [
+      "T"
+    ],
+    "analysis": "正确边界：SV660F 的 CN5 用于 RS232 调试连接。 CN3/CN4、CN5、CN6 的用途必须按当前硬件手册分开核对。",
+    "source": {
+      "title": "SV660F系列伺服用户/硬件/功能/选型手册-CN-B01（2026-08）",
+      "chapter": "知识点 S11",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV660F CN5",
+      "调试接口"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-235",
+    "category": "servo",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：SV660F B01 的环境边界为 0～40 ℃，40 ℃以上每升高 1 ℃降额 1.5%。",
+    "options": null,
+    "answer": [
+      "F"
+    ],
+    "analysis": "正确边界：SV660F B01 的环境边界为 0～55 ℃，45 ℃以上每升高 1 ℃降额 2%。 环境数字是具体分支的选型条件，不能套用 SV680 或 IS810 的温度规则。",
+    "source": {
+      "title": "SV660F系列伺服用户/硬件/功能/选型手册-CN-B01（2026-08）",
+      "chapter": "知识点 S12",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV660F",
+      "环境边界"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-236",
+    "category": "servo",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：SV660N 是 EtherCAT 分支。",
+    "options": null,
+    "answer": [
+      "T"
+    ],
+    "analysis": "正确边界：SV660N 是 EtherCAT 分支。 N 分支要同步核对 EtherCAT 端口、ESI 文件和主站对象字典。",
+    "source": {
+      "title": "SV660N系列伺服用户/硬件/功能/选型手册-CN-D01（2026-08）",
+      "chapter": "知识点 S13",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV660N",
+      "通信分支"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-237",
+    "category": "servo",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：SV660N 的 U2 是 23 位多圈编码器并适用于所有机座。",
+    "options": null,
+    "answer": [
+      "F"
+    ],
+    "analysis": "正确边界：SV660N 的 U2 是 20 位单圈编码器，适用于 25 机座。 U2 不能被简化成“23 位编码器”；机座和反馈类型都要保留。",
+    "source": {
+      "title": "SV660N系列伺服用户/硬件/功能/选型手册-CN-D01（2026-08）",
+      "chapter": "知识点 S14",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV660N U2",
+      "编码器"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-238",
+    "category": "servo",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：SV660N S5R5（0.75 kW）单相 220 V 时只能接 L1/L2。",
+    "options": null,
+    "answer": [
+      "T"
+    ],
+    "analysis": "正确边界：SV660N S5R5（0.75 kW）单相 220 V 时只能接 L1/L2。 相制和端子接法是现场技术边界，也应在采购 BOM 中写清。",
+    "source": {
+      "title": "SV660N系列伺服用户/硬件/功能/选型手册-CN-D01（2026-08）",
+      "chapter": "知识点 S15",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV660N S5R5",
+      "输入相制"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-239",
+    "category": "servo",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：SV660N S7R6/S012 只能三相输入且必须降额。",
+    "options": null,
+    "answer": [
+      "F"
+    ],
+    "analysis": "正确边界：SV660N S7R6/S012 支持单相或三相输入且无需降额。 不要把 S5R5 的单相端子边界套到 S7R6/S012。",
+    "source": {
+      "title": "SV660N系列伺服用户/硬件/功能/选型手册-CN-D01（2026-08）",
+      "chapter": "知识点 S16",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV660N S7R6/S012",
+      "输入相制"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-240",
+    "category": "servo",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：SV660P D01 是 Modbus-RTU 分支。",
+    "options": null,
+    "answer": [
+      "T"
+    ],
+    "analysis": "正确边界：SV660P D01 是 Modbus-RTU 分支。 P 分支和 F/N 分支的主站文件、端口和参数组不同。",
+    "source": {
+      "title": "SV660P系列伺服用户/硬件/功能/选型手册-CN-D01（2026-08）",
+      "chapter": "知识点 S17",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV660P",
+      "通信分支"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-241",
+    "category": "servo",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：SV660P CN2 在所有机座都固定为无 PE 的 5 针接口。",
+    "options": null,
+    "answer": [
+      "F"
+    ],
+    "analysis": "正确边界：SV660P CN2 资料列出 1～6 针并包含外壳 PE。 针脚不能靠系列印象填写；要回到同机座硬件图。",
+    "source": {
+      "title": "SV660P系列伺服用户/硬件/功能/选型手册-CN-D01（2026-08）",
+      "chapter": "知识点 S18",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV660P CN2",
+      "编码器接口"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-242",
+    "category": "servo",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：SV660P 其他机座外接制动电阻前须拆除 P+-D 短接。",
+    "options": null,
+    "answer": [
+      "T"
+    ],
+    "analysis": "正确边界：SV660P 其他机座外接制动电阻前须拆除 P+-D 短接。 制动电阻是高能量回路，接线动作必须按对应硬件手册执行。",
+    "source": {
+      "title": "SV660P系列伺服用户/硬件/功能/选型手册-CN-D01（2026-08）",
+      "chapter": "知识点 S19",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV660P",
+      "制动接线"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-243",
+    "category": "servo",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：当前手册的三个分支版本参数都写在 H02 组且数值相同。",
+    "options": null,
+    "answer": [
+      "F"
+    ],
+    "analysis": "正确边界：当前手册的版本记录参数为 F H01-00=4303.3、N H01-00=0905.0、P H01-00=0607.4。 参数号必须保留组号；不能把不同分支的版本值混为一个无组号参数。",
+    "source": {
+      "title": "SV660F系列伺服用户/硬件/功能/选型手册-CN-B01（2026-08）",
+      "chapter": "知识点 S20",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV660F/N/P",
+      "版本参数"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-244",
+    "category": "servo",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：汇川官网对 SV670-INT 的描述为 3.2 kHz 速度环带宽。",
+    "options": null,
+    "answer": [
+      "T"
+    ],
+    "analysis": "正确边界：汇川官网对 SV670-INT 的描述为 3.2 kHz 速度环带宽。 性能指标要注明环路类型和产品分支，不能把 SV680 电流环数字移植过来。",
+    "source": {
+      "title": "SV670 Series 产品页",
+      "chapter": "知识点 S24",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV670-INT",
+      "性能"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-245",
+    "category": "servo",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：SV670-FS-INT 只有普通软件急停而没有 STO。",
+    "options": null,
+    "answer": [
+      "F"
+    ],
+    "analysis": "正确边界：SV670-FS-INT 的 STO 获得 SIL3 相关认证，符合 IEC 61800-5-2。 认证描述不等于现场风险评估；安全回路仍需按安全手册和整机标准验证。",
+    "source": {
+      "title": "SV670 Series 产品页",
+      "chapter": "知识点 S25",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV670-FS-INT",
+      "安全认证"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-246",
+    "category": "servo",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：汇川官网对 SV680 的描述为 3.5 kHz 速度环带宽。",
+    "options": null,
+    "answer": [
+      "T"
+    ],
+    "analysis": "正确边界：汇川官网对 SV680 的描述为 3.5 kHz 速度环带宽。 SV670 的 3.2 kHz 与 SV680 的 3.5 kHz 不能混写。",
+    "source": {
+      "title": "SV680 Series 产品页",
+      "chapter": "知识点 S26",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV680",
+      "速度环性能"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-247",
+    "category": "servo",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：汇川官网将 SV680 的 625 kHz 描述为速度环带宽。",
+    "options": null,
+    "answer": [
+      "F"
+    ],
+    "analysis": "正确边界：汇川官网将 SV680 的 625 kHz 描述为电流环控制算法。 环路名称是技术题的关键限定词，采购题也应避免把指标写错列。",
+    "source": {
+      "title": "SV680 Series 产品页",
+      "chapter": "知识点 S27",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV680",
+      "电流环算法"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-248",
+    "category": "servo",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：汇川官网列出 SV680 对 23/26 位串行绝对值、EnDat 2.2、BiSS-C、SSI 和 ABZ 的支持。",
+    "options": null,
+    "answer": [
+      "T"
+    ],
+    "analysis": "正确边界：汇川官网列出 SV680 对 23/26 位串行绝对值、EnDat 2.2、BiSS-C、SSI 和 ABZ 的支持。 “支持多编码器”仍不等于任意编码器任意组合，完整电机与驱动器表才是订货依据。",
+    "source": {
+      "title": "SV680 Series 产品页",
+      "chapter": "知识点 S28",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV680",
+      "反馈兼容"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-249",
+    "category": "servo",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：SV680 的 A6/S6 是免电池多圈而 V6 必须电池。",
+    "options": null,
+    "answer": [
+      "F"
+    ],
+    "analysis": "正确边界：SV680 的 V6 是免电池多圈路径；标准 A6/S6 多圈需要电池保持位置。 电池、单圈/多圈、反馈位数和安全分支要同时写全，不能只写“绝对值”。",
+    "source": {
+      "title": "SV680N系列伺服硬件/通信/调试/安全手册 C00/C06/A05",
+      "chapter": "知识点 S29",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV680",
+      "电池边界"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-250",
+    "category": "servo",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：IS810N-INT C08 的功率范围为 0.85～120 kW。",
+    "options": null,
+    "answer": [
+      "T"
+    ],
+    "analysis": "正确边界：IS810N-INT C08 的功率范围为 0.85～120 kW。 IS810N 与 IS810F 的范围不同，不能用一个范围覆盖 N/F。",
+    "source": {
+      "title": "IS810N-INT系列标准多机传动伺服用户手册-CN-C08、IS810F系列伺服用户手册-CN-B04",
+      "chapter": "知识点 S44",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "IS810N-INT",
+      "功率范围"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-251",
+    "category": "servo",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：IS810F B04 的功率范围为 0.85～120 kW，属于 EtherCAT 分支。",
+    "options": null,
+    "answer": [
+      "F"
+    ],
+    "analysis": "正确边界：IS810F B04 的功率范围为 2.2～75 kW，属于 PROFINET 分支。 IS620F/810F 历史指南范围不能替代当前 B04 用户手册。",
+    "source": {
+      "title": "IS810N-INT系列标准多机传动伺服用户手册-CN-C08、IS810F系列伺服用户手册-CN-B04",
+      "chapter": "知识点 S45",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "IS810F",
+      "功率与协议"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-252",
+    "category": "servo",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：IS810N-INT C08 明确 DB 制动器由标配改为选配。",
+    "options": null,
+    "answer": [
+      "T"
+    ],
+    "analysis": "正确边界：IS810N-INT C08 明确 DB 制动器由标配改为选配。 订货时要把制动器作为独立配置核对，不能从旧版本沿用。",
+    "source": {
+      "title": "IS810N-INT系列标准多机传动伺服用户手册-CN-C08、IS810F系列伺服用户手册-CN-B04",
+      "chapter": "知识点 S46",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "IS810N-INT",
+      "制动配置"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-253",
+    "category": "servo",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：IS810N-INT C08 的环境边界为 -20～60 ℃且不需要降额。",
+    "options": null,
+    "answer": [
+      "F"
+    ],
+    "analysis": "正确边界：IS810N-INT C08 的环境边界为 0～40 ℃，40 ℃以上每升高 1 ℃降额 1.5%，最高 50 ℃。 IS810 还要求机柜内安装、IP20 和海拔条件，环境题不能只看温度。",
+    "source": {
+      "title": "IS810N-INT系列标准多机传动伺服用户手册-CN-C08、IS810F系列伺服用户手册-CN-B04",
+      "chapter": "知识点 S47",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "IS810",
+      "环境边界"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-254",
+    "category": "servo",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：IS810F B04 给出的直流母线范围为 537～679 V，控制电源为 21.6～26.4 V。",
+    "options": null,
+    "answer": [
+      "T"
+    ],
+    "analysis": "正确边界：IS810F B04 给出的直流母线范围为 537～679 V，控制电源为 21.6～26.4 V。 母线和控制电源是柜体与多机系统设计的硬边界。",
+    "source": {
+      "title": "IS810N-INT系列标准多机传动伺服用户手册-CN-C08、IS810F系列伺服用户手册-CN-B04",
+      "chapter": "知识点 S48",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "IS810F",
+      "电气规格"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-255",
+    "category": "servo",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：PN 报文在位置控制方面应按“102 永远等同基础 EPOS”核对。",
+    "options": null,
+    "answer": [
+      "F"
+    ],
+    "analysis": "正确边界：PN 报文在位置控制方面应按“3/102 为 PLC 工艺对象中央位置控制，111 为基本定位器增强”核对。 不能把不同报文的控制字和功能块混用。",
+    "source": {
+      "title": "IS620F/IS810F PN总线伺服应用指南 V1.07（历史范围仅作版本边界）",
+      "chapter": "知识点 T-S26",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "PN 报文",
+      "位置控制"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-256",
+    "category": "servo",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：PROFINET IRT 在现场配置方面应按“按真实拓扑组态，最短 500 μs；S7-1200 不支持 IRT”核对。",
+    "options": null,
+    "answer": [
+      "T"
+    ],
+    "analysis": "正确边界：PROFINET IRT 在现场配置方面应按“按真实拓扑组态，最短 500 μs；S7-1200 不支持 IRT”核对。 同步需求先核对主站硬件。",
+    "source": {
+      "title": "IS620F/IS810F PN总线伺服应用指南 V1.07（历史范围仅作版本边界）",
+      "chapter": "知识点 T-S27",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "PROFINET IRT",
+      "现场配置"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-257",
+    "category": "servo",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：IS650N-PLUS 在主轴调试方面应按“只按通用风机 V/f 调试”核对。",
+    "options": null,
+    "answer": [
+      "F"
+    ],
+    "analysis": "正确边界：IS650N-PLUS 在主轴调试方面应按“核对定向、刚性攻丝、反馈与全闭环配套”核对。 主轴工况还需机械/电机和 PG 证据。",
+    "source": {
+      "title": "IS650N-PLUS系列伺服用户手册-CN-A03（2025-11）及安全手册",
+      "chapter": "知识点 T-S28",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "IS650N-PLUS",
+      "主轴调试"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-258",
+    "category": "servo",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：IS650N-PLUS 在环境降额方面应按“7.5～22 kW 超过 45 ℃、37～220 kW 超过 40 ℃，均每 ℃降额 1.5%”核对。",
+    "options": null,
+    "answer": [
+      "T"
+    ],
+    "analysis": "正确边界：IS650N-PLUS 在环境降额方面应按“7.5～22 kW 超过 45 ℃、37～220 kW 超过 40 ℃，均每 ℃降额 1.5%”核对。 温度规则按机座功率分组。",
+    "source": {
+      "title": "IS650N-PLUS系列伺服用户手册-CN-A03（2025-11）及安全手册",
+      "chapter": "知识点 T-S29",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "IS650N-PLUS",
+      "环境降额"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-259",
+    "category": "servo",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：IS810N-INT 在海拔降额方面应按“海拔不限”核对。",
+    "options": null,
+    "answer": [
+      "F"
+    ],
+    "analysis": "正确边界：IS810N-INT 在海拔降额方面应按“1000 m 以上每升高 100 m 降额 1%，最高 3000 m”核对。 机柜热设计与负载均需复核。",
+    "source": {
+      "title": "IS810N-INT系列标准多机传动伺服用户手册-CN-C08、IS810F系列伺服用户手册-CN-B04",
+      "chapter": "知识点 T-S30",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "IS810N-INT",
+      "海拔降额"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-260",
+    "category": "servo",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：IS810N-INT 在柜体条件方面应按“IP20 机柜安装、振动不超过 0.6 g”核对。",
+    "options": null,
+    "answer": [
+      "T"
+    ],
+    "analysis": "正确边界：IS810N-INT 在柜体条件方面应按“IP20 机柜安装、振动不超过 0.6 g”核对。 安装条件是故障排查的先验检查。",
+    "source": {
+      "title": "IS810N-INT系列标准多机传动伺服用户手册-CN-C08、IS810F系列伺服用户手册-CN-B04",
+      "chapter": "知识点 T-S31",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "IS810N-INT",
+      "柜体条件"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-261",
+    "category": "servo",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：ISMG 在电机配对方面应按“95C 直接等于 9.5 kW”核对。",
+    "options": null,
+    "answer": [
+      "F"
+    ],
+    "analysis": "正确边界：ISMG 在电机配对方面应按“95C 回表确认 7.9 kW，并按 IS810N/IS650P 配对表选驱动”核对。 型号解码后仍需查驱动-电机搭配。",
+    "source": {
+      "title": "伺服速查审计（已核验）与伺服与电机二次学习补充（2026-09）",
+      "chapter": "知识点 T-S32",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "ISMG",
+      "电机配对"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-262",
+    "category": "servo",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：客户故障答复在证据链方面应按“保留完整型号、版本、参数、故障时间、波形、负载和接线证据”核对。",
+    "options": null,
+    "answer": [
+      "T"
+    ],
+    "analysis": "正确边界：客户故障答复在证据链方面应按“保留完整型号、版本、参数、故障时间、波形、负载和接线证据”核对。 故障码必须对应同版本手册。",
+    "source": {
+      "title": "伺服速查审计（已核验）与伺服与电机二次学习补充（2026-09）",
+      "chapter": "知识点 T-S33",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "客户故障答复",
+      "证据链"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-263",
+    "category": "servo",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：垂直轴客户问题在停机安全方面应按“抱闸直接作动态制动”核对。",
+    "options": null,
+    "answer": [
+      "F"
+    ],
+    "analysis": "正确边界：垂直轴客户问题在停机安全方面应按“先评估重力负载与抱闸保持，再验证驱动减速和 STO 时序”核对。 机械保持、运动控制和功能安全职责分开。",
+    "source": {
+      "title": "MS1-R系列伺服电机安装/选型手册-CN-A05/B04",
+      "chapter": "知识点 T-S34",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "垂直轴客户问题",
+      "停机安全"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-264",
+    "category": "servo",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：伺服参数迁移在版本核对方面应按“先核型号分支、电机/反馈、手册版本与功能差异，再分步验证”核对。",
+    "options": null,
+    "answer": [
+      "T"
+    ],
+    "analysis": "正确边界：伺服参数迁移在版本核对方面应按“先核型号分支、电机/反馈、手册版本与功能差异，再分步验证”核对。 不同分支的参数号和功能含义可能变化。",
+    "source": {
+      "title": "伺服速查审计（已核验）与伺服与电机二次学习补充（2026-09）",
+      "chapter": "知识点 T-S35",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "伺服参数迁移",
+      "版本核对"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-265",
+    "category": "servo",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：SV660F/N/P 在手册版本方面应按“三个分支共用一个参数值”核对。",
+    "options": null,
+    "answer": [
+      "F"
+    ],
+    "analysis": "正确边界：SV660F/N/P 在手册版本方面应按“F B01、N/P D01 分支和 H01-00 值分别核对”核对。 参数迁移前先锁分支和版本。",
+    "source": {
+      "title": "伺服速查审计（已核验）与伺服与电机二次学习补充（2026-09）",
+      "chapter": "知识点 T-S01",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV660F/N/P",
+      "手册版本"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-266",
+    "category": "servo",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：SV660F/N 在STO 端子方面应按“CN6 仅 -FS 机型适用，普通分支不能直接按安全版接线”核对。",
+    "options": null,
+    "answer": [
+      "T"
+    ],
+    "analysis": "正确边界：SV660F/N 在STO 端子方面应按“CN6 仅 -FS 机型适用，普通分支不能直接按安全版接线”核对。 安全端子接线须按硬件后缀确认。",
+    "source": {
+      "title": "SV660F系列伺服用户/硬件/功能/选型手册-CN-B01（2026-08）",
+      "chapter": "知识点 T-S02",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV660F/N",
+      "STO 端子"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-267",
+    "category": "servo",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：SV660N S5R5 在单相接线方面应按“必须接 L1/L2/L3”核对。",
+    "options": null,
+    "answer": [
+      "F"
+    ],
+    "analysis": "正确边界：SV660N S5R5 在单相接线方面应按“0.75 kW 单相 220 V 仅接 L1/L2”核对。 相制与端子定义要按同机座图。",
+    "source": {
+      "title": "SV660N系列伺服用户/硬件/功能/选型手册-CN-D01（2026-08）",
+      "chapter": "知识点 T-S03",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV660N S5R5",
+      "单相接线"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-268",
+    "category": "servo",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：SV660P 在外接制动方面应按“其他机座外接制动电阻前拆 P+-D 短接”核对。",
+    "options": null,
+    "answer": [
+      "T"
+    ],
+    "analysis": "正确边界：SV660P 在外接制动方面应按“其他机座外接制动电阻前拆 P+-D 短接”核对。 断电后按机座手册处理高能量端子。",
+    "source": {
+      "title": "SV660P系列伺服用户/硬件/功能/选型手册-CN-D01（2026-08）",
+      "chapter": "知识点 T-S04",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV660P",
+      "外接制动"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-269",
+    "category": "servo",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：SV670NS 在安全功能集方面应按“普通 SV670 一律六功能”核对。",
+    "options": null,
+    "answer": [
+      "F"
+    ],
+    "analysis": "正确边界：SV670NS 在安全功能集方面应按“六功能只属于对应 NS 安全分支且受编码器约束”核对。 其他编码器可仅 STO/SBC/SS1-t。",
+    "source": {
+      "title": "SV670NS-INT系列伺服用户手册（SIL2安全版）-CN-A01（2026-07）",
+      "chapter": "知识点 T-S05",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV670NS",
+      "安全功能集"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-270",
+    "category": "servo",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：SV670NS-INT 在FSoE方面应按“主站、安全配置和设备版本三方核对”核对。",
+    "options": null,
+    "answer": [
+      "T"
+    ],
+    "analysis": "正确边界：SV670NS-INT 在FSoE方面应按“主站、安全配置和设备版本三方核对”核对。 功能安全需要独立验证。",
+    "source": {
+      "title": "SV670NS-INT系列伺服用户手册（SIL2安全版）-CN-A01（2026-07）",
+      "chapter": "知识点 T-S06",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV670NS-INT",
+      "FSoE"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-271",
+    "category": "servo",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：SV680N 在安全电机方面应按“普通电机无条件实现”核对。",
+    "options": null,
+    "answer": [
+      "F"
+    ],
+    "analysis": "正确边界：SV680N 在安全电机方面应按“SS1-r/SS2/SOS/SLS 等扩展功能按手册配安全电机”核对。 安全系统要核对电机反馈和认证条件。",
+    "source": {
+      "title": "SV680N系列伺服硬件/通信/调试/安全手册 C00/C06/A05",
+      "chapter": "知识点 T-S07",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV680N",
+      "安全电机"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-272",
+    "category": "servo",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：SV680 STO 在输入电平方面应按“STO1/STO2 双通道同时高，24 VDC±15%”核对。",
+    "options": null,
+    "answer": [
+      "T"
+    ],
+    "analysis": "正确边界：SV680 STO 在输入电平方面应按“STO1/STO2 双通道同时高，24 VDC±15%”核对。 STO 不是软件急停。",
+    "source": {
+      "title": "SV680N系列伺服硬件/通信/调试/安全手册 C00/C06/A05",
+      "chapter": "知识点 T-S08",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV680 STO",
+      "输入电平"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-273",
+    "category": "servo",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：SV680 安全布线在线缆长度方面应按“无需长度限制”核对。",
+    "options": null,
+    "answer": [
+      "F"
+    ],
+    "analysis": "正确边界：SV680 安全布线在线缆长度方面应按“安全 DI/DO 与安全开关最大 30 m”核对。 安全线缆和短路防护按安全手册。",
+    "source": {
+      "title": "SV680N系列伺服硬件/通信/调试/安全手册 C00/C06/A05",
+      "chapter": "知识点 T-S09",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV680 安全布线",
+      "线缆长度"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-274",
+    "category": "servo",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：MS1 抱闸在垂直轴方面应按“抱闸只保持停止负载，不能动态制动”核对。",
+    "options": null,
+    "answer": [
+      "T"
+    ],
+    "analysis": "正确边界：MS1 抱闸在垂直轴方面应按“抱闸只保持停止负载，不能动态制动”核对。 高风险轴要验证制动时序。",
+    "source": {
+      "title": "MS1-R系列伺服电机安装/选型手册-CN-A05/B04",
+      "chapter": "知识点 T-S10",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MS1 抱闸",
+      "垂直轴"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-275",
+    "category": "servo",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：MS1 抱闸在供电方面应按“直接接驱动高压母线”核对。",
+    "options": null,
+    "answer": [
+      "F"
+    ],
+    "analysis": "正确边界：MS1 抱闸在供电方面应按“独立 24 V 供电，电机输入至少 21.6 V”核对。 压降和线径要实测。",
+    "source": {
+      "title": "MS1-R系列伺服电机安装/选型手册-CN-A05/B04",
+      "chapter": "知识点 T-S11",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MS1 抱闸",
+      "供电"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-276",
+    "category": "servo",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：MS1 抱闸线在线径方面应按“至少 0.5 mm²，并核对线长压降”核对。",
+    "options": null,
+    "answer": [
+      "T"
+    ],
+    "analysis": "正确边界：MS1 抱闸线在线径方面应按“至少 0.5 mm²，并核对线长压降”核对。 抱闸供电必须在电机端达标。",
+    "source": {
+      "title": "MS1-R系列伺服电机安装/选型手册-CN-A05/B04",
+      "chapter": "知识点 T-S12",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MS1 抱闸线",
+      "线径"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-277",
+    "category": "servo",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：MS1-R 在接线顺序方面应按“先连接编码器后 PE”核对。",
+    "options": null,
+    "answer": [
+      "F"
+    ],
+    "analysis": "正确边界：MS1-R 在接线顺序方面应按“先连接主回路和 PE，再连接编码器线”核对。 避免电位差损坏反馈。",
+    "source": {
+      "title": "MS1-R系列伺服电机安装/选型手册-CN-A05/B04",
+      "chapter": "知识点 T-S13",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MS1-R",
+      "接线顺序"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-278",
+    "category": "servo",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：MS1-R 在拖链弯曲方面应按“固定线 5 倍外径、拖链线 10 倍外径”核对。",
+    "options": null,
+    "answer": [
+      "T"
+    ],
+    "analysis": "正确边界：MS1-R 在拖链弯曲方面应按“固定线 5 倍外径、拖链线 10 倍外径”核对。 现场移动工况应使用相应线材。",
+    "source": {
+      "title": "MS1-R系列伺服电机安装/选型手册-CN-A05/B04",
+      "chapter": "知识点 T-S14",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MS1-R",
+      "拖链弯曲"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-279",
+    "category": "servo",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：E730/E731 在电池测量方面应按“直接短接电池”核对。",
+    "options": null,
+    "answer": [
+      "F"
+    ],
+    "analysis": "正确边界：E730/E731 在电池测量方面应按“用 1 kΩ 外接负载测量编码器电池电压”核对。 只保留已核验故障码，不猜其他代码。",
+    "source": {
+      "title": "MS1-R系列伺服电机安装/选型手册-CN-A05/B04",
+      "chapter": "知识点 T-S15",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "E730/E731",
+      "电池测量"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-280",
+    "category": "servo",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：SV680 EtherCAT 在物理拓扑方面应按“100Base-TX 全双工 100 Mbit/s，节点间小于 100 m”核对。",
+    "options": null,
+    "answer": [
+      "T"
+    ],
+    "analysis": "正确边界：SV680 EtherCAT 在物理拓扑方面应按“100Base-TX 全双工 100 Mbit/s，节点间小于 100 m”核对。 布线与拓扑要按通信手册。",
+    "source": {
+      "title": "SV680N系列伺服硬件/通信/调试/安全手册 C00/C06/A05",
+      "chapter": "知识点 T-S16",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV680 EtherCAT",
+      "物理拓扑"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-281",
+    "category": "servo",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：SV680 EtherCAT 在通信对象方面应按“只需模拟量速度”核对。",
+    "options": null,
+    "answer": [
+      "F"
+    ],
+    "analysis": "正确边界：SV680 EtherCAT 在通信对象方面应按“CoE、PDO、SDO、DC 按主站与驱动对象字典核对”核对。 周期同步和对象映射分别验证。",
+    "source": {
+      "title": "SV680N系列伺服硬件/通信/调试/安全手册 C00/C06/A05",
+      "chapter": "知识点 T-S17",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV680 EtherCAT",
+      "通信对象"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-282",
+    "category": "servo",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：EtherCAT PDO 在映射修改方面应按“先使 PDO 无效；写 0 清除映射子索引”核对。",
+    "options": null,
+    "answer": [
+      "T"
+    ],
+    "analysis": "正确边界：EtherCAT PDO 在映射修改方面应按“先使 PDO 无效；写 0 清除映射子索引”核对。 状态机和映射操作按手册顺序。",
+    "source": {
+      "title": "SV680N系列伺服硬件/通信/调试/安全手册 C00/C06/A05",
+      "chapter": "知识点 T-S18",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "EtherCAT PDO",
+      "映射修改"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-283",
+    "category": "servo",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：CiA 402 6060h 在模式值方面应按“8/9/10 均是回原”核对。",
+    "options": null,
+    "answer": [
+      "F"
+    ],
+    "analysis": "正确边界：CiA 402 6060h 在模式值方面应按“1/3/4/6/8/9/10 对应位置/速度/转矩/回原/CSP/CSV/CST”核对。 切模式还需确认状态机与 PDO。",
+    "source": {
+      "title": "SV680N系列伺服硬件/通信/调试/安全手册 C00/C06/A05",
+      "chapter": "知识点 T-S19",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "CiA 402 6060h",
+      "模式值"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-284",
+    "category": "servo",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：伺服回原在机械基准方面应按“有弹性的机械极限不宜作高精度原点”核对。",
+    "options": null,
+    "answer": [
+      "T"
+    ],
+    "analysis": "正确边界：伺服回原在机械基准方面应按“有弹性的机械极限不宜作高精度原点”核对。 现场机械设计与模式表一致。",
+    "source": {
+      "title": "SV680N系列伺服硬件/通信/调试/安全手册 C00/C06/A05",
+      "chapter": "知识点 T-S20",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "伺服回原",
+      "机械基准"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-285",
+    "category": "servo",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：SV680 在反馈配对方面应按“支持列表即任意兼容”核对。",
+    "options": null,
+    "answer": [
+      "F"
+    ],
+    "analysis": "正确边界：SV680 在反馈配对方面应按“编码器协议、位数、电池和安全电机按同机座配对表核对”核对。 尤其全闭环和安全功能要闭环验证。",
+    "source": {
+      "title": "SV680N系列伺服硬件/通信/调试/安全手册 C00/C06/A05",
+      "chapter": "知识点 T-S21",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV680",
+      "反馈配对"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-286",
+    "category": "servo",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：SV680 V6 在多圈保持方面应按“V6 免电池；A6/S6 多圈按电池保持条件验收”核对。",
+    "options": null,
+    "answer": [
+      "T"
+    ],
+    "analysis": "正确边界：SV680 V6 在多圈保持方面应按“V6 免电池；A6/S6 多圈按电池保持条件验收”核对。 更换/断电后多圈位置应验证。",
+    "source": {
+      "title": "SV680N系列伺服硬件/通信/调试/安全手册 C00/C06/A05",
+      "chapter": "知识点 T-S22",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV680 V6",
+      "多圈保持"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-287",
+    "category": "servo",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：IS810N-INT 在多机母线方面应按“只用 USB 供电”核对。",
+    "options": null,
+    "answer": [
+      "F"
+    ],
+    "analysis": "正确边界：IS810N-INT 在多机母线方面应按“共直流母线与独立 24 V 控制电源应分开核对”核对。 系统接线图与模块规格要一致。",
+    "source": {
+      "title": "IS810N-INT系列标准多机传动伺服用户手册-CN-C08、IS810F系列伺服用户手册-CN-B04",
+      "chapter": "知识点 T-S23",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "IS810N-INT",
+      "多机母线"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-288",
+    "category": "servo",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：IS810F 在电源范围方面应按“直流母线 537～679 V，控制 21.6～26.4 V”核对。",
+    "options": null,
+    "answer": [
+      "T"
+    ],
+    "analysis": "正确边界：IS810F 在电源范围方面应按“直流母线 537～679 V，控制 21.6～26.4 V”核对。 测量应在对应端子进行。",
+    "source": {
+      "title": "IS810N-INT系列标准多机传动伺服用户手册-CN-C08、IS810F系列伺服用户手册-CN-B04",
+      "chapter": "知识点 T-S24",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "IS810F",
+      "电源范围"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-289",
+    "category": "servo",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：IS810F PN 在启动控制字方面应按“16#4F7E→16#4F7F”核对。",
+    "options": null,
+    "answer": [
+      "F"
+    ],
+    "analysis": "正确边界：IS810F PN 在启动控制字方面应按“报文 1 的 16#47E→16#47F 顺序按指南验证”核对。 报文类型与主站工艺对象必须配套。",
+    "source": {
+      "title": "IS620F/IS810F PN总线伺服应用指南 V1.07（历史范围仅作版本边界）",
+      "chapter": "知识点 T-S25",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "IS810F PN",
+      "启动控制字"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-290",
+    "category": "servo",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：PN 报文在位置控制方面应按“3/102 为 PLC 工艺对象中央位置控制，111 为基本定位器增强”核对。",
+    "options": null,
+    "answer": [
+      "T"
+    ],
+    "analysis": "正确边界：PN 报文在位置控制方面应按“3/102 为 PLC 工艺对象中央位置控制，111 为基本定位器增强”核对。 不能把不同报文的控制字和功能块混用。",
+    "source": {
+      "title": "IS620F/IS810F PN总线伺服应用指南 V1.07（历史范围仅作版本边界）",
+      "chapter": "知识点 T-S26",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "PN 报文",
+      "位置控制"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-291",
+    "category": "servo",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：PROFINET IRT 在现场配置方面应按“拓扑与 IRT 无关”核对。",
+    "options": null,
+    "answer": [
+      "F"
+    ],
+    "analysis": "正确边界：PROFINET IRT 在现场配置方面应按“按真实拓扑组态，最短 500 μs；S7-1200 不支持 IRT”核对。 同步需求先核对主站硬件。",
+    "source": {
+      "title": "IS620F/IS810F PN总线伺服应用指南 V1.07（历史范围仅作版本边界）",
+      "chapter": "知识点 T-S27",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "PROFINET IRT",
+      "现场配置"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-292",
+    "category": "servo",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：IS650N-PLUS 在主轴调试方面应按“核对定向、刚性攻丝、反馈与全闭环配套”核对。",
+    "options": null,
+    "answer": [
+      "T"
+    ],
+    "analysis": "正确边界：IS650N-PLUS 在主轴调试方面应按“核对定向、刚性攻丝、反馈与全闭环配套”核对。 主轴工况还需机械/电机和 PG 证据。",
+    "source": {
+      "title": "IS650N-PLUS系列伺服用户手册-CN-A03（2025-11）及安全手册",
+      "chapter": "知识点 T-S28",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "IS650N-PLUS",
+      "主轴调试"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-293",
+    "category": "servo",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：IS650N-PLUS 在环境降额方面应按“全功率超过 50 ℃无降额”核对。",
+    "options": null,
+    "answer": [
+      "F"
+    ],
+    "analysis": "正确边界：IS650N-PLUS 在环境降额方面应按“7.5～22 kW 超过 45 ℃、37～220 kW 超过 40 ℃，均每 ℃降额 1.5%”核对。 温度规则按机座功率分组。",
+    "source": {
+      "title": "IS650N-PLUS系列伺服用户手册-CN-A03（2025-11）及安全手册",
+      "chapter": "知识点 T-S29",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "IS650N-PLUS",
+      "环境降额"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-294",
+    "category": "servo",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：IS810N-INT 在海拔降额方面应按“1000 m 以上每升高 100 m 降额 1%，最高 3000 m”核对。",
+    "options": null,
+    "answer": [
+      "T"
+    ],
+    "analysis": "正确边界：IS810N-INT 在海拔降额方面应按“1000 m 以上每升高 100 m 降额 1%，最高 3000 m”核对。 机柜热设计与负载均需复核。",
+    "source": {
+      "title": "IS810N-INT系列标准多机传动伺服用户手册-CN-C08、IS810F系列伺服用户手册-CN-B04",
+      "chapter": "知识点 T-S30",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "IS810N-INT",
+      "海拔降额"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-295",
+    "category": "servo",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：IS810N-INT 在柜体条件方面应按“整机 IP67 可露天安装”核对。",
+    "options": null,
+    "answer": [
+      "F"
+    ],
+    "analysis": "正确边界：IS810N-INT 在柜体条件方面应按“IP20 机柜安装、振动不超过 0.6 g”核对。 安装条件是故障排查的先验检查。",
+    "source": {
+      "title": "IS810N-INT系列标准多机传动伺服用户手册-CN-C08、IS810F系列伺服用户手册-CN-B04",
+      "chapter": "知识点 T-S31",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "IS810N-INT",
+      "柜体条件"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-296",
+    "category": "servo",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：ISMG 在电机配对方面应按“95C 回表确认 7.9 kW，并按 IS810N/IS650P 配对表选驱动”核对。",
+    "options": null,
+    "answer": [
+      "T"
+    ],
+    "analysis": "正确边界：ISMG 在电机配对方面应按“95C 回表确认 7.9 kW，并按 IS810N/IS650P 配对表选驱动”核对。 型号解码后仍需查驱动-电机搭配。",
+    "source": {
+      "title": "伺服速查审计（已核验）与伺服与电机二次学习补充（2026-09）",
+      "chapter": "知识点 T-S32",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "ISMG",
+      "电机配对"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-297",
+    "category": "servo",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：客户故障答复在证据链方面应按“只根据故障截图猜根因”核对。",
+    "options": null,
+    "answer": [
+      "F"
+    ],
+    "analysis": "正确边界：客户故障答复在证据链方面应按“保留完整型号、版本、参数、故障时间、波形、负载和接线证据”核对。 故障码必须对应同版本手册。",
+    "source": {
+      "title": "伺服速查审计（已核验）与伺服与电机二次学习补充（2026-09）",
+      "chapter": "知识点 T-S33",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "客户故障答复",
+      "证据链"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-298",
+    "category": "servo",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：垂直轴客户问题在停机安全方面应按“先评估重力负载与抱闸保持，再验证驱动减速和 STO 时序”核对。",
+    "options": null,
+    "answer": [
+      "T"
+    ],
+    "analysis": "正确边界：垂直轴客户问题在停机安全方面应按“先评估重力负载与抱闸保持，再验证驱动减速和 STO 时序”核对。 机械保持、运动控制和功能安全职责分开。",
+    "source": {
+      "title": "MS1-R系列伺服电机安装/选型手册-CN-A05/B04",
+      "chapter": "知识点 T-S34",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "垂直轴客户问题",
+      "停机安全"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-299",
+    "category": "servo",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：伺服参数迁移在版本核对方面应按“旧项目参数整包无条件复制”核对。",
+    "options": null,
+    "answer": [
+      "F"
+    ],
+    "analysis": "正确边界：伺服参数迁移在版本核对方面应按“先核型号分支、电机/反馈、手册版本与功能差异，再分步验证”核对。 不同分支的参数号和功能含义可能变化。",
+    "source": {
+      "title": "伺服速查审计（已核验）与伺服与电机二次学习补充（2026-09）",
+      "chapter": "知识点 T-S35",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "伺服参数迁移",
+      "版本核对"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-300",
+    "category": "servo",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：SV660F/N/P 在手册版本方面应按“F B01、N/P D01 分支和 H01-00 值分别核对”核对。",
+    "options": null,
+    "answer": [
+      "T"
+    ],
+    "analysis": "正确边界：SV660F/N/P 在手册版本方面应按“F B01、N/P D01 分支和 H01-00 值分别核对”核对。 参数迁移前先锁分支和版本。",
+    "source": {
+      "title": "伺服速查审计（已核验）与伺服与电机二次学习补充（2026-09）",
+      "chapter": "知识点 T-S01",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV660F/N/P",
+      "手册版本"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-301",
+    "category": "servo",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：SV660F/N 在STO 端子方面应按“普通分支全有 STO”核对。",
+    "options": null,
+    "answer": [
+      "F"
+    ],
+    "analysis": "正确边界：SV660F/N 在STO 端子方面应按“CN6 仅 -FS 机型适用，普通分支不能直接按安全版接线”核对。 安全端子接线须按硬件后缀确认。",
+    "source": {
+      "title": "SV660F系列伺服用户/硬件/功能/选型手册-CN-B01（2026-08）",
+      "chapter": "知识点 T-S02",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV660F/N",
+      "STO 端子"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-302",
+    "category": "servo",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：SV660N S5R5 在单相接线方面应按“0.75 kW 单相 220 V 仅接 L1/L2”核对。",
+    "options": null,
+    "answer": [
+      "T"
+    ],
+    "analysis": "正确边界：SV660N S5R5 在单相接线方面应按“0.75 kW 单相 220 V 仅接 L1/L2”核对。 相制与端子定义要按同机座图。",
+    "source": {
+      "title": "SV660N系列伺服用户/硬件/功能/选型手册-CN-D01（2026-08）",
+      "chapter": "知识点 T-S03",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV660N S5R5",
+      "单相接线"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-303",
+    "category": "servo",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：SV660P 在外接制动方面应按“接电阻仍保留短接”核对。",
+    "options": null,
+    "answer": [
+      "F"
+    ],
+    "analysis": "正确边界：SV660P 在外接制动方面应按“其他机座外接制动电阻前拆 P+-D 短接”核对。 断电后按机座手册处理高能量端子。",
+    "source": {
+      "title": "SV660P系列伺服用户/硬件/功能/选型手册-CN-D01（2026-08）",
+      "chapter": "知识点 T-S04",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV660P",
+      "外接制动"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-304",
+    "category": "servo",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：SV670NS 在安全功能集方面应按“六功能只属于对应 NS 安全分支且受编码器约束”核对。",
+    "options": null,
+    "answer": [
+      "T"
+    ],
+    "analysis": "正确边界：SV670NS 在安全功能集方面应按“六功能只属于对应 NS 安全分支且受编码器约束”核对。 其他编码器可仅 STO/SBC/SS1-t。",
+    "source": {
+      "title": "SV670NS-INT系列伺服用户手册（SIL2安全版）-CN-A01（2026-07）",
+      "chapter": "知识点 T-S05",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV670NS",
+      "安全功能集"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-305",
+    "category": "servo",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：SV670NS-INT 在FSoE方面应按“普通 EtherCAT 扫描即完成安全验收”核对。",
+    "options": null,
+    "answer": [
+      "F"
+    ],
+    "analysis": "正确边界：SV670NS-INT 在FSoE方面应按“主站、安全配置和设备版本三方核对”核对。 功能安全需要独立验证。",
+    "source": {
+      "title": "SV670NS-INT系列伺服用户手册（SIL2安全版）-CN-A01（2026-07）",
+      "chapter": "知识点 T-S06",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV670NS-INT",
+      "FSoE"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-306",
+    "category": "servo",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：SV680N 在安全电机方面应按“SS1-r/SS2/SOS/SLS 等扩展功能按手册配安全电机”核对。",
+    "options": null,
+    "answer": [
+      "T"
+    ],
+    "analysis": "正确边界：SV680N 在安全电机方面应按“SS1-r/SS2/SOS/SLS 等扩展功能按手册配安全电机”核对。 安全系统要核对电机反馈和认证条件。",
+    "source": {
+      "title": "SV680N系列伺服硬件/通信/调试/安全手册 C00/C06/A05",
+      "chapter": "知识点 T-S07",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV680N",
+      "安全电机"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-307",
+    "category": "servo",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：SV680 STO 在输入电平方面应按“任一通道高即可”核对。",
+    "options": null,
+    "answer": [
+      "F"
+    ],
+    "analysis": "正确边界：SV680 STO 在输入电平方面应按“STO1/STO2 双通道同时高，24 VDC±15%”核对。 STO 不是软件急停。",
+    "source": {
+      "title": "SV680N系列伺服硬件/通信/调试/安全手册 C00/C06/A05",
+      "chapter": "知识点 T-S08",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV680 STO",
+      "输入电平"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-308",
+    "category": "servo",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：SV680 安全布线在线缆长度方面应按“安全 DI/DO 与安全开关最大 30 m”核对。",
+    "options": null,
+    "answer": [
+      "T"
+    ],
+    "analysis": "正确边界：SV680 安全布线在线缆长度方面应按“安全 DI/DO 与安全开关最大 30 m”核对。 安全线缆和短路防护按安全手册。",
+    "source": {
+      "title": "SV680N系列伺服硬件/通信/调试/安全手册 C00/C06/A05",
+      "chapter": "知识点 T-S09",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV680 安全布线",
+      "线缆长度"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-309",
+    "category": "servo",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：MS1 抱闸在垂直轴方面应按“抱闸可减速制动”核对。",
+    "options": null,
+    "answer": [
+      "F"
+    ],
+    "analysis": "正确边界：MS1 抱闸在垂直轴方面应按“抱闸只保持停止负载，不能动态制动”核对。 高风险轴要验证制动时序。",
+    "source": {
+      "title": "MS1-R系列伺服电机安装/选型手册-CN-A05/B04",
+      "chapter": "知识点 T-S10",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MS1 抱闸",
+      "垂直轴"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-310",
+    "category": "servo",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：MS1 抱闸在供电方面应按“独立 24 V 供电，电机输入至少 21.6 V”核对。",
+    "options": null,
+    "answer": [
+      "T"
+    ],
+    "analysis": "正确边界：MS1 抱闸在供电方面应按“独立 24 V 供电，电机输入至少 21.6 V”核对。 压降和线径要实测。",
+    "source": {
+      "title": "MS1-R系列伺服电机安装/选型手册-CN-A05/B04",
+      "chapter": "知识点 T-S11",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MS1 抱闸",
+      "供电"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-311",
+    "category": "servo",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：MS1 抱闸线在线径方面应按“任意细线无需压降”核对。",
+    "options": null,
+    "answer": [
+      "F"
+    ],
+    "analysis": "正确边界：MS1 抱闸线在线径方面应按“至少 0.5 mm²，并核对线长压降”核对。 抱闸供电必须在电机端达标。",
+    "source": {
+      "title": "MS1-R系列伺服电机安装/选型手册-CN-A05/B04",
+      "chapter": "知识点 T-S12",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MS1 抱闸线",
+      "线径"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-312",
+    "category": "servo",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：MS1-R 在接线顺序方面应按“先连接主回路和 PE，再连接编码器线”核对。",
+    "options": null,
+    "answer": [
+      "T"
+    ],
+    "analysis": "正确边界：MS1-R 在接线顺序方面应按“先连接主回路和 PE，再连接编码器线”核对。 避免电位差损坏反馈。",
+    "source": {
+      "title": "MS1-R系列伺服电机安装/选型手册-CN-A05/B04",
+      "chapter": "知识点 T-S13",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MS1-R",
+      "接线顺序"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-313",
+    "category": "servo",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：MS1-R 在拖链弯曲方面应按“固定和拖链均 1 倍”核对。",
+    "options": null,
+    "answer": [
+      "F"
+    ],
+    "analysis": "正确边界：MS1-R 在拖链弯曲方面应按“固定线 5 倍外径、拖链线 10 倍外径”核对。 现场移动工况应使用相应线材。",
+    "source": {
+      "title": "MS1-R系列伺服电机安装/选型手册-CN-A05/B04",
+      "chapter": "知识点 T-S14",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MS1-R",
+      "拖链弯曲"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-314",
+    "category": "servo",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：E730/E731 在电池测量方面应按“用 1 kΩ 外接负载测量编码器电池电压”核对。",
+    "options": null,
+    "answer": [
+      "T"
+    ],
+    "analysis": "正确边界：E730/E731 在电池测量方面应按“用 1 kΩ 外接负载测量编码器电池电压”核对。 只保留已核验故障码，不猜其他代码。",
+    "source": {
+      "title": "MS1-R系列伺服电机安装/选型手册-CN-A05/B04",
+      "chapter": "知识点 T-S15",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "E730/E731",
+      "电池测量"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-315",
+    "category": "servo",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：SV680 EtherCAT 在物理拓扑方面应按“RS485 半双工 1200 m”核对。",
+    "options": null,
+    "answer": [
+      "F"
+    ],
+    "analysis": "正确边界：SV680 EtherCAT 在物理拓扑方面应按“100Base-TX 全双工 100 Mbit/s，节点间小于 100 m”核对。 布线与拓扑要按通信手册。",
+    "source": {
+      "title": "SV680N系列伺服硬件/通信/调试/安全手册 C00/C06/A05",
+      "chapter": "知识点 T-S16",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV680 EtherCAT",
+      "物理拓扑"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-316",
+    "category": "servo",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：SV680 EtherCAT 在通信对象方面应按“CoE、PDO、SDO、DC 按主站与驱动对象字典核对”核对。",
+    "options": null,
+    "answer": [
+      "T"
+    ],
+    "analysis": "正确边界：SV680 EtherCAT 在通信对象方面应按“CoE、PDO、SDO、DC 按主站与驱动对象字典核对”核对。 周期同步和对象映射分别验证。",
+    "source": {
+      "title": "SV680N系列伺服硬件/通信/调试/安全手册 C00/C06/A05",
+      "chapter": "知识点 T-S17",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV680 EtherCAT",
+      "通信对象"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-317",
+    "category": "servo",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：EtherCAT PDO 在映射修改方面应按“有效状态可任意写”核对。",
+    "options": null,
+    "answer": [
+      "F"
+    ],
+    "analysis": "正确边界：EtherCAT PDO 在映射修改方面应按“先使 PDO 无效；写 0 清除映射子索引”核对。 状态机和映射操作按手册顺序。",
+    "source": {
+      "title": "SV680N系列伺服硬件/通信/调试/安全手册 C00/C06/A05",
+      "chapter": "知识点 T-S18",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "EtherCAT PDO",
+      "映射修改"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-318",
+    "category": "servo",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "请补全 SV670-INT 的性能关键边界：____。",
+    "options": null,
+    "answer": [
+      "3.2 kHz 速度环带宽"
+    ],
+    "analysis": "性能指标要注明环路类型和产品分支，不能把 SV680 电流环数字移植过来。",
+    "source": {
+      "title": "SV670 Series 产品页",
+      "chapter": "知识点 S24",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV670-INT",
+      "性能"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-319",
+    "category": "servo",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "技术检查表中，SV670-FS-INT 的安全认证应填为：____。",
+    "options": null,
+    "answer": [
+      "STO SIL3，符合 IEC 61800-5-2"
+    ],
+    "analysis": "认证描述不等于现场风险评估；安全回路仍需按安全手册和整机标准验证。",
+    "source": {
+      "title": "SV670 Series 产品页",
+      "chapter": "知识点 S25",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV670-FS-INT",
+      "安全认证"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-320",
+    "category": "servo",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "根据同版本资料，SV680 的速度环性能结论为：____。",
+    "options": null,
+    "answer": [
+      "3.5 kHz 速度环带宽"
+    ],
+    "analysis": "SV670 的 3.2 kHz 与 SV680 的 3.5 kHz 不能混写。",
+    "source": {
+      "title": "SV680 Series 产品页",
+      "chapter": "知识点 S26",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV680",
+      "速度环性能"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-321",
+    "category": "servo",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "请补全 SV680 的电流环算法关键边界：____。",
+    "options": null,
+    "answer": [
+      "625 kHz 电流环控制算法"
+    ],
+    "analysis": "环路名称是技术题的关键限定词，采购题也应避免把指标写错列。",
+    "source": {
+      "title": "SV680 Series 产品页",
+      "chapter": "知识点 S27",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV680",
+      "电流环算法"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-322",
+    "category": "servo",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "技术检查表中，SV680 的反馈兼容应填为：____。",
+    "options": null,
+    "answer": [
+      "23/26 位串行绝对值、EnDat 2.2、BiSS-C、SSI、ABZ"
+    ],
+    "analysis": "“支持多编码器”仍不等于任意编码器任意组合，完整电机与驱动器表才是订货依据。",
+    "source": {
+      "title": "SV680 Series 产品页",
+      "chapter": "知识点 S28",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV680",
+      "反馈兼容"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-323",
+    "category": "servo",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "根据同版本资料，SV680 的电池边界结论为：____。",
+    "options": null,
+    "answer": [
+      "V6 为免电池多圈；A6/S6 多圈需电池保持"
+    ],
+    "analysis": "电池、单圈/多圈、反馈位数和安全分支要同时写全，不能只写“绝对值”。",
+    "source": {
+      "title": "SV680N系列伺服硬件/通信/调试/安全手册 C00/C06/A05",
+      "chapter": "知识点 S29",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV680",
+      "电池边界"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-324",
+    "category": "servo",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "请补全 IS810N-INT 的功率范围关键边界：____。",
+    "options": null,
+    "answer": [
+      "0.85～120 kW"
+    ],
+    "analysis": "IS810N 与 IS810F 的范围不同，不能用一个范围覆盖 N/F。",
+    "source": {
+      "title": "IS810N-INT系列标准多机传动伺服用户手册-CN-C08、IS810F系列伺服用户手册-CN-B04",
+      "chapter": "知识点 S44",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "IS810N-INT",
+      "功率范围"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-325",
+    "category": "servo",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "技术检查表中，IS810F 的功率与协议应填为：____。",
+    "options": null,
+    "answer": [
+      "2.2～75 kW，PROFINET"
+    ],
+    "analysis": "IS620F/810F 历史指南范围不能替代当前 B04 用户手册。",
+    "source": {
+      "title": "IS810N-INT系列标准多机传动伺服用户手册-CN-C08、IS810F系列伺服用户手册-CN-B04",
+      "chapter": "知识点 S45",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "IS810F",
+      "功率与协议"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-326",
+    "category": "servo",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "根据同版本资料，IS810N-INT 的制动配置结论为：____。",
+    "options": null,
+    "answer": [
+      "DB 制动器由标配改为选配"
+    ],
+    "analysis": "订货时要把制动器作为独立配置核对，不能从旧版本沿用。",
+    "source": {
+      "title": "IS810N-INT系列标准多机传动伺服用户手册-CN-C08、IS810F系列伺服用户手册-CN-B04",
+      "chapter": "知识点 S46",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "IS810N-INT",
+      "制动配置"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-327",
+    "category": "servo",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "请补全 IS810 的环境边界关键边界：____。",
+    "options": null,
+    "answer": [
+      "0～40 ℃，40 ℃以上每升高 1 ℃降额 1.5%，最高 50 ℃"
+    ],
+    "analysis": "IS810 还要求机柜内安装、IP20 和海拔条件，环境题不能只看温度。",
+    "source": {
+      "title": "IS810N-INT系列标准多机传动伺服用户手册-CN-C08、IS810F系列伺服用户手册-CN-B04",
+      "chapter": "知识点 S47",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "IS810",
+      "环境边界"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-328",
+    "category": "servo",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "技术检查表中，IS810F 的电气规格应填为：____。",
+    "options": null,
+    "answer": [
+      "直流母线 537～679 V，控制电源 21.6～26.4 V"
+    ],
+    "analysis": "母线和控制电源是柜体与多机系统设计的硬边界。",
+    "source": {
+      "title": "IS810N-INT系列标准多机传动伺服用户手册-CN-C08、IS810F系列伺服用户手册-CN-B04",
+      "chapter": "知识点 S48",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "IS810F",
+      "电气规格"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-329",
+    "category": "servo",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "根据同版本资料，SV680 的电机类型结论为：____。",
+    "options": null,
+    "answer": [
+      "同一驱动模型可控制旋转、DDL 与 DDR 电机"
+    ],
+    "analysis": "电机类型兼容不等于无需重新做反馈、相位和参数确认。",
+    "source": {
+      "title": "SV680 Series 产品页",
+      "chapter": "知识点 S53",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV680",
+      "电机类型"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-330",
+    "category": "servo",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "请补全 SV680 的多圈编码器关键边界：____。",
+    "options": null,
+    "answer": [
+      "26 位一圈超过 67.1 百万脉冲"
+    ],
+    "analysis": "位数是反馈分辨率描述，不应替代完整编码器型号和电池条件。",
+    "source": {
+      "title": "SV680 Series 产品页",
+      "chapter": "知识点 S57",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV680",
+      "多圈编码器"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-331",
+    "category": "servo",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "技术检查表中，SV630 的功率范围应填为：____。",
+    "options": null,
+    "answer": [
+      "0.05～7.5 kW"
+    ],
+    "analysis": "功率范围只能按当前分支手册与完整型号确认，不能用相邻系列范围替代。",
+    "source": {
+      "title": "伺服速查审计（已核验）与伺服与电机二次学习补充（2026-09）",
+      "chapter": "知识点 S01",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV630",
+      "功率范围"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-332",
+    "category": "servo",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "根据同版本资料，SV630 的通信分支结论为：____。",
+    "options": null,
+    "answer": [
+      "A 为 CANlink/Modbus，N 为 EtherCAT，P 为 Modbus-RTU"
+    ],
+    "analysis": "分支字母是采购和技术共同的第一层核对项；特殊 C-PS、P-PS 等后缀仍要另查手册。",
+    "source": {
+      "title": "伺服速查审计（已核验）与伺服与电机二次学习补充（2026-09）",
+      "chapter": "知识点 S02",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV630",
+      "通信分支"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-333",
+    "category": "servo",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "请补全 SV630 的编码器关键边界：____。",
+    "options": null,
+    "answer": [
+      "T3 为 18 位编码器"
+    ],
+    "analysis": "不能把 SV630 的 T3 与其他系列的 23 位或 26 位编码器代码混用。",
+    "source": {
+      "title": "伺服速查审计（已核验）与伺服与电机二次学习补充（2026-09）",
+      "chapter": "知识点 S03",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV630",
+      "编码器"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-334",
+    "category": "servo",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "技术检查表中，SV630P 的通信接口应填为：____。",
+    "options": null,
+    "answer": [
+      "CN3/CN4 为 RS232/RS485 并联"
+    ],
+    "analysis": "接口结论必须带分支和版本，不能把同一位置在不同系列的用途直接横向套用。",
+    "source": {
+      "title": "SV660P系列伺服用户/硬件/功能/选型手册-CN-D01（2026-08）",
+      "chapter": "知识点 S04",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV630P",
+      "通信接口"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-335",
+    "category": "servo",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "根据同版本资料，SV630P Size A 的制动配置结论为：____。",
+    "options": null,
+    "answer": [
+      "无内置制动电阻且无 PD 短接片"
+    ],
+    "analysis": "采购时要把机座、制动电阻和短接片作为 BOM 条件列出，不能只报功率。",
+    "source": {
+      "title": "SV660P系列伺服用户/硬件/功能/选型手册-CN-D01（2026-08）",
+      "chapter": "知识点 S05",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV630P Size A",
+      "制动配置"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-336",
+    "category": "servo",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "请补全伺服参数迁移的版本核对关键边界：____。",
+    "options": null,
+    "answer": [
+      "先核型号分支、电机/反馈、手册版本与功能差异，再分步验证"
+    ],
+    "analysis": "不同分支的参数号和功能含义可能变化。",
+    "source": {
+      "title": "伺服速查审计（已核验）与伺服与电机二次学习补充（2026-09）",
+      "chapter": "知识点 T-S35",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "伺服参数迁移",
+      "版本核对"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-337",
+    "category": "servo",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "技术检查表中，SV660F/N/P 的手册版本应填为：____。",
+    "options": null,
+    "answer": [
+      "F B01、N/P D01 分支和 H01-00 值分别核对"
+    ],
+    "analysis": "参数迁移前先锁分支和版本。",
+    "source": {
+      "title": "伺服速查审计（已核验）与伺服与电机二次学习补充（2026-09）",
+      "chapter": "知识点 T-S01",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV660F/N/P",
+      "手册版本"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-338",
+    "category": "servo",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "根据同版本资料，SV660F/N 的STO 端子结论为：____。",
+    "options": null,
+    "answer": [
+      "CN6 仅 -FS 机型适用，普通分支不能直接按安全版接线"
+    ],
+    "analysis": "安全端子接线须按硬件后缀确认。",
+    "source": {
+      "title": "SV660F系列伺服用户/硬件/功能/选型手册-CN-B01（2026-08）",
+      "chapter": "知识点 T-S02",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV660F/N",
+      "STO 端子"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-339",
+    "category": "servo",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "请补全 SV660N S5R5 的单相接线关键边界：____。",
+    "options": null,
+    "answer": [
+      "0.75 kW 单相 220 V 仅接 L1/L2"
+    ],
+    "analysis": "相制与端子定义要按同机座图。",
+    "source": {
+      "title": "SV660N系列伺服用户/硬件/功能/选型手册-CN-D01（2026-08）",
+      "chapter": "知识点 T-S03",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV660N S5R5",
+      "单相接线"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-340",
+    "category": "servo",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "技术检查表中，SV660P 的外接制动应填为：____。",
+    "options": null,
+    "answer": [
+      "其他机座外接制动电阻前拆 P+-D 短接"
+    ],
+    "analysis": "断电后按机座手册处理高能量端子。",
+    "source": {
+      "title": "SV660P系列伺服用户/硬件/功能/选型手册-CN-D01（2026-08）",
+      "chapter": "知识点 T-S04",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV660P",
+      "外接制动"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-341",
+    "category": "servo",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "根据同版本资料，SV670NS 的安全功能集结论为：____。",
+    "options": null,
+    "answer": [
+      "六功能只属于对应 NS 安全分支且受编码器约束"
+    ],
+    "analysis": "其他编码器可仅 STO/SBC/SS1-t。",
+    "source": {
+      "title": "SV670NS-INT系列伺服用户手册（SIL2安全版）-CN-A01（2026-07）",
+      "chapter": "知识点 T-S05",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV670NS",
+      "安全功能集"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-342",
+    "category": "servo",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "请补全 SV670NS-INT 的FSoE关键边界：____。",
+    "options": null,
+    "answer": [
+      "主站、安全配置和设备版本三方核对"
+    ],
+    "analysis": "功能安全需要独立验证。",
+    "source": {
+      "title": "SV670NS-INT系列伺服用户手册（SIL2安全版）-CN-A01（2026-07）",
+      "chapter": "知识点 T-S06",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV670NS-INT",
+      "FSoE"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-343",
+    "category": "servo",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "技术检查表中，SV680N 的安全电机应填为：____。",
+    "options": null,
+    "answer": [
+      "SS1-r/SS2/SOS/SLS 等扩展功能按手册配安全电机"
+    ],
+    "analysis": "安全系统要核对电机反馈和认证条件。",
+    "source": {
+      "title": "SV680N系列伺服硬件/通信/调试/安全手册 C00/C06/A05",
+      "chapter": "知识点 T-S07",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV680N",
+      "安全电机"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-344",
+    "category": "servo",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "根据同版本资料，SV680 STO 的输入电平结论为：____。",
+    "options": null,
+    "answer": [
+      "STO1/STO2 双通道同时高，24 VDC±15%"
+    ],
+    "analysis": "STO 不是软件急停。",
+    "source": {
+      "title": "SV680N系列伺服硬件/通信/调试/安全手册 C00/C06/A05",
+      "chapter": "知识点 T-S08",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV680 STO",
+      "输入电平"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-345",
+    "category": "servo",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "请补全 SV680 安全布线的线缆长度关键边界：____。",
+    "options": null,
+    "answer": [
+      "安全 DI/DO 与安全开关最大 30 m"
+    ],
+    "analysis": "安全线缆和短路防护按安全手册。",
+    "source": {
+      "title": "SV680N系列伺服硬件/通信/调试/安全手册 C00/C06/A05",
+      "chapter": "知识点 T-S09",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV680 安全布线",
+      "线缆长度"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-346",
+    "category": "servo",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "技术检查表中，MS1 抱闸的垂直轴应填为：____。",
+    "options": null,
+    "answer": [
+      "抱闸只保持停止负载，不能动态制动"
+    ],
+    "analysis": "高风险轴要验证制动时序。",
+    "source": {
+      "title": "MS1-R系列伺服电机安装/选型手册-CN-A05/B04",
+      "chapter": "知识点 T-S10",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MS1 抱闸",
+      "垂直轴"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-347",
+    "category": "servo",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "根据同版本资料，MS1 抱闸的供电结论为：____。",
+    "options": null,
+    "answer": [
+      "独立 24 V 供电，电机输入至少 21.6 V"
+    ],
+    "analysis": "压降和线径要实测。",
+    "source": {
+      "title": "MS1-R系列伺服电机安装/选型手册-CN-A05/B04",
+      "chapter": "知识点 T-S11",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MS1 抱闸",
+      "供电"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-348",
+    "category": "servo",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "请补全 MS1 抱闸线的线径关键边界：____。",
+    "options": null,
+    "answer": [
+      "至少 0.5 mm²，并核对线长压降"
+    ],
+    "analysis": "抱闸供电必须在电机端达标。",
+    "source": {
+      "title": "MS1-R系列伺服电机安装/选型手册-CN-A05/B04",
+      "chapter": "知识点 T-S12",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MS1 抱闸线",
+      "线径"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-349",
+    "category": "servo",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "技术检查表中，MS1-R 的接线顺序应填为：____。",
+    "options": null,
+    "answer": [
+      "先连接主回路和 PE，再连接编码器线"
+    ],
+    "analysis": "避免电位差损坏反馈。",
+    "source": {
+      "title": "MS1-R系列伺服电机安装/选型手册-CN-A05/B04",
+      "chapter": "知识点 T-S13",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MS1-R",
+      "接线顺序"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-350",
+    "category": "servo",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "根据同版本资料，MS1-R 的拖链弯曲结论为：____。",
+    "options": null,
+    "answer": [
+      "固定线 5 倍外径、拖链线 10 倍外径"
+    ],
+    "analysis": "现场移动工况应使用相应线材。",
+    "source": {
+      "title": "MS1-R系列伺服电机安装/选型手册-CN-A05/B04",
+      "chapter": "知识点 T-S14",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MS1-R",
+      "拖链弯曲"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-351",
+    "category": "servo",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "请补全 E730/E731 的电池测量关键边界：____。",
+    "options": null,
+    "answer": [
+      "用 1 kΩ 外接负载测量编码器电池电压"
+    ],
+    "analysis": "只保留已核验故障码，不猜其他代码。",
+    "source": {
+      "title": "MS1-R系列伺服电机安装/选型手册-CN-A05/B04",
+      "chapter": "知识点 T-S15",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "E730/E731",
+      "电池测量"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-352",
+    "category": "servo",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "技术检查表中，SV680 EtherCAT 的物理拓扑应填为：____。",
+    "options": null,
+    "answer": [
+      "100Base-TX 全双工 100 Mbit/s，节点间小于 100 m"
+    ],
+    "analysis": "布线与拓扑要按通信手册。",
+    "source": {
+      "title": "SV680N系列伺服硬件/通信/调试/安全手册 C00/C06/A05",
+      "chapter": "知识点 T-S16",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV680 EtherCAT",
+      "物理拓扑"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-353",
+    "category": "servo",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "根据同版本资料，SV680 EtherCAT 的通信对象结论为：____。",
+    "options": null,
+    "answer": [
+      "CoE、PDO、SDO、DC 按主站与驱动对象字典核对"
+    ],
+    "analysis": "周期同步和对象映射分别验证。",
+    "source": {
+      "title": "SV680N系列伺服硬件/通信/调试/安全手册 C00/C06/A05",
+      "chapter": "知识点 T-S17",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV680 EtherCAT",
+      "通信对象"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-354",
+    "category": "servo",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "请补全 EtherCAT PDO 的映射修改关键边界：____。",
+    "options": null,
+    "answer": [
+      "先使 PDO 无效；写 0 清除映射子索引"
+    ],
+    "analysis": "状态机和映射操作按手册顺序。",
+    "source": {
+      "title": "SV680N系列伺服硬件/通信/调试/安全手册 C00/C06/A05",
+      "chapter": "知识点 T-S18",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "EtherCAT PDO",
+      "映射修改"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-355",
+    "category": "servo",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "技术检查表中，CiA 402 6060h 的模式值应填为：____。",
+    "options": null,
+    "answer": [
+      "1/3/4/6/8/9/10 对应位置/速度/转矩/回原/CSP/CSV/CST"
+    ],
+    "analysis": "切模式还需确认状态机与 PDO。",
+    "source": {
+      "title": "SV680N系列伺服硬件/通信/调试/安全手册 C00/C06/A05",
+      "chapter": "知识点 T-S19",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "CiA 402 6060h",
+      "模式值"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-356",
+    "category": "servo",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "根据同版本资料，伺服回原的机械基准结论为：____。",
+    "options": null,
+    "answer": [
+      "有弹性的机械极限不宜作高精度原点"
+    ],
+    "analysis": "现场机械设计与模式表一致。",
+    "source": {
+      "title": "SV680N系列伺服硬件/通信/调试/安全手册 C00/C06/A05",
+      "chapter": "知识点 T-S20",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "伺服回原",
+      "机械基准"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-357",
+    "category": "servo",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "请补全 SV680 的反馈配对关键边界：____。",
+    "options": null,
+    "answer": [
+      "编码器协议、位数、电池和安全电机按同机座配对表核对"
+    ],
+    "analysis": "尤其全闭环和安全功能要闭环验证。",
+    "source": {
+      "title": "SV680N系列伺服硬件/通信/调试/安全手册 C00/C06/A05",
+      "chapter": "知识点 T-S21",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV680",
+      "反馈配对"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-358",
+    "category": "servo",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "技术检查表中，SV680 V6 的多圈保持应填为：____。",
+    "options": null,
+    "answer": [
+      "V6 免电池；A6/S6 多圈按电池保持条件验收"
+    ],
+    "analysis": "更换/断电后多圈位置应验证。",
+    "source": {
+      "title": "SV680N系列伺服硬件/通信/调试/安全手册 C00/C06/A05",
+      "chapter": "知识点 T-S22",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV680 V6",
+      "多圈保持"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-359",
+    "category": "servo",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "根据同版本资料，IS810N-INT 的多机母线结论为：____。",
+    "options": null,
+    "answer": [
+      "共直流母线与独立 24 V 控制电源应分开核对"
+    ],
+    "analysis": "系统接线图与模块规格要一致。",
+    "source": {
+      "title": "IS810N-INT系列标准多机传动伺服用户手册-CN-C08、IS810F系列伺服用户手册-CN-B04",
+      "chapter": "知识点 T-S23",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "IS810N-INT",
+      "多机母线"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-360",
+    "category": "servo",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "请补全 IS810F 的电源范围关键边界：____。",
+    "options": null,
+    "answer": [
+      "直流母线 537～679 V，控制 21.6～26.4 V"
+    ],
+    "analysis": "测量应在对应端子进行。",
+    "source": {
+      "title": "IS810N-INT系列标准多机传动伺服用户手册-CN-C08、IS810F系列伺服用户手册-CN-B04",
+      "chapter": "知识点 T-S24",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "IS810F",
+      "电源范围"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-361",
+    "category": "servo",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "技术检查表中，IS810F PN 的启动控制字应填为：____。",
+    "options": null,
+    "answer": [
+      "报文 1 的 16#47E→16#47F 顺序按指南验证"
+    ],
+    "analysis": "报文类型与主站工艺对象必须配套。",
+    "source": {
+      "title": "IS620F/IS810F PN总线伺服应用指南 V1.07（历史范围仅作版本边界）",
+      "chapter": "知识点 T-S25",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "IS810F PN",
+      "启动控制字"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-362",
+    "category": "servo",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "根据同版本资料，PN 报文的位置控制结论为：____。",
+    "options": null,
+    "answer": [
+      "3/102 为 PLC 工艺对象中央位置控制，111 为基本定位器增强"
+    ],
+    "analysis": "不能把不同报文的控制字和功能块混用。",
+    "source": {
+      "title": "IS620F/IS810F PN总线伺服应用指南 V1.07（历史范围仅作版本边界）",
+      "chapter": "知识点 T-S26",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "PN 报文",
+      "位置控制"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-363",
+    "category": "servo",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "请补全 PROFINET IRT 的现场配置关键边界：____。",
+    "options": null,
+    "answer": [
+      "按真实拓扑组态，最短 500 μs；S7-1200 不支持 IRT"
+    ],
+    "analysis": "同步需求先核对主站硬件。",
+    "source": {
+      "title": "IS620F/IS810F PN总线伺服应用指南 V1.07（历史范围仅作版本边界）",
+      "chapter": "知识点 T-S27",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "PROFINET IRT",
+      "现场配置"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-364",
+    "category": "servo",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "技术检查表中，IS650N-PLUS 的主轴调试应填为：____。",
+    "options": null,
+    "answer": [
+      "核对定向、刚性攻丝、反馈与全闭环配套"
+    ],
+    "analysis": "主轴工况还需机械/电机和 PG 证据。",
+    "source": {
+      "title": "IS650N-PLUS系列伺服用户手册-CN-A03（2025-11）及安全手册",
+      "chapter": "知识点 T-S28",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "IS650N-PLUS",
+      "主轴调试"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-365",
+    "category": "servo",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "根据同版本资料，IS650N-PLUS 的环境降额结论为：____。",
+    "options": null,
+    "answer": [
+      "7.5～22 kW 超过 45 ℃、37～220 kW 超过 40 ℃，均每 ℃降额 1.5%"
+    ],
+    "analysis": "温度规则按机座功率分组。",
+    "source": {
+      "title": "IS650N-PLUS系列伺服用户手册-CN-A03（2025-11）及安全手册",
+      "chapter": "知识点 T-S29",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "IS650N-PLUS",
+      "环境降额"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-366",
+    "category": "servo",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "请补全 IS810N-INT 的海拔降额关键边界：____。",
+    "options": null,
+    "answer": [
+      "1000 m 以上每升高 100 m 降额 1%，最高 3000 m"
+    ],
+    "analysis": "机柜热设计与负载均需复核。",
+    "source": {
+      "title": "IS810N-INT系列标准多机传动伺服用户手册-CN-C08、IS810F系列伺服用户手册-CN-B04",
+      "chapter": "知识点 T-S30",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "IS810N-INT",
+      "海拔降额"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-367",
+    "category": "servo",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "技术检查表中，IS810N-INT 的柜体条件应填为：____。",
+    "options": null,
+    "answer": [
+      "IP20 机柜安装、振动不超过 0.6 g"
+    ],
+    "analysis": "安装条件是故障排查的先验检查。",
+    "source": {
+      "title": "IS810N-INT系列标准多机传动伺服用户手册-CN-C08、IS810F系列伺服用户手册-CN-B04",
+      "chapter": "知识点 T-S31",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "IS810N-INT",
+      "柜体条件"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-368",
+    "category": "servo",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "根据同版本资料，ISMG 的电机配对结论为：____。",
+    "options": null,
+    "answer": [
+      "95C 回表确认 7.9 kW，并按 IS810N/IS650P 配对表选驱动"
+    ],
+    "analysis": "型号解码后仍需查驱动-电机搭配。",
+    "source": {
+      "title": "伺服速查审计（已核验）与伺服与电机二次学习补充（2026-09）",
+      "chapter": "知识点 T-S32",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "ISMG",
+      "电机配对"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-369",
+    "category": "servo",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "请补全客户故障答复的证据链关键边界：____。",
+    "options": null,
+    "answer": [
+      "保留完整型号、版本、参数、故障时间、波形、负载和接线证据"
+    ],
+    "analysis": "故障码必须对应同版本手册。",
+    "source": {
+      "title": "伺服速查审计（已核验）与伺服与电机二次学习补充（2026-09）",
+      "chapter": "知识点 T-S33",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "客户故障答复",
+      "证据链"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-370",
+    "category": "servo",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "技术检查表中，垂直轴客户问题的停机安全应填为：____。",
+    "options": null,
+    "answer": [
+      "先评估重力负载与抱闸保持，再验证驱动减速和 STO 时序"
+    ],
+    "analysis": "机械保持、运动控制和功能安全职责分开。",
+    "source": {
+      "title": "MS1-R系列伺服电机安装/选型手册-CN-A05/B04",
+      "chapter": "知识点 T-S34",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "垂直轴客户问题",
+      "停机安全"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-371",
+    "category": "servo",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "根据同版本资料，伺服参数迁移的版本核对结论为：____。",
+    "options": null,
+    "answer": [
+      "先核型号分支、电机/反馈、手册版本与功能差异，再分步验证"
+    ],
+    "analysis": "不同分支的参数号和功能含义可能变化。",
+    "source": {
+      "title": "伺服速查审计（已核验）与伺服与电机二次学习补充（2026-09）",
+      "chapter": "知识点 T-S35",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "伺服参数迁移",
+      "版本核对"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-372",
+    "category": "servo",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "请补全 SV660F/N/P 的手册版本关键边界：____。",
+    "options": null,
+    "answer": [
+      "F B01、N/P D01 分支和 H01-00 值分别核对"
+    ],
+    "analysis": "参数迁移前先锁分支和版本。",
+    "source": {
+      "title": "伺服速查审计（已核验）与伺服与电机二次学习补充（2026-09）",
+      "chapter": "知识点 T-S01",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV660F/N/P",
+      "手册版本"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-373",
+    "category": "servo",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "技术检查表中，SV660F/N 的STO 端子应填为：____。",
+    "options": null,
+    "answer": [
+      "CN6 仅 -FS 机型适用，普通分支不能直接按安全版接线"
+    ],
+    "analysis": "安全端子接线须按硬件后缀确认。",
+    "source": {
+      "title": "SV660F系列伺服用户/硬件/功能/选型手册-CN-B01（2026-08）",
+      "chapter": "知识点 T-S02",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV660F/N",
+      "STO 端子"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-374",
+    "category": "servo",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "根据同版本资料，SV660N S5R5 的单相接线结论为：____。",
+    "options": null,
+    "answer": [
+      "0.75 kW 单相 220 V 仅接 L1/L2"
+    ],
+    "analysis": "相制与端子定义要按同机座图。",
+    "source": {
+      "title": "SV660N系列伺服用户/硬件/功能/选型手册-CN-D01（2026-08）",
+      "chapter": "知识点 T-S03",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV660N S5R5",
+      "单相接线"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-375",
+    "category": "servo",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "请补全 SV660P 的外接制动关键边界：____。",
+    "options": null,
+    "answer": [
+      "其他机座外接制动电阻前拆 P+-D 短接"
+    ],
+    "analysis": "断电后按机座手册处理高能量端子。",
+    "source": {
+      "title": "SV660P系列伺服用户/硬件/功能/选型手册-CN-D01（2026-08）",
+      "chapter": "知识点 T-S04",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV660P",
+      "外接制动"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-376",
+    "category": "servo",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "技术检查表中，SV670NS 的安全功能集应填为：____。",
+    "options": null,
+    "answer": [
+      "六功能只属于对应 NS 安全分支且受编码器约束"
+    ],
+    "analysis": "其他编码器可仅 STO/SBC/SS1-t。",
+    "source": {
+      "title": "SV670NS-INT系列伺服用户手册（SIL2安全版）-CN-A01（2026-07）",
+      "chapter": "知识点 T-S05",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV670NS",
+      "安全功能集"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-377",
+    "category": "servo",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "根据同版本资料，SV670NS-INT 的FSoE结论为：____。",
+    "options": null,
+    "answer": [
+      "主站、安全配置和设备版本三方核对"
+    ],
+    "analysis": "功能安全需要独立验证。",
+    "source": {
+      "title": "SV670NS-INT系列伺服用户手册（SIL2安全版）-CN-A01（2026-07）",
+      "chapter": "知识点 T-S06",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV670NS-INT",
+      "FSoE"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-378",
+    "category": "servo",
+    "type": "scenario",
+    "difficulty": 3,
+    "stem": "客户要求解释伺服参数迁移的版本核对并给出现场验证方案。请按安全、测量、参数/配置和复测顺序作答。",
+    "options": null,
+    "answer": "评分要点：①核心结论为“先核型号分支、电机/反馈、手册版本与功能差异，再分步验证”；②先停机/断电/验证残余电压及机械负载风险；③保留完整型号、手册版本、故障/波形、参数、接线、主站和电机反馈证据；④按手册隔离变量，复测并记录；⑤安全功能须按整机风险评估及对应手册验证。不同分支的参数号和功能含义可能变化。",
+    "analysis": "按评分要点给分；合理等价步骤可酌情给分。",
+    "source": {
+      "title": "伺服速查审计（已核验）与伺服与电机二次学习补充（2026-09）",
+      "chapter": "知识点 T-S35",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "伺服参数迁移",
+      "版本核对"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-379",
+    "category": "servo",
+    "type": "scenario",
+    "difficulty": 3,
+    "stem": "现场出现与 SV660F/N/P 的手册版本相关的异常。请写出你会收集哪些证据、如何隔离风险、怎样定位与验证。",
+    "options": null,
+    "answer": "评分要点：①核心结论为“F B01、N/P D01 分支和 H01-00 值分别核对”；②先停机/断电/验证残余电压及机械负载风险；③保留完整型号、手册版本、故障/波形、参数、接线、主站和电机反馈证据；④按手册隔离变量，复测并记录；⑤安全功能须按整机风险评估及对应手册验证。参数迁移前先锁分支和版本。",
+    "analysis": "按评分要点给分；合理等价步骤可酌情给分。",
+    "source": {
+      "title": "伺服速查审计（已核验）与伺服与电机二次学习补充（2026-09）",
+      "chapter": "知识点 T-S01",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV660F/N/P",
+      "手册版本"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-380",
+    "category": "servo",
+    "type": "scenario",
+    "difficulty": 3,
+    "stem": "新旧工程在 SV660F/N 的STO 端子上存在差异。请说明迁移前的版本核对、调试步骤和验收边界。",
+    "options": null,
+    "answer": "评分要点：①核心结论为“CN6 仅 -FS 机型适用，普通分支不能直接按安全版接线”；②先停机/断电/验证残余电压及机械负载风险；③保留完整型号、手册版本、故障/波形、参数、接线、主站和电机反馈证据；④按手册隔离变量，复测并记录；⑤安全功能须按整机风险评估及对应手册验证。安全端子接线须按硬件后缀确认。",
+    "analysis": "按评分要点给分；合理等价步骤可酌情给分。",
+    "source": {
+      "title": "SV660F系列伺服用户/硬件/功能/选型手册-CN-B01（2026-08）",
+      "chapter": "知识点 T-S02",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV660F/N",
+      "STO 端子"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-381",
+    "category": "servo",
+    "type": "scenario",
+    "difficulty": 3,
+    "stem": "客户要求解释 SV660N S5R5 的单相接线并给出现场验证方案。请按安全、测量、参数/配置和复测顺序作答。",
+    "options": null,
+    "answer": "评分要点：①核心结论为“0.75 kW 单相 220 V 仅接 L1/L2”；②先停机/断电/验证残余电压及机械负载风险；③保留完整型号、手册版本、故障/波形、参数、接线、主站和电机反馈证据；④按手册隔离变量，复测并记录；⑤安全功能须按整机风险评估及对应手册验证。相制与端子定义要按同机座图。",
+    "analysis": "按评分要点给分；合理等价步骤可酌情给分。",
+    "source": {
+      "title": "SV660N系列伺服用户/硬件/功能/选型手册-CN-D01（2026-08）",
+      "chapter": "知识点 T-S03",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV660N S5R5",
+      "单相接线"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-382",
+    "category": "servo",
+    "type": "scenario",
+    "difficulty": 3,
+    "stem": "现场出现与 SV660P 的外接制动相关的异常。请写出你会收集哪些证据、如何隔离风险、怎样定位与验证。",
+    "options": null,
+    "answer": "评分要点：①核心结论为“其他机座外接制动电阻前拆 P+-D 短接”；②先停机/断电/验证残余电压及机械负载风险；③保留完整型号、手册版本、故障/波形、参数、接线、主站和电机反馈证据；④按手册隔离变量，复测并记录；⑤安全功能须按整机风险评估及对应手册验证。断电后按机座手册处理高能量端子。",
+    "analysis": "按评分要点给分；合理等价步骤可酌情给分。",
+    "source": {
+      "title": "SV660P系列伺服用户/硬件/功能/选型手册-CN-D01（2026-08）",
+      "chapter": "知识点 T-S04",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV660P",
+      "外接制动"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-383",
+    "category": "servo",
+    "type": "scenario",
+    "difficulty": 3,
+    "stem": "新旧工程在 SV670NS 的安全功能集上存在差异。请说明迁移前的版本核对、调试步骤和验收边界。",
+    "options": null,
+    "answer": "评分要点：①核心结论为“六功能只属于对应 NS 安全分支且受编码器约束”；②先停机/断电/验证残余电压及机械负载风险；③保留完整型号、手册版本、故障/波形、参数、接线、主站和电机反馈证据；④按手册隔离变量，复测并记录；⑤安全功能须按整机风险评估及对应手册验证。其他编码器可仅 STO/SBC/SS1-t。",
+    "analysis": "按评分要点给分；合理等价步骤可酌情给分。",
+    "source": {
+      "title": "SV670NS-INT系列伺服用户手册（SIL2安全版）-CN-A01（2026-07）",
+      "chapter": "知识点 T-S05",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV670NS",
+      "安全功能集"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-384",
+    "category": "servo",
+    "type": "scenario",
+    "difficulty": 3,
+    "stem": "客户要求解释 SV670NS-INT 的FSoE并给出现场验证方案。请按安全、测量、参数/配置和复测顺序作答。",
+    "options": null,
+    "answer": "评分要点：①核心结论为“主站、安全配置和设备版本三方核对”；②先停机/断电/验证残余电压及机械负载风险；③保留完整型号、手册版本、故障/波形、参数、接线、主站和电机反馈证据；④按手册隔离变量，复测并记录；⑤安全功能须按整机风险评估及对应手册验证。功能安全需要独立验证。",
+    "analysis": "按评分要点给分；合理等价步骤可酌情给分。",
+    "source": {
+      "title": "SV670NS-INT系列伺服用户手册（SIL2安全版）-CN-A01（2026-07）",
+      "chapter": "知识点 T-S06",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV670NS-INT",
+      "FSoE"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-385",
+    "category": "servo",
+    "type": "scenario",
+    "difficulty": 3,
+    "stem": "现场出现与 SV680N 的安全电机相关的异常。请写出你会收集哪些证据、如何隔离风险、怎样定位与验证。",
+    "options": null,
+    "answer": "评分要点：①核心结论为“SS1-r/SS2/SOS/SLS 等扩展功能按手册配安全电机”；②先停机/断电/验证残余电压及机械负载风险；③保留完整型号、手册版本、故障/波形、参数、接线、主站和电机反馈证据；④按手册隔离变量，复测并记录；⑤安全功能须按整机风险评估及对应手册验证。安全系统要核对电机反馈和认证条件。",
+    "analysis": "按评分要点给分；合理等价步骤可酌情给分。",
+    "source": {
+      "title": "SV680N系列伺服硬件/通信/调试/安全手册 C00/C06/A05",
+      "chapter": "知识点 T-S07",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV680N",
+      "安全电机"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-386",
+    "category": "servo",
+    "type": "scenario",
+    "difficulty": 3,
+    "stem": "新旧工程在 SV680 STO 的输入电平上存在差异。请说明迁移前的版本核对、调试步骤和验收边界。",
+    "options": null,
+    "answer": "评分要点：①核心结论为“STO1/STO2 双通道同时高，24 VDC±15%”；②先停机/断电/验证残余电压及机械负载风险；③保留完整型号、手册版本、故障/波形、参数、接线、主站和电机反馈证据；④按手册隔离变量，复测并记录；⑤安全功能须按整机风险评估及对应手册验证。STO 不是软件急停。",
+    "analysis": "按评分要点给分；合理等价步骤可酌情给分。",
+    "source": {
+      "title": "SV680N系列伺服硬件/通信/调试/安全手册 C00/C06/A05",
+      "chapter": "知识点 T-S08",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV680 STO",
+      "输入电平"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-387",
+    "category": "servo",
+    "type": "scenario",
+    "difficulty": 3,
+    "stem": "客户要求解释 SV680 安全布线的线缆长度并给出现场验证方案。请按安全、测量、参数/配置和复测顺序作答。",
+    "options": null,
+    "answer": "评分要点：①核心结论为“安全 DI/DO 与安全开关最大 30 m”；②先停机/断电/验证残余电压及机械负载风险；③保留完整型号、手册版本、故障/波形、参数、接线、主站和电机反馈证据；④按手册隔离变量，复测并记录；⑤安全功能须按整机风险评估及对应手册验证。安全线缆和短路防护按安全手册。",
+    "analysis": "按评分要点给分；合理等价步骤可酌情给分。",
+    "source": {
+      "title": "SV680N系列伺服硬件/通信/调试/安全手册 C00/C06/A05",
+      "chapter": "知识点 T-S09",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV680 安全布线",
+      "线缆长度"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-388",
+    "category": "servo",
+    "type": "scenario",
+    "difficulty": 3,
+    "stem": "现场出现与 MS1 抱闸的垂直轴相关的异常。请写出你会收集哪些证据、如何隔离风险、怎样定位与验证。",
+    "options": null,
+    "answer": "评分要点：①核心结论为“抱闸只保持停止负载，不能动态制动”；②先停机/断电/验证残余电压及机械负载风险；③保留完整型号、手册版本、故障/波形、参数、接线、主站和电机反馈证据；④按手册隔离变量，复测并记录；⑤安全功能须按整机风险评估及对应手册验证。高风险轴要验证制动时序。",
+    "analysis": "按评分要点给分；合理等价步骤可酌情给分。",
+    "source": {
+      "title": "MS1-R系列伺服电机安装/选型手册-CN-A05/B04",
+      "chapter": "知识点 T-S10",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MS1 抱闸",
+      "垂直轴"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-389",
+    "category": "servo",
+    "type": "scenario",
+    "difficulty": 3,
+    "stem": "新旧工程在 MS1 抱闸的供电上存在差异。请说明迁移前的版本核对、调试步骤和验收边界。",
+    "options": null,
+    "answer": "评分要点：①核心结论为“独立 24 V 供电，电机输入至少 21.6 V”；②先停机/断电/验证残余电压及机械负载风险；③保留完整型号、手册版本、故障/波形、参数、接线、主站和电机反馈证据；④按手册隔离变量，复测并记录；⑤安全功能须按整机风险评估及对应手册验证。压降和线径要实测。",
+    "analysis": "按评分要点给分；合理等价步骤可酌情给分。",
+    "source": {
+      "title": "MS1-R系列伺服电机安装/选型手册-CN-A05/B04",
+      "chapter": "知识点 T-S11",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MS1 抱闸",
+      "供电"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-390",
+    "category": "servo",
+    "type": "scenario",
+    "difficulty": 3,
+    "stem": "客户要求解释 MS1 抱闸线的线径并给出现场验证方案。请按安全、测量、参数/配置和复测顺序作答。",
+    "options": null,
+    "answer": "评分要点：①核心结论为“至少 0.5 mm²，并核对线长压降”；②先停机/断电/验证残余电压及机械负载风险；③保留完整型号、手册版本、故障/波形、参数、接线、主站和电机反馈证据；④按手册隔离变量，复测并记录；⑤安全功能须按整机风险评估及对应手册验证。抱闸供电必须在电机端达标。",
+    "analysis": "按评分要点给分；合理等价步骤可酌情给分。",
+    "source": {
+      "title": "MS1-R系列伺服电机安装/选型手册-CN-A05/B04",
+      "chapter": "知识点 T-S12",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MS1 抱闸线",
+      "线径"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-391",
+    "category": "servo",
+    "type": "scenario",
+    "difficulty": 3,
+    "stem": "现场出现与 MS1-R 的接线顺序相关的异常。请写出你会收集哪些证据、如何隔离风险、怎样定位与验证。",
+    "options": null,
+    "answer": "评分要点：①核心结论为“先连接主回路和 PE，再连接编码器线”；②先停机/断电/验证残余电压及机械负载风险；③保留完整型号、手册版本、故障/波形、参数、接线、主站和电机反馈证据；④按手册隔离变量，复测并记录；⑤安全功能须按整机风险评估及对应手册验证。避免电位差损坏反馈。",
+    "analysis": "按评分要点给分；合理等价步骤可酌情给分。",
+    "source": {
+      "title": "MS1-R系列伺服电机安装/选型手册-CN-A05/B04",
+      "chapter": "知识点 T-S13",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MS1-R",
+      "接线顺序"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-392",
+    "category": "servo",
+    "type": "scenario",
+    "difficulty": 3,
+    "stem": "新旧工程在 MS1-R 的拖链弯曲上存在差异。请说明迁移前的版本核对、调试步骤和验收边界。",
+    "options": null,
+    "answer": "评分要点：①核心结论为“固定线 5 倍外径、拖链线 10 倍外径”；②先停机/断电/验证残余电压及机械负载风险；③保留完整型号、手册版本、故障/波形、参数、接线、主站和电机反馈证据；④按手册隔离变量，复测并记录；⑤安全功能须按整机风险评估及对应手册验证。现场移动工况应使用相应线材。",
+    "analysis": "按评分要点给分；合理等价步骤可酌情给分。",
+    "source": {
+      "title": "MS1-R系列伺服电机安装/选型手册-CN-A05/B04",
+      "chapter": "知识点 T-S14",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MS1-R",
+      "拖链弯曲"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-393",
+    "category": "servo",
+    "type": "scenario",
+    "difficulty": 3,
+    "stem": "客户要求解释 E730/E731 的电池测量并给出现场验证方案。请按安全、测量、参数/配置和复测顺序作答。",
+    "options": null,
+    "answer": "评分要点：①核心结论为“用 1 kΩ 外接负载测量编码器电池电压”；②先停机/断电/验证残余电压及机械负载风险；③保留完整型号、手册版本、故障/波形、参数、接线、主站和电机反馈证据；④按手册隔离变量，复测并记录；⑤安全功能须按整机风险评估及对应手册验证。只保留已核验故障码，不猜其他代码。",
+    "analysis": "按评分要点给分；合理等价步骤可酌情给分。",
+    "source": {
+      "title": "MS1-R系列伺服电机安装/选型手册-CN-A05/B04",
+      "chapter": "知识点 T-S15",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "E730/E731",
+      "电池测量"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-394",
+    "category": "servo",
+    "type": "scenario",
+    "difficulty": 3,
+    "stem": "现场出现与 SV680 EtherCAT 的物理拓扑相关的异常。请写出你会收集哪些证据、如何隔离风险、怎样定位与验证。",
+    "options": null,
+    "answer": "评分要点：①核心结论为“100Base-TX 全双工 100 Mbit/s，节点间小于 100 m”；②先停机/断电/验证残余电压及机械负载风险；③保留完整型号、手册版本、故障/波形、参数、接线、主站和电机反馈证据；④按手册隔离变量，复测并记录；⑤安全功能须按整机风险评估及对应手册验证。布线与拓扑要按通信手册。",
+    "analysis": "按评分要点给分；合理等价步骤可酌情给分。",
+    "source": {
+      "title": "SV680N系列伺服硬件/通信/调试/安全手册 C00/C06/A05",
+      "chapter": "知识点 T-S16",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV680 EtherCAT",
+      "物理拓扑"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-395",
+    "category": "servo",
+    "type": "scenario",
+    "difficulty": 3,
+    "stem": "新旧工程在 SV680 EtherCAT 的通信对象上存在差异。请说明迁移前的版本核对、调试步骤和验收边界。",
+    "options": null,
+    "answer": "评分要点：①核心结论为“CoE、PDO、SDO、DC 按主站与驱动对象字典核对”；②先停机/断电/验证残余电压及机械负载风险；③保留完整型号、手册版本、故障/波形、参数、接线、主站和电机反馈证据；④按手册隔离变量，复测并记录；⑤安全功能须按整机风险评估及对应手册验证。周期同步和对象映射分别验证。",
+    "analysis": "按评分要点给分；合理等价步骤可酌情给分。",
+    "source": {
+      "title": "SV680N系列伺服硬件/通信/调试/安全手册 C00/C06/A05",
+      "chapter": "知识点 T-S17",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV680 EtherCAT",
+      "通信对象"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-396",
+    "category": "servo",
+    "type": "scenario",
+    "difficulty": 3,
+    "stem": "客户要求解释 EtherCAT PDO 的映射修改并给出现场验证方案。请按安全、测量、参数/配置和复测顺序作答。",
+    "options": null,
+    "answer": "评分要点：①核心结论为“先使 PDO 无效；写 0 清除映射子索引”；②先停机/断电/验证残余电压及机械负载风险；③保留完整型号、手册版本、故障/波形、参数、接线、主站和电机反馈证据；④按手册隔离变量，复测并记录；⑤安全功能须按整机风险评估及对应手册验证。状态机和映射操作按手册顺序。",
+    "analysis": "按评分要点给分；合理等价步骤可酌情给分。",
+    "source": {
+      "title": "SV680N系列伺服硬件/通信/调试/安全手册 C00/C06/A05",
+      "chapter": "知识点 T-S18",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "EtherCAT PDO",
+      "映射修改"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-397",
+    "category": "servo",
+    "type": "scenario",
+    "difficulty": 3,
+    "stem": "现场出现与 CiA 402 6060h 的模式值相关的异常。请写出你会收集哪些证据、如何隔离风险、怎样定位与验证。",
+    "options": null,
+    "answer": "评分要点：①核心结论为“1/3/4/6/8/9/10 对应位置/速度/转矩/回原/CSP/CSV/CST”；②先停机/断电/验证残余电压及机械负载风险；③保留完整型号、手册版本、故障/波形、参数、接线、主站和电机反馈证据；④按手册隔离变量，复测并记录；⑤安全功能须按整机风险评估及对应手册验证。切模式还需确认状态机与 PDO。",
+    "analysis": "按评分要点给分；合理等价步骤可酌情给分。",
+    "source": {
+      "title": "SV680N系列伺服硬件/通信/调试/安全手册 C00/C06/A05",
+      "chapter": "知识点 T-S19",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "CiA 402 6060h",
+      "模式值"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-398",
+    "category": "servo",
+    "type": "scenario",
+    "difficulty": 3,
+    "stem": "新旧工程在伺服回原的机械基准上存在差异。请说明迁移前的版本核对、调试步骤和验收边界。",
+    "options": null,
+    "answer": "评分要点：①核心结论为“有弹性的机械极限不宜作高精度原点”；②先停机/断电/验证残余电压及机械负载风险；③保留完整型号、手册版本、故障/波形、参数、接线、主站和电机反馈证据；④按手册隔离变量，复测并记录；⑤安全功能须按整机风险评估及对应手册验证。现场机械设计与模式表一致。",
+    "analysis": "按评分要点给分；合理等价步骤可酌情给分。",
+    "source": {
+      "title": "SV680N系列伺服硬件/通信/调试/安全手册 C00/C06/A05",
+      "chapter": "知识点 T-S20",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "伺服回原",
+      "机械基准"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-399",
+    "category": "servo",
+    "type": "scenario",
+    "difficulty": 3,
+    "stem": "客户要求解释 SV680 的反馈配对并给出现场验证方案。请按安全、测量、参数/配置和复测顺序作答。",
+    "options": null,
+    "answer": "评分要点：①核心结论为“编码器协议、位数、电池和安全电机按同机座配对表核对”；②先停机/断电/验证残余电压及机械负载风险；③保留完整型号、手册版本、故障/波形、参数、接线、主站和电机反馈证据；④按手册隔离变量，复测并记录；⑤安全功能须按整机风险评估及对应手册验证。尤其全闭环和安全功能要闭环验证。",
+    "analysis": "按评分要点给分；合理等价步骤可酌情给分。",
+    "source": {
+      "title": "SV680N系列伺服硬件/通信/调试/安全手册 C00/C06/A05",
+      "chapter": "知识点 T-S21",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV680",
+      "反馈配对"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-400",
+    "category": "servo",
+    "type": "scenario",
+    "difficulty": 3,
+    "stem": "现场出现与 SV680 V6 的多圈保持相关的异常。请写出你会收集哪些证据、如何隔离风险、怎样定位与验证。",
+    "options": null,
+    "answer": "评分要点：①核心结论为“V6 免电池；A6/S6 多圈按电池保持条件验收”；②先停机/断电/验证残余电压及机械负载风险；③保留完整型号、手册版本、故障/波形、参数、接线、主站和电机反馈证据；④按手册隔离变量，复测并记录；⑤安全功能须按整机风险评估及对应手册验证。更换/断电后多圈位置应验证。",
+    "analysis": "按评分要点给分；合理等价步骤可酌情给分。",
+    "source": {
+      "title": "SV680N系列伺服硬件/通信/调试/安全手册 C00/C06/A05",
+      "chapter": "知识点 T-S22",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "SV680 V6",
+      "多圈保持"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-401",
+    "category": "servo",
+    "type": "scenario",
+    "difficulty": 3,
+    "stem": "新旧工程在 IS810N-INT 的多机母线上存在差异。请说明迁移前的版本核对、调试步骤和验收边界。",
+    "options": null,
+    "answer": "评分要点：①核心结论为“共直流母线与独立 24 V 控制电源应分开核对”；②先停机/断电/验证残余电压及机械负载风险；③保留完整型号、手册版本、故障/波形、参数、接线、主站和电机反馈证据；④按手册隔离变量，复测并记录；⑤安全功能须按整机风险评估及对应手册验证。系统接线图与模块规格要一致。",
+    "analysis": "按评分要点给分；合理等价步骤可酌情给分。",
+    "source": {
+      "title": "IS810N-INT系列标准多机传动伺服用户手册-CN-C08、IS810F系列伺服用户手册-CN-B04",
+      "chapter": "知识点 T-S23",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "IS810N-INT",
+      "多机母线"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-402",
+    "category": "servo",
+    "type": "scenario",
+    "difficulty": 3,
+    "stem": "客户要求解释 IS810F 的电源范围并给出现场验证方案。请按安全、测量、参数/配置和复测顺序作答。",
+    "options": null,
+    "answer": "评分要点：①核心结论为“直流母线 537～679 V，控制 21.6～26.4 V”；②先停机/断电/验证残余电压及机械负载风险；③保留完整型号、手册版本、故障/波形、参数、接线、主站和电机反馈证据；④按手册隔离变量，复测并记录；⑤安全功能须按整机风险评估及对应手册验证。测量应在对应端子进行。",
+    "analysis": "按评分要点给分；合理等价步骤可酌情给分。",
+    "source": {
+      "title": "IS810N-INT系列标准多机传动伺服用户手册-CN-C08、IS810F系列伺服用户手册-CN-B04",
+      "chapter": "知识点 T-S24",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "IS810F",
+      "电源范围"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-403",
+    "category": "servo",
+    "type": "scenario",
+    "difficulty": 3,
+    "stem": "现场出现与 IS810F PN 的启动控制字相关的异常。请写出你会收集哪些证据、如何隔离风险、怎样定位与验证。",
+    "options": null,
+    "answer": "评分要点：①核心结论为“报文 1 的 16#47E→16#47F 顺序按指南验证”；②先停机/断电/验证残余电压及机械负载风险；③保留完整型号、手册版本、故障/波形、参数、接线、主站和电机反馈证据；④按手册隔离变量，复测并记录；⑤安全功能须按整机风险评估及对应手册验证。报文类型与主站工艺对象必须配套。",
+    "analysis": "按评分要点给分；合理等价步骤可酌情给分。",
+    "source": {
+      "title": "IS620F/IS810F PN总线伺服应用指南 V1.07（历史范围仅作版本边界）",
+      "chapter": "知识点 T-S25",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "IS810F PN",
+      "启动控制字"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-404",
+    "category": "servo",
+    "type": "scenario",
+    "difficulty": 3,
+    "stem": "新旧工程在 PN 报文的位置控制上存在差异。请说明迁移前的版本核对、调试步骤和验收边界。",
+    "options": null,
+    "answer": "评分要点：①核心结论为“3/102 为 PLC 工艺对象中央位置控制，111 为基本定位器增强”；②先停机/断电/验证残余电压及机械负载风险；③保留完整型号、手册版本、故障/波形、参数、接线、主站和电机反馈证据；④按手册隔离变量，复测并记录；⑤安全功能须按整机风险评估及对应手册验证。不能把不同报文的控制字和功能块混用。",
+    "analysis": "按评分要点给分；合理等价步骤可酌情给分。",
+    "source": {
+      "title": "IS620F/IS810F PN总线伺服应用指南 V1.07（历史范围仅作版本边界）",
+      "chapter": "知识点 T-S26",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "PN 报文",
+      "位置控制"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-405",
+    "category": "servo",
+    "type": "scenario",
+    "difficulty": 3,
+    "stem": "客户要求解释 PROFINET IRT 的现场配置并给出现场验证方案。请按安全、测量、参数/配置和复测顺序作答。",
+    "options": null,
+    "answer": "评分要点：①核心结论为“按真实拓扑组态，最短 500 μs；S7-1200 不支持 IRT”；②先停机/断电/验证残余电压及机械负载风险；③保留完整型号、手册版本、故障/波形、参数、接线、主站和电机反馈证据；④按手册隔离变量，复测并记录；⑤安全功能须按整机风险评估及对应手册验证。同步需求先核对主站硬件。",
+    "analysis": "按评分要点给分；合理等价步骤可酌情给分。",
+    "source": {
+      "title": "IS620F/IS810F PN总线伺服应用指南 V1.07（历史范围仅作版本边界）",
+      "chapter": "知识点 T-S27",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "PROFINET IRT",
+      "现场配置"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-406",
+    "category": "servo",
+    "type": "scenario",
+    "difficulty": 3,
+    "stem": "现场出现与 IS650N-PLUS 的主轴调试相关的异常。请写出你会收集哪些证据、如何隔离风险、怎样定位与验证。",
+    "options": null,
+    "answer": "评分要点：①核心结论为“核对定向、刚性攻丝、反馈与全闭环配套”；②先停机/断电/验证残余电压及机械负载风险；③保留完整型号、手册版本、故障/波形、参数、接线、主站和电机反馈证据；④按手册隔离变量，复测并记录；⑤安全功能须按整机风险评估及对应手册验证。主轴工况还需机械/电机和 PG 证据。",
+    "analysis": "按评分要点给分；合理等价步骤可酌情给分。",
+    "source": {
+      "title": "IS650N-PLUS系列伺服用户手册-CN-A03（2025-11）及安全手册",
+      "chapter": "知识点 T-S28",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "IS650N-PLUS",
+      "主轴调试"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "SRV-407",
+    "category": "servo",
+    "type": "scenario",
+    "difficulty": 3,
+    "stem": "新旧工程在 IS650N-PLUS 的环境降额上存在差异。请说明迁移前的版本核对、调试步骤和验收边界。技术方向：本节 120 道选择、90 道判断、60 道填空、30 道主观。共用基础题帮助统一型号与功能语言，专属题按照岗位决策和现场工作分层。",
+    "options": null,
+    "answer": "评分要点：①核心结论为“7.5～22 kW 超过 45 ℃、37～220 kW 超过 40 ℃，均每 ℃降额 1.5%”；②先停机/断电/验证残余电压及机械负载风险；③保留完整型号、手册版本、故障/波形、参数、接线、主站和电机反馈证据；④按手册隔离变量，复测并记录；⑤安全功能须按整机风险评估及对应手册验证。温度规则按机座功率分组。",
+    "analysis": "按评分要点给分；合理等价步骤可酌情给分。",
+    "source": {
+      "title": "IS650N-PLUS系列伺服用户手册-CN-A03（2025-11）及安全手册",
+      "chapter": "知识点 T-S29",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "IS650N-PLUS",
+      "环境降额"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  }
+]

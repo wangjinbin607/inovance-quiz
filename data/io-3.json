@@ -1,0 +1,110 @@
+[
+  {
+    "id": "IO-061",
+    "category": "io",
+    "type": "fill",
+    "difficulty": 1,
+    "stem": "汇川 GL20 系列的通信接口（耦合器）模块按所接入的现场总线区分型号：用于 PROFINET 组网的耦合器型号为 ____，其型号后缀 PN 所对应的总线协议名称为 ____。",
+    "options": null,
+    "answer": ["GL20-RTU-PN", "PROFINET"],
+    "analysis": "GL20 系列官方型号表按总线划分通信接口模块：GL20-RTU-ECT32 对应 EtherCAT（最多可扩展 32 个模块）、GL20-RTU-PN 对应 PROFINET、GL20-RTU-EIP 对应 EtherNet/IP。题干已给出「PN 后缀」，因此第一空应填完整型号 GL20-RTU-PN，只写「PN」或写成 GL20-RTU-ECT32 都不符合要求；第二空必须写规范协议名 PROFINET（不是 PROFIBUS、不是 PROFINET IO 的其它写法）。采购与销售核对型号时最容易犯的错是把 ECT、PN、EIP 三个后缀张冠李戴，建议按「总线类型→耦合器型号」成对记忆，报价单与订货单上都应写全型号而不能只写「GL20 耦合器」。",
+    "source": {
+      "title": "汇川技术官网 GL20 系列刀片式扩展模块 产品页（规格参数 - GL20 系列型号表）",
+      "chapter": "规格参数 / 通信接口模块型号与产品描述",
+      "url": "https://www.inovance.com/portal/product/details?productId=489"
+    },
+    "tags": ["GL20", "耦合器", "PROFINET", "选型"],
+    "roles": ["sales", "purchase"],
+    "security": "public"
+  },
+  {
+    "id": "IO-062",
+    "category": "io",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "除数字量、模拟量模块外，汇川 GR20 系列还提供多种特殊功能模块：官方描述为「光纤转换模块（EtherCAT 通信）」的型号是 ____，「网桥模块（适用于 PLC 之间通过 EtherCAT 通信）」的型号是 ____，「称重模块」的型号是 ____。",
+    "options": null,
+    "answer": ["GR20-1OP-N", "GR20-EC-EC", "GR20-1WTE"],
+    "analysis": "汇川官方型号表中 GR20 系列的三款特殊功能模块有明确描述：GR20-1OP-N 为光纤转换模块（EtherCAT 通信），用于延长与隔离 EtherCAT 链路；GR20-EC-EC 为网桥模块，适用于 PLC 之间通过 EtherCAT 通信；GR20-1WTE 为称重模块，官方型号表与《GR20-1WTE 称重模块用户手册》均可查证。每个系列型号都成对配有用户手册，采购下单时必须写全型号，仅写「GR20 光纤模块」「GR20 称重模块」会造成订货歧义。注意区分同属光纤转换器的 GR20-1OP-EN——官方描述为「无协议以太网版本」，与 EtherCAT 版本用途不同，这是本题最典型的错填点。",
+    "source": {
+      "title": "汇川技术官网 GL20 系列刀片式扩展模块 产品页（规格参数型号表，含 GR20 系列模块）/ GR20 系列分布式 IO 产品页",
+      "chapter": "规格参数 / 通信模块（GR20 系列特殊功能模块型号与描述）",
+      "url": "https://www.inovance.com/portal/product/details?productId=490"
+    },
+    "tags": ["GR20", "称重模块", "光纤转换", "选型"],
+    "roles": ["sales", "purchase"],
+    "security": "public"
+  },
+  {
+    "id": "IO-063",
+    "category": "io",
+    "type": "fill",
+    "difficulty": 1,
+    "stem": "汇川 GS20 系列柜外高防护 IO-Link 主站按所接入的上位总线分为三款型号，除 EtherCAT 型的 GS20-ECT-8L 与 PROFINET 型的 ____ 之外，还有 EtherNet/IP 型的 ____；该系列单个主站可连接的 IO-Link 子站数量为 ____ 个。",
+    "options": null,
+    "answer": ["GS20-PN-8L", "GS20-EIP-8L", "8"],
+    "analysis": "GS20 系列 IO-Link 主站按上位总线区分型号：GS20-ECT-8L（EtherCAT）、GS20-PN-8L（PROFINET）、GS20-EIP-8L（EtherNet/IP），三款的带载能力相同，均为可连接 8 个 IO-Link 子站；官网对 GR20 系列亦明确「一个 IO-Link 主站可连接 8 个 IO-Link 子站」。第一、二空必须写全型号，只写「PN 型」「EIP 型」不构成可订货的型号；第三空是方案核算的关键数字。做柜外 IO 方案时须按 8 个子站一组拆分配置主站数量，例如 24 个子站需要 3 台主站，漏算主站是这类方案最常见的缺项。",
+    "source": {
+      "title": "汇川技术官网 GS20 系列高防护 IO 产品页 / GR20 系列分布式 IO 产品页",
+      "chapter": "规格参数 - GS20 系列 IO-Link 主站型号表；产品概览 - 主站与子站配比",
+      "url": "https://www.inovance.com/portal/product/details?productId=488"
+    },
+    "tags": ["GS20", "IO-Link", "主站", "选型"],
+    "roles": ["sales", "purchase"],
+    "security": "public"
+  },
+  {
+    "id": "IO-064",
+    "category": "io",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "在汇川 GL20 系列官方型号表中，通信模块 GL20-2SCOM 所支持的三种串行通信标准依次为 ____、____ 与 ____。",
+    "options": null,
+    "answer": ["RS232", "RS485", "RS422"],
+    "analysis": "官方型号表对 GL20-2SCOM 的描述是「2 路 RS232/RS485/RS422 通信模块」，即同一模块的 2 个通道可通过组态在三种串行标准间选用；此外还有 GL20-2SCOM-MDB（同规格、Modbus 协议版本）、GL20-2S485、GL20-2S485-MDB 等相近型号。答题时必须写标准的 RS 编号，写成「232」「485」「422」或「串口 1/2/3」都不规范；三个空之间顺序可对应官方描述中的书写顺序。采购核对时要注意 GL20-2SCOM 与 GL20-2SCOM-MDB、GL20-2S485 属不同型号，功能定位与协议支持不同，不能相互替代，订货单上漏写「-MDB」会导致交付型号不符。",
+    "source": {
+      "title": "汇川技术官网 GL20 系列刀片式扩展模块 产品页（规格参数 - GL20 系列型号表）",
+      "chapter": "规格参数 / 通信模块型号与产品描述",
+      "url": "https://www.inovance.com/portal/product/details?productId=489"
+    },
+    "tags": ["GL20", "通信模块", "串口", "选型"],
+    "roles": ["sales", "purchase"],
+    "security": "public"
+  },
+  {
+    "id": "IO-065",
+    "category": "io",
+    "type": "fill",
+    "difficulty": 1,
+    "stem": "在汇川 GL20 系列官方型号表中，工艺模块 GL20-2SSI 的官方产品描述为「____ 路 SSI 通信」，工艺模块 GL20-2HC 的官方产品描述为「____ 路高速计数模块」。",
+    "options": null,
+    "answer": ["2", "2"],
+    "analysis": "GL20 系列官方型号表将 2SSI 与 2HC 归入「工艺模块」：GL20-2SSI 为 2 路 SSI 通信模块，用于直接接入 SSI 接口的绝对值编码器，把位置数据送进 IO 系统；GL20-2HC 为 2 路高速计数模块，用于高频脉冲计数与测速。两处空均填 2，因为型号中的首位数字即通道数——这也是 GL20 全系列（如 GL20-2CAN、GL20-2S485、GL20-4IOL）通用的命名规律，掌握后可反推大部分模块的通道数。采购与销售须注意：高速计数与 SSI 编码器输入属于工艺类模块，不能由普通数字量输入模块替代，做点数清单时要单独列出，避免与 DI 点数混算导致漏项。",
+    "source": {
+      "title": "汇川技术官网 GL20 系列刀片式扩展模块 产品页（规格参数 - GL20 系列型号表）",
+      "chapter": "规格参数 / 工艺模块型号与产品描述",
+      "url": "https://www.inovance.com/portal/product/details?productId=489"
+    },
+    "tags": ["GL20", "工艺模块", "高速计数", "选型"],
+    "roles": ["sales", "purchase"],
+    "security": "public"
+  },
+  {
+    "id": "IO-066",
+    "category": "io",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "根据汇川官网 Hi50 系列分布式安全 IO 模块产品页，该系列支持 ____ 模块扩展与全信号类型采集，并在 ____ ℃ ~ ____ ℃ 环境下仍保持稳定运行。",
+    "options": null,
+    "answer": ["32", "-20", "55"],
+    "analysis": "Hi50 系列官方产品页原文：「Hi50 系列分布式安全 IO 系统：全球首发热插拔安全温度模块，支持 32 模块扩展与全信号类型采集，在 -20℃~55℃ 极端环境下仍保持稳定运行，为汽车、半导体、锂电、压铸等高标准行业提供可靠保障。」因此三空依次为 32、-20、55。易错点有二：一是把宽温区指标误记为 Hi80 系列的 -40℃~+70℃——那是面向冶金、矿山、港口等户外恶劣工况的高性能分布式 IO 指标，两个系列不能串用；二是低温值必须带负号，漏写负号即变成错误答案。安全类项目的技术协议中，温度范围、模块扩展能力与最高安全等级（PL e/Cat.4/SIL 3）通常会被客户逐条核对，引用时须按系列对号入座。",
+    "source": {
+      "title": "汇川技术官网 Hi50 系列分布式安全 IO 模块 产品页",
+      "chapter": "产品概览 - 高安全保护级 / 环境适应性",
+      "url": "https://www.inovance.com/portal/product/details?productId=801"
+    },
+    "tags": ["Hi50", "功能安全", "环境适应性", "选型"],
+    "roles": ["sales", "purchase"],
+    "security": "public"
+  }
+]

@@ -1,0 +1,172 @@
+[
+  {
+    "id": "PLC-061",
+    "category": "plc",
+    "type": "fill",
+    "difficulty": 1,
+    "stem": "汇川 H1U/S 系列小型 PLC 主打「小体积、大程序容量」，按官网产品页描述，其程序存储空间无需外部扩展内存卡即可达到 ____。",
+    "options": null,
+    "answer": [
+      "16K步"
+    ],
+    "analysis": "官网 H1U/S 系列产品页原文为「程序存储空间大，无需外部扩展内存卡即可达到 16k 步」，故填 16K 步。易错点是把它记成 H3U/S 的 64K 步，或误以为必须插入内存卡/扩展卡才能达到该容量——H1U/S 恰恰是以「无需外部扩展内存卡」为卖点的。销售向成本敏感客户介绍时，这一条可直接对应「省一张存储卡的钱」；采购核对 BOM 时也不必为 H1U/S 配套内存卡。",
+    "source": {
+      "title": "汇川技术 H1U/S 系列简易型小型 PLC 产品页",
+      "chapter": "产品概览 / 产品特性及优点（程序存储空间）",
+      "url": "https://www.inovance.com/portal/product/details?productId=59"
+    },
+    "tags": [
+      "H1U",
+      "程序容量",
+      "选型"
+    ],
+    "roles": [
+      "sales",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "PLC-062",
+    "category": "plc",
+    "type": "fill",
+    "difficulty": 1,
+    "stem": "按汇川官网 H3U/S 系列产品页给出的规格，该系列支持的程序存储空间为 ____，数据存储容量为 ____。",
+    "options": null,
+    "answer": [
+      "64K步",
+      "48K字"
+    ],
+    "analysis": "官网 H3U/S 产品页原文为「支持程序存储空间 64K 步，数据存储容量 48K 字」，两空依次为 64K 步与 48K 字。易错点是把 H3U/S 的容量记成 H1U/S 的 16K 步（两者相差 4 倍，同属小型机但定位不同），以及把程序空间与数据空间写反。另需注意汇川还有型号极为相近的 H3S 系列，官网给出的存储规格同为 64K 步 / 48K 字，二者真正的差别在 CAN 等通信与功能配置，采购下单时不能只凭「H3U」这一串字符判断。",
+    "source": {
+      "title": "汇川技术 H3U/S 系列 CAN 总线高性能小型 PLC 产品页",
+      "chapter": "产品概览 / 产品特性及优点（高性能，大容量）",
+      "url": "https://www.inovance.com/portal/product/details?productId=55"
+    },
+    "tags": [
+      "H3U",
+      "程序容量",
+      "选型"
+    ],
+    "roles": [
+      "sales",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "PLC-063",
+    "category": "plc",
+    "type": "fill",
+    "difficulty": 1,
+    "stem": "某工程师的电脑需要同时维护一台 H5U 小型 PLC 和一台 AM400 中型 PLC。按汇川官方资料命名，维护 H5U 要安装「____ 小型PLC后台编程软件」，而维护 AM400 需要安装「____ 中型PLC后台编程软件完整包」。",
+    "options": null,
+    "answer": [
+      "AutoShop",
+      "InoProShop"
+    ],
+    "analysis": "汇川官网软件下载区的资料名称为「AutoShop 小型PLC后台编程软件」与「InoProShop 中型PLC后台编程软件完整包」：小型 PLC（H1U/S、H3U/S、H5U、Easy 系列）统一用 AutoShop，AM300/AM400/AM500/AM600/AM760 及 AC700/AC800 统一用 InoProShop，故第一空填 AutoShop、第二空填 InoProShop。易错点是把两者对调，或把伺服调试软件 InoDriveShop 当成 PLC 编程软件。EVO 系列与功能安全 PLC 又改用 iFA Evolution（驭沃）平台，属第三套体系，工程文件不能直接互导。给工程师配电脑时两套软件都要装，只装一套就会出现「拿到程序却打不开」的尴尬。",
+    "source": {
+      "title": "汇川技术 AM600 系列通用型中型 PLC 产品页 / H1U/S 系列简易型小型 PLC 产品页",
+      "chapter": "资料下载 / 软件",
+      "url": "https://www.inovance.com/portal/product/details?productId=52"
+    },
+    "tags": [
+      "InoProShop",
+      "AutoShop",
+      "编程软件"
+    ],
+    "roles": [
+      "sales",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "PLC-064",
+    "category": "plc",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "按汇川官网 Easy 系列卧式形态小型 PLC（Easy321/Easy511）产品页的「处理性能」条目，该系列本体采用的是 ____ 处理器，带来 ____ 级指令处理速度。",
+    "options": null,
+    "answer": [
+      "高性能双核",
+      "纳秒"
+    ],
+    "analysis": "Easy 系列卧式形态产品页「处理性能」条目原文为「高性能双核处理器、纳秒级指令处理速度」，两空依次为高性能双核与纳秒。易错点是把 Easy 系列的两个形态混为一谈：卧式形态（Easy321/Easy511）官网写的是双核处理器，而全场景紧凑型 Easy 系列写的是四核处理器，两者不是同一档性能口径；此外还会与 H3U/S 等早期小型机「综合扫描速度相比上一代提升」这类相对指标串号。向客户介绍本体的运算能力时要分清机型形态，不要笼统说「Easy 系列都是四核」。",
+    "source": {
+      "title": "汇川技术 Easy 系列卧式形态小型 PLC 产品页",
+      "chapter": "产品概览 / 处理性能",
+      "url": "https://www.inovance.com/portal/product/details?productId=740"
+    },
+    "tags": [
+      "Easy511",
+      "Easy321",
+      "处理性能",
+      "选型"
+    ],
+    "roles": [
+      "sales",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "PLC-065",
+    "category": "plc",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "按汇川官网 AM500 系列标准型中型 PLC 产品页给出的通信规格，其 EtherCAT 单口最大支持 ____ 个从站，同时支持 ____ 个 Modbus TCP 从站。",
+    "options": null,
+    "answer": [
+      "127",
+      "63"
+    ],
+    "analysis": "官网 AM500 产品页「强大的组网能力」条目原文为「EtherNet*2（单IP，内置交换机）+ EtherCAT*1，EtherCAT 单口最大支持 127 从站……同时支持 EtherNet/IP 主站和从站、支持 63 个 Modbus TCP 从站」，两空依次为 127 与 63。易错点是把 AM500 的从站上限与小型的 H5U（最大 72 个 EtherCAT 从站）或 AM760（可连接 256 个 EtherCAT 从站）串号，以及把「Modbus TCP 从站 63 个」与「单路 RS485 支持 31 个从站」混淆。做大产线方案或采购核对通信负载时，这些数字直接决定是否需要增加通信口或改用更高一档的控制器。",
+    "source": {
+      "title": "汇川技术 AM500 系列标准型中型 PLC 产品页",
+      "chapter": "产品概览 / 强大的组网能力",
+      "url": "https://www.inovance.com/portal/product/details?productId=455"
+    },
+    "tags": [
+      "AM500",
+      "EtherCAT",
+      "从站数",
+      "通信组网"
+    ],
+    "roles": [
+      "sales",
+      "purchase"
+    ],
+    "security": "internal"
+  },
+  {
+    "id": "PLC-066",
+    "category": "plc",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "按汇川官网 GE20 系列扩展卡产品页的描述，该系列扩展卡当前共有 ____ 种类型，可适配 Easy 系列全场景紧凑型中小型 PLC，Easy 系列最多可扩展 ____ 个扩展卡。",
+    "options": null,
+    "answer": [
+      "8",
+      "2"
+    ],
+    "analysis": "官网 GE20 系列扩展卡产品页原文为「GE20 系列扩展卡，当前共有 8 种类型，涵盖输入/出数字量、输入和输出模拟量混合、串口通信、时钟扩展、TF 卡扩展等……当前可适配 EASY 系列全场景紧凑型中小型 PLC 使用，EASY 系列最多可扩展两个扩展卡」，两空依次为 8 与 2。易错点是只记住「Easy 支持扩展卡」而记不住数量上限，报价时把串口、模拟量、TF 卡三种需求都排给同一台机器——实际只有两个卡槽，必须取舍。另外要注意 Easy 卧式形态机型用的是 GE21 系列扩展卡（如 GE21-EN、GE21-TF-RTC），与本页的 GE20 系列不是同一组型号，采购下单前必须按机型核对。",
+    "source": {
+      "title": "汇川技术 GE20 系列扩展卡产品页",
+      "chapter": "产品概览",
+      "url": "https://www.inovance.com/portal/product/details?productId=493"
+    },
+    "tags": [
+      "GE20",
+      "扩展卡",
+      "Easy系列",
+      "选型"
+    ],
+    "roles": [
+      "sales",
+      "purchase"
+    ],
+    "security": "public"
+  }
+]

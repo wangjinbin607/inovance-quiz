@@ -1,0 +1,8204 @@
+[
+  {
+    "id": "INV-082",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "关于 MD630 的历史故障记录，哪项与当前资料相符？",
+    "options": {
+      "A": "固定存储 1000 组",
+      "B": "只能记 1 组",
+      "C": "可长期存储 30 组历史故障",
+      "D": "没有故障记录功能"
+    },
+    "answer": [
+      "C"
+    ],
+    "analysis": "故障记录有助于诊断，但仍需实际工况证据。",
+    "source": {
+      "title": "MD630 Series 产品页",
+      "chapter": "知识点 D23",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD630",
+      "历史故障记录"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-083",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 1,
+    "stem": "请从下列说法中选出 MD630 在机柜空间方面的正确结论。",
+    "options": {
+      "A": "安装无需间距",
+      "B": "一定可以节省 90%",
+      "C": "官网称可节省超过 30% 柜内空间",
+      "D": "尺寸永远与 MD520 完全相同"
+    },
+    "answer": [
+      "C"
+    ],
+    "analysis": "空间宣传应按实际机座尺寸和散热设计复核。",
+    "source": {
+      "title": "MD630 Series 产品页",
+      "chapter": "知识点 D24",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD630",
+      "机柜空间"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-084",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "核对 MD800 的产品定位时，哪一项不能被其他系列的结论替代？",
+    "options": {
+      "A": "无整流单元",
+      "B": "低功率、多机传动、书本型变频器",
+      "C": "只用于一轴伺服",
+      "D": "高压单机变频器"
+    },
+    "answer": [
+      "B"
+    ],
+    "analysis": "多机方案还需核对整流与逆变容量配比。",
+    "source": {
+      "title": "MD800 Series 产品页",
+      "chapter": "知识点 D25",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD800",
+      "产品定位"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-085",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "围绕 MD800 的内置通信，选出可写入核对表的说法。",
+    "options": {
+      "A": "只内置 PROFINET",
+      "B": "只支持模拟量",
+      "C": "CANopen、CANlink、Modbus RTU",
+      "D": "只内置 EtherCAT"
+    },
+    "answer": [
+      "C"
+    ],
+    "analysis": "扩展通信与内置通信不能混写。",
+    "source": {
+      "title": "MD800 Series 产品页",
+      "chapter": "知识点 D26",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD800",
+      "内置通信"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-086",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 1,
+    "stem": "关于 MD800 的扩展通信，哪项与当前资料相符？",
+    "options": {
+      "A": "只能扩展 RS232",
+      "B": "可扩展 PROFINET、EtherCAT、EtherNet/IP",
+      "C": "扩展卡一律标配",
+      "D": "不能扩展任何总线"
+    },
+    "answer": [
+      "B"
+    ],
+    "analysis": "订货时要确认扩展卡和主站方案。",
+    "source": {
+      "title": "MD800 Series 产品页",
+      "chapter": "知识点 D27",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD800",
+      "扩展通信"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-087",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 1,
+    "stem": "请从下列说法中选出 MD800 在控制方式方面的正确结论。",
+    "options": {
+      "A": "只有开环直流调速",
+      "B": "只支持位置环",
+      "C": "V/f 与 SVC，不能把 FVC 视为标配",
+      "D": "全系列标配 FVC"
+    },
+    "answer": [
+      "C"
+    ],
+    "analysis": "控制方式按当前手册，勿用相邻 MD810 功能套用。",
+    "source": {
+      "title": "MD800系列多机传动变频器用户手册-CN-A07、综合手册-CN-A04、通信手册-CN-B05",
+      "chapter": "知识点 D28",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD800",
+      "控制方式"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-088",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "核对 MD800 单轴逆变的功率边界时，哪一项不能被其他系列的结论替代？",
+    "options": {
+      "A": "只支持 0.75 kW",
+      "B": "2T 0.2～3.7 kW，4T 0.4～7.5 kW",
+      "C": "2T/4T 均为 200～355 kW",
+      "D": "功率不区分电压"
+    },
+    "answer": [
+      "B"
+    ],
+    "analysis": "单轴/双轴和 2T/4T 必须分别看表。",
+    "source": {
+      "title": "MD800系列多机传动变频器用户手册-CN-A07、综合手册-CN-A04、通信手册-CN-B05",
+      "chapter": "知识点 D29",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD800 单轴逆变",
+      "功率边界"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-089",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "围绕 MD800 双轴逆变的功率边界，选出可写入核对表的说法。",
+    "options": {
+      "A": "2T 0.2～2.2 kW，4T 0.4～3.7 kW",
+      "B": "双轴逆变不需整流",
+      "C": "只支持 90 kW",
+      "D": "2T 0.2～3.7，4T 0.4～7.5"
+    },
+    "answer": [
+      "A"
+    ],
+    "analysis": "不能把单轴范围直接套给双轴。",
+    "source": {
+      "title": "MD800系列多机传动变频器用户手册-CN-A07、综合手册-CN-A04、通信手册-CN-B05",
+      "chapter": "知识点 D30",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD800 双轴逆变",
+      "功率边界"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-090",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 1,
+    "stem": "关于 MD800 型号的模块代码，哪项与当前资料相符？",
+    "options": {
+      "A": "代码只表示机柜颜色",
+      "B": "1 为整流、0 为双轴逆变",
+      "C": "0 为整流、1 为单轴逆变、2 为双轴逆变",
+      "D": "0 为安全卡、1/2 为电压"
+    },
+    "answer": [
+      "C"
+    ],
+    "analysis": "多机系统模块角色是 BOM 的第一层。",
+    "source": {
+      "title": "MD800系列多机传动变频器用户手册-CN-A07、综合手册-CN-A04、通信手册-CN-B05",
+      "chapter": "知识点 D31",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD800 型号",
+      "模块代码"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-091",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 1,
+    "stem": "请从下列说法中选出 MD800 在STO 配置方面的正确结论。",
+    "options": {
+      "A": "任意型号都无条件 STO",
+      "B": "逆变单元末尾 S 为 STO 选项",
+      "C": "整流单元 B 一定是 STO",
+      "D": "STO 只看电机功率"
+    },
+    "answer": [
+      "B"
+    ],
+    "analysis": "STO 要按末尾 S 和对应安全手册确认。",
+    "source": {
+      "title": "MD800系列多机传动变频器用户手册-CN-A07、综合手册-CN-A04、通信手册-CN-B05",
+      "chapter": "知识点 D32",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD800",
+      "STO 配置"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-092",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "核对 MD800 的制动配置时，哪一项不能被其他系列的结论替代？",
+    "options": {
+      "A": "整流 B 字段关联内置制动，逆变 S 字段不是制动",
+      "B": "编码器 B 表示制动电阻",
+      "C": "逆变 S 就是制动",
+      "D": "所有整流都无制动端子"
+    },
+    "answer": [
+      "A"
+    ],
+    "analysis": "制动单元、制动电阻和 STO 字段不能混淆。",
+    "source": {
+      "title": "MD800系列多机传动变频器用户手册-CN-A07、综合手册-CN-A04、通信手册-CN-B05",
+      "chapter": "知识点 D33",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD800",
+      "制动配置"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-093",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "围绕 MD800 的直流母线，选出可写入核对表的说法。",
+    "options": {
+      "A": "只能 AC 220 V",
+      "B": "固定 DC 24 V",
+      "C": "无需母线范围",
+      "D": "逆变单元 DC 510～720 V"
+    },
+    "answer": [
+      "D"
+    ],
+    "analysis": "整流/逆变配比和母线保护需工程核对。",
+    "source": {
+      "title": "MD800系列多机传动变频器用户手册-CN-A07、综合手册-CN-A04、通信手册-CN-B05",
+      "chapter": "知识点 D34",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD800",
+      "直流母线"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-094",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "关于 MD800 的防护等级，哪项与当前资料相符？",
+    "options": {
+      "A": "全系列 IP00",
+      "B": "无需机柜保护",
+      "C": "IP40，但接线端子和风扇部位除外",
+      "D": "整机 IP67 可浸水"
+    },
+    "answer": [
+      "C"
+    ],
+    "analysis": "IP 等级的例外部位不能省略。",
+    "source": {
+      "title": "MD800系列多机传动变频器用户手册-CN-A07、综合手册-CN-A04、通信手册-CN-B05",
+      "chapter": "知识点 D35",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD800",
+      "防护等级"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-095",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 1,
+    "stem": "请从下列说法中选出 MD810 在产品定位方面的正确结论。",
+    "options": {
+      "A": "单相家用小型伺服",
+      "B": "高压同步电机专用",
+      "C": "标准低压多机传动变频器系统",
+      "D": "只是一只整流电抗器"
+    },
+    "answer": [
+      "C"
+    ],
+    "analysis": "系统采购要区分整流、逆变和母线。",
+    "source": {
+      "title": "MD810 Series 产品页",
+      "chapter": "知识点 D36",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD810",
+      "产品定位"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-096",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "核对 MD810 整流的功率档时，哪一项不能被其他系列的结论替代？",
+    "options": {
+      "A": "0.2、0.4、0.75 kW",
+      "B": "22、45、110、160、355 kW",
+      "C": "1.5～6500 kW",
+      "D": "只有 1.5 kW"
+    },
+    "answer": [
+      "B"
+    ],
+    "analysis": "整流功率要与逆变合计和再生需求匹配。",
+    "source": {
+      "title": "MD810系列多机传动变频器硬件手册-CN-A04、功能手册 A05",
+      "chapter": "知识点 D37",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD810 整流",
+      "功率档"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-097",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "围绕 MD810 整流的输入电压，选出可写入核对表的说法。",
+    "options": {
+      "A": "直流 24 V",
+      "B": "三相 323～528 V",
+      "C": "三相 690～1200 V",
+      "D": "单相 200～240 V"
+    },
+    "answer": [
+      "B"
+    ],
+    "analysis": "与逆变 DC 输入范围不能混写。",
+    "source": {
+      "title": "MD810系列多机传动变频器硬件手册-CN-A04、功能手册 A05",
+      "chapter": "知识点 D38",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD810 整流",
+      "输入电压"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-098",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 1,
+    "stem": "关于 MD810 逆变的额定直流输入，哪项与当前资料相符？",
+    "options": {
+      "A": "DC 24 V",
+      "B": "AC 200～240 V",
+      "C": "DC 537～679 V",
+      "D": "DC 900～1200 V"
+    },
+    "answer": [
+      "C"
+    ],
+    "analysis": "工作范围和额定范围需要分开看。",
+    "source": {
+      "title": "MD810系列多机传动变频器硬件手册-CN-A04、功能手册 A05",
+      "chapter": "知识点 D39",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD810 逆变",
+      "额定直流输入"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-099",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 1,
+    "stem": "请从下列说法中选出 MD810 逆变在直流工作范围方面的正确结论。",
+    "options": {
+      "A": "DC 350～800 V",
+      "B": "DC 537～679 V 是唯一可工作范围",
+      "C": "AC 50 Hz",
+      "D": "无上下限"
+    },
+    "answer": [
+      "A"
+    ],
+    "analysis": "系统设计需要关注母线波动和保护。",
+    "source": {
+      "title": "MD810系列多机传动变频器硬件手册-CN-A04、功能手册 A05",
+      "chapter": "知识点 D40",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD810 逆变",
+      "直流工作范围"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-100",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "核对 MD810 逆变的功率形式时，哪一项不能被其他系列的结论替代？",
+    "options": {
+      "A": "单轴/双轴都只到 7.5 kW",
+      "B": "单轴 1.5～355 kW、双轴 1.5～18.5 kW",
+      "C": "只有整流模块",
+      "D": "全部是 6500 kW"
+    },
+    "answer": [
+      "B"
+    ],
+    "analysis": "双轴功率边界不能按单轴推断。",
+    "source": {
+      "title": "MD810系列多机传动变频器硬件手册-CN-A04、功能手册 A05",
+      "chapter": "知识点 D41",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD810 逆变",
+      "功率形式"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-101",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 1,
+    "stem": "围绕 MD810 整流 22/45 的制动代码，选出可写入核对表的说法。",
+    "options": {
+      "A": "所有功率都是 G1XX",
+      "B": "G0XX 为内置制动",
+      "C": "制动代码表示 EtherCAT",
+      "D": "G1XX 为内置制动，G0XX 无内置制动"
+    },
+    "answer": [
+      "D"
+    ],
+    "analysis": "110 kW 及以上制动方案另按外部 MDBUN 核对。",
+    "source": {
+      "title": "MD810系列多机传动变频器硬件手册-CN-A04、功能手册 A05",
+      "chapter": "知识点 D42",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD810 整流 22/45",
+      "制动代码"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-102",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 1,
+    "stem": "关于 MD810 110 kW+ 的制动配置，哪项与当前资料相符？",
+    "options": {
+      "A": "标配内置制动电阻",
+      "B": "外部 MDBUN 制动单元",
+      "C": "无需任何制动措施",
+      "D": "只靠 STO 消耗再生能量"
+    },
+    "answer": [
+      "B"
+    ],
+    "analysis": "制动与能量回馈方案应按实际工况选。",
+    "source": {
+      "title": "MD810系列多机传动变频器硬件手册-CN-A04、功能手册 A05",
+      "chapter": "知识点 D43",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD810 110 kW+",
+      "制动配置"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-103",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 1,
+    "stem": "请从下列说法中选出 MD810 在电机与控制方面的正确结论。",
+    "options": {
+      "A": "支持同步/异步伺服电机，多轴可用于位置/同步/负载分配",
+      "B": "不支持任何位置控制",
+      "C": "只支持步进电机",
+      "D": "只支持风机水泵"
+    },
+    "answer": [
+      "A"
+    ],
+    "analysis": "产品页定位应结合反馈和控制模式核对。",
+    "source": {
+      "title": "MD810 Series 产品页",
+      "chapter": "知识点 D44",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD810",
+      "电机与控制"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-104",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "核对 MD810 的防护等级时，哪一项不能被其他系列的结论替代？",
+    "options": {
+      "A": "所有功率都 IP40",
+      "B": "所有功率都 IP67",
+      "C": "1.5～160 kW 为 IP20，200～355 kW 为 IP00",
+      "D": "防护与功率无关"
+    },
+    "answer": [
+      "C"
+    ],
+    "analysis": "大功率 IP00 机型必须在机柜设计中考虑防护。",
+    "source": {
+      "title": "MD810系列多机传动变频器硬件手册-CN-A04、功能手册 A05",
+      "chapter": "知识点 D45",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD810",
+      "防护等级"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-105",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "围绕 MD880 的产品定位，选出可写入核对表的说法。",
+    "options": {
+      "A": "只用于 24 V 控制",
+      "B": "0.05～7.5 kW 伺服",
+      "C": "仅一只小型整流器",
+      "D": "高端工程型变频器，1.5～6500 kW"
+    },
+    "answer": [
+      "D"
+    ],
+    "analysis": "按电压、功率、冷却和整流形式分层选型。",
+    "source": {
+      "title": "MD880 Series 官方产品资料",
+      "chapter": "知识点 D46",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD880",
+      "产品定位"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-106",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "关于 MD880 的电压级别，哪项与当前资料相符？",
+    "options": {
+      "A": "所有型号固定 1200 V",
+      "B": "只支持 DC 24 V",
+      "C": "380～480 V 与 525～690 V",
+      "D": "只支持单相 220 V"
+    },
+    "answer": [
+      "C"
+    ],
+    "analysis": "电压级别不能从功率范围反推。",
+    "source": {
+      "title": "MD880 Series 官方产品资料",
+      "chapter": "知识点 D47",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD880",
+      "电压级别"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-107",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 1,
+    "stem": "请从下列说法中选出 MD880 在整流形式方面的正确结论。",
+    "options": {
+      "A": "只接受外置伺服电机",
+      "B": "只有基本型且不可回馈",
+      "C": "只有 STO 型",
+      "D": "基本型、回馈型、AFE 型"
+    },
+    "answer": [
+      "D"
+    ],
+    "analysis": "需结合电网、再生能量和谐波要求选。",
+    "source": {
+      "title": "MD880 Series 官方产品资料",
+      "chapter": "知识点 D48",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD880",
+      "整流形式"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-108",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "核对 MD880 的冷却方案时，哪一项不能被其他系列的结论替代？",
+    "options": {
+      "A": "全部强制水冷",
+      "B": "冷却与柜体无关",
+      "C": "风冷和水冷均有方案",
+      "D": "只能自然冷却"
+    },
+    "answer": [
+      "C"
+    ],
+    "analysis": "具体型号与安装条件须核对。",
+    "source": {
+      "title": "MD880 Series 官方产品资料",
+      "chapter": "知识点 D49",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD880",
+      "冷却方案"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-109",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "围绕 MD520 的产品定位，选出可写入核对表的说法。",
+    "options": {
+      "A": "仅是伺服电机",
+      "B": "低压多机整流单元",
+      "C": "通用高性能电流矢量变频器",
+      "D": "只用于 PLC 输入模块"
+    },
+    "answer": [
+      "C"
+    ],
+    "analysis": "定位不能代替功率、电压、过载和选件核对。",
+    "source": {
+      "title": "MD520 Series 产品页",
+      "chapter": "知识点 D01",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD520",
+      "产品定位"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-110",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 1,
+    "stem": "关于 MD520 的输入规格，哪项与当前资料相符？",
+    "options": {
+      "A": "只接受 690 V 直流",
+      "B": "三相 380～480 V、三相 200～240 V、单相 200～240 V 分表选型",
+      "C": "电压不影响选型",
+      "D": "所有型号固定单相 220 V"
+    },
+    "answer": [
+      "B"
+    ],
+    "analysis": "三种输入表不可互相套用。",
+    "source": {
+      "title": "MD520系列通用变频器硬件手册-CN-B02、功能手册-CN-B05、安全手册-CN-A04",
+      "chapter": "知识点 D02",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD520",
+      "输入规格"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-111",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 1,
+    "stem": "请从下列说法中选出 MD520 在最大输出频率方面的正确结论。",
+    "options": {
+      "A": "100 Hz",
+      "B": "599 Hz",
+      "C": "1500 Hz",
+      "D": "50 Hz"
+    },
+    "answer": [
+      "B"
+    ],
+    "analysis": "频率上限不代表电机可长期按该转速运行。",
+    "source": {
+      "title": "MD520系列通用变频器硬件手册-CN-B02、功能手册-CN-B05、安全手册-CN-A04",
+      "chapter": "知识点 D03",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD520",
+      "最大输出频率"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-112",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "核对 MD520 的载波频率时，哪一项不能被其他系列的结论替代？",
+    "options": {
+      "A": "固定 50 Hz",
+      "B": "0.5～16 kHz",
+      "C": "20～100 kHz",
+      "D": "0.8～6 kHz"
+    },
+    "answer": [
+      "B"
+    ],
+    "analysis": "载波设置与温升、噪声和降额有关。",
+    "source": {
+      "title": "MD520系列通用变频器硬件手册-CN-B02、功能手册-CN-B05、安全手册-CN-A04",
+      "chapter": "知识点 D04",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD520",
+      "载波频率"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-113",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 1,
+    "stem": "围绕 MD520 的防护等级，选出可写入核对表的说法。",
+    "options": {
+      "A": "无机柜要求",
+      "B": "IP00 全系列",
+      "C": "IP20/Type 1",
+      "D": "IP67 可浸水"
+    },
+    "answer": [
+      "C"
+    ],
+    "analysis": "安装防护需要按具体外壳和现场条件确认。",
+    "source": {
+      "title": "MD520系列通用变频器硬件手册-CN-B02、功能手册-CN-B05、安全手册-CN-A04",
+      "chapter": "知识点 D05",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD520",
+      "防护等级"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-114",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 1,
+    "stem": "关于 MD520 的电网类型，哪项与当前资料相符？",
+    "options": {
+      "A": "电网型式不用核对",
+      "B": "只能 TN",
+      "C": "TN、TT、IT(Y) 可按手册条件使用",
+      "D": "只能直流电网"
+    },
+    "answer": [
+      "C"
+    ],
+    "analysis": "IT 系统还需按手册核对滤波和接地条件。",
+    "source": {
+      "title": "MD520系列通用变频器硬件手册-CN-B02、功能手册-CN-B05、安全手册-CN-A04",
+      "chapter": "知识点 D06",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD520",
+      "电网类型"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-115",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 1,
+    "stem": "请从下列说法中选出 MD520 型号 B 字段在制动含义方面的正确结论。",
+    "options": {
+      "A": "B 表示 690 V 电压",
+      "B": "B 表示内置制动单元/配置字段，须按功率机座表确认",
+      "C": "B 表示 CANopen",
+      "D": "B 保证所有功率都有制动电阻"
+    },
+    "answer": [
+      "B"
+    ],
+    "analysis": "制动单元和制动电阻不是同一个部件。",
+    "source": {
+      "title": "MD520系列通用变频器硬件手册-CN-B02、功能手册-CN-B05、安全手册-CN-A04",
+      "chapter": "知识点 D07",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD520 型号 B 字段",
+      "制动含义"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-116",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "核对 MD520 T1～T4 的制动边界时，哪一项不能被其他系列的结论替代？",
+    "options": {
+      "A": "132～630 kW 档内置",
+      "B": "0.4～15 kW 档内置制动单元",
+      "C": "全系列无制动",
+      "D": "只看过载等级就能判定"
+    },
+    "answer": [
+      "B"
+    ],
+    "analysis": "机座分组直接影响制动 BOM。",
+    "source": {
+      "title": "MD520系列通用变频器硬件手册-CN-B02、功能手册-CN-B05、安全手册-CN-A04",
+      "chapter": "知识点 D08",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD520 T1～T4",
+      "制动边界"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-117",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "围绕 MD520 T9～T13 的制动配置，选出可写入核对表的说法。",
+    "options": {
+      "A": "必须把制动电阻直接接电机",
+      "B": "0.4～15 kW 档标配外部 MDBUN",
+      "C": "无需考虑制动能量",
+      "D": "132～630 kW 档配外部 MDBUN"
+    },
+    "answer": [
+      "D"
+    ],
+    "analysis": "外置制动单元还需确认额定能力和接线。",
+    "source": {
+      "title": "MD520系列通用变频器硬件手册-CN-B02、功能手册-CN-B05、安全手册-CN-A04",
+      "chapter": "知识点 D09",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD520 T9～T13",
+      "制动配置"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-118",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "关于 MD810 的逆变控制模式，哪项技术处理符合手册边界？",
+    "options": {
+      "A": "PMSM 只支持 V/f",
+      "B": "IM 只支持 FVC",
+      "C": "MD800 控制模式可直接套用",
+      "D": "IM 支持 V/f、SVC、FVC；PMSM 支持 SVC、FVC"
+    },
+    "answer": [
+      "D"
+    ],
+    "analysis": "控制模式与反馈附件、电机类型密切相关。",
+    "source": {
+      "title": "MD810系列多机传动变频器硬件手册-CN-A04、功能手册 A05",
+      "chapter": "知识点 T-D21",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD810",
+      "逆变控制模式"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-119",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 1,
+    "stem": "技术人员核对 MD810 的载波范围时，应采用哪项？",
+    "options": {
+      "A": "全部固定 50 Hz",
+      "B": "载波与模式无关",
+      "C": "V/f 0.8～12 kHz，SVC/FVC 2～6 kHz",
+      "D": "全部固定 16 kHz"
+    },
+    "answer": [
+      "C"
+    ],
+    "analysis": "载波频率不同于输出频率。",
+    "source": {
+      "title": "MD810系列多机传动变频器硬件手册-CN-A04、功能手册 A05",
+      "chapter": "知识点 T-D22",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD810",
+      "载波范围"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-120",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 1,
+    "stem": "客户提出 MD810 的速度范围疑问，哪项答复有依据？",
+    "options": {
+      "A": "范围与电机无关",
+      "B": "V/f 1:2000",
+      "C": "V/f 1:50、IM SVC 1:100、FVC 1:1000",
+      "D": "三个模式都是 1:1000"
+    },
+    "answer": [
+      "C"
+    ],
+    "analysis": "性能值要注明对应模式与电机。",
+    "source": {
+      "title": "MD810系列多机传动变频器硬件手册-CN-A04、功能手册 A05",
+      "chapter": "知识点 T-D23",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD810",
+      "速度范围"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-121",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "在 MD810 整流的现场联调中，哪项通信协议结论可直接用于检查表？",
+    "options": {
+      "A": "内置 EtherCAT 且无其他协议",
+      "B": "只支持模拟量",
+      "C": "Modbus RTU/PROFIBUS/CANopen/CANlink/PROFINET",
+      "D": "协议与模块角色无关"
+    },
+    "answer": [
+      "C"
+    ],
+    "analysis": "整流与逆变通信清单不同。",
+    "source": {
+      "title": "MD810系列多机传动变频器硬件手册-CN-A04、功能手册 A05",
+      "chapter": "知识点 T-D24",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD810 整流",
+      "通信协议"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-122",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "关于 MD810 逆变的通信协议，哪项技术处理符合手册边界？",
+    "options": {
+      "A": "仅 PROFINET",
+      "B": "Modbus RTU/PROFIBUS/CANopen/CANlink/EtherCAT",
+      "C": "只支持 RS232",
+      "D": "与整流完全同协议"
+    },
+    "answer": [
+      "B"
+    ],
+    "analysis": "逆变 EtherCAT 为当前手册支持，不应沿用旧风险备注。",
+    "source": {
+      "title": "MD810系列多机传动变频器硬件手册-CN-A04、功能手册 A05",
+      "chapter": "知识点 T-D25",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD810 逆变",
+      "通信协议"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-123",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 1,
+    "stem": "技术人员核对 MD810 的冷却方案时，应采用哪项？",
+    "options": {
+      "A": "水冷可取代电气保护",
+      "B": "仅自然冷却",
+      "C": "风冷和水冷按具体模块选",
+      "D": "所有模块都水冷"
+    },
+    "answer": [
+      "C"
+    ],
+    "analysis": "冷却配件和柜内热设计要同系统核对。",
+    "source": {
+      "title": "MD810系列多机传动变频器硬件手册-CN-A04、功能手册 A05",
+      "chapter": "知识点 T-D26",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD810",
+      "冷却方案"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-124",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 1,
+    "stem": "客户提出 MD810 的母线故障定位疑问，哪项答复有依据？",
+    "options": {
+      "A": "先比对整流输入、母线工作范围与逆变负载记录",
+      "B": "不记录故障时间",
+      "C": "把逆变输出当整流输入测",
+      "D": "只重启全部逆变"
+    },
+    "answer": [
+      "A"
+    ],
+    "analysis": "多机系统的故障应按模块角色分层。",
+    "source": {
+      "title": "MD810系列多机传动变频器硬件手册-CN-A04、功能手册 A05",
+      "chapter": "知识点 T-D27",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD810",
+      "母线故障定位"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-125",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 1,
+    "stem": "在 MD520 制动的现场联调中，哪项现场接线结论可直接用于检查表？",
+    "options": {
+      "A": "全部接 U/V/W",
+      "B": "制动端子可带电换线",
+      "C": "全部按 T1 图",
+      "D": "按 T8 以下 (+)/BR、T9 以上 (+)/(-) 的同机座图接线"
+    },
+    "answer": [
+      "D"
+    ],
+    "analysis": "任何接线前先执行断电、等待、测量。",
+    "source": {
+      "title": "MD520系列通用变频器硬件手册-CN-B02、功能手册-CN-B05、安全手册-CN-A04",
+      "chapter": "知识点 T-D28",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD520 制动",
+      "现场接线"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-126",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "关于 MD580 PROFIBUS 的通信速率，哪项技术处理符合手册边界？",
+    "options": {
+      "A": "9.6 kbit/s～12 Mbit/s，距离随速率约 1200～100 m",
+      "B": "只支持 100 Mbit/s",
+      "C": "协议无需终端电阻",
+      "D": "全速率都可 1200 m"
+    },
+    "answer": [
+      "A"
+    ],
+    "analysis": "实际距离、终端和屏蔽按通信手册核对。",
+    "source": {
+      "title": "MD580系列低压高性能工程型变频器用户/硬件/功能/通信手册 A03/B03；690 V 用户手册 A04",
+      "chapter": "知识点 T-D29",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD580 PROFIBUS",
+      "通信速率"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-127",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 1,
+    "stem": "技术人员核对 MD520/MD580 的输出频率时，应采用哪项？",
+    "options": {
+      "A": "599 Hz 可使任意电机无限速运行",
+      "B": "599 Hz 是驱动上限，不是电机许可转速",
+      "C": "频率上限等于载波",
+      "D": "不需要机械转速验算"
+    },
+    "answer": [
+      "B"
+    ],
+    "analysis": "客户高速需求还需核对电机和机械强度。",
+    "source": {
+      "title": "变频器速查审计（已核验）与变频器二次学习补充（2026-09）",
+      "chapter": "知识点 T-D30",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD520/MD580",
+      "输出频率"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-128",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "客户提出 MD630 故障记录的诊断取证疑问，哪项答复有依据？",
+    "options": {
+      "A": "只看当前显示一个字符",
+      "B": "读 30 组历史故障并核对时间、负载、电网、参数和波形",
+      "C": "直接更换驱动无复测",
+      "D": "清故障后不留证据"
+    },
+    "answer": [
+      "B"
+    ],
+    "analysis": "历史记录是线索，不是单独的最终根因。",
+    "source": {
+      "title": "MD630 Series 产品页",
+      "chapter": "知识点 T-D31",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD630 故障记录",
+      "诊断取证"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-129",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "在 MD800 STO 的现场联调中，哪项安全边界结论可直接用于检查表？",
+    "options": {
+      "A": "STO 可代替 PE",
+      "B": "任意逆变都标配 STO",
+      "C": "仅确认带 S 逆变分支及安全手册，不能以整流 B 代替 STO",
+      "D": "整流 B 就是双通道 STO"
+    },
+    "answer": [
+      "C"
+    ],
+    "analysis": "安全回路还须整机验证。",
+    "source": {
+      "title": "MD800系列多机传动变频器用户手册-CN-A07、综合手册-CN-A04、通信手册-CN-B05",
+      "chapter": "知识点 T-D32",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD800 STO",
+      "安全边界"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-130",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "关于 MD580 STO 的实施边界，哪项技术处理符合手册边界？",
+    "options": {
+      "A": "STO 可直接代替抱闸",
+      "B": "STO 不能代替断电、残压测量或机械保持",
+      "C": "STO 等于母线零电压",
+      "D": "软件急停等同 SIL3"
+    },
+    "answer": [
+      "B"
+    ],
+    "analysis": "检修与运动风险分别处理。",
+    "source": {
+      "title": "MD580 Single Drive Series 产品页",
+      "chapter": "知识点 T-D33",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD580 STO",
+      "实施边界"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-131",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "技术人员核对 MD880 黑盒的诊断能力时，应采用哪项？",
+    "options": {
+      "A": "与故障分析无关",
+      "B": "可替代所有测量",
+      "C": "只有 1 条数据",
+      "D": "官网资料提及 50 组波形与 1000 条数据，须核对具体配置"
+    },
+    "answer": [
+      "D"
+    ],
+    "analysis": "波形取证还需结合现场外部测量。",
+    "source": {
+      "title": "MD880 Series 官方产品资料",
+      "chapter": "知识点 T-D34",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD880 黑盒",
+      "诊断能力"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-132",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 1,
+    "stem": "客户提出 MD520 的电机辨识疑问，哪项答复有依据？",
+    "options": {
+      "A": "任何工况可在线无准备调谐",
+      "B": "F1-37=3 是恢复出厂",
+      "C": "不用录入电机铭牌",
+      "D": "F1-37=3 为静态完整调谐，按手册前提执行"
+    },
+    "answer": [
+      "D"
+    ],
+    "analysis": "调谐必须确认电机、机械和安全状态。",
+    "source": {
+      "title": "MD520系列通用变频器硬件手册-CN-B02、功能手册-CN-B05、安全手册-CN-A04",
+      "chapter": "知识点 T-D01",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD520",
+      "电机辨识"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-133",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "在 MD520 断电的现场联调中，哪项残余电压结论可直接用于检查表？",
+    "options": {
+      "A": "等待规定时间并测量直流母线电压后再作业",
+      "B": "只断开控制电源",
+      "C": "短接母线帮助放电",
+      "D": "看到指示灯灭即可碰端子"
+    },
+    "answer": [
+      "A"
+    ],
+    "analysis": "PM 电机被外力带动仍可能产生电压。",
+    "source": {
+      "title": "MD520系列通用变频器硬件手册-CN-B02、功能手册-CN-B05、安全手册-CN-A04",
+      "chapter": "知识点 T-D02",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD520 断电",
+      "残余电压"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-134",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "关于 MD520 PM 电机的外拖风险，哪项技术处理符合手册边界？",
+    "options": {
+      "A": "断电后一定零电压",
+      "B": "电机不可能反电动势",
+      "C": "只需打开 USB 端口",
+      "D": "外力拖动 PM 电机可能在驱动端产生危险电压"
+    },
+    "answer": [
+      "D"
+    ],
+    "analysis": "机械负载与旋转惯量必须纳入隔离。",
+    "source": {
+      "title": "MD520系列通用变频器硬件手册-CN-B02、功能手册-CN-B05、安全手册-CN-A04",
+      "chapter": "知识点 T-D03",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD520 PM 电机",
+      "外拖风险"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-135",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 1,
+    "stem": "技术人员核对 MD580 的SVC 调速范围时，应采用哪项？",
+    "options": {
+      "A": "只有固定 50 Hz",
+      "B": "1:200",
+      "C": "1:50",
+      "D": "1:1000"
+    },
+    "answer": [
+      "B"
+    ],
+    "analysis": "控制模式和电机类型共同限定性能。",
+    "source": {
+      "title": "MD580系列低压高性能工程型变频器用户/硬件/功能/通信手册 A03/B03；690 V 用户手册 A04",
+      "chapter": "知识点 T-D04",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD580",
+      "SVC 调速范围"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-136",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "客户提出 MD580 的高海拔边界疑问，哪项答复有依据？",
+    "options": {
+      "A": "与供电电网无关",
+      "B": "最高 4000 m；超过 2000 m 需隔离变压器条件",
+      "C": "仅 1000 m 且无措施",
+      "D": "海拔不限"
+    },
+    "answer": [
+      "B"
+    ],
+    "analysis": "海拔还影响散热与电气绝缘。",
+    "source": {
+      "title": "MD580系列低压高性能工程型变频器用户/硬件/功能/通信手册 A03/B03；690 V 用户手册 A04",
+      "chapter": "知识点 T-D05",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD580",
+      "高海拔边界"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-137",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 1,
+    "stem": "在 MD580 T10～T12 的现场联调中，哪项载波限制结论可直接用于检查表？",
+    "options": {
+      "A": "最高 16 kHz",
+      "B": "无需按机座区分",
+      "C": "固定 50 Hz",
+      "D": "最高 6 kHz"
+    },
+    "answer": [
+      "D"
+    ],
+    "analysis": "T2～T9 的 12/8 kHz 限制不能套给大机座。",
+    "source": {
+      "title": "MD580系列低压高性能工程型变频器用户/硬件/功能/通信手册 A03/B03；690 V 用户手册 A04",
+      "chapter": "知识点 T-D06",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD580 T10～T12",
+      "载波限制"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-138",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "关于 MD580 T10～T12 的柜体安装，哪项技术处理符合手册边界？",
+    "options": {
+      "A": "只能安装在户外",
+      "B": "可无间距任意叠装",
+      "C": "无需通风",
+      "D": "单机柜内不宜并排或上下叠装"
+    },
+    "answer": [
+      "D"
+    ],
+    "analysis": "散热要求按硬件手册和柜体热设计验证。",
+    "source": {
+      "title": "MD580系列低压高性能工程型变频器用户/硬件/功能/通信手册 A03/B03；690 V 用户手册 A04",
+      "chapter": "知识点 T-D07",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD580 T10～T12",
+      "柜体安装"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-139",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 1,
+    "stem": "技术人员核对 MD580 的故障保护时，应采用哪项？",
+    "options": {
+      "A": "缺相不影响运行",
+      "B": "任何故障只需重启",
+      "C": "STO 可替代过流保护",
+      "D": "应核对输入/输出缺相、过流、母线过欠压、制动异常等记录"
+    },
+    "answer": [
+      "D"
+    ],
+    "analysis": "诊断要结合黑盒和波形，而不是猜一个代码。",
+    "source": {
+      "title": "MD580系列低压高性能工程型变频器用户/硬件/功能/通信手册 A03/B03；690 V 用户手册 A04",
+      "chapter": "知识点 T-D08",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD580",
+      "故障保护"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-140",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "客户提出 MD580 的独立控制电源疑问，哪项答复有依据？",
+    "options": {
+      "A": "官网列出独立 24 V 控制电源",
+      "B": "只有 5 V USB 供电",
+      "C": "控制电源必须 690 V",
+      "D": "控制电源与主回路可任意混接"
+    },
+    "answer": [
+      "A"
+    ],
+    "analysis": "电源端子与电压按同机座图复核。",
+    "source": {
+      "title": "MD580 Single Drive Series 产品页",
+      "chapter": "知识点 T-D09",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD580",
+      "独立控制电源"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-141",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "在 MD630 的现场联调中，哪项温度降额结论可直接用于检查表？",
+    "options": {
+      "A": "工作温度没有上限",
+      "B": "超过 45 ℃降额 1.5%",
+      "C": "0～40 ℃，无需降额",
+      "D": "-20～60 ℃，超过 50 ℃每升高 1 ℃降额 2.5%"
+    },
+    "answer": [
+      "D"
+    ],
+    "analysis": "高温条件要并入柜体散热和负载选型。",
+    "source": {
+      "title": "MD630系列通用型变频器用户手册-CN-A00（PS00021993）",
+      "chapter": "知识点 T-D10",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD630",
+      "温度降额"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-142",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "关于 MD630 的海拔降额，哪项技术处理符合手册边界？",
+    "options": {
+      "A": "超过 4000 m 无需隔离",
+      "B": "超过 1000 m 每升高 100 m 降额 1%，最高 3000 m",
+      "C": "海拔无关",
+      "D": "每升高 100 m 增额 1%"
+    },
+    "answer": [
+      "B"
+    ],
+    "analysis": "海拔影响冷却和绝缘边界。",
+    "source": {
+      "title": "MD630系列通用型变频器用户手册-CN-A00（PS00021993）",
+      "chapter": "知识点 T-D11",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD630",
+      "海拔降额"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-143",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 1,
+    "stem": "技术人员核对 MD630 的强弱电分离时，应采用哪项？",
+    "options": {
+      "A": "动力电缆与信号电缆间距大于 30 cm",
+      "B": "紧贴捆扎最抗干扰",
+      "C": "距离只看载波频率",
+      "D": "只需 3 mm"
+    },
+    "answer": [
+      "A"
+    ],
+    "analysis": "布线还需注意交叉角度和屏蔽接地。",
+    "source": {
+      "title": "MD630系列通用型变频器用户手册-CN-A00（PS00021993）",
+      "chapter": "知识点 T-D12",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD630",
+      "强弱电分离"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-144",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 1,
+    "stem": "客户提出 MD630 的PE 接线疑问，哪项答复有依据？",
+    "options": {
+      "A": "只接电机外壳无需驱动 PE",
+      "B": "PE 不经断路器，不与 N 共用",
+      "C": "PE 与 N 可任意并接",
+      "D": "PE 可用接触器切断"
+    },
+    "answer": [
+      "B"
+    ],
+    "analysis": "保护接地属于不可省略的安全条件。",
+    "source": {
+      "title": "MD630系列通用型变频器用户手册-CN-A00（PS00021993）",
+      "chapter": "知识点 T-D13",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD630",
+      "PE 接线"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-145",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "在 MD630 的现场联调中，哪项外部控制电源结论可直接用于检查表？",
+    "options": {
+      "A": "可接任意电压",
+      "B": "E24V 为 EtherCAT 口",
+      "C": "E24V 为 690 V 母线",
+      "D": "E24V 为外部 24 V 端子"
+    },
+    "answer": [
+      "D"
+    ],
+    "analysis": "端子定义须按同型号用户手册确认。",
+    "source": {
+      "title": "MD630系列通用型变频器用户手册-CN-A00（PS00021993）",
+      "chapter": "知识点 T-D14",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD630",
+      "外部控制电源"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-146",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "关于 MD630 的CiA 402 前提，哪项技术处理符合手册边界？",
+    "options": {
+      "A": "只把 F0-03 设为 0",
+      "B": "A0-00 复位、F0-03=2、F0-29=9、nd-00=1 等条件需核对",
+      "C": "不需要复位和总线参数",
+      "D": "只插网线即可"
+    },
+    "answer": [
+      "B"
+    ],
+    "analysis": "CiA402 不是所有总线分支的默认状态。",
+    "source": {
+      "title": "MD630系列通用型变频器用户手册-CN-A00（PS00021993）",
+      "chapter": "知识点 T-D15",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD630",
+      "CiA 402 前提"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-147",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 1,
+    "stem": "技术人员核对 MD630 的故障响应设置时，应采用哪项？",
+    "options": {
+      "A": "手册列出 11 类动作，但并非所有故障可配置",
+      "B": "报警可代替安全停机",
+      "C": "全部故障可无条件屏蔽",
+      "D": "故障响应只有两类"
+    },
+    "answer": [
+      "A"
+    ],
+    "analysis": "不可配置故障要按手册和风险评估处理。",
+    "source": {
+      "title": "MD630系列通用型变频器用户手册-CN-A00（PS00021993）",
+      "chapter": "知识点 T-D16",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD630",
+      "故障响应设置"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-148",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 1,
+    "stem": "客户提出 MD800 的工作温度疑问，哪项答复有依据？",
+    "options": {
+      "A": "有过载 -20～40 ℃，无过载 -20～50 ℃；超限每 ℃降额 2.5%",
+      "B": "固定 25 ℃",
+      "C": "全工况 -20～60 ℃无降额",
+      "D": "温度只影响整流不影响逆变"
+    },
+    "answer": [
+      "A"
+    ],
+    "analysis": "热设计必须按过载状态区分。",
+    "source": {
+      "title": "MD800系列多机传动变频器用户手册-CN-A07、综合手册-CN-A04、通信手册-CN-B05",
+      "chapter": "知识点 T-D17",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD800",
+      "工作温度"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-149",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "在 MD800 的现场联调中，哪项海拔边界结论可直接用于检查表？",
+    "options": {
+      "A": "只可海拔 100 m",
+      "B": "星形电网最高 4000 m，角形电网最高 2000 m；1000 m 以上降额",
+      "C": "不需要确认电网接地",
+      "D": "两种电网均无限高"
+    },
+    "answer": [
+      "B"
+    ],
+    "analysis": "电网形态和绝缘要求要一起确认。",
+    "source": {
+      "title": "MD800系列多机传动变频器用户手册-CN-A07、综合手册-CN-A04、通信手册-CN-B05",
+      "chapter": "知识点 T-D18",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD800",
+      "海拔边界"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-150",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "关于 MD800 的安装间距，哪项技术处理符合手册边界？",
+    "options": {
+      "A": "侧面至少 55 mm，上下至少 200 mm",
+      "B": "间距可用软件参数替代",
+      "C": "只需侧面 1 mm",
+      "D": "所有方向零距离"
+    },
+    "answer": [
+      "A"
+    ],
+    "analysis": "书本型也有明确散热空间。",
+    "source": {
+      "title": "MD800系列多机传动变频器用户手册-CN-A07、综合手册-CN-A04、通信手册-CN-B05",
+      "chapter": "知识点 T-D19",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD800",
+      "安装间距"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-151",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 1,
+    "stem": "技术人员核对 MD800 的短路容量时，应采用哪项？",
+    "options": {
+      "A": "短路能力无限",
+      "B": "手册给出 100 kA 短路能力边界",
+      "C": "只有 1 kA",
+      "D": "只与编码器位数相关"
+    },
+    "answer": [
+      "B"
+    ],
+    "analysis": "还需结合上级保护器件和电网。",
+    "source": {
+      "title": "MD800系列多机传动变频器用户手册-CN-A07、综合手册-CN-A04、通信手册-CN-B05",
+      "chapter": "知识点 T-D20",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD800",
+      "短路容量"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-152",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "客户提出 MD810 的逆变控制模式疑问，哪项答复有依据？",
+    "options": {
+      "A": "PMSM 只支持 V/f",
+      "B": "MD800 控制模式可直接套用",
+      "C": "IM 支持 V/f、SVC、FVC；PMSM 支持 SVC、FVC",
+      "D": "IM 只支持 FVC"
+    },
+    "answer": [
+      "C"
+    ],
+    "analysis": "控制模式与反馈附件、电机类型密切相关。",
+    "source": {
+      "title": "MD810系列多机传动变频器硬件手册-CN-A04、功能手册 A05",
+      "chapter": "知识点 T-D21",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD810",
+      "逆变控制模式"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-153",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "在 MD810 的现场联调中，哪项载波范围结论可直接用于检查表？",
+    "options": {
+      "A": "全部固定 50 Hz",
+      "B": "V/f 0.8～12 kHz，SVC/FVC 2～6 kHz",
+      "C": "载波与模式无关",
+      "D": "全部固定 16 kHz"
+    },
+    "answer": [
+      "B"
+    ],
+    "analysis": "载波频率不同于输出频率。",
+    "source": {
+      "title": "MD810系列多机传动变频器硬件手册-CN-A04、功能手册 A05",
+      "chapter": "知识点 T-D22",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD810",
+      "载波范围"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-154",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "关于 MD810 的速度范围，哪项技术处理符合手册边界？",
+    "options": {
+      "A": "V/f 1:50、IM SVC 1:100、FVC 1:1000",
+      "B": "V/f 1:2000",
+      "C": "三个模式都是 1:1000",
+      "D": "范围与电机无关"
+    },
+    "answer": [
+      "A"
+    ],
+    "analysis": "性能值要注明对应模式与电机。",
+    "source": {
+      "title": "MD810系列多机传动变频器硬件手册-CN-A04、功能手册 A05",
+      "chapter": "知识点 T-D23",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD810",
+      "速度范围"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-155",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "技术人员核对 MD810 整流的通信协议时，应采用哪项？",
+    "options": {
+      "A": "内置 EtherCAT 且无其他协议",
+      "B": "协议与模块角色无关",
+      "C": "Modbus RTU/PROFIBUS/CANopen/CANlink/PROFINET",
+      "D": "只支持模拟量"
+    },
+    "answer": [
+      "C"
+    ],
+    "analysis": "整流与逆变通信清单不同。",
+    "source": {
+      "title": "MD810系列多机传动变频器硬件手册-CN-A04、功能手册 A05",
+      "chapter": "知识点 T-D24",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD810 整流",
+      "通信协议"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-156",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "客户提出 MD810 逆变的通信协议疑问，哪项答复有依据？",
+    "options": {
+      "A": "Modbus RTU/PROFIBUS/CANopen/CANlink/EtherCAT",
+      "B": "只支持 RS232",
+      "C": "仅 PROFINET",
+      "D": "与整流完全同协议"
+    },
+    "answer": [
+      "A"
+    ],
+    "analysis": "逆变 EtherCAT 为当前手册支持，不应沿用旧风险备注。",
+    "source": {
+      "title": "MD810系列多机传动变频器硬件手册-CN-A04、功能手册 A05",
+      "chapter": "知识点 T-D25",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD810 逆变",
+      "通信协议"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-157",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "在 MD810 的现场联调中，哪项冷却方案结论可直接用于检查表？",
+    "options": {
+      "A": "所有模块都水冷",
+      "B": "水冷可取代电气保护",
+      "C": "仅自然冷却",
+      "D": "风冷和水冷按具体模块选"
+    },
+    "answer": [
+      "D"
+    ],
+    "analysis": "冷却配件和柜内热设计要同系统核对。",
+    "source": {
+      "title": "MD810系列多机传动变频器硬件手册-CN-A04、功能手册 A05",
+      "chapter": "知识点 T-D26",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD810",
+      "冷却方案"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-158",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "关于 MD810 的母线故障定位，哪项技术处理符合手册边界？",
+    "options": {
+      "A": "先比对整流输入、母线工作范围与逆变负载记录",
+      "B": "把逆变输出当整流输入测",
+      "C": "只重启全部逆变",
+      "D": "不记录故障时间"
+    },
+    "answer": [
+      "A"
+    ],
+    "analysis": "多机系统的故障应按模块角色分层。",
+    "source": {
+      "title": "MD810系列多机传动变频器硬件手册-CN-A04、功能手册 A05",
+      "chapter": "知识点 T-D27",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD810",
+      "母线故障定位"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-159",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 1,
+    "stem": "技术人员核对 MD520 制动的现场接线时，应采用哪项？",
+    "options": {
+      "A": "全部接 U/V/W",
+      "B": "制动端子可带电换线",
+      "C": "按 T8 以下 (+)/BR、T9 以上 (+)/(-) 的同机座图接线",
+      "D": "全部按 T1 图"
+    },
+    "answer": [
+      "C"
+    ],
+    "analysis": "任何接线前先执行断电、等待、测量。",
+    "source": {
+      "title": "MD520系列通用变频器硬件手册-CN-B02、功能手册-CN-B05、安全手册-CN-A04",
+      "chapter": "知识点 T-D28",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD520 制动",
+      "现场接线"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-160",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 1,
+    "stem": "客户提出 MD580 PROFIBUS 的通信速率疑问，哪项答复有依据？",
+    "options": {
+      "A": "协议无需终端电阻",
+      "B": "9.6 kbit/s～12 Mbit/s，距离随速率约 1200～100 m",
+      "C": "只支持 100 Mbit/s",
+      "D": "全速率都可 1200 m"
+    },
+    "answer": [
+      "B"
+    ],
+    "analysis": "实际距离、终端和屏蔽按通信手册核对。",
+    "source": {
+      "title": "MD580系列低压高性能工程型变频器用户/硬件/功能/通信手册 A03/B03；690 V 用户手册 A04",
+      "chapter": "知识点 T-D29",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD580 PROFIBUS",
+      "通信速率"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-161",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 1,
+    "stem": "在 MD520/MD580 的现场联调中，哪项输出频率结论可直接用于检查表？",
+    "options": {
+      "A": "599 Hz 可使任意电机无限速运行",
+      "B": "不需要机械转速验算",
+      "C": "599 Hz 是驱动上限，不是电机许可转速",
+      "D": "频率上限等于载波"
+    },
+    "answer": [
+      "C"
+    ],
+    "analysis": "客户高速需求还需核对电机和机械强度。",
+    "source": {
+      "title": "变频器速查审计（已核验）与变频器二次学习补充（2026-09）",
+      "chapter": "知识点 T-D30",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD520/MD580",
+      "输出频率"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-162",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "关于 MD630 故障记录的诊断取证，哪项技术处理符合手册边界？",
+    "options": {
+      "A": "直接更换驱动无复测",
+      "B": "清故障后不留证据",
+      "C": "读 30 组历史故障并核对时间、负载、电网、参数和波形",
+      "D": "只看当前显示一个字符"
+    },
+    "answer": [
+      "C"
+    ],
+    "analysis": "历史记录是线索，不是单独的最终根因。",
+    "source": {
+      "title": "MD630 Series 产品页",
+      "chapter": "知识点 T-D31",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD630 故障记录",
+      "诊断取证"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-163",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "技术人员核对 MD800 STO 的安全边界时，应采用哪项？",
+    "options": {
+      "A": "仅确认带 S 逆变分支及安全手册，不能以整流 B 代替 STO",
+      "B": "STO 可代替 PE",
+      "C": "整流 B 就是双通道 STO",
+      "D": "任意逆变都标配 STO"
+    },
+    "answer": [
+      "A"
+    ],
+    "analysis": "安全回路还须整机验证。",
+    "source": {
+      "title": "MD800系列多机传动变频器用户手册-CN-A07、综合手册-CN-A04、通信手册-CN-B05",
+      "chapter": "知识点 T-D32",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD800 STO",
+      "安全边界"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-164",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "客户提出 MD580 STO 的实施边界疑问，哪项答复有依据？",
+    "options": {
+      "A": "STO 等于母线零电压",
+      "B": "STO 可直接代替抱闸",
+      "C": "STO 不能代替断电、残压测量或机械保持",
+      "D": "软件急停等同 SIL3"
+    },
+    "answer": [
+      "C"
+    ],
+    "analysis": "检修与运动风险分别处理。",
+    "source": {
+      "title": "MD580 Single Drive Series 产品页",
+      "chapter": "知识点 T-D33",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD580 STO",
+      "实施边界"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-165",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "在 MD880 黑盒的现场联调中，哪项诊断能力结论可直接用于检查表？",
+    "options": {
+      "A": "只有 1 条数据",
+      "B": "可替代所有测量",
+      "C": "官网资料提及 50 组波形与 1000 条数据，须核对具体配置",
+      "D": "与故障分析无关"
+    },
+    "answer": [
+      "C"
+    ],
+    "analysis": "波形取证还需结合现场外部测量。",
+    "source": {
+      "title": "MD880 Series 官方产品资料",
+      "chapter": "知识点 T-D34",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD880 黑盒",
+      "诊断能力"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-166",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "关于 MD520 的电机辨识，哪项技术处理符合手册边界？",
+    "options": {
+      "A": "不用录入电机铭牌",
+      "B": "任何工况可在线无准备调谐",
+      "C": "F1-37=3 是恢复出厂",
+      "D": "F1-37=3 为静态完整调谐，按手册前提执行"
+    },
+    "answer": [
+      "D"
+    ],
+    "analysis": "调谐必须确认电机、机械和安全状态。",
+    "source": {
+      "title": "MD520系列通用变频器硬件手册-CN-B02、功能手册-CN-B05、安全手册-CN-A04",
+      "chapter": "知识点 T-D01",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD520",
+      "电机辨识"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-167",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 1,
+    "stem": "技术人员核对 MD520 断电的残余电压时，应采用哪项？",
+    "options": {
+      "A": "只断开控制电源",
+      "B": "短接母线帮助放电",
+      "C": "看到指示灯灭即可碰端子",
+      "D": "等待规定时间并测量直流母线电压后再作业"
+    },
+    "answer": [
+      "D"
+    ],
+    "analysis": "PM 电机被外力带动仍可能产生电压。",
+    "source": {
+      "title": "MD520系列通用变频器硬件手册-CN-B02、功能手册-CN-B05、安全手册-CN-A04",
+      "chapter": "知识点 T-D02",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD520 断电",
+      "残余电压"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-168",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 1,
+    "stem": "客户提出 MD520 PM 电机的外拖风险疑问，哪项答复有依据？",
+    "options": {
+      "A": "电机不可能反电动势",
+      "B": "外力拖动 PM 电机可能在驱动端产生危险电压",
+      "C": "断电后一定零电压",
+      "D": "只需打开 USB 端口"
+    },
+    "answer": [
+      "B"
+    ],
+    "analysis": "机械负载与旋转惯量必须纳入隔离。",
+    "source": {
+      "title": "MD520系列通用变频器硬件手册-CN-B02、功能手册-CN-B05、安全手册-CN-A04",
+      "chapter": "知识点 T-D03",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD520 PM 电机",
+      "外拖风险"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-169",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "在 MD580 的现场联调中，哪项SVC 调速范围结论可直接用于检查表？",
+    "options": {
+      "A": "1:1000",
+      "B": "1:200",
+      "C": "只有固定 50 Hz",
+      "D": "1:50"
+    },
+    "answer": [
+      "B"
+    ],
+    "analysis": "控制模式和电机类型共同限定性能。",
+    "source": {
+      "title": "MD580系列低压高性能工程型变频器用户/硬件/功能/通信手册 A03/B03；690 V 用户手册 A04",
+      "chapter": "知识点 T-D04",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD580",
+      "SVC 调速范围"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-170",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "关于 MD580 的高海拔边界，哪项技术处理符合手册边界？",
+    "options": {
+      "A": "与供电电网无关",
+      "B": "海拔不限",
+      "C": "仅 1000 m 且无措施",
+      "D": "最高 4000 m；超过 2000 m 需隔离变压器条件"
+    },
+    "answer": [
+      "D"
+    ],
+    "analysis": "海拔还影响散热与电气绝缘。",
+    "source": {
+      "title": "MD580系列低压高性能工程型变频器用户/硬件/功能/通信手册 A03/B03；690 V 用户手册 A04",
+      "chapter": "知识点 T-D05",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD580",
+      "高海拔边界"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-171",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 1,
+    "stem": "技术人员核对 MD580 T10～T12 的载波限制时，应采用哪项？",
+    "options": {
+      "A": "无需按机座区分",
+      "B": "最高 6 kHz",
+      "C": "最高 16 kHz",
+      "D": "固定 50 Hz"
+    },
+    "answer": [
+      "B"
+    ],
+    "analysis": "T2～T9 的 12/8 kHz 限制不能套给大机座。",
+    "source": {
+      "title": "MD580系列低压高性能工程型变频器用户/硬件/功能/通信手册 A03/B03；690 V 用户手册 A04",
+      "chapter": "知识点 T-D06",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD580 T10～T12",
+      "载波限制"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-172",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 1,
+    "stem": "客户提出 MD580 T10～T12 的柜体安装疑问，哪项答复有依据？",
+    "options": {
+      "A": "只能安装在户外",
+      "B": "单机柜内不宜并排或上下叠装",
+      "C": "无需通风",
+      "D": "可无间距任意叠装"
+    },
+    "answer": [
+      "B"
+    ],
+    "analysis": "散热要求按硬件手册和柜体热设计验证。",
+    "source": {
+      "title": "MD580系列低压高性能工程型变频器用户/硬件/功能/通信手册 A03/B03；690 V 用户手册 A04",
+      "chapter": "知识点 T-D07",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD580 T10～T12",
+      "柜体安装"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-173",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 1,
+    "stem": "在 MD580 的现场联调中，哪项故障保护结论可直接用于检查表？",
+    "options": {
+      "A": "STO 可替代过流保护",
+      "B": "缺相不影响运行",
+      "C": "任何故障只需重启",
+      "D": "应核对输入/输出缺相、过流、母线过欠压、制动异常等记录"
+    },
+    "answer": [
+      "D"
+    ],
+    "analysis": "诊断要结合黑盒和波形，而不是猜一个代码。",
+    "source": {
+      "title": "MD580系列低压高性能工程型变频器用户/硬件/功能/通信手册 A03/B03；690 V 用户手册 A04",
+      "chapter": "知识点 T-D08",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD580",
+      "故障保护"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-174",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "关于 MD580 的独立控制电源，哪项技术处理符合手册边界？",
+    "options": {
+      "A": "官网列出独立 24 V 控制电源",
+      "B": "控制电源与主回路可任意混接",
+      "C": "只有 5 V USB 供电",
+      "D": "控制电源必须 690 V"
+    },
+    "answer": [
+      "A"
+    ],
+    "analysis": "电源端子与电压按同机座图复核。",
+    "source": {
+      "title": "MD580 Single Drive Series 产品页",
+      "chapter": "知识点 T-D09",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD580",
+      "独立控制电源"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-175",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "技术人员核对 MD630 的温度降额时，应采用哪项？",
+    "options": {
+      "A": "0～40 ℃，无需降额",
+      "B": "-20～60 ℃，超过 50 ℃每升高 1 ℃降额 2.5%",
+      "C": "工作温度没有上限",
+      "D": "超过 45 ℃降额 1.5%"
+    },
+    "answer": [
+      "B"
+    ],
+    "analysis": "高温条件要并入柜体散热和负载选型。",
+    "source": {
+      "title": "MD630系列通用型变频器用户手册-CN-A00（PS00021993）",
+      "chapter": "知识点 T-D10",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD630",
+      "温度降额"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-176",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "客户提出 MD630 的海拔降额疑问，哪项答复有依据？",
+    "options": {
+      "A": "超过 1000 m 每升高 100 m 降额 1%，最高 3000 m",
+      "B": "超过 4000 m 无需隔离",
+      "C": "海拔无关",
+      "D": "每升高 100 m 增额 1%"
+    },
+    "answer": [
+      "A"
+    ],
+    "analysis": "海拔影响冷却和绝缘边界。",
+    "source": {
+      "title": "MD630系列通用型变频器用户手册-CN-A00（PS00021993）",
+      "chapter": "知识点 T-D11",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD630",
+      "海拔降额"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-177",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "在 MD630 的现场联调中，哪项强弱电分离结论可直接用于检查表？",
+    "options": {
+      "A": "动力电缆与信号电缆间距大于 30 cm",
+      "B": "紧贴捆扎最抗干扰",
+      "C": "距离只看载波频率",
+      "D": "只需 3 mm"
+    },
+    "answer": [
+      "A"
+    ],
+    "analysis": "布线还需注意交叉角度和屏蔽接地。",
+    "source": {
+      "title": "MD630系列通用型变频器用户手册-CN-A00（PS00021993）",
+      "chapter": "知识点 T-D12",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD630",
+      "强弱电分离"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-178",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "关于 MD630 的PE 接线，哪项技术处理符合手册边界？",
+    "options": {
+      "A": "PE 不经断路器，不与 N 共用",
+      "B": "只接电机外壳无需驱动 PE",
+      "C": "PE 与 N 可任意并接",
+      "D": "PE 可用接触器切断"
+    },
+    "answer": [
+      "A"
+    ],
+    "analysis": "保护接地属于不可省略的安全条件。",
+    "source": {
+      "title": "MD630系列通用型变频器用户手册-CN-A00（PS00021993）",
+      "chapter": "知识点 T-D13",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD630",
+      "PE 接线"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-179",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 1,
+    "stem": "技术人员核对 MD630 的外部控制电源时，应采用哪项？",
+    "options": {
+      "A": "E24V 为外部 24 V 端子",
+      "B": "E24V 为 690 V 母线",
+      "C": "可接任意电压",
+      "D": "E24V 为 EtherCAT 口"
+    },
+    "answer": [
+      "A"
+    ],
+    "analysis": "端子定义须按同型号用户手册确认。",
+    "source": {
+      "title": "MD630系列通用型变频器用户手册-CN-A00（PS00021993）",
+      "chapter": "知识点 T-D14",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD630",
+      "外部控制电源"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-180",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 1,
+    "stem": "客户提出 MD630 的CiA 402 前提疑问，哪项答复有依据？",
+    "options": {
+      "A": "只插网线即可",
+      "B": "A0-00 复位、F0-03=2、F0-29=9、nd-00=1 等条件需核对",
+      "C": "不需要复位和总线参数",
+      "D": "只把 F0-03 设为 0"
+    },
+    "answer": [
+      "B"
+    ],
+    "analysis": "CiA402 不是所有总线分支的默认状态。",
+    "source": {
+      "title": "MD630系列通用型变频器用户手册-CN-A00（PS00021993）",
+      "chapter": "知识点 T-D15",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD630",
+      "CiA 402 前提"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-181",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "在 MD630 的现场联调中，哪项故障响应设置结论可直接用于检查表？",
+    "options": {
+      "A": "报警可代替安全停机",
+      "B": "手册列出 11 类动作，但并非所有故障可配置",
+      "C": "全部故障可无条件屏蔽",
+      "D": "故障响应只有两类"
+    },
+    "answer": [
+      "B"
+    ],
+    "analysis": "不可配置故障要按手册和风险评估处理。",
+    "source": {
+      "title": "MD630系列通用型变频器用户手册-CN-A00（PS00021993）",
+      "chapter": "知识点 T-D16",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD630",
+      "故障响应设置"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-182",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "关于 MD800 的工作温度，哪项技术处理符合手册边界？",
+    "options": {
+      "A": "全工况 -20～60 ℃无降额",
+      "B": "固定 25 ℃",
+      "C": "有过载 -20～40 ℃，无过载 -20～50 ℃；超限每 ℃降额 2.5%",
+      "D": "温度只影响整流不影响逆变"
+    },
+    "answer": [
+      "C"
+    ],
+    "analysis": "热设计必须按过载状态区分。",
+    "source": {
+      "title": "MD800系列多机传动变频器用户手册-CN-A07、综合手册-CN-A04、通信手册-CN-B05",
+      "chapter": "知识点 T-D17",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD800",
+      "工作温度"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-183",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "技术人员核对 MD800 的海拔边界时，应采用哪项？",
+    "options": {
+      "A": "不需要确认电网接地",
+      "B": "两种电网均无限高",
+      "C": "星形电网最高 4000 m，角形电网最高 2000 m；1000 m 以上降额",
+      "D": "只可海拔 100 m"
+    },
+    "answer": [
+      "C"
+    ],
+    "analysis": "电网形态和绝缘要求要一起确认。",
+    "source": {
+      "title": "MD800系列多机传动变频器用户手册-CN-A07、综合手册-CN-A04、通信手册-CN-B05",
+      "chapter": "知识点 T-D18",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD800",
+      "海拔边界"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-184",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 1,
+    "stem": "客户提出 MD800 的安装间距疑问，哪项答复有依据？",
+    "options": {
+      "A": "间距可用软件参数替代",
+      "B": "只需侧面 1 mm",
+      "C": "侧面至少 55 mm，上下至少 200 mm",
+      "D": "所有方向零距离"
+    },
+    "answer": [
+      "C"
+    ],
+    "analysis": "书本型也有明确散热空间。",
+    "source": {
+      "title": "MD800系列多机传动变频器用户手册-CN-A07、综合手册-CN-A04、通信手册-CN-B05",
+      "chapter": "知识点 T-D19",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD800",
+      "安装间距"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-185",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 1,
+    "stem": "在 MD800 的现场联调中，哪项短路容量结论可直接用于检查表？",
+    "options": {
+      "A": "短路能力无限",
+      "B": "手册给出 100 kA 短路能力边界",
+      "C": "只与编码器位数相关",
+      "D": "只有 1 kA"
+    },
+    "answer": [
+      "B"
+    ],
+    "analysis": "还需结合上级保护器件和电网。",
+    "source": {
+      "title": "MD800系列多机传动变频器用户手册-CN-A07、综合手册-CN-A04、通信手册-CN-B05",
+      "chapter": "知识点 T-D20",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD800",
+      "短路容量"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-186",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "关于 MD810 的逆变控制模式，哪项技术处理符合手册边界？",
+    "options": {
+      "A": "PMSM 只支持 V/f",
+      "B": "MD800 控制模式可直接套用",
+      "C": "IM 只支持 FVC",
+      "D": "IM 支持 V/f、SVC、FVC；PMSM 支持 SVC、FVC"
+    },
+    "answer": [
+      "D"
+    ],
+    "analysis": "控制模式与反馈附件、电机类型密切相关。",
+    "source": {
+      "title": "MD810系列多机传动变频器硬件手册-CN-A04、功能手册 A05",
+      "chapter": "知识点 T-D21",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD810",
+      "逆变控制模式"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-187",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 1,
+    "stem": "技术人员核对 MD810 的载波范围时，应采用哪项？",
+    "options": {
+      "A": "全部固定 16 kHz",
+      "B": "V/f 0.8～12 kHz，SVC/FVC 2～6 kHz",
+      "C": "全部固定 50 Hz",
+      "D": "载波与模式无关"
+    },
+    "answer": [
+      "B"
+    ],
+    "analysis": "载波频率不同于输出频率。",
+    "source": {
+      "title": "MD810系列多机传动变频器硬件手册-CN-A04、功能手册 A05",
+      "chapter": "知识点 T-D22",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD810",
+      "载波范围"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-188",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "客户提出 MD810 的速度范围疑问，哪项答复有依据？",
+    "options": {
+      "A": "范围与电机无关",
+      "B": "V/f 1:2000",
+      "C": "三个模式都是 1:1000",
+      "D": "V/f 1:50、IM SVC 1:100、FVC 1:1000"
+    },
+    "answer": [
+      "D"
+    ],
+    "analysis": "性能值要注明对应模式与电机。",
+    "source": {
+      "title": "MD810系列多机传动变频器硬件手册-CN-A04、功能手册 A05",
+      "chapter": "知识点 T-D23",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD810",
+      "速度范围"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-189",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "在 MD810 整流的现场联调中，哪项通信协议结论可直接用于检查表？",
+    "options": {
+      "A": "内置 EtherCAT 且无其他协议",
+      "B": "只支持模拟量",
+      "C": "Modbus RTU/PROFIBUS/CANopen/CANlink/PROFINET",
+      "D": "协议与模块角色无关"
+    },
+    "answer": [
+      "C"
+    ],
+    "analysis": "整流与逆变通信清单不同。",
+    "source": {
+      "title": "MD810系列多机传动变频器硬件手册-CN-A04、功能手册 A05",
+      "chapter": "知识点 T-D24",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD810 整流",
+      "通信协议"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-190",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "关于 MD810 逆变的通信协议，哪项技术处理符合手册边界？",
+    "options": {
+      "A": "只支持 RS232",
+      "B": "仅 PROFINET",
+      "C": "Modbus RTU/PROFIBUS/CANopen/CANlink/EtherCAT",
+      "D": "与整流完全同协议"
+    },
+    "answer": [
+      "C"
+    ],
+    "analysis": "逆变 EtherCAT 为当前手册支持，不应沿用旧风险备注。",
+    "source": {
+      "title": "MD810系列多机传动变频器硬件手册-CN-A04、功能手册 A05",
+      "chapter": "知识点 T-D25",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD810 逆变",
+      "通信协议"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-191",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 1,
+    "stem": "技术人员核对 MD810 的冷却方案时，应采用哪项？",
+    "options": {
+      "A": "风冷和水冷按具体模块选",
+      "B": "水冷可取代电气保护",
+      "C": "仅自然冷却",
+      "D": "所有模块都水冷"
+    },
+    "answer": [
+      "A"
+    ],
+    "analysis": "冷却配件和柜内热设计要同系统核对。",
+    "source": {
+      "title": "MD810系列多机传动变频器硬件手册-CN-A04、功能手册 A05",
+      "chapter": "知识点 T-D26",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD810",
+      "冷却方案"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-192",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 1,
+    "stem": "客户提出 MD810 的母线故障定位疑问，哪项答复有依据？",
+    "options": {
+      "A": "先比对整流输入、母线工作范围与逆变负载记录",
+      "B": "把逆变输出当整流输入测",
+      "C": "不记录故障时间",
+      "D": "只重启全部逆变"
+    },
+    "answer": [
+      "A"
+    ],
+    "analysis": "多机系统的故障应按模块角色分层。",
+    "source": {
+      "title": "MD810系列多机传动变频器硬件手册-CN-A04、功能手册 A05",
+      "chapter": "知识点 T-D27",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD810",
+      "母线故障定位"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-193",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "在 MD520 制动的现场联调中，哪项现场接线结论可直接用于检查表？",
+    "options": {
+      "A": "全部接 U/V/W",
+      "B": "全部按 T1 图",
+      "C": "制动端子可带电换线",
+      "D": "按 T8 以下 (+)/BR、T9 以上 (+)/(-) 的同机座图接线"
+    },
+    "answer": [
+      "D"
+    ],
+    "analysis": "任何接线前先执行断电、等待、测量。",
+    "source": {
+      "title": "MD520系列通用变频器硬件手册-CN-B02、功能手册-CN-B05、安全手册-CN-A04",
+      "chapter": "知识点 T-D28",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD520 制动",
+      "现场接线"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-194",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "关于 MD580 PROFIBUS 的通信速率，哪项技术处理符合手册边界？",
+    "options": {
+      "A": "只支持 100 Mbit/s",
+      "B": "协议无需终端电阻",
+      "C": "全速率都可 1200 m",
+      "D": "9.6 kbit/s～12 Mbit/s，距离随速率约 1200～100 m"
+    },
+    "answer": [
+      "D"
+    ],
+    "analysis": "实际距离、终端和屏蔽按通信手册核对。",
+    "source": {
+      "title": "MD580系列低压高性能工程型变频器用户/硬件/功能/通信手册 A03/B03；690 V 用户手册 A04",
+      "chapter": "知识点 T-D29",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD580 PROFIBUS",
+      "通信速率"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-195",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 1,
+    "stem": "技术人员核对 MD520/MD580 的输出频率时，应采用哪项？",
+    "options": {
+      "A": "频率上限等于载波",
+      "B": "599 Hz 是驱动上限，不是电机许可转速",
+      "C": "599 Hz 可使任意电机无限速运行",
+      "D": "不需要机械转速验算"
+    },
+    "answer": [
+      "B"
+    ],
+    "analysis": "客户高速需求还需核对电机和机械强度。",
+    "source": {
+      "title": "变频器速查审计（已核验）与变频器二次学习补充（2026-09）",
+      "chapter": "知识点 T-D30",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD520/MD580",
+      "输出频率"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-196",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "客户提出 MD630 故障记录的诊断取证疑问，哪项答复有依据？",
+    "options": {
+      "A": "只看当前显示一个字符",
+      "B": "清故障后不留证据",
+      "C": "直接更换驱动无复测",
+      "D": "读 30 组历史故障并核对时间、负载、电网、参数和波形"
+    },
+    "answer": [
+      "D"
+    ],
+    "analysis": "历史记录是线索，不是单独的最终根因。",
+    "source": {
+      "title": "MD630 Series 产品页",
+      "chapter": "知识点 T-D31",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD630 故障记录",
+      "诊断取证"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-197",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "在 MD800 STO 的现场联调中，哪项安全边界结论可直接用于检查表？",
+    "options": {
+      "A": "整流 B 就是双通道 STO",
+      "B": "STO 可代替 PE",
+      "C": "仅确认带 S 逆变分支及安全手册，不能以整流 B 代替 STO",
+      "D": "任意逆变都标配 STO"
+    },
+    "answer": [
+      "C"
+    ],
+    "analysis": "安全回路还须整机验证。",
+    "source": {
+      "title": "MD800系列多机传动变频器用户手册-CN-A07、综合手册-CN-A04、通信手册-CN-B05",
+      "chapter": "知识点 T-D32",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD800 STO",
+      "安全边界"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-198",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "关于 MD580 STO 的实施边界，哪项技术处理符合手册边界？",
+    "options": {
+      "A": "STO 等于母线零电压",
+      "B": "软件急停等同 SIL3",
+      "C": "STO 不能代替断电、残压测量或机械保持",
+      "D": "STO 可直接代替抱闸"
+    },
+    "answer": [
+      "C"
+    ],
+    "analysis": "检修与运动风险分别处理。",
+    "source": {
+      "title": "MD580 Single Drive Series 产品页",
+      "chapter": "知识点 T-D33",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD580 STO",
+      "实施边界"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-199",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "技术人员核对 MD880 黑盒的诊断能力时，应采用哪项？",
+    "options": {
+      "A": "与故障分析无关",
+      "B": "官网资料提及 50 组波形与 1000 条数据，须核对具体配置",
+      "C": "可替代所有测量",
+      "D": "只有 1 条数据"
+    },
+    "answer": [
+      "B"
+    ],
+    "analysis": "波形取证还需结合现场外部测量。",
+    "source": {
+      "title": "MD880 Series 官方产品资料",
+      "chapter": "知识点 T-D34",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD880 黑盒",
+      "诊断能力"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-200",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "客户提出 MD520 的电机辨识疑问，哪项答复有依据？",
+    "options": {
+      "A": "F1-37=3 为静态完整调谐，按手册前提执行",
+      "B": "不用录入电机铭牌",
+      "C": "任何工况可在线无准备调谐",
+      "D": "F1-37=3 是恢复出厂"
+    },
+    "answer": [
+      "A"
+    ],
+    "analysis": "调谐必须确认电机、机械和安全状态。",
+    "source": {
+      "title": "MD520系列通用变频器硬件手册-CN-B02、功能手册-CN-B05、安全手册-CN-A04",
+      "chapter": "知识点 T-D01",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD520",
+      "电机辨识"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-201",
+    "category": "inverter",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "在 MD520 断电的现场联调中，哪项残余电压结论可直接用于检查表？",
+    "options": {
+      "A": "短接母线帮助放电",
+      "B": "等待规定时间并测量直流母线电压后再作业",
+      "C": "只断开控制电源",
+      "D": "看到指示灯灭即可碰端子"
+    },
+    "answer": [
+      "B"
+    ],
+    "analysis": "PM 电机被外力带动仍可能产生电压。",
+    "source": {
+      "title": "MD520系列通用变频器硬件手册-CN-B02、功能手册-CN-B05、安全手册-CN-A04",
+      "chapter": "知识点 T-D02",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD520 断电",
+      "残余电压"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-202",
+    "category": "inverter",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：MD520 在电网类型方面应按“TN、TT、IT(Y) 可按手册条件使用”核对。",
+    "options": null,
+    "answer": [
+      "T"
+    ],
+    "analysis": "正确边界：MD520 在电网类型方面应按“TN、TT、IT(Y) 可按手册条件使用”核对。 IT 系统还需按手册核对滤波和接地条件。",
+    "source": {
+      "title": "MD520系列通用变频器硬件手册-CN-B02、功能手册-CN-B05、安全手册-CN-A04",
+      "chapter": "知识点 D06",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD520",
+      "电网类型"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-203",
+    "category": "inverter",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：MD520 型号 B 字段在制动含义方面应按“B 表示 CANopen”核对。",
+    "options": null,
+    "answer": [
+      "F"
+    ],
+    "analysis": "正确边界：MD520 型号 B 字段在制动含义方面应按“B 表示内置制动单元/配置字段，须按功率机座表确认”核对。 制动单元和制动电阻不是同一个部件。",
+    "source": {
+      "title": "MD520系列通用变频器硬件手册-CN-B02、功能手册-CN-B05、安全手册-CN-A04",
+      "chapter": "知识点 D07",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD520 型号 B 字段",
+      "制动含义"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-204",
+    "category": "inverter",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：MD520 T1～T4 在制动边界方面应按“0.4～15 kW 档内置制动单元”核对。",
+    "options": null,
+    "answer": [
+      "T"
+    ],
+    "analysis": "正确边界：MD520 T1～T4 在制动边界方面应按“0.4～15 kW 档内置制动单元”核对。 机座分组直接影响制动 BOM。",
+    "source": {
+      "title": "MD520系列通用变频器硬件手册-CN-B02、功能手册-CN-B05、安全手册-CN-A04",
+      "chapter": "知识点 D08",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD520 T1～T4",
+      "制动边界"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-205",
+    "category": "inverter",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：MD520 T9～T13 在制动配置方面应按“0.4～15 kW 档标配外部 MDBUN”核对。",
+    "options": null,
+    "answer": [
+      "F"
+    ],
+    "analysis": "正确边界：MD520 T9～T13 在制动配置方面应按“132～630 kW 档配外部 MDBUN”核对。 外置制动单元还需确认额定能力和接线。",
+    "source": {
+      "title": "MD520系列通用变频器硬件手册-CN-B02、功能手册-CN-B05、安全手册-CN-A04",
+      "chapter": "知识点 D09",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD520 T9～T13",
+      "制动配置"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-206",
+    "category": "inverter",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：MD520 制动端子在机座差异方面应按“T8 及以下为 (+)/BR，T9 及以上为 (+)/(-)”核对。",
+    "options": null,
+    "answer": [
+      "T"
+    ],
+    "analysis": "正确边界：MD520 制动端子在机座差异方面应按“T8 及以下为 (+)/BR，T9 及以上为 (+)/(-)”核对。 端子图必须与实际机座一致。",
+    "source": {
+      "title": "MD520系列通用变频器硬件手册-CN-B02、功能手册-CN-B05、安全手册-CN-A04",
+      "chapter": "知识点 D10",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD520 制动端子",
+      "机座差异"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-207",
+    "category": "inverter",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：MD580 在产品定位方面应按“小功率通用伺服”核对。",
+    "options": null,
+    "answer": [
+      "F"
+    ],
+    "analysis": "正确边界：MD580 在产品定位方面应按“低压高性能工程型单机变频器”核对。 工程型仍需按具体电压和过载等级选型。",
+    "source": {
+      "title": "MD580 Single Drive Series 产品页",
+      "chapter": "知识点 D11",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD580",
+      "产品定位"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-208",
+    "category": "inverter",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：MD580 380 V 在P/G 双定额方面应按“P 110%/60 s，G 150%/60 s”核对。",
+    "options": null,
+    "answer": [
+      "T"
+    ],
+    "analysis": "正确边界：MD580 380 V 在P/G 双定额方面应按“P 110%/60 s，G 150%/60 s”核对。 负载特性决定采用 P 档还是 G 档。",
+    "source": {
+      "title": "MD580系列低压高性能工程型变频器用户/硬件/功能/通信手册 A03/B03；690 V 用户手册 A04",
+      "chapter": "知识点 D12",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD580 380 V",
+      "P/G 双定额"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-209",
+    "category": "inverter",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：MD580 在最大输出频率方面应按“50 Hz”核对。",
+    "options": null,
+    "answer": [
+      "F"
+    ],
+    "analysis": "正确边界：MD580 在最大输出频率方面应按“599 Hz”核对。 不能把载波频率与输出频率混淆。",
+    "source": {
+      "title": "MD580系列低压高性能工程型变频器用户/硬件/功能/通信手册 A03/B03；690 V 用户手册 A04",
+      "chapter": "知识点 D13",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD580",
+      "最大输出频率"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-210",
+    "category": "inverter",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：MD580 690 V 在低压边界方面应按“690 V 版本仍属于 MD580 低压工程型系列”核对。",
+    "options": null,
+    "answer": [
+      "T"
+    ],
+    "analysis": "正确边界：MD580 690 V 在低压边界方面应按“690 V 版本仍属于 MD580 低压工程型系列”核对。 电压级别要回到对应版本硬件手册。",
+    "source": {
+      "title": "MD580系列低压高性能工程型变频器用户/硬件/功能/通信手册 A03/B03；690 V 用户手册 A04",
+      "chapter": "知识点 D14",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD580 690 V",
+      "低压边界"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-211",
+    "category": "inverter",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：MD580 690 V 在电抗配置方面应按“不允许用电抗器”核对。",
+    "options": null,
+    "answer": [
+      "F"
+    ],
+    "analysis": "正确边界：MD580 690 V 在电抗配置方面应按“双直流电抗器”核对。 不同电压级别配件不可凭系列名称横向套用。",
+    "source": {
+      "title": "MD580系列低压高性能工程型变频器用户/硬件/功能/通信手册 A03/B03；690 V 用户手册 A04",
+      "chapter": "知识点 D15",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD580 690 V",
+      "电抗配置"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-212",
+    "category": "inverter",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：MD580 在STO方面应按“官网列出 SIL3 级 STO 功能”核对。",
+    "options": null,
+    "answer": [
+      "T"
+    ],
+    "analysis": "正确边界：MD580 在STO方面应按“官网列出 SIL3 级 STO 功能”核对。 STO 的可用性还需按具体选件和安全手册确认。",
+    "source": {
+      "title": "MD580 Single Drive Series 产品页",
+      "chapter": "知识点 D16",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD580",
+      "STO"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-213",
+    "category": "inverter",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：MD580 在长电机线方面应按“任何距离都无需复核”核对。",
+    "options": null,
+    "answer": [
+      "F"
+    ],
+    "analysis": "正确边界：MD580 在长电机线方面应按“官网给出 300 m 电机线无需电抗器的产品特性，仍须按配置复核”核对。 官网特性不是对任意现场布线的无条件承诺。",
+    "source": {
+      "title": "MD580 Single Drive Series 产品页",
+      "chapter": "知识点 D17",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD580",
+      "长电机线"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-214",
+    "category": "inverter",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：MD630 在产品定位方面应按“通用数字智能型低压变频器”核对。",
+    "options": null,
+    "answer": [
+      "T"
+    ],
+    "analysis": "正确边界：MD630 在产品定位方面应按“通用数字智能型低压变频器”核对。 MD630 仍要结合输入、负载和协议核对。",
+    "source": {
+      "title": "MD630 Series 产品页",
+      "chapter": "知识点 D18",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD630",
+      "产品定位"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-215",
+    "category": "inverter",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：MD630 在功率范围方面应按“0.05～7.5 kW”核对。",
+    "options": null,
+    "answer": [
+      "F"
+    ],
+    "analysis": "正确边界：MD630 在功率范围方面应按“0.37～90 kW，8 个机座”核对。 功率范围要按当前完整型号和分支确认。",
+    "source": {
+      "title": "MD630系列通用型变频器用户手册-CN-A00（PS00021993）",
+      "chapter": "知识点 D19",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD630",
+      "功率范围"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-216",
+    "category": "inverter",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：MD630 在电机兼容方面应按“IM、PMSM、SynRM”核对。",
+    "options": null,
+    "answer": [
+      "T"
+    ],
+    "analysis": "正确边界：MD630 在电机兼容方面应按“IM、PMSM、SynRM”核对。 兼容电机类型不等于无需电机参数辨识。",
+    "source": {
+      "title": "MD630系列通用型变频器用户手册-CN-A00（PS00021993）",
+      "chapter": "知识点 D20",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD630",
+      "电机兼容"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-217",
+    "category": "inverter",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：MD630 型号在字段含义方面应按“S 只代表功率、N 是制动、B 是电压”核对。",
+    "options": null,
+    "answer": [
+      "F"
+    ],
+    "analysis": "正确边界：MD630 型号在字段含义方面应按“S 标准、N 总线、B 制动，末尾 S 表 STO”核对。 位置不同的 S 字段意义不同。",
+    "source": {
+      "title": "MD630系列通用型变频器用户手册-CN-A00（PS00021993）",
+      "chapter": "知识点 D21",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD630 型号",
+      "字段含义"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-218",
+    "category": "inverter",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：MD630 4T 在输入电压方面应按“三相 380～480 V”核对。",
+    "options": null,
+    "answer": [
+      "T"
+    ],
+    "analysis": "正确边界：MD630 4T 在输入电压方面应按“三相 380～480 V”核对。 4T 电压字段必须和机柜电网一起核对。",
+    "source": {
+      "title": "MD630系列通用型变频器用户手册-CN-A00（PS00021993）",
+      "chapter": "知识点 D22",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD630 4T",
+      "输入电压"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-219",
+    "category": "inverter",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：MD630 在历史故障记录方面应按“只能记 1 组”核对。",
+    "options": null,
+    "answer": [
+      "F"
+    ],
+    "analysis": "正确边界：MD630 在历史故障记录方面应按“可长期存储 30 组历史故障”核对。 故障记录有助于诊断，但仍需实际工况证据。",
+    "source": {
+      "title": "MD630 Series 产品页",
+      "chapter": "知识点 D23",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD630",
+      "历史故障记录"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-220",
+    "category": "inverter",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：MD630 在机柜空间方面应按“官网称可节省超过 30% 柜内空间”核对。",
+    "options": null,
+    "answer": [
+      "T"
+    ],
+    "analysis": "正确边界：MD630 在机柜空间方面应按“官网称可节省超过 30% 柜内空间”核对。 空间宣传应按实际机座尺寸和散热设计复核。",
+    "source": {
+      "title": "MD630 Series 产品页",
+      "chapter": "知识点 D24",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD630",
+      "机柜空间"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-221",
+    "category": "inverter",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：MD800 在产品定位方面应按“高压单机变频器”核对。",
+    "options": null,
+    "answer": [
+      "F"
+    ],
+    "analysis": "正确边界：MD800 在产品定位方面应按“低功率、多机传动、书本型变频器”核对。 多机方案还需核对整流与逆变容量配比。",
+    "source": {
+      "title": "MD800 Series 产品页",
+      "chapter": "知识点 D25",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD800",
+      "产品定位"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-222",
+    "category": "inverter",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：MD800 在内置通信方面应按“CANopen、CANlink、Modbus RTU”核对。",
+    "options": null,
+    "answer": [
+      "T"
+    ],
+    "analysis": "正确边界：MD800 在内置通信方面应按“CANopen、CANlink、Modbus RTU”核对。 扩展通信与内置通信不能混写。",
+    "source": {
+      "title": "MD800 Series 产品页",
+      "chapter": "知识点 D26",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD800",
+      "内置通信"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-223",
+    "category": "inverter",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：MD800 在扩展通信方面应按“只能扩展 RS232”核对。",
+    "options": null,
+    "answer": [
+      "F"
+    ],
+    "analysis": "正确边界：MD800 在扩展通信方面应按“可扩展 PROFINET、EtherCAT、EtherNet/IP”核对。 订货时要确认扩展卡和主站方案。",
+    "source": {
+      "title": "MD800 Series 产品页",
+      "chapter": "知识点 D27",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD800",
+      "扩展通信"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-224",
+    "category": "inverter",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：MD800 在控制方式方面应按“V/f 与 SVC，不能把 FVC 视为标配”核对。",
+    "options": null,
+    "answer": [
+      "T"
+    ],
+    "analysis": "正确边界：MD800 在控制方式方面应按“V/f 与 SVC，不能把 FVC 视为标配”核对。 控制方式按当前手册，勿用相邻 MD810 功能套用。",
+    "source": {
+      "title": "MD800系列多机传动变频器用户手册-CN-A07、综合手册-CN-A04、通信手册-CN-B05",
+      "chapter": "知识点 D28",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD800",
+      "控制方式"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-225",
+    "category": "inverter",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：MD800 单轴逆变在功率边界方面应按“2T/4T 均为 200～355 kW”核对。",
+    "options": null,
+    "answer": [
+      "F"
+    ],
+    "analysis": "正确边界：MD800 单轴逆变在功率边界方面应按“2T 0.2～3.7 kW，4T 0.4～7.5 kW”核对。 单轴/双轴和 2T/4T 必须分别看表。",
+    "source": {
+      "title": "MD800系列多机传动变频器用户手册-CN-A07、综合手册-CN-A04、通信手册-CN-B05",
+      "chapter": "知识点 D29",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD800 单轴逆变",
+      "功率边界"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-226",
+    "category": "inverter",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：MD800 双轴逆变在功率边界方面应按“2T 0.2～2.2 kW，4T 0.4～3.7 kW”核对。",
+    "options": null,
+    "answer": [
+      "T"
+    ],
+    "analysis": "正确边界：MD800 双轴逆变在功率边界方面应按“2T 0.2～2.2 kW，4T 0.4～3.7 kW”核对。 不能把单轴范围直接套给双轴。",
+    "source": {
+      "title": "MD800系列多机传动变频器用户手册-CN-A07、综合手册-CN-A04、通信手册-CN-B05",
+      "chapter": "知识点 D30",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD800 双轴逆变",
+      "功率边界"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-227",
+    "category": "inverter",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：MD800 型号在模块代码方面应按“0 为安全卡、1/2 为电压”核对。",
+    "options": null,
+    "answer": [
+      "F"
+    ],
+    "analysis": "正确边界：MD800 型号在模块代码方面应按“0 为整流、1 为单轴逆变、2 为双轴逆变”核对。 多机系统模块角色是 BOM 的第一层。",
+    "source": {
+      "title": "MD800系列多机传动变频器用户手册-CN-A07、综合手册-CN-A04、通信手册-CN-B05",
+      "chapter": "知识点 D31",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD800 型号",
+      "模块代码"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-228",
+    "category": "inverter",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：MD800 在STO 配置方面应按“逆变单元末尾 S 为 STO 选项”核对。",
+    "options": null,
+    "answer": [
+      "T"
+    ],
+    "analysis": "正确边界：MD800 在STO 配置方面应按“逆变单元末尾 S 为 STO 选项”核对。 STO 要按末尾 S 和对应安全手册确认。",
+    "source": {
+      "title": "MD800系列多机传动变频器用户手册-CN-A07、综合手册-CN-A04、通信手册-CN-B05",
+      "chapter": "知识点 D32",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD800",
+      "STO 配置"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-229",
+    "category": "inverter",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：MD580 PROFIBUS 在通信速率方面应按“全速率都可 1200 m”核对。",
+    "options": null,
+    "answer": [
+      "F"
+    ],
+    "analysis": "正确边界：MD580 PROFIBUS 在通信速率方面应按“9.6 kbit/s～12 Mbit/s，距离随速率约 1200～100 m”核对。 实际距离、终端和屏蔽按通信手册核对。",
+    "source": {
+      "title": "MD580系列低压高性能工程型变频器用户/硬件/功能/通信手册 A03/B03；690 V 用户手册 A04",
+      "chapter": "知识点 T-D29",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD580 PROFIBUS",
+      "通信速率"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-230",
+    "category": "inverter",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：MD520/MD580 在输出频率方面应按“599 Hz 是驱动上限，不是电机许可转速”核对。",
+    "options": null,
+    "answer": [
+      "T"
+    ],
+    "analysis": "正确边界：MD520/MD580 在输出频率方面应按“599 Hz 是驱动上限，不是电机许可转速”核对。 客户高速需求还需核对电机和机械强度。",
+    "source": {
+      "title": "变频器速查审计（已核验）与变频器二次学习补充（2026-09）",
+      "chapter": "知识点 T-D30",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD520/MD580",
+      "输出频率"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-231",
+    "category": "inverter",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：MD630 故障记录在诊断取证方面应按“只看当前显示一个字符”核对。",
+    "options": null,
+    "answer": [
+      "F"
+    ],
+    "analysis": "正确边界：MD630 故障记录在诊断取证方面应按“读 30 组历史故障并核对时间、负载、电网、参数和波形”核对。 历史记录是线索，不是单独的最终根因。",
+    "source": {
+      "title": "MD630 Series 产品页",
+      "chapter": "知识点 T-D31",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD630 故障记录",
+      "诊断取证"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-232",
+    "category": "inverter",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：MD800 STO 在安全边界方面应按“仅确认带 S 逆变分支及安全手册，不能以整流 B 代替 STO”核对。",
+    "options": null,
+    "answer": [
+      "T"
+    ],
+    "analysis": "正确边界：MD800 STO 在安全边界方面应按“仅确认带 S 逆变分支及安全手册，不能以整流 B 代替 STO”核对。 安全回路还须整机验证。",
+    "source": {
+      "title": "MD800系列多机传动变频器用户手册-CN-A07、综合手册-CN-A04、通信手册-CN-B05",
+      "chapter": "知识点 T-D32",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD800 STO",
+      "安全边界"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-233",
+    "category": "inverter",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：MD580 STO 在实施边界方面应按“STO 等于母线零电压”核对。",
+    "options": null,
+    "answer": [
+      "F"
+    ],
+    "analysis": "正确边界：MD580 STO 在实施边界方面应按“STO 不能代替断电、残压测量或机械保持”核对。 检修与运动风险分别处理。",
+    "source": {
+      "title": "MD580 Single Drive Series 产品页",
+      "chapter": "知识点 T-D33",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD580 STO",
+      "实施边界"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-234",
+    "category": "inverter",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：MD880 黑盒在诊断能力方面应按“官网资料提及 50 组波形与 1000 条数据，须核对具体配置”核对。",
+    "options": null,
+    "answer": [
+      "T"
+    ],
+    "analysis": "正确边界：MD880 黑盒在诊断能力方面应按“官网资料提及 50 组波形与 1000 条数据，须核对具体配置”核对。 波形取证还需结合现场外部测量。",
+    "source": {
+      "title": "MD880 Series 官方产品资料",
+      "chapter": "知识点 T-D34",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD880 黑盒",
+      "诊断能力"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-235",
+    "category": "inverter",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：MD520 在电机辨识方面应按“F1-37=3 是恢复出厂”核对。",
+    "options": null,
+    "answer": [
+      "F"
+    ],
+    "analysis": "正确边界：MD520 在电机辨识方面应按“F1-37=3 为静态完整调谐，按手册前提执行”核对。 调谐必须确认电机、机械和安全状态。",
+    "source": {
+      "title": "MD520系列通用变频器硬件手册-CN-B02、功能手册-CN-B05、安全手册-CN-A04",
+      "chapter": "知识点 T-D01",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD520",
+      "电机辨识"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-236",
+    "category": "inverter",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：MD520 断电在残余电压方面应按“等待规定时间并测量直流母线电压后再作业”核对。",
+    "options": null,
+    "answer": [
+      "T"
+    ],
+    "analysis": "正确边界：MD520 断电在残余电压方面应按“等待规定时间并测量直流母线电压后再作业”核对。 PM 电机被外力带动仍可能产生电压。",
+    "source": {
+      "title": "MD520系列通用变频器硬件手册-CN-B02、功能手册-CN-B05、安全手册-CN-A04",
+      "chapter": "知识点 T-D02",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD520 断电",
+      "残余电压"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-237",
+    "category": "inverter",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：MD520 PM 电机在外拖风险方面应按“断电后一定零电压”核对。",
+    "options": null,
+    "answer": [
+      "F"
+    ],
+    "analysis": "正确边界：MD520 PM 电机在外拖风险方面应按“外力拖动 PM 电机可能在驱动端产生危险电压”核对。 机械负载与旋转惯量必须纳入隔离。",
+    "source": {
+      "title": "MD520系列通用变频器硬件手册-CN-B02、功能手册-CN-B05、安全手册-CN-A04",
+      "chapter": "知识点 T-D03",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD520 PM 电机",
+      "外拖风险"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-238",
+    "category": "inverter",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：MD580 在SVC 调速范围方面应按“1:200”核对。",
+    "options": null,
+    "answer": [
+      "T"
+    ],
+    "analysis": "正确边界：MD580 在SVC 调速范围方面应按“1:200”核对。 控制模式和电机类型共同限定性能。",
+    "source": {
+      "title": "MD580系列低压高性能工程型变频器用户/硬件/功能/通信手册 A03/B03；690 V 用户手册 A04",
+      "chapter": "知识点 T-D04",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD580",
+      "SVC 调速范围"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-239",
+    "category": "inverter",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：MD580 在高海拔边界方面应按“海拔不限”核对。",
+    "options": null,
+    "answer": [
+      "F"
+    ],
+    "analysis": "正确边界：MD580 在高海拔边界方面应按“最高 4000 m；超过 2000 m 需隔离变压器条件”核对。 海拔还影响散热与电气绝缘。",
+    "source": {
+      "title": "MD580系列低压高性能工程型变频器用户/硬件/功能/通信手册 A03/B03；690 V 用户手册 A04",
+      "chapter": "知识点 T-D05",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD580",
+      "高海拔边界"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-240",
+    "category": "inverter",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：MD580 T10～T12 在载波限制方面应按“最高 6 kHz”核对。",
+    "options": null,
+    "answer": [
+      "T"
+    ],
+    "analysis": "正确边界：MD580 T10～T12 在载波限制方面应按“最高 6 kHz”核对。 T2～T9 的 12/8 kHz 限制不能套给大机座。",
+    "source": {
+      "title": "MD580系列低压高性能工程型变频器用户/硬件/功能/通信手册 A03/B03；690 V 用户手册 A04",
+      "chapter": "知识点 T-D06",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD580 T10～T12",
+      "载波限制"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-241",
+    "category": "inverter",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：MD580 T10～T12 在柜体安装方面应按“可无间距任意叠装”核对。",
+    "options": null,
+    "answer": [
+      "F"
+    ],
+    "analysis": "正确边界：MD580 T10～T12 在柜体安装方面应按“单机柜内不宜并排或上下叠装”核对。 散热要求按硬件手册和柜体热设计验证。",
+    "source": {
+      "title": "MD580系列低压高性能工程型变频器用户/硬件/功能/通信手册 A03/B03；690 V 用户手册 A04",
+      "chapter": "知识点 T-D07",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD580 T10～T12",
+      "柜体安装"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-242",
+    "category": "inverter",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：MD580 在故障保护方面应按“应核对输入/输出缺相、过流、母线过欠压、制动异常等记录”核对。",
+    "options": null,
+    "answer": [
+      "T"
+    ],
+    "analysis": "正确边界：MD580 在故障保护方面应按“应核对输入/输出缺相、过流、母线过欠压、制动异常等记录”核对。 诊断要结合黑盒和波形，而不是猜一个代码。",
+    "source": {
+      "title": "MD580系列低压高性能工程型变频器用户/硬件/功能/通信手册 A03/B03；690 V 用户手册 A04",
+      "chapter": "知识点 T-D08",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD580",
+      "故障保护"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-243",
+    "category": "inverter",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：MD580 在独立控制电源方面应按“只有 5 V USB 供电”核对。",
+    "options": null,
+    "answer": [
+      "F"
+    ],
+    "analysis": "正确边界：MD580 在独立控制电源方面应按“官网列出独立 24 V 控制电源”核对。 电源端子与电压按同机座图复核。",
+    "source": {
+      "title": "MD580 Single Drive Series 产品页",
+      "chapter": "知识点 T-D09",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD580",
+      "独立控制电源"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-244",
+    "category": "inverter",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：MD630 在温度降额方面应按“-20～60 ℃，超过 50 ℃每升高 1 ℃降额 2.5%”核对。",
+    "options": null,
+    "answer": [
+      "T"
+    ],
+    "analysis": "正确边界：MD630 在温度降额方面应按“-20～60 ℃，超过 50 ℃每升高 1 ℃降额 2.5%”核对。 高温条件要并入柜体散热和负载选型。",
+    "source": {
+      "title": "MD630系列通用型变频器用户手册-CN-A00（PS00021993）",
+      "chapter": "知识点 T-D10",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD630",
+      "温度降额"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-245",
+    "category": "inverter",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：MD630 在海拔降额方面应按“海拔无关”核对。",
+    "options": null,
+    "answer": [
+      "F"
+    ],
+    "analysis": "正确边界：MD630 在海拔降额方面应按“超过 1000 m 每升高 100 m 降额 1%，最高 3000 m”核对。 海拔影响冷却和绝缘边界。",
+    "source": {
+      "title": "MD630系列通用型变频器用户手册-CN-A00（PS00021993）",
+      "chapter": "知识点 T-D11",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD630",
+      "海拔降额"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-246",
+    "category": "inverter",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：MD630 在强弱电分离方面应按“动力电缆与信号电缆间距大于 30 cm”核对。",
+    "options": null,
+    "answer": [
+      "T"
+    ],
+    "analysis": "正确边界：MD630 在强弱电分离方面应按“动力电缆与信号电缆间距大于 30 cm”核对。 布线还需注意交叉角度和屏蔽接地。",
+    "source": {
+      "title": "MD630系列通用型变频器用户手册-CN-A00（PS00021993）",
+      "chapter": "知识点 T-D12",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD630",
+      "强弱电分离"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-247",
+    "category": "inverter",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：MD630 在PE 接线方面应按“PE 与 N 可任意并接”核对。",
+    "options": null,
+    "answer": [
+      "F"
+    ],
+    "analysis": "正确边界：MD630 在PE 接线方面应按“PE 不经断路器，不与 N 共用”核对。 保护接地属于不可省略的安全条件。",
+    "source": {
+      "title": "MD630系列通用型变频器用户手册-CN-A00（PS00021993）",
+      "chapter": "知识点 T-D13",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD630",
+      "PE 接线"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-248",
+    "category": "inverter",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：MD630 在外部控制电源方面应按“E24V 为外部 24 V 端子”核对。",
+    "options": null,
+    "answer": [
+      "T"
+    ],
+    "analysis": "正确边界：MD630 在外部控制电源方面应按“E24V 为外部 24 V 端子”核对。 端子定义须按同型号用户手册确认。",
+    "source": {
+      "title": "MD630系列通用型变频器用户手册-CN-A00（PS00021993）",
+      "chapter": "知识点 T-D14",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD630",
+      "外部控制电源"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-249",
+    "category": "inverter",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：MD630 在CiA 402 前提方面应按“只插网线即可”核对。",
+    "options": null,
+    "answer": [
+      "F"
+    ],
+    "analysis": "正确边界：MD630 在CiA 402 前提方面应按“A0-00 复位、F0-03=2、F0-29=9、nd-00=1 等条件需核对”核对。 CiA402 不是所有总线分支的默认状态。",
+    "source": {
+      "title": "MD630系列通用型变频器用户手册-CN-A00（PS00021993）",
+      "chapter": "知识点 T-D15",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD630",
+      "CiA 402 前提"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-250",
+    "category": "inverter",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：MD630 在故障响应设置方面应按“手册列出 11 类动作，但并非所有故障可配置”核对。",
+    "options": null,
+    "answer": [
+      "T"
+    ],
+    "analysis": "正确边界：MD630 在故障响应设置方面应按“手册列出 11 类动作，但并非所有故障可配置”核对。 不可配置故障要按手册和风险评估处理。",
+    "source": {
+      "title": "MD630系列通用型变频器用户手册-CN-A00（PS00021993）",
+      "chapter": "知识点 T-D16",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD630",
+      "故障响应设置"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-251",
+    "category": "inverter",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：MD800 在工作温度方面应按“全工况 -20～60 ℃无降额”核对。",
+    "options": null,
+    "answer": [
+      "F"
+    ],
+    "analysis": "正确边界：MD800 在工作温度方面应按“有过载 -20～40 ℃，无过载 -20～50 ℃；超限每 ℃降额 2.5%”核对。 热设计必须按过载状态区分。",
+    "source": {
+      "title": "MD800系列多机传动变频器用户手册-CN-A07、综合手册-CN-A04、通信手册-CN-B05",
+      "chapter": "知识点 T-D17",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD800",
+      "工作温度"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-252",
+    "category": "inverter",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：MD800 在海拔边界方面应按“星形电网最高 4000 m，角形电网最高 2000 m；1000 m 以上降额”核对。",
+    "options": null,
+    "answer": [
+      "T"
+    ],
+    "analysis": "正确边界：MD800 在海拔边界方面应按“星形电网最高 4000 m，角形电网最高 2000 m；1000 m 以上降额”核对。 电网形态和绝缘要求要一起确认。",
+    "source": {
+      "title": "MD800系列多机传动变频器用户手册-CN-A07、综合手册-CN-A04、通信手册-CN-B05",
+      "chapter": "知识点 T-D18",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD800",
+      "海拔边界"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-253",
+    "category": "inverter",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：MD800 在安装间距方面应按“所有方向零距离”核对。",
+    "options": null,
+    "answer": [
+      "F"
+    ],
+    "analysis": "正确边界：MD800 在安装间距方面应按“侧面至少 55 mm，上下至少 200 mm”核对。 书本型也有明确散热空间。",
+    "source": {
+      "title": "MD800系列多机传动变频器用户手册-CN-A07、综合手册-CN-A04、通信手册-CN-B05",
+      "chapter": "知识点 T-D19",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD800",
+      "安装间距"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-254",
+    "category": "inverter",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：MD800 在短路容量方面应按“手册给出 100 kA 短路能力边界”核对。",
+    "options": null,
+    "answer": [
+      "T"
+    ],
+    "analysis": "正确边界：MD800 在短路容量方面应按“手册给出 100 kA 短路能力边界”核对。 还需结合上级保护器件和电网。",
+    "source": {
+      "title": "MD800系列多机传动变频器用户手册-CN-A07、综合手册-CN-A04、通信手册-CN-B05",
+      "chapter": "知识点 T-D20",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD800",
+      "短路容量"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-255",
+    "category": "inverter",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：MD810 在逆变控制模式方面应按“PMSM 只支持 V/f”核对。",
+    "options": null,
+    "answer": [
+      "F"
+    ],
+    "analysis": "正确边界：MD810 在逆变控制模式方面应按“IM 支持 V/f、SVC、FVC；PMSM 支持 SVC、FVC”核对。 控制模式与反馈附件、电机类型密切相关。",
+    "source": {
+      "title": "MD810系列多机传动变频器硬件手册-CN-A04、功能手册 A05",
+      "chapter": "知识点 T-D21",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD810",
+      "逆变控制模式"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-256",
+    "category": "inverter",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：MD810 在载波范围方面应按“V/f 0.8～12 kHz，SVC/FVC 2～6 kHz”核对。",
+    "options": null,
+    "answer": [
+      "T"
+    ],
+    "analysis": "正确边界：MD810 在载波范围方面应按“V/f 0.8～12 kHz，SVC/FVC 2～6 kHz”核对。 载波频率不同于输出频率。",
+    "source": {
+      "title": "MD810系列多机传动变频器硬件手册-CN-A04、功能手册 A05",
+      "chapter": "知识点 T-D22",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD810",
+      "载波范围"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-257",
+    "category": "inverter",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：MD810 在速度范围方面应按“三个模式都是 1:1000”核对。",
+    "options": null,
+    "answer": [
+      "F"
+    ],
+    "analysis": "正确边界：MD810 在速度范围方面应按“V/f 1:50、IM SVC 1:100、FVC 1:1000”核对。 性能值要注明对应模式与电机。",
+    "source": {
+      "title": "MD810系列多机传动变频器硬件手册-CN-A04、功能手册 A05",
+      "chapter": "知识点 T-D23",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD810",
+      "速度范围"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-258",
+    "category": "inverter",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：MD810 整流在通信协议方面应按“Modbus RTU/PROFIBUS/CANopen/CANlink/PROFINET”核对。",
+    "options": null,
+    "answer": [
+      "T"
+    ],
+    "analysis": "正确边界：MD810 整流在通信协议方面应按“Modbus RTU/PROFIBUS/CANopen/CANlink/PROFINET”核对。 整流与逆变通信清单不同。",
+    "source": {
+      "title": "MD810系列多机传动变频器硬件手册-CN-A04、功能手册 A05",
+      "chapter": "知识点 T-D24",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD810 整流",
+      "通信协议"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-259",
+    "category": "inverter",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：MD810 逆变在通信协议方面应按“仅 PROFINET”核对。",
+    "options": null,
+    "answer": [
+      "F"
+    ],
+    "analysis": "正确边界：MD810 逆变在通信协议方面应按“Modbus RTU/PROFIBUS/CANopen/CANlink/EtherCAT”核对。 逆变 EtherCAT 为当前手册支持，不应沿用旧风险备注。",
+    "source": {
+      "title": "MD810系列多机传动变频器硬件手册-CN-A04、功能手册 A05",
+      "chapter": "知识点 T-D25",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD810 逆变",
+      "通信协议"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-260",
+    "category": "inverter",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：MD810 在冷却方案方面应按“风冷和水冷按具体模块选”核对。",
+    "options": null,
+    "answer": [
+      "T"
+    ],
+    "analysis": "正确边界：MD810 在冷却方案方面应按“风冷和水冷按具体模块选”核对。 冷却配件和柜内热设计要同系统核对。",
+    "source": {
+      "title": "MD810系列多机传动变频器硬件手册-CN-A04、功能手册 A05",
+      "chapter": "知识点 T-D26",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD810",
+      "冷却方案"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-261",
+    "category": "inverter",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：MD810 在母线故障定位方面应按“只重启全部逆变”核对。",
+    "options": null,
+    "answer": [
+      "F"
+    ],
+    "analysis": "正确边界：MD810 在母线故障定位方面应按“先比对整流输入、母线工作范围与逆变负载记录”核对。 多机系统的故障应按模块角色分层。",
+    "source": {
+      "title": "MD810系列多机传动变频器硬件手册-CN-A04、功能手册 A05",
+      "chapter": "知识点 T-D27",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD810",
+      "母线故障定位"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-262",
+    "category": "inverter",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：MD520 制动在现场接线方面应按“按 T8 以下 (+)/BR、T9 以上 (+)/(-) 的同机座图接线”核对。",
+    "options": null,
+    "answer": [
+      "T"
+    ],
+    "analysis": "正确边界：MD520 制动在现场接线方面应按“按 T8 以下 (+)/BR、T9 以上 (+)/(-) 的同机座图接线”核对。 任何接线前先执行断电、等待、测量。",
+    "source": {
+      "title": "MD520系列通用变频器硬件手册-CN-B02、功能手册-CN-B05、安全手册-CN-A04",
+      "chapter": "知识点 T-D28",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD520 制动",
+      "现场接线"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-263",
+    "category": "inverter",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：MD580 PROFIBUS 在通信速率方面应按“全速率都可 1200 m”核对。",
+    "options": null,
+    "answer": [
+      "F"
+    ],
+    "analysis": "正确边界：MD580 PROFIBUS 在通信速率方面应按“9.6 kbit/s～12 Mbit/s，距离随速率约 1200～100 m”核对。 实际距离、终端和屏蔽按通信手册核对。",
+    "source": {
+      "title": "MD580系列低压高性能工程型变频器用户/硬件/功能/通信手册 A03/B03；690 V 用户手册 A04",
+      "chapter": "知识点 T-D29",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD580 PROFIBUS",
+      "通信速率"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-264",
+    "category": "inverter",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：MD520/MD580 在输出频率方面应按“599 Hz 是驱动上限，不是电机许可转速”核对。",
+    "options": null,
+    "answer": [
+      "T"
+    ],
+    "analysis": "正确边界：MD520/MD580 在输出频率方面应按“599 Hz 是驱动上限，不是电机许可转速”核对。 客户高速需求还需核对电机和机械强度。",
+    "source": {
+      "title": "变频器速查审计（已核验）与变频器二次学习补充（2026-09）",
+      "chapter": "知识点 T-D30",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD520/MD580",
+      "输出频率"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-265",
+    "category": "inverter",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：MD630 故障记录在诊断取证方面应按“只看当前显示一个字符”核对。",
+    "options": null,
+    "answer": [
+      "F"
+    ],
+    "analysis": "正确边界：MD630 故障记录在诊断取证方面应按“读 30 组历史故障并核对时间、负载、电网、参数和波形”核对。 历史记录是线索，不是单独的最终根因。",
+    "source": {
+      "title": "MD630 Series 产品页",
+      "chapter": "知识点 T-D31",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD630 故障记录",
+      "诊断取证"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-266",
+    "category": "inverter",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：MD800 STO 在安全边界方面应按“仅确认带 S 逆变分支及安全手册，不能以整流 B 代替 STO”核对。",
+    "options": null,
+    "answer": [
+      "T"
+    ],
+    "analysis": "正确边界：MD800 STO 在安全边界方面应按“仅确认带 S 逆变分支及安全手册，不能以整流 B 代替 STO”核对。 安全回路还须整机验证。",
+    "source": {
+      "title": "MD800系列多机传动变频器用户手册-CN-A07、综合手册-CN-A04、通信手册-CN-B05",
+      "chapter": "知识点 T-D32",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD800 STO",
+      "安全边界"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-267",
+    "category": "inverter",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：MD580 STO 在实施边界方面应按“STO 等于母线零电压”核对。",
+    "options": null,
+    "answer": [
+      "F"
+    ],
+    "analysis": "正确边界：MD580 STO 在实施边界方面应按“STO 不能代替断电、残压测量或机械保持”核对。 检修与运动风险分别处理。",
+    "source": {
+      "title": "MD580 Single Drive Series 产品页",
+      "chapter": "知识点 T-D33",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD580 STO",
+      "实施边界"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-268",
+    "category": "inverter",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：MD880 黑盒在诊断能力方面应按“官网资料提及 50 组波形与 1000 条数据，须核对具体配置”核对。",
+    "options": null,
+    "answer": [
+      "T"
+    ],
+    "analysis": "正确边界：MD880 黑盒在诊断能力方面应按“官网资料提及 50 组波形与 1000 条数据，须核对具体配置”核对。 波形取证还需结合现场外部测量。",
+    "source": {
+      "title": "MD880 Series 官方产品资料",
+      "chapter": "知识点 T-D34",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD880 黑盒",
+      "诊断能力"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-269",
+    "category": "inverter",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：MD520 在电机辨识方面应按“F1-37=3 是恢复出厂”核对。",
+    "options": null,
+    "answer": [
+      "F"
+    ],
+    "analysis": "正确边界：MD520 在电机辨识方面应按“F1-37=3 为静态完整调谐，按手册前提执行”核对。 调谐必须确认电机、机械和安全状态。",
+    "source": {
+      "title": "MD520系列通用变频器硬件手册-CN-B02、功能手册-CN-B05、安全手册-CN-A04",
+      "chapter": "知识点 T-D01",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD520",
+      "电机辨识"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-270",
+    "category": "inverter",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：MD520 断电在残余电压方面应按“等待规定时间并测量直流母线电压后再作业”核对。",
+    "options": null,
+    "answer": [
+      "T"
+    ],
+    "analysis": "正确边界：MD520 断电在残余电压方面应按“等待规定时间并测量直流母线电压后再作业”核对。 PM 电机被外力带动仍可能产生电压。",
+    "source": {
+      "title": "MD520系列通用变频器硬件手册-CN-B02、功能手册-CN-B05、安全手册-CN-A04",
+      "chapter": "知识点 T-D02",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD520 断电",
+      "残余电压"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-271",
+    "category": "inverter",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：MD520 PM 电机在外拖风险方面应按“断电后一定零电压”核对。",
+    "options": null,
+    "answer": [
+      "F"
+    ],
+    "analysis": "正确边界：MD520 PM 电机在外拖风险方面应按“外力拖动 PM 电机可能在驱动端产生危险电压”核对。 机械负载与旋转惯量必须纳入隔离。",
+    "source": {
+      "title": "MD520系列通用变频器硬件手册-CN-B02、功能手册-CN-B05、安全手册-CN-A04",
+      "chapter": "知识点 T-D03",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD520 PM 电机",
+      "外拖风险"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-272",
+    "category": "inverter",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：MD580 在SVC 调速范围方面应按“1:200”核对。",
+    "options": null,
+    "answer": [
+      "T"
+    ],
+    "analysis": "正确边界：MD580 在SVC 调速范围方面应按“1:200”核对。 控制模式和电机类型共同限定性能。",
+    "source": {
+      "title": "MD580系列低压高性能工程型变频器用户/硬件/功能/通信手册 A03/B03；690 V 用户手册 A04",
+      "chapter": "知识点 T-D04",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD580",
+      "SVC 调速范围"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-273",
+    "category": "inverter",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：MD580 在高海拔边界方面应按“海拔不限”核对。",
+    "options": null,
+    "answer": [
+      "F"
+    ],
+    "analysis": "正确边界：MD580 在高海拔边界方面应按“最高 4000 m；超过 2000 m 需隔离变压器条件”核对。 海拔还影响散热与电气绝缘。",
+    "source": {
+      "title": "MD580系列低压高性能工程型变频器用户/硬件/功能/通信手册 A03/B03；690 V 用户手册 A04",
+      "chapter": "知识点 T-D05",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD580",
+      "高海拔边界"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-274",
+    "category": "inverter",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：MD580 T10～T12 在载波限制方面应按“最高 6 kHz”核对。",
+    "options": null,
+    "answer": [
+      "T"
+    ],
+    "analysis": "正确边界：MD580 T10～T12 在载波限制方面应按“最高 6 kHz”核对。 T2～T9 的 12/8 kHz 限制不能套给大机座。",
+    "source": {
+      "title": "MD580系列低压高性能工程型变频器用户/硬件/功能/通信手册 A03/B03；690 V 用户手册 A04",
+      "chapter": "知识点 T-D06",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD580 T10～T12",
+      "载波限制"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-275",
+    "category": "inverter",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：MD580 T10～T12 在柜体安装方面应按“可无间距任意叠装”核对。",
+    "options": null,
+    "answer": [
+      "F"
+    ],
+    "analysis": "正确边界：MD580 T10～T12 在柜体安装方面应按“单机柜内不宜并排或上下叠装”核对。 散热要求按硬件手册和柜体热设计验证。",
+    "source": {
+      "title": "MD580系列低压高性能工程型变频器用户/硬件/功能/通信手册 A03/B03；690 V 用户手册 A04",
+      "chapter": "知识点 T-D07",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD580 T10～T12",
+      "柜体安装"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-276",
+    "category": "inverter",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：MD580 在故障保护方面应按“应核对输入/输出缺相、过流、母线过欠压、制动异常等记录”核对。",
+    "options": null,
+    "answer": [
+      "T"
+    ],
+    "analysis": "正确边界：MD580 在故障保护方面应按“应核对输入/输出缺相、过流、母线过欠压、制动异常等记录”核对。 诊断要结合黑盒和波形，而不是猜一个代码。",
+    "source": {
+      "title": "MD580系列低压高性能工程型变频器用户/硬件/功能/通信手册 A03/B03；690 V 用户手册 A04",
+      "chapter": "知识点 T-D08",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD580",
+      "故障保护"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-277",
+    "category": "inverter",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：MD580 在独立控制电源方面应按“只有 5 V USB 供电”核对。",
+    "options": null,
+    "answer": [
+      "F"
+    ],
+    "analysis": "正确边界：MD580 在独立控制电源方面应按“官网列出独立 24 V 控制电源”核对。 电源端子与电压按同机座图复核。",
+    "source": {
+      "title": "MD580 Single Drive Series 产品页",
+      "chapter": "知识点 T-D09",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD580",
+      "独立控制电源"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-278",
+    "category": "inverter",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：MD630 在温度降额方面应按“-20～60 ℃，超过 50 ℃每升高 1 ℃降额 2.5%”核对。",
+    "options": null,
+    "answer": [
+      "T"
+    ],
+    "analysis": "正确边界：MD630 在温度降额方面应按“-20～60 ℃，超过 50 ℃每升高 1 ℃降额 2.5%”核对。 高温条件要并入柜体散热和负载选型。",
+    "source": {
+      "title": "MD630系列通用型变频器用户手册-CN-A00（PS00021993）",
+      "chapter": "知识点 T-D10",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD630",
+      "温度降额"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-279",
+    "category": "inverter",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：MD630 在海拔降额方面应按“海拔无关”核对。",
+    "options": null,
+    "answer": [
+      "F"
+    ],
+    "analysis": "正确边界：MD630 在海拔降额方面应按“超过 1000 m 每升高 100 m 降额 1%，最高 3000 m”核对。 海拔影响冷却和绝缘边界。",
+    "source": {
+      "title": "MD630系列通用型变频器用户手册-CN-A00（PS00021993）",
+      "chapter": "知识点 T-D11",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD630",
+      "海拔降额"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-280",
+    "category": "inverter",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：MD630 在强弱电分离方面应按“动力电缆与信号电缆间距大于 30 cm”核对。",
+    "options": null,
+    "answer": [
+      "T"
+    ],
+    "analysis": "正确边界：MD630 在强弱电分离方面应按“动力电缆与信号电缆间距大于 30 cm”核对。 布线还需注意交叉角度和屏蔽接地。",
+    "source": {
+      "title": "MD630系列通用型变频器用户手册-CN-A00（PS00021993）",
+      "chapter": "知识点 T-D12",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD630",
+      "强弱电分离"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-281",
+    "category": "inverter",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：MD630 在PE 接线方面应按“PE 与 N 可任意并接”核对。",
+    "options": null,
+    "answer": [
+      "F"
+    ],
+    "analysis": "正确边界：MD630 在PE 接线方面应按“PE 不经断路器，不与 N 共用”核对。 保护接地属于不可省略的安全条件。",
+    "source": {
+      "title": "MD630系列通用型变频器用户手册-CN-A00（PS00021993）",
+      "chapter": "知识点 T-D13",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD630",
+      "PE 接线"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-282",
+    "category": "inverter",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：MD630 在外部控制电源方面应按“E24V 为外部 24 V 端子”核对。",
+    "options": null,
+    "answer": [
+      "T"
+    ],
+    "analysis": "正确边界：MD630 在外部控制电源方面应按“E24V 为外部 24 V 端子”核对。 端子定义须按同型号用户手册确认。",
+    "source": {
+      "title": "MD630系列通用型变频器用户手册-CN-A00（PS00021993）",
+      "chapter": "知识点 T-D14",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD630",
+      "外部控制电源"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-283",
+    "category": "inverter",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：MD630 在CiA 402 前提方面应按“只插网线即可”核对。",
+    "options": null,
+    "answer": [
+      "F"
+    ],
+    "analysis": "正确边界：MD630 在CiA 402 前提方面应按“A0-00 复位、F0-03=2、F0-29=9、nd-00=1 等条件需核对”核对。 CiA402 不是所有总线分支的默认状态。",
+    "source": {
+      "title": "MD630系列通用型变频器用户手册-CN-A00（PS00021993）",
+      "chapter": "知识点 T-D15",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD630",
+      "CiA 402 前提"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-284",
+    "category": "inverter",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：MD630 在故障响应设置方面应按“手册列出 11 类动作，但并非所有故障可配置”核对。",
+    "options": null,
+    "answer": [
+      "T"
+    ],
+    "analysis": "正确边界：MD630 在故障响应设置方面应按“手册列出 11 类动作，但并非所有故障可配置”核对。 不可配置故障要按手册和风险评估处理。",
+    "source": {
+      "title": "MD630系列通用型变频器用户手册-CN-A00（PS00021993）",
+      "chapter": "知识点 T-D16",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD630",
+      "故障响应设置"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-285",
+    "category": "inverter",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：MD800 在工作温度方面应按“全工况 -20～60 ℃无降额”核对。",
+    "options": null,
+    "answer": [
+      "F"
+    ],
+    "analysis": "正确边界：MD800 在工作温度方面应按“有过载 -20～40 ℃，无过载 -20～50 ℃；超限每 ℃降额 2.5%”核对。 热设计必须按过载状态区分。",
+    "source": {
+      "title": "MD800系列多机传动变频器用户手册-CN-A07、综合手册-CN-A04、通信手册-CN-B05",
+      "chapter": "知识点 T-D17",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD800",
+      "工作温度"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-286",
+    "category": "inverter",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：MD800 在海拔边界方面应按“星形电网最高 4000 m，角形电网最高 2000 m；1000 m 以上降额”核对。",
+    "options": null,
+    "answer": [
+      "T"
+    ],
+    "analysis": "正确边界：MD800 在海拔边界方面应按“星形电网最高 4000 m，角形电网最高 2000 m；1000 m 以上降额”核对。 电网形态和绝缘要求要一起确认。",
+    "source": {
+      "title": "MD800系列多机传动变频器用户手册-CN-A07、综合手册-CN-A04、通信手册-CN-B05",
+      "chapter": "知识点 T-D18",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD800",
+      "海拔边界"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-287",
+    "category": "inverter",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：MD800 在安装间距方面应按“所有方向零距离”核对。",
+    "options": null,
+    "answer": [
+      "F"
+    ],
+    "analysis": "正确边界：MD800 在安装间距方面应按“侧面至少 55 mm，上下至少 200 mm”核对。 书本型也有明确散热空间。",
+    "source": {
+      "title": "MD800系列多机传动变频器用户手册-CN-A07、综合手册-CN-A04、通信手册-CN-B05",
+      "chapter": "知识点 T-D19",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD800",
+      "安装间距"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-288",
+    "category": "inverter",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：MD800 在短路容量方面应按“手册给出 100 kA 短路能力边界”核对。",
+    "options": null,
+    "answer": [
+      "T"
+    ],
+    "analysis": "正确边界：MD800 在短路容量方面应按“手册给出 100 kA 短路能力边界”核对。 还需结合上级保护器件和电网。",
+    "source": {
+      "title": "MD800系列多机传动变频器用户手册-CN-A07、综合手册-CN-A04、通信手册-CN-B05",
+      "chapter": "知识点 T-D20",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD800",
+      "短路容量"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-289",
+    "category": "inverter",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：MD810 在逆变控制模式方面应按“PMSM 只支持 V/f”核对。",
+    "options": null,
+    "answer": [
+      "F"
+    ],
+    "analysis": "正确边界：MD810 在逆变控制模式方面应按“IM 支持 V/f、SVC、FVC；PMSM 支持 SVC、FVC”核对。 控制模式与反馈附件、电机类型密切相关。",
+    "source": {
+      "title": "MD810系列多机传动变频器硬件手册-CN-A04、功能手册 A05",
+      "chapter": "知识点 T-D21",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD810",
+      "逆变控制模式"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-290",
+    "category": "inverter",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：MD810 在载波范围方面应按“V/f 0.8～12 kHz，SVC/FVC 2～6 kHz”核对。",
+    "options": null,
+    "answer": [
+      "T"
+    ],
+    "analysis": "正确边界：MD810 在载波范围方面应按“V/f 0.8～12 kHz，SVC/FVC 2～6 kHz”核对。 载波频率不同于输出频率。",
+    "source": {
+      "title": "MD810系列多机传动变频器硬件手册-CN-A04、功能手册 A05",
+      "chapter": "知识点 T-D22",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD810",
+      "载波范围"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-291",
+    "category": "inverter",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "请按当前型号/版本资料判断：MD810 在速度范围方面应按“三个模式都是 1:1000”核对。",
+    "options": null,
+    "answer": [
+      "F"
+    ],
+    "analysis": "正确边界：MD810 在速度范围方面应按“V/f 1:50、IM SVC 1:100、FVC 1:1000”核对。 性能值要注明对应模式与电机。",
+    "source": {
+      "title": "MD810系列多机传动变频器硬件手册-CN-A04、功能手册 A05",
+      "chapter": "知识点 T-D23",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD810",
+      "速度范围"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-292",
+    "category": "inverter",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "请补全 MD810 整流的输入电压关键边界：____。",
+    "options": null,
+    "answer": [
+      "三相 323～528 V"
+    ],
+    "analysis": "与逆变 DC 输入范围不能混写。",
+    "source": {
+      "title": "MD810系列多机传动变频器硬件手册-CN-A04、功能手册 A05",
+      "chapter": "知识点 D38",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD810 整流",
+      "输入电压"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-293",
+    "category": "inverter",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "技术检查表中，MD810 逆变的额定直流输入应填为：____。",
+    "options": null,
+    "answer": [
+      "DC 537～679 V"
+    ],
+    "analysis": "工作范围和额定范围需要分开看。",
+    "source": {
+      "title": "MD810系列多机传动变频器硬件手册-CN-A04、功能手册 A05",
+      "chapter": "知识点 D39",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD810 逆变",
+      "额定直流输入"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-294",
+    "category": "inverter",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "根据同版本资料，MD810 逆变的直流工作范围结论为：____。",
+    "options": null,
+    "answer": [
+      "DC 350～800 V"
+    ],
+    "analysis": "系统设计需要关注母线波动和保护。",
+    "source": {
+      "title": "MD810系列多机传动变频器硬件手册-CN-A04、功能手册 A05",
+      "chapter": "知识点 D40",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD810 逆变",
+      "直流工作范围"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-295",
+    "category": "inverter",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "请补全 MD810 逆变的功率形式关键边界：____。",
+    "options": null,
+    "answer": [
+      "单轴 1.5～355 kW、双轴 1.5～18.5 kW"
+    ],
+    "analysis": "双轴功率边界不能按单轴推断。",
+    "source": {
+      "title": "MD810系列多机传动变频器硬件手册-CN-A04、功能手册 A05",
+      "chapter": "知识点 D41",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD810 逆变",
+      "功率形式"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-296",
+    "category": "inverter",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "技术检查表中，MD810 整流 22/45 的制动代码应填为：____。",
+    "options": null,
+    "answer": [
+      "G1XX 为内置制动，G0XX 无内置制动"
+    ],
+    "analysis": "110 kW 及以上制动方案另按外部 MDBUN 核对。",
+    "source": {
+      "title": "MD810系列多机传动变频器硬件手册-CN-A04、功能手册 A05",
+      "chapter": "知识点 D42",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD810 整流 22/45",
+      "制动代码"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-297",
+    "category": "inverter",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "根据同版本资料，MD810 110 kW+ 的制动配置结论为：____。",
+    "options": null,
+    "answer": [
+      "外部 MDBUN 制动单元"
+    ],
+    "analysis": "制动与能量回馈方案应按实际工况选。",
+    "source": {
+      "title": "MD810系列多机传动变频器硬件手册-CN-A04、功能手册 A05",
+      "chapter": "知识点 D43",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD810 110 kW+",
+      "制动配置"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-298",
+    "category": "inverter",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "请补全 MD810 的电机与控制关键边界：____。",
+    "options": null,
+    "answer": [
+      "支持同步/异步伺服电机，多轴可用于位置/同步/负载分配"
+    ],
+    "analysis": "产品页定位应结合反馈和控制模式核对。",
+    "source": {
+      "title": "MD810 Series 产品页",
+      "chapter": "知识点 D44",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD810",
+      "电机与控制"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-299",
+    "category": "inverter",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "技术检查表中，MD810 的防护等级应填为：____。",
+    "options": null,
+    "answer": [
+      "1.5～160 kW 为 IP20，200～355 kW 为 IP00"
+    ],
+    "analysis": "大功率 IP00 机型必须在机柜设计中考虑防护。",
+    "source": {
+      "title": "MD810系列多机传动变频器硬件手册-CN-A04、功能手册 A05",
+      "chapter": "知识点 D45",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD810",
+      "防护等级"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-300",
+    "category": "inverter",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "根据同版本资料，MD880 的产品定位结论为：____。",
+    "options": null,
+    "answer": [
+      "高端工程型变频器，1.5～6500 kW"
+    ],
+    "analysis": "按电压、功率、冷却和整流形式分层选型。",
+    "source": {
+      "title": "MD880 Series 官方产品资料",
+      "chapter": "知识点 D46",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD880",
+      "产品定位"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-301",
+    "category": "inverter",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "请补全 MD880 的电压级别关键边界：____。",
+    "options": null,
+    "answer": [
+      "380～480 V 与 525～690 V"
+    ],
+    "analysis": "电压级别不能从功率范围反推。",
+    "source": {
+      "title": "MD880 Series 官方产品资料",
+      "chapter": "知识点 D47",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD880",
+      "电压级别"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-302",
+    "category": "inverter",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "技术检查表中，MD880 的整流形式应填为：____。",
+    "options": null,
+    "answer": [
+      "基本型、回馈型、AFE 型"
+    ],
+    "analysis": "需结合电网、再生能量和谐波要求选。",
+    "source": {
+      "title": "MD880 Series 官方产品资料",
+      "chapter": "知识点 D48",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD880",
+      "整流形式"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-303",
+    "category": "inverter",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "根据同版本资料，MD880 的冷却方案结论为：____。",
+    "options": null,
+    "answer": [
+      "风冷和水冷均有方案"
+    ],
+    "analysis": "具体型号与安装条件须核对。",
+    "source": {
+      "title": "MD880 Series 官方产品资料",
+      "chapter": "知识点 D49",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD880",
+      "冷却方案"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-304",
+    "category": "inverter",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "请补全 MD520 的产品定位关键边界：____。",
+    "options": null,
+    "answer": [
+      "通用高性能电流矢量变频器"
+    ],
+    "analysis": "定位不能代替功率、电压、过载和选件核对。",
+    "source": {
+      "title": "MD520 Series 产品页",
+      "chapter": "知识点 D01",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD520",
+      "产品定位"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-305",
+    "category": "inverter",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "技术检查表中，MD520 的输入规格应填为：____。",
+    "options": null,
+    "answer": [
+      "三相 380～480 V、三相 200～240 V、单相 200～240 V 分表选型"
+    ],
+    "analysis": "三种输入表不可互相套用。",
+    "source": {
+      "title": "MD520系列通用变频器硬件手册-CN-B02、功能手册-CN-B05、安全手册-CN-A04",
+      "chapter": "知识点 D02",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD520",
+      "输入规格"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-306",
+    "category": "inverter",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "根据同版本资料，MD520 的最大输出频率结论为：____。",
+    "options": null,
+    "answer": [
+      "599 Hz"
+    ],
+    "analysis": "频率上限不代表电机可长期按该转速运行。",
+    "source": {
+      "title": "MD520系列通用变频器硬件手册-CN-B02、功能手册-CN-B05、安全手册-CN-A04",
+      "chapter": "知识点 D03",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD520",
+      "最大输出频率"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-307",
+    "category": "inverter",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "请补全 MD520 的载波频率关键边界：____。",
+    "options": null,
+    "answer": [
+      "0.5～16 kHz"
+    ],
+    "analysis": "载波设置与温升、噪声和降额有关。",
+    "source": {
+      "title": "MD520系列通用变频器硬件手册-CN-B02、功能手册-CN-B05、安全手册-CN-A04",
+      "chapter": "知识点 D04",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD520",
+      "载波频率"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-308",
+    "category": "inverter",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "技术检查表中，MD520 的防护等级应填为：____。",
+    "options": null,
+    "answer": [
+      "IP20/Type 1"
+    ],
+    "analysis": "安装防护需要按具体外壳和现场条件确认。",
+    "source": {
+      "title": "MD520系列通用变频器硬件手册-CN-B02、功能手册-CN-B05、安全手册-CN-A04",
+      "chapter": "知识点 D05",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD520",
+      "防护等级"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-309",
+    "category": "inverter",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "根据同版本资料，MD520 的电网类型结论为：____。",
+    "options": null,
+    "answer": [
+      "TN、TT、IT(Y) 可按手册条件使用"
+    ],
+    "analysis": "IT 系统还需按手册核对滤波和接地条件。",
+    "source": {
+      "title": "MD520系列通用变频器硬件手册-CN-B02、功能手册-CN-B05、安全手册-CN-A04",
+      "chapter": "知识点 D06",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD520",
+      "电网类型"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-310",
+    "category": "inverter",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "请补全 MD520 PM 电机的外拖风险关键边界：____。",
+    "options": null,
+    "answer": [
+      "外力拖动 PM 电机可能在驱动端产生危险电压"
+    ],
+    "analysis": "机械负载与旋转惯量必须纳入隔离。",
+    "source": {
+      "title": "MD520系列通用变频器硬件手册-CN-B02、功能手册-CN-B05、安全手册-CN-A04",
+      "chapter": "知识点 T-D03",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD520 PM 电机",
+      "外拖风险"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-311",
+    "category": "inverter",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "技术检查表中，MD580 的SVC 调速范围应填为：____。",
+    "options": null,
+    "answer": [
+      "1:200"
+    ],
+    "analysis": "控制模式和电机类型共同限定性能。",
+    "source": {
+      "title": "MD580系列低压高性能工程型变频器用户/硬件/功能/通信手册 A03/B03；690 V 用户手册 A04",
+      "chapter": "知识点 T-D04",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD580",
+      "SVC 调速范围"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-312",
+    "category": "inverter",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "根据同版本资料，MD580 的高海拔边界结论为：____。",
+    "options": null,
+    "answer": [
+      "最高 4000 m；超过 2000 m 需隔离变压器条件"
+    ],
+    "analysis": "海拔还影响散热与电气绝缘。",
+    "source": {
+      "title": "MD580系列低压高性能工程型变频器用户/硬件/功能/通信手册 A03/B03；690 V 用户手册 A04",
+      "chapter": "知识点 T-D05",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD580",
+      "高海拔边界"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-313",
+    "category": "inverter",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "请补全 MD580 T10～T12 的载波限制关键边界：____。",
+    "options": null,
+    "answer": [
+      "最高 6 kHz"
+    ],
+    "analysis": "T2～T9 的 12/8 kHz 限制不能套给大机座。",
+    "source": {
+      "title": "MD580系列低压高性能工程型变频器用户/硬件/功能/通信手册 A03/B03；690 V 用户手册 A04",
+      "chapter": "知识点 T-D06",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD580 T10～T12",
+      "载波限制"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-314",
+    "category": "inverter",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "技术检查表中，MD580 T10～T12 的柜体安装应填为：____。",
+    "options": null,
+    "answer": [
+      "单机柜内不宜并排或上下叠装"
+    ],
+    "analysis": "散热要求按硬件手册和柜体热设计验证。",
+    "source": {
+      "title": "MD580系列低压高性能工程型变频器用户/硬件/功能/通信手册 A03/B03；690 V 用户手册 A04",
+      "chapter": "知识点 T-D07",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD580 T10～T12",
+      "柜体安装"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-315",
+    "category": "inverter",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "根据同版本资料，MD580 的故障保护结论为：____。",
+    "options": null,
+    "answer": [
+      "应核对输入/输出缺相、过流、母线过欠压、制动异常等记录"
+    ],
+    "analysis": "诊断要结合黑盒和波形，而不是猜一个代码。",
+    "source": {
+      "title": "MD580系列低压高性能工程型变频器用户/硬件/功能/通信手册 A03/B03；690 V 用户手册 A04",
+      "chapter": "知识点 T-D08",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD580",
+      "故障保护"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-316",
+    "category": "inverter",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "请补全 MD580 的独立控制电源关键边界：____。",
+    "options": null,
+    "answer": [
+      "官网列出独立 24 V 控制电源"
+    ],
+    "analysis": "电源端子与电压按同机座图复核。",
+    "source": {
+      "title": "MD580 Single Drive Series 产品页",
+      "chapter": "知识点 T-D09",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD580",
+      "独立控制电源"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-317",
+    "category": "inverter",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "技术检查表中，MD630 的温度降额应填为：____。",
+    "options": null,
+    "answer": [
+      "-20～60 ℃，超过 50 ℃每升高 1 ℃降额 2.5%"
+    ],
+    "analysis": "高温条件要并入柜体散热和负载选型。",
+    "source": {
+      "title": "MD630系列通用型变频器用户手册-CN-A00（PS00021993）",
+      "chapter": "知识点 T-D10",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD630",
+      "温度降额"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-318",
+    "category": "inverter",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "根据同版本资料，MD630 的海拔降额结论为：____。",
+    "options": null,
+    "answer": [
+      "超过 1000 m 每升高 100 m 降额 1%，最高 3000 m"
+    ],
+    "analysis": "海拔影响冷却和绝缘边界。",
+    "source": {
+      "title": "MD630系列通用型变频器用户手册-CN-A00（PS00021993）",
+      "chapter": "知识点 T-D11",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD630",
+      "海拔降额"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-319",
+    "category": "inverter",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "请补全 MD630 的强弱电分离关键边界：____。",
+    "options": null,
+    "answer": [
+      "动力电缆与信号电缆间距大于 30 cm"
+    ],
+    "analysis": "布线还需注意交叉角度和屏蔽接地。",
+    "source": {
+      "title": "MD630系列通用型变频器用户手册-CN-A00（PS00021993）",
+      "chapter": "知识点 T-D12",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD630",
+      "强弱电分离"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-320",
+    "category": "inverter",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "技术检查表中，MD630 的PE 接线应填为：____。",
+    "options": null,
+    "answer": [
+      "PE 不经断路器，不与 N 共用"
+    ],
+    "analysis": "保护接地属于不可省略的安全条件。",
+    "source": {
+      "title": "MD630系列通用型变频器用户手册-CN-A00（PS00021993）",
+      "chapter": "知识点 T-D13",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD630",
+      "PE 接线"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-321",
+    "category": "inverter",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "根据同版本资料，MD630 的外部控制电源结论为：____。",
+    "options": null,
+    "answer": [
+      "E24V 为外部 24 V 端子"
+    ],
+    "analysis": "端子定义须按同型号用户手册确认。",
+    "source": {
+      "title": "MD630系列通用型变频器用户手册-CN-A00（PS00021993）",
+      "chapter": "知识点 T-D14",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD630",
+      "外部控制电源"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-322",
+    "category": "inverter",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "请补全 MD630 的CiA 402 前提关键边界：____。",
+    "options": null,
+    "answer": [
+      "A0-00 复位、F0-03=2、F0-29=9、nd-00=1 等条件需核对"
+    ],
+    "analysis": "CiA402 不是所有总线分支的默认状态。",
+    "source": {
+      "title": "MD630系列通用型变频器用户手册-CN-A00（PS00021993）",
+      "chapter": "知识点 T-D15",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD630",
+      "CiA 402 前提"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-323",
+    "category": "inverter",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "技术检查表中，MD630 的故障响应设置应填为：____。",
+    "options": null,
+    "answer": [
+      "手册列出 11 类动作，但并非所有故障可配置"
+    ],
+    "analysis": "不可配置故障要按手册和风险评估处理。",
+    "source": {
+      "title": "MD630系列通用型变频器用户手册-CN-A00（PS00021993）",
+      "chapter": "知识点 T-D16",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD630",
+      "故障响应设置"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-324",
+    "category": "inverter",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "根据同版本资料，MD800 的工作温度结论为：____。",
+    "options": null,
+    "answer": [
+      "有过载 -20～40 ℃，无过载 -20～50 ℃；超限每 ℃降额 2.5%"
+    ],
+    "analysis": "热设计必须按过载状态区分。",
+    "source": {
+      "title": "MD800系列多机传动变频器用户手册-CN-A07、综合手册-CN-A04、通信手册-CN-B05",
+      "chapter": "知识点 T-D17",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD800",
+      "工作温度"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-325",
+    "category": "inverter",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "请补全 MD800 的海拔边界关键边界：____。",
+    "options": null,
+    "answer": [
+      "星形电网最高 4000 m，角形电网最高 2000 m；1000 m 以上降额"
+    ],
+    "analysis": "电网形态和绝缘要求要一起确认。",
+    "source": {
+      "title": "MD800系列多机传动变频器用户手册-CN-A07、综合手册-CN-A04、通信手册-CN-B05",
+      "chapter": "知识点 T-D18",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD800",
+      "海拔边界"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-326",
+    "category": "inverter",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "技术检查表中，MD800 的安装间距应填为：____。",
+    "options": null,
+    "answer": [
+      "侧面至少 55 mm，上下至少 200 mm"
+    ],
+    "analysis": "书本型也有明确散热空间。",
+    "source": {
+      "title": "MD800系列多机传动变频器用户手册-CN-A07、综合手册-CN-A04、通信手册-CN-B05",
+      "chapter": "知识点 T-D19",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD800",
+      "安装间距"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-327",
+    "category": "inverter",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "根据同版本资料，MD800 的短路容量结论为：____。",
+    "options": null,
+    "answer": [
+      "手册给出 100 kA 短路能力边界"
+    ],
+    "analysis": "还需结合上级保护器件和电网。",
+    "source": {
+      "title": "MD800系列多机传动变频器用户手册-CN-A07、综合手册-CN-A04、通信手册-CN-B05",
+      "chapter": "知识点 T-D20",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD800",
+      "短路容量"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-328",
+    "category": "inverter",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "请补全 MD810 的逆变控制模式关键边界：____。",
+    "options": null,
+    "answer": [
+      "IM 支持 V/f、SVC、FVC；PMSM 支持 SVC、FVC"
+    ],
+    "analysis": "控制模式与反馈附件、电机类型密切相关。",
+    "source": {
+      "title": "MD810系列多机传动变频器硬件手册-CN-A04、功能手册 A05",
+      "chapter": "知识点 T-D21",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD810",
+      "逆变控制模式"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-329",
+    "category": "inverter",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "技术检查表中，MD810 的载波范围应填为：____。",
+    "options": null,
+    "answer": [
+      "V/f 0.8～12 kHz，SVC/FVC 2～6 kHz"
+    ],
+    "analysis": "载波频率不同于输出频率。",
+    "source": {
+      "title": "MD810系列多机传动变频器硬件手册-CN-A04、功能手册 A05",
+      "chapter": "知识点 T-D22",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD810",
+      "载波范围"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-330",
+    "category": "inverter",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "根据同版本资料，MD810 的速度范围结论为：____。",
+    "options": null,
+    "answer": [
+      "V/f 1:50、IM SVC 1:100、FVC 1:1000"
+    ],
+    "analysis": "性能值要注明对应模式与电机。",
+    "source": {
+      "title": "MD810系列多机传动变频器硬件手册-CN-A04、功能手册 A05",
+      "chapter": "知识点 T-D23",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD810",
+      "速度范围"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-331",
+    "category": "inverter",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "请补全 MD810 整流的通信协议关键边界：____。",
+    "options": null,
+    "answer": [
+      "Modbus RTU/PROFIBUS/CANopen/CANlink/PROFINET"
+    ],
+    "analysis": "整流与逆变通信清单不同。",
+    "source": {
+      "title": "MD810系列多机传动变频器硬件手册-CN-A04、功能手册 A05",
+      "chapter": "知识点 T-D24",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD810 整流",
+      "通信协议"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-332",
+    "category": "inverter",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "技术检查表中，MD810 逆变的通信协议应填为：____。",
+    "options": null,
+    "answer": [
+      "Modbus RTU/PROFIBUS/CANopen/CANlink/EtherCAT"
+    ],
+    "analysis": "逆变 EtherCAT 为当前手册支持，不应沿用旧风险备注。",
+    "source": {
+      "title": "MD810系列多机传动变频器硬件手册-CN-A04、功能手册 A05",
+      "chapter": "知识点 T-D25",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD810 逆变",
+      "通信协议"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-333",
+    "category": "inverter",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "根据同版本资料，MD810 的冷却方案结论为：____。",
+    "options": null,
+    "answer": [
+      "风冷和水冷按具体模块选"
+    ],
+    "analysis": "冷却配件和柜内热设计要同系统核对。",
+    "source": {
+      "title": "MD810系列多机传动变频器硬件手册-CN-A04、功能手册 A05",
+      "chapter": "知识点 T-D26",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD810",
+      "冷却方案"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-334",
+    "category": "inverter",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "请补全 MD810 的母线故障定位关键边界：____。",
+    "options": null,
+    "answer": [
+      "先比对整流输入、母线工作范围与逆变负载记录"
+    ],
+    "analysis": "多机系统的故障应按模块角色分层。",
+    "source": {
+      "title": "MD810系列多机传动变频器硬件手册-CN-A04、功能手册 A05",
+      "chapter": "知识点 T-D27",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD810",
+      "母线故障定位"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-335",
+    "category": "inverter",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "技术检查表中，MD520 制动的现场接线应填为：____。",
+    "options": null,
+    "answer": [
+      "按 T8 以下 (+)/BR、T9 以上 (+)/(-) 的同机座图接线"
+    ],
+    "analysis": "任何接线前先执行断电、等待、测量。",
+    "source": {
+      "title": "MD520系列通用变频器硬件手册-CN-B02、功能手册-CN-B05、安全手册-CN-A04",
+      "chapter": "知识点 T-D28",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD520 制动",
+      "现场接线"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-336",
+    "category": "inverter",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "根据同版本资料，MD580 PROFIBUS 的通信速率结论为：____。",
+    "options": null,
+    "answer": [
+      "9.6 kbit/s～12 Mbit/s，距离随速率约 1200～100 m"
+    ],
+    "analysis": "实际距离、终端和屏蔽按通信手册核对。",
+    "source": {
+      "title": "MD580系列低压高性能工程型变频器用户/硬件/功能/通信手册 A03/B03；690 V 用户手册 A04",
+      "chapter": "知识点 T-D29",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD580 PROFIBUS",
+      "通信速率"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-337",
+    "category": "inverter",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "请补全 MD520/MD580 的输出频率关键边界：____。",
+    "options": null,
+    "answer": [
+      "599 Hz 是驱动上限，不是电机许可转速"
+    ],
+    "analysis": "客户高速需求还需核对电机和机械强度。",
+    "source": {
+      "title": "变频器速查审计（已核验）与变频器二次学习补充（2026-09）",
+      "chapter": "知识点 T-D30",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD520/MD580",
+      "输出频率"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-338",
+    "category": "inverter",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "技术检查表中，MD630 故障记录的诊断取证应填为：____。",
+    "options": null,
+    "answer": [
+      "读 30 组历史故障并核对时间、负载、电网、参数和波形"
+    ],
+    "analysis": "历史记录是线索，不是单独的最终根因。",
+    "source": {
+      "title": "MD630 Series 产品页",
+      "chapter": "知识点 T-D31",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD630 故障记录",
+      "诊断取证"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-339",
+    "category": "inverter",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "根据同版本资料，MD800 STO 的安全边界结论为：____。",
+    "options": null,
+    "answer": [
+      "仅确认带 S 逆变分支及安全手册，不能以整流 B 代替 STO"
+    ],
+    "analysis": "安全回路还须整机验证。",
+    "source": {
+      "title": "MD800系列多机传动变频器用户手册-CN-A07、综合手册-CN-A04、通信手册-CN-B05",
+      "chapter": "知识点 T-D32",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD800 STO",
+      "安全边界"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-340",
+    "category": "inverter",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "请补全 MD580 STO 的实施边界关键边界：____。",
+    "options": null,
+    "answer": [
+      "STO 不能代替断电、残压测量或机械保持"
+    ],
+    "analysis": "检修与运动风险分别处理。",
+    "source": {
+      "title": "MD580 Single Drive Series 产品页",
+      "chapter": "知识点 T-D33",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD580 STO",
+      "实施边界"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-341",
+    "category": "inverter",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "技术检查表中，MD880 黑盒的诊断能力应填为：____。",
+    "options": null,
+    "answer": [
+      "官网资料提及 50 组波形与 1000 条数据，须核对具体配置"
+    ],
+    "analysis": "波形取证还需结合现场外部测量。",
+    "source": {
+      "title": "MD880 Series 官方产品资料",
+      "chapter": "知识点 T-D34",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD880 黑盒",
+      "诊断能力"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-342",
+    "category": "inverter",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "根据同版本资料，MD520 的电机辨识结论为：____。",
+    "options": null,
+    "answer": [
+      "F1-37=3 为静态完整调谐，按手册前提执行"
+    ],
+    "analysis": "调谐必须确认电机、机械和安全状态。",
+    "source": {
+      "title": "MD520系列通用变频器硬件手册-CN-B02、功能手册-CN-B05、安全手册-CN-A04",
+      "chapter": "知识点 T-D01",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD520",
+      "电机辨识"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-343",
+    "category": "inverter",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "请补全 MD520 断电的残余电压关键边界：____。",
+    "options": null,
+    "answer": [
+      "等待规定时间并测量直流母线电压后再作业"
+    ],
+    "analysis": "PM 电机被外力带动仍可能产生电压。",
+    "source": {
+      "title": "MD520系列通用变频器硬件手册-CN-B02、功能手册-CN-B05、安全手册-CN-A04",
+      "chapter": "知识点 T-D02",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD520 断电",
+      "残余电压"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-344",
+    "category": "inverter",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "技术检查表中，MD520 PM 电机的外拖风险应填为：____。",
+    "options": null,
+    "answer": [
+      "外力拖动 PM 电机可能在驱动端产生危险电压"
+    ],
+    "analysis": "机械负载与旋转惯量必须纳入隔离。",
+    "source": {
+      "title": "MD520系列通用变频器硬件手册-CN-B02、功能手册-CN-B05、安全手册-CN-A04",
+      "chapter": "知识点 T-D03",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD520 PM 电机",
+      "外拖风险"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-345",
+    "category": "inverter",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "根据同版本资料，MD580 的SVC 调速范围结论为：____。",
+    "options": null,
+    "answer": [
+      "1:200"
+    ],
+    "analysis": "控制模式和电机类型共同限定性能。",
+    "source": {
+      "title": "MD580系列低压高性能工程型变频器用户/硬件/功能/通信手册 A03/B03；690 V 用户手册 A04",
+      "chapter": "知识点 T-D04",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD580",
+      "SVC 调速范围"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-346",
+    "category": "inverter",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "请补全 MD580 的高海拔边界关键边界：____。",
+    "options": null,
+    "answer": [
+      "最高 4000 m；超过 2000 m 需隔离变压器条件"
+    ],
+    "analysis": "海拔还影响散热与电气绝缘。",
+    "source": {
+      "title": "MD580系列低压高性能工程型变频器用户/硬件/功能/通信手册 A03/B03；690 V 用户手册 A04",
+      "chapter": "知识点 T-D05",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD580",
+      "高海拔边界"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-347",
+    "category": "inverter",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "技术检查表中，MD580 T10～T12 的载波限制应填为：____。",
+    "options": null,
+    "answer": [
+      "最高 6 kHz"
+    ],
+    "analysis": "T2～T9 的 12/8 kHz 限制不能套给大机座。",
+    "source": {
+      "title": "MD580系列低压高性能工程型变频器用户/硬件/功能/通信手册 A03/B03；690 V 用户手册 A04",
+      "chapter": "知识点 T-D06",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD580 T10～T12",
+      "载波限制"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-348",
+    "category": "inverter",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "根据同版本资料，MD580 T10～T12 的柜体安装结论为：____。",
+    "options": null,
+    "answer": [
+      "单机柜内不宜并排或上下叠装"
+    ],
+    "analysis": "散热要求按硬件手册和柜体热设计验证。",
+    "source": {
+      "title": "MD580系列低压高性能工程型变频器用户/硬件/功能/通信手册 A03/B03；690 V 用户手册 A04",
+      "chapter": "知识点 T-D07",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD580 T10～T12",
+      "柜体安装"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-349",
+    "category": "inverter",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "请补全 MD580 的故障保护关键边界：____。",
+    "options": null,
+    "answer": [
+      "应核对输入/输出缺相、过流、母线过欠压、制动异常等记录"
+    ],
+    "analysis": "诊断要结合黑盒和波形，而不是猜一个代码。",
+    "source": {
+      "title": "MD580系列低压高性能工程型变频器用户/硬件/功能/通信手册 A03/B03；690 V 用户手册 A04",
+      "chapter": "知识点 T-D08",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD580",
+      "故障保护"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-350",
+    "category": "inverter",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "技术检查表中，MD580 的独立控制电源应填为：____。",
+    "options": null,
+    "answer": [
+      "官网列出独立 24 V 控制电源"
+    ],
+    "analysis": "电源端子与电压按同机座图复核。",
+    "source": {
+      "title": "MD580 Single Drive Series 产品页",
+      "chapter": "知识点 T-D09",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD580",
+      "独立控制电源"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-351",
+    "category": "inverter",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "根据同版本资料，MD630 的温度降额结论为：____。",
+    "options": null,
+    "answer": [
+      "-20～60 ℃，超过 50 ℃每升高 1 ℃降额 2.5%"
+    ],
+    "analysis": "高温条件要并入柜体散热和负载选型。",
+    "source": {
+      "title": "MD630系列通用型变频器用户手册-CN-A00（PS00021993）",
+      "chapter": "知识点 T-D10",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD630",
+      "温度降额"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-352",
+    "category": "inverter",
+    "type": "scenario",
+    "difficulty": 3,
+    "stem": "客户要求解释 MD520 断电的残余电压并给出现场验证方案。请按安全、测量、参数/配置和复测顺序作答。",
+    "options": null,
+    "answer": "评分要点：①核心结论为“等待规定时间并测量直流母线电压后再作业”；②先停机/断电/验证残余电压及机械负载风险；③保留完整型号、手册版本、故障/波形、参数、接线、主站和电机反馈证据；④按手册隔离变量，复测并记录；⑤安全功能须按整机风险评估及对应手册验证。PM 电机被外力带动仍可能产生电压。",
+    "analysis": "按评分要点给分；合理等价步骤可酌情给分。",
+    "source": {
+      "title": "MD520系列通用变频器硬件手册-CN-B02、功能手册-CN-B05、安全手册-CN-A04",
+      "chapter": "知识点 T-D02",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD520 断电",
+      "残余电压"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-353",
+    "category": "inverter",
+    "type": "scenario",
+    "difficulty": 3,
+    "stem": "现场出现与 MD520 PM 电机的外拖风险相关的异常。请写出你会收集哪些证据、如何隔离风险、怎样定位与验证。",
+    "options": null,
+    "answer": "评分要点：①核心结论为“外力拖动 PM 电机可能在驱动端产生危险电压”；②先停机/断电/验证残余电压及机械负载风险；③保留完整型号、手册版本、故障/波形、参数、接线、主站和电机反馈证据；④按手册隔离变量，复测并记录；⑤安全功能须按整机风险评估及对应手册验证。机械负载与旋转惯量必须纳入隔离。",
+    "analysis": "按评分要点给分；合理等价步骤可酌情给分。",
+    "source": {
+      "title": "MD520系列通用变频器硬件手册-CN-B02、功能手册-CN-B05、安全手册-CN-A04",
+      "chapter": "知识点 T-D03",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD520 PM 电机",
+      "外拖风险"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-354",
+    "category": "inverter",
+    "type": "scenario",
+    "difficulty": 3,
+    "stem": "新旧工程在 MD580 的SVC 调速范围上存在差异。请说明迁移前的版本核对、调试步骤和验收边界。",
+    "options": null,
+    "answer": "评分要点：①核心结论为“1:200”；②先停机/断电/验证残余电压及机械负载风险；③保留完整型号、手册版本、故障/波形、参数、接线、主站和电机反馈证据；④按手册隔离变量，复测并记录；⑤安全功能须按整机风险评估及对应手册验证。控制模式和电机类型共同限定性能。",
+    "analysis": "按评分要点给分；合理等价步骤可酌情给分。",
+    "source": {
+      "title": "MD580系列低压高性能工程型变频器用户/硬件/功能/通信手册 A03/B03；690 V 用户手册 A04",
+      "chapter": "知识点 T-D04",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD580",
+      "SVC 调速范围"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-355",
+    "category": "inverter",
+    "type": "scenario",
+    "difficulty": 3,
+    "stem": "客户要求解释 MD580 的高海拔边界并给出现场验证方案。请按安全、测量、参数/配置和复测顺序作答。",
+    "options": null,
+    "answer": "评分要点：①核心结论为“最高 4000 m；超过 2000 m 需隔离变压器条件”；②先停机/断电/验证残余电压及机械负载风险；③保留完整型号、手册版本、故障/波形、参数、接线、主站和电机反馈证据；④按手册隔离变量，复测并记录；⑤安全功能须按整机风险评估及对应手册验证。海拔还影响散热与电气绝缘。",
+    "analysis": "按评分要点给分；合理等价步骤可酌情给分。",
+    "source": {
+      "title": "MD580系列低压高性能工程型变频器用户/硬件/功能/通信手册 A03/B03；690 V 用户手册 A04",
+      "chapter": "知识点 T-D05",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD580",
+      "高海拔边界"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-356",
+    "category": "inverter",
+    "type": "scenario",
+    "difficulty": 3,
+    "stem": "现场出现与 MD580 T10～T12 的载波限制相关的异常。请写出你会收集哪些证据、如何隔离风险、怎样定位与验证。",
+    "options": null,
+    "answer": "评分要点：①核心结论为“最高 6 kHz”；②先停机/断电/验证残余电压及机械负载风险；③保留完整型号、手册版本、故障/波形、参数、接线、主站和电机反馈证据；④按手册隔离变量，复测并记录；⑤安全功能须按整机风险评估及对应手册验证。T2～T9 的 12/8 kHz 限制不能套给大机座。",
+    "analysis": "按评分要点给分；合理等价步骤可酌情给分。",
+    "source": {
+      "title": "MD580系列低压高性能工程型变频器用户/硬件/功能/通信手册 A03/B03；690 V 用户手册 A04",
+      "chapter": "知识点 T-D06",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD580 T10～T12",
+      "载波限制"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-357",
+    "category": "inverter",
+    "type": "scenario",
+    "difficulty": 3,
+    "stem": "新旧工程在 MD580 T10～T12 的柜体安装上存在差异。请说明迁移前的版本核对、调试步骤和验收边界。",
+    "options": null,
+    "answer": "评分要点：①核心结论为“单机柜内不宜并排或上下叠装”；②先停机/断电/验证残余电压及机械负载风险；③保留完整型号、手册版本、故障/波形、参数、接线、主站和电机反馈证据；④按手册隔离变量，复测并记录；⑤安全功能须按整机风险评估及对应手册验证。散热要求按硬件手册和柜体热设计验证。",
+    "analysis": "按评分要点给分；合理等价步骤可酌情给分。",
+    "source": {
+      "title": "MD580系列低压高性能工程型变频器用户/硬件/功能/通信手册 A03/B03；690 V 用户手册 A04",
+      "chapter": "知识点 T-D07",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD580 T10～T12",
+      "柜体安装"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-358",
+    "category": "inverter",
+    "type": "scenario",
+    "difficulty": 3,
+    "stem": "客户要求解释 MD580 的故障保护并给出现场验证方案。请按安全、测量、参数/配置和复测顺序作答。",
+    "options": null,
+    "answer": "评分要点：①核心结论为“应核对输入/输出缺相、过流、母线过欠压、制动异常等记录”；②先停机/断电/验证残余电压及机械负载风险；③保留完整型号、手册版本、故障/波形、参数、接线、主站和电机反馈证据；④按手册隔离变量，复测并记录；⑤安全功能须按整机风险评估及对应手册验证。诊断要结合黑盒和波形，而不是猜一个代码。",
+    "analysis": "按评分要点给分；合理等价步骤可酌情给分。",
+    "source": {
+      "title": "MD580系列低压高性能工程型变频器用户/硬件/功能/通信手册 A03/B03；690 V 用户手册 A04",
+      "chapter": "知识点 T-D08",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD580",
+      "故障保护"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-359",
+    "category": "inverter",
+    "type": "scenario",
+    "difficulty": 3,
+    "stem": "现场出现与 MD580 的独立控制电源相关的异常。请写出你会收集哪些证据、如何隔离风险、怎样定位与验证。",
+    "options": null,
+    "answer": "评分要点：①核心结论为“官网列出独立 24 V 控制电源”；②先停机/断电/验证残余电压及机械负载风险；③保留完整型号、手册版本、故障/波形、参数、接线、主站和电机反馈证据；④按手册隔离变量，复测并记录；⑤安全功能须按整机风险评估及对应手册验证。电源端子与电压按同机座图复核。",
+    "analysis": "按评分要点给分；合理等价步骤可酌情给分。",
+    "source": {
+      "title": "MD580 Single Drive Series 产品页",
+      "chapter": "知识点 T-D09",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD580",
+      "独立控制电源"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-360",
+    "category": "inverter",
+    "type": "scenario",
+    "difficulty": 3,
+    "stem": "新旧工程在 MD630 的温度降额上存在差异。请说明迁移前的版本核对、调试步骤和验收边界。",
+    "options": null,
+    "answer": "评分要点：①核心结论为“-20～60 ℃，超过 50 ℃每升高 1 ℃降额 2.5%”；②先停机/断电/验证残余电压及机械负载风险；③保留完整型号、手册版本、故障/波形、参数、接线、主站和电机反馈证据；④按手册隔离变量，复测并记录；⑤安全功能须按整机风险评估及对应手册验证。高温条件要并入柜体散热和负载选型。",
+    "analysis": "按评分要点给分；合理等价步骤可酌情给分。",
+    "source": {
+      "title": "MD630系列通用型变频器用户手册-CN-A00（PS00021993）",
+      "chapter": "知识点 T-D10",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD630",
+      "温度降额"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-361",
+    "category": "inverter",
+    "type": "scenario",
+    "difficulty": 3,
+    "stem": "客户要求解释 MD630 的海拔降额并给出现场验证方案。请按安全、测量、参数/配置和复测顺序作答。",
+    "options": null,
+    "answer": "评分要点：①核心结论为“超过 1000 m 每升高 100 m 降额 1%，最高 3000 m”；②先停机/断电/验证残余电压及机械负载风险；③保留完整型号、手册版本、故障/波形、参数、接线、主站和电机反馈证据；④按手册隔离变量，复测并记录；⑤安全功能须按整机风险评估及对应手册验证。海拔影响冷却和绝缘边界。",
+    "analysis": "按评分要点给分；合理等价步骤可酌情给分。",
+    "source": {
+      "title": "MD630系列通用型变频器用户手册-CN-A00（PS00021993）",
+      "chapter": "知识点 T-D11",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD630",
+      "海拔降额"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-362",
+    "category": "inverter",
+    "type": "scenario",
+    "difficulty": 3,
+    "stem": "现场出现与 MD630 的强弱电分离相关的异常。请写出你会收集哪些证据、如何隔离风险、怎样定位与验证。",
+    "options": null,
+    "answer": "评分要点：①核心结论为“动力电缆与信号电缆间距大于 30 cm”；②先停机/断电/验证残余电压及机械负载风险；③保留完整型号、手册版本、故障/波形、参数、接线、主站和电机反馈证据；④按手册隔离变量，复测并记录；⑤安全功能须按整机风险评估及对应手册验证。布线还需注意交叉角度和屏蔽接地。",
+    "analysis": "按评分要点给分；合理等价步骤可酌情给分。",
+    "source": {
+      "title": "MD630系列通用型变频器用户手册-CN-A00（PS00021993）",
+      "chapter": "知识点 T-D12",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD630",
+      "强弱电分离"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-363",
+    "category": "inverter",
+    "type": "scenario",
+    "difficulty": 3,
+    "stem": "新旧工程在 MD630 的PE 接线上存在差异。请说明迁移前的版本核对、调试步骤和验收边界。",
+    "options": null,
+    "answer": "评分要点：①核心结论为“PE 不经断路器，不与 N 共用”；②先停机/断电/验证残余电压及机械负载风险；③保留完整型号、手册版本、故障/波形、参数、接线、主站和电机反馈证据；④按手册隔离变量，复测并记录；⑤安全功能须按整机风险评估及对应手册验证。保护接地属于不可省略的安全条件。",
+    "analysis": "按评分要点给分；合理等价步骤可酌情给分。",
+    "source": {
+      "title": "MD630系列通用型变频器用户手册-CN-A00（PS00021993）",
+      "chapter": "知识点 T-D13",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD630",
+      "PE 接线"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-364",
+    "category": "inverter",
+    "type": "scenario",
+    "difficulty": 3,
+    "stem": "客户要求解释 MD630 的外部控制电源并给出现场验证方案。请按安全、测量、参数/配置和复测顺序作答。",
+    "options": null,
+    "answer": "评分要点：①核心结论为“E24V 为外部 24 V 端子”；②先停机/断电/验证残余电压及机械负载风险；③保留完整型号、手册版本、故障/波形、参数、接线、主站和电机反馈证据；④按手册隔离变量，复测并记录；⑤安全功能须按整机风险评估及对应手册验证。端子定义须按同型号用户手册确认。",
+    "analysis": "按评分要点给分；合理等价步骤可酌情给分。",
+    "source": {
+      "title": "MD630系列通用型变频器用户手册-CN-A00（PS00021993）",
+      "chapter": "知识点 T-D14",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD630",
+      "外部控制电源"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-365",
+    "category": "inverter",
+    "type": "scenario",
+    "difficulty": 3,
+    "stem": "现场出现与 MD630 的CiA 402 前提相关的异常。请写出你会收集哪些证据、如何隔离风险、怎样定位与验证。",
+    "options": null,
+    "answer": "评分要点：①核心结论为“A0-00 复位、F0-03=2、F0-29=9、nd-00=1 等条件需核对”；②先停机/断电/验证残余电压及机械负载风险；③保留完整型号、手册版本、故障/波形、参数、接线、主站和电机反馈证据；④按手册隔离变量，复测并记录；⑤安全功能须按整机风险评估及对应手册验证。CiA402 不是所有总线分支的默认状态。",
+    "analysis": "按评分要点给分；合理等价步骤可酌情给分。",
+    "source": {
+      "title": "MD630系列通用型变频器用户手册-CN-A00（PS00021993）",
+      "chapter": "知识点 T-D15",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD630",
+      "CiA 402 前提"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-366",
+    "category": "inverter",
+    "type": "scenario",
+    "difficulty": 3,
+    "stem": "新旧工程在 MD630 的故障响应设置上存在差异。请说明迁移前的版本核对、调试步骤和验收边界。",
+    "options": null,
+    "answer": "评分要点：①核心结论为“手册列出 11 类动作，但并非所有故障可配置”；②先停机/断电/验证残余电压及机械负载风险；③保留完整型号、手册版本、故障/波形、参数、接线、主站和电机反馈证据；④按手册隔离变量，复测并记录；⑤安全功能须按整机风险评估及对应手册验证。不可配置故障要按手册和风险评估处理。",
+    "analysis": "按评分要点给分；合理等价步骤可酌情给分。",
+    "source": {
+      "title": "MD630系列通用型变频器用户手册-CN-A00（PS00021993）",
+      "chapter": "知识点 T-D16",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD630",
+      "故障响应设置"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-367",
+    "category": "inverter",
+    "type": "scenario",
+    "difficulty": 3,
+    "stem": "客户要求解释 MD800 的工作温度并给出现场验证方案。请按安全、测量、参数/配置和复测顺序作答。",
+    "options": null,
+    "answer": "评分要点：①核心结论为“有过载 -20～40 ℃，无过载 -20～50 ℃；超限每 ℃降额 2.5%”；②先停机/断电/验证残余电压及机械负载风险；③保留完整型号、手册版本、故障/波形、参数、接线、主站和电机反馈证据；④按手册隔离变量，复测并记录；⑤安全功能须按整机风险评估及对应手册验证。热设计必须按过载状态区分。",
+    "analysis": "按评分要点给分；合理等价步骤可酌情给分。",
+    "source": {
+      "title": "MD800系列多机传动变频器用户手册-CN-A07、综合手册-CN-A04、通信手册-CN-B05",
+      "chapter": "知识点 T-D17",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD800",
+      "工作温度"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-368",
+    "category": "inverter",
+    "type": "scenario",
+    "difficulty": 3,
+    "stem": "现场出现与 MD800 的海拔边界相关的异常。请写出你会收集哪些证据、如何隔离风险、怎样定位与验证。",
+    "options": null,
+    "answer": "评分要点：①核心结论为“星形电网最高 4000 m，角形电网最高 2000 m；1000 m 以上降额”；②先停机/断电/验证残余电压及机械负载风险；③保留完整型号、手册版本、故障/波形、参数、接线、主站和电机反馈证据；④按手册隔离变量，复测并记录；⑤安全功能须按整机风险评估及对应手册验证。电网形态和绝缘要求要一起确认。",
+    "analysis": "按评分要点给分；合理等价步骤可酌情给分。",
+    "source": {
+      "title": "MD800系列多机传动变频器用户手册-CN-A07、综合手册-CN-A04、通信手册-CN-B05",
+      "chapter": "知识点 T-D18",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD800",
+      "海拔边界"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-369",
+    "category": "inverter",
+    "type": "scenario",
+    "difficulty": 3,
+    "stem": "新旧工程在 MD800 的安装间距上存在差异。请说明迁移前的版本核对、调试步骤和验收边界。",
+    "options": null,
+    "answer": "评分要点：①核心结论为“侧面至少 55 mm，上下至少 200 mm”；②先停机/断电/验证残余电压及机械负载风险；③保留完整型号、手册版本、故障/波形、参数、接线、主站和电机反馈证据；④按手册隔离变量，复测并记录；⑤安全功能须按整机风险评估及对应手册验证。书本型也有明确散热空间。",
+    "analysis": "按评分要点给分；合理等价步骤可酌情给分。",
+    "source": {
+      "title": "MD800系列多机传动变频器用户手册-CN-A07、综合手册-CN-A04、通信手册-CN-B05",
+      "chapter": "知识点 T-D19",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD800",
+      "安装间距"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-370",
+    "category": "inverter",
+    "type": "scenario",
+    "difficulty": 3,
+    "stem": "客户要求解释 MD800 的短路容量并给出现场验证方案。请按安全、测量、参数/配置和复测顺序作答。",
+    "options": null,
+    "answer": "评分要点：①核心结论为“手册给出 100 kA 短路能力边界”；②先停机/断电/验证残余电压及机械负载风险；③保留完整型号、手册版本、故障/波形、参数、接线、主站和电机反馈证据；④按手册隔离变量，复测并记录；⑤安全功能须按整机风险评估及对应手册验证。还需结合上级保护器件和电网。",
+    "analysis": "按评分要点给分；合理等价步骤可酌情给分。",
+    "source": {
+      "title": "MD800系列多机传动变频器用户手册-CN-A07、综合手册-CN-A04、通信手册-CN-B05",
+      "chapter": "知识点 T-D20",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD800",
+      "短路容量"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-371",
+    "category": "inverter",
+    "type": "scenario",
+    "difficulty": 3,
+    "stem": "现场出现与 MD810 的逆变控制模式相关的异常。请写出你会收集哪些证据、如何隔离风险、怎样定位与验证。",
+    "options": null,
+    "answer": "评分要点：①核心结论为“IM 支持 V/f、SVC、FVC；PMSM 支持 SVC、FVC”；②先停机/断电/验证残余电压及机械负载风险；③保留完整型号、手册版本、故障/波形、参数、接线、主站和电机反馈证据；④按手册隔离变量，复测并记录；⑤安全功能须按整机风险评估及对应手册验证。控制模式与反馈附件、电机类型密切相关。",
+    "analysis": "按评分要点给分；合理等价步骤可酌情给分。",
+    "source": {
+      "title": "MD810系列多机传动变频器硬件手册-CN-A04、功能手册 A05",
+      "chapter": "知识点 T-D21",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD810",
+      "逆变控制模式"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-372",
+    "category": "inverter",
+    "type": "scenario",
+    "difficulty": 3,
+    "stem": "新旧工程在 MD810 的载波范围上存在差异。请说明迁移前的版本核对、调试步骤和验收边界。",
+    "options": null,
+    "answer": "评分要点：①核心结论为“V/f 0.8～12 kHz，SVC/FVC 2～6 kHz”；②先停机/断电/验证残余电压及机械负载风险；③保留完整型号、手册版本、故障/波形、参数、接线、主站和电机反馈证据；④按手册隔离变量，复测并记录；⑤安全功能须按整机风险评估及对应手册验证。载波频率不同于输出频率。",
+    "analysis": "按评分要点给分；合理等价步骤可酌情给分。",
+    "source": {
+      "title": "MD810系列多机传动变频器硬件手册-CN-A04、功能手册 A05",
+      "chapter": "知识点 T-D22",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD810",
+      "载波范围"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-373",
+    "category": "inverter",
+    "type": "scenario",
+    "difficulty": 3,
+    "stem": "客户要求解释 MD810 的速度范围并给出现场验证方案。请按安全、测量、参数/配置和复测顺序作答。",
+    "options": null,
+    "answer": "评分要点：①核心结论为“V/f 1:50、IM SVC 1:100、FVC 1:1000”；②先停机/断电/验证残余电压及机械负载风险；③保留完整型号、手册版本、故障/波形、参数、接线、主站和电机反馈证据；④按手册隔离变量，复测并记录；⑤安全功能须按整机风险评估及对应手册验证。性能值要注明对应模式与电机。",
+    "analysis": "按评分要点给分；合理等价步骤可酌情给分。",
+    "source": {
+      "title": "MD810系列多机传动变频器硬件手册-CN-A04、功能手册 A05",
+      "chapter": "知识点 T-D23",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD810",
+      "速度范围"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-374",
+    "category": "inverter",
+    "type": "scenario",
+    "difficulty": 3,
+    "stem": "现场出现与 MD810 整流的通信协议相关的异常。请写出你会收集哪些证据、如何隔离风险、怎样定位与验证。",
+    "options": null,
+    "answer": "评分要点：①核心结论为“Modbus RTU/PROFIBUS/CANopen/CANlink/PROFINET”；②先停机/断电/验证残余电压及机械负载风险；③保留完整型号、手册版本、故障/波形、参数、接线、主站和电机反馈证据；④按手册隔离变量，复测并记录；⑤安全功能须按整机风险评估及对应手册验证。整流与逆变通信清单不同。",
+    "analysis": "按评分要点给分；合理等价步骤可酌情给分。",
+    "source": {
+      "title": "MD810系列多机传动变频器硬件手册-CN-A04、功能手册 A05",
+      "chapter": "知识点 T-D24",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD810 整流",
+      "通信协议"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-375",
+    "category": "inverter",
+    "type": "scenario",
+    "difficulty": 3,
+    "stem": "新旧工程在 MD810 逆变的通信协议上存在差异。请说明迁移前的版本核对、调试步骤和验收边界。",
+    "options": null,
+    "answer": "评分要点：①核心结论为“Modbus RTU/PROFIBUS/CANopen/CANlink/EtherCAT”；②先停机/断电/验证残余电压及机械负载风险；③保留完整型号、手册版本、故障/波形、参数、接线、主站和电机反馈证据；④按手册隔离变量，复测并记录；⑤安全功能须按整机风险评估及对应手册验证。逆变 EtherCAT 为当前手册支持，不应沿用旧风险备注。",
+    "analysis": "按评分要点给分；合理等价步骤可酌情给分。",
+    "source": {
+      "title": "MD810系列多机传动变频器硬件手册-CN-A04、功能手册 A05",
+      "chapter": "知识点 T-D25",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD810 逆变",
+      "通信协议"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-376",
+    "category": "inverter",
+    "type": "scenario",
+    "difficulty": 3,
+    "stem": "客户要求解释 MD810 的冷却方案并给出现场验证方案。请按安全、测量、参数/配置和复测顺序作答。",
+    "options": null,
+    "answer": "评分要点：①核心结论为“风冷和水冷按具体模块选”；②先停机/断电/验证残余电压及机械负载风险；③保留完整型号、手册版本、故障/波形、参数、接线、主站和电机反馈证据；④按手册隔离变量，复测并记录；⑤安全功能须按整机风险评估及对应手册验证。冷却配件和柜内热设计要同系统核对。",
+    "analysis": "按评分要点给分；合理等价步骤可酌情给分。",
+    "source": {
+      "title": "MD810系列多机传动变频器硬件手册-CN-A04、功能手册 A05",
+      "chapter": "知识点 T-D26",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD810",
+      "冷却方案"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-377",
+    "category": "inverter",
+    "type": "scenario",
+    "difficulty": 3,
+    "stem": "现场出现与 MD810 的母线故障定位相关的异常。请写出你会收集哪些证据、如何隔离风险、怎样定位与验证。",
+    "options": null,
+    "answer": "评分要点：①核心结论为“先比对整流输入、母线工作范围与逆变负载记录”；②先停机/断电/验证残余电压及机械负载风险；③保留完整型号、手册版本、故障/波形、参数、接线、主站和电机反馈证据；④按手册隔离变量，复测并记录；⑤安全功能须按整机风险评估及对应手册验证。多机系统的故障应按模块角色分层。",
+    "analysis": "按评分要点给分；合理等价步骤可酌情给分。",
+    "source": {
+      "title": "MD810系列多机传动变频器硬件手册-CN-A04、功能手册 A05",
+      "chapter": "知识点 T-D27",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD810",
+      "母线故障定位"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-378",
+    "category": "inverter",
+    "type": "scenario",
+    "difficulty": 3,
+    "stem": "新旧工程在 MD520 制动的现场接线上存在差异。请说明迁移前的版本核对、调试步骤和验收边界。",
+    "options": null,
+    "answer": "评分要点：①核心结论为“按 T8 以下 (+)/BR、T9 以上 (+)/(-) 的同机座图接线”；②先停机/断电/验证残余电压及机械负载风险；③保留完整型号、手册版本、故障/波形、参数、接线、主站和电机反馈证据；④按手册隔离变量，复测并记录；⑤安全功能须按整机风险评估及对应手册验证。任何接线前先执行断电、等待、测量。",
+    "analysis": "按评分要点给分；合理等价步骤可酌情给分。",
+    "source": {
+      "title": "MD520系列通用变频器硬件手册-CN-B02、功能手册-CN-B05、安全手册-CN-A04",
+      "chapter": "知识点 T-D28",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD520 制动",
+      "现场接线"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-379",
+    "category": "inverter",
+    "type": "scenario",
+    "difficulty": 3,
+    "stem": "客户要求解释 MD580 PROFIBUS 的通信速率并给出现场验证方案。请按安全、测量、参数/配置和复测顺序作答。",
+    "options": null,
+    "answer": "评分要点：①核心结论为“9.6 kbit/s～12 Mbit/s，距离随速率约 1200～100 m”；②先停机/断电/验证残余电压及机械负载风险；③保留完整型号、手册版本、故障/波形、参数、接线、主站和电机反馈证据；④按手册隔离变量，复测并记录；⑤安全功能须按整机风险评估及对应手册验证。实际距离、终端和屏蔽按通信手册核对。",
+    "analysis": "按评分要点给分；合理等价步骤可酌情给分。",
+    "source": {
+      "title": "MD580系列低压高性能工程型变频器用户/硬件/功能/通信手册 A03/B03；690 V 用户手册 A04",
+      "chapter": "知识点 T-D29",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD580 PROFIBUS",
+      "通信速率"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-380",
+    "category": "inverter",
+    "type": "scenario",
+    "difficulty": 3,
+    "stem": "现场出现与 MD520/MD580 的输出频率相关的异常。请写出你会收集哪些证据、如何隔离风险、怎样定位与验证。",
+    "options": null,
+    "answer": "评分要点：①核心结论为“599 Hz 是驱动上限，不是电机许可转速”；②先停机/断电/验证残余电压及机械负载风险；③保留完整型号、手册版本、故障/波形、参数、接线、主站和电机反馈证据；④按手册隔离变量，复测并记录；⑤安全功能须按整机风险评估及对应手册验证。客户高速需求还需核对电机和机械强度。",
+    "analysis": "按评分要点给分；合理等价步骤可酌情给分。",
+    "source": {
+      "title": "变频器速查审计（已核验）与变频器二次学习补充（2026-09）",
+      "chapter": "知识点 T-D30",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD520/MD580",
+      "输出频率"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "INV-381",
+    "category": "inverter",
+    "type": "scenario",
+    "difficulty": 3,
+    "stem": "新旧工程在 MD630 故障记录的诊断取证上存在差异。请说明迁移前的版本核对、调试步骤和验收边界。使用与复核提示本题库用于培训和能力测评准备，不取代同型号同版本手册、现场风险评估或正式项目技术确认。如手册更新、型号停产或商务条款变化，应先复核题中结论及答案，再用于考试。资料来源索引本地已核验资料：伺服速查审计、伺服与电机二次学习补充、变频器速查审计、变频器二次学习补充；题后注明的系列手册按分支和版本号复核。以下官网页面用于公开产品定位及已核验特性。[表格开始]官网来源 |链接 |汇川技术官网资料下载入口 |https://www.inovance.com/global/support/download-documentation.html |SV660 Series 产品页 |https://www.inovance.com/global/content/details_815_403229.html |SV670 Series 产品页 |https://www.inovance.com/global/content/details_815_403230.html |SV680 Series 产品页 |https://www.inovance.com/global/content/details_815_557127.html |IS810 Series 产品页 |https://www.inovance.com/global/content/details_815_403232.html |MD520 Series 产品页 |https://www.inovance.com/global/content/details_815_403226.html |MD580 Single Drive Series 产品页 |https://www.inovance.com/global/content/details_815_555072.html |MD630 Series 产品页 |https://www.inovance.com/global/content/details_815_580654.html |MD800 Series 产品页 |https://www.inovance.com/global/content/details_815_403213.html |MD810 Series 产品页 |https://www.inovance.com/global/content/details_815_403220.html |MD880 Series 官方产品资料 |https://www.inovance.com/owfile/ProdDoc/upload-phase-2/2023/03/16/e8e60ca9-c43a-4740-ac0a-8cc7b9d1430c.pdf |[表格结束]",
+    "options": null,
+    "answer": "评分要点：①核心结论为“读 30 组历史故障并核对时间、负载、电网、参数和波形”；②先停机/断电/验证残余电压及机械负载风险；③保留完整型号、手册版本、故障/波形、参数、接线、主站和电机反馈证据；④按手册隔离变量，复测并记录；⑤安全功能须按整机风险评估及对应手册验证。历史记录是线索，不是单独的最终根因。",
+    "analysis": "按评分要点给分；合理等价步骤可酌情给分。",
+    "source": {
+      "title": "MD630 Series 产品页",
+      "chapter": "知识点 T-D31",
+      "url": "https://www.inovance.com/portal/product?pathIds=1&typeId=1"
+    },
+    "tags": [
+      "MD630 故障记录",
+      "诊断取证"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  }
+]

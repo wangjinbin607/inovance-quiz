@@ -1,0 +1,110 @@
+[
+  {
+    "id": "SRV-061",
+    "category": "servo",
+    "type": "fill",
+    "difficulty": 1,
+    "stem": "汇川 SV670 高端型伺服驱动器的型号标识为“SV670 P S 5R5 I - **”。按官方命名规则，型号中第③位的字母 S 表示电压等级为 ____ V，第⑤位的字母 I 表示安装方式为 ____ 安装。",
+    "options": null,
+    "answer": ["220", "基板"],
+    "analysis": "答案依据汇川官网 SV670 高端型伺服驱动器详情页的“驱动器命名规则”：第③位为电压等级，S 表示 220V 等级、T 表示 380V 等级；第⑤位为安装方式，I 表示基板安装。易错点是把 S/T 误读成功率或速度等级，或者把第③位与第④位混淆——第④位 5R5 才是额定输出电流（5.5A），型号中第⑥位的非标规格代码（空缺=标准机、FH=高防护机型、FS=STO 功能安全）也常被误当成安装方式。采购核价时只要读错一位字母，订到的就是不同电压等级或不同结构形态的机型。",
+    "source": {
+      "title": "汇川技术 SV670 高端型伺服驱动器产品页",
+      "chapter": "产品概览 / 驱动器命名规则",
+      "url": "https://www.inovance.com/portal/product/details?productId=345"
+    },
+    "tags": ["SV670", "命名规则", "选型", "采购核对"],
+    "roles": ["sales", "purchase"],
+    "security": "public"
+  },
+  {
+    "id": "SRV-062",
+    "category": "servo",
+    "type": "fill",
+    "difficulty": 1,
+    "stem": "按汇川 MS1 系列伺服电机的命名规则，型号“MS1H1-40B30CB-A331Z”中的第⑤位代码“30C”表示该电机的额定转速为 ____ rpm；第⑦位代码“A3”表示编码器类型为 ____ bit 多圈绝对值编码器。",
+    "options": null,
+    "answer": ["3000", "23"],
+    "analysis": "答案依据汇川官网 MS1 系列伺服电机命名规则：第⑤位为额定转速，以 C 表示 ×100（如 30C 即 3000rpm），B 表示 ×10；第⑦位为编码器类型，A3 即 23bit 多圈绝对值编码器。易错点有两处：一是把 30C 的乘数记成 ×10 而算成 300rpm，忽略了 B 与 C 是两个不同的乘数档；二是把编码器类型记成 26bit——26bit 多圈绝对值（含功能安全型）是 MS1-R 系列后续新增的配置，命名规则表中 A3 对应的仍是 23bit。报价与技术协议里的转速与编码器位数都从型号读出，读错会直接影响驱动器容量与精度匹配。",
+    "source": {
+      "title": "汇川技术 SV670 高端型伺服驱动器产品页",
+      "chapter": "产品概览 / 电机命名规则（MS1 系列伺服电机）",
+      "url": "https://www.inovance.com/portal/product/details?productId=345"
+    },
+    "tags": ["MS1", "伺服电机", "命名规则", "编码器"],
+    "roles": ["sales", "purchase"],
+    "security": "public"
+  },
+  {
+    "id": "SRV-063",
+    "category": "servo",
+    "type": "fill",
+    "difficulty": 1,
+    "stem": "汇川 SV660 系列通用型伺服驱动器的官方功率范围是 ____ kW ~ ____ kW（按官方一位小数写法只填数字，如 0.05），官方标称其编码器为 ____ bit 高精度编码器。",
+    "options": null,
+    "answer": ["0.05", "7.5", "23"],
+    "analysis": "答案依据汇川官网 SV660 系列通用型伺服驱动器产品页：功率范围 0.05kW~7.5kW，官方“性能优越”栏目明确标注“3kHz 速度环带宽，23bit 高精度编码器”。易错点是把驱动器功率范围与伺服电机的功率范围混用，或记成 SV605 的 0.1kW~2kW、SVD60 的 0.2kW~0.75kW；编码器方面常见错误是写成 18bit（那是 SV630/SV605 经济型平台的官方位数）或 26bit（那是 SV680 旗舰型与 MS1-R 系列新增配置的位数）。给客户做选型时，功率段、编码器位数与速度环带宽三项要成套讲，单报一项很容易被追问后自相矛盾。",
+    "source": {
+      "title": "汇川技术 SV660 通用型伺服驱动器产品页",
+      "chapter": "产品简介 / 产品特点及优点（性能优越）",
+      "url": "https://www.inovance.com/portal/product/details?productId=263"
+    },
+    "tags": ["SV660", "功率范围", "编码器", "选型"],
+    "roles": ["sales", "purchase"],
+    "security": "public"
+  },
+  {
+    "id": "SRV-064",
+    "category": "servo",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "汇川 SVD60 系列低压伺服驱动器的官方功率范围是 ____ kW ~ ____ kW，支持 ____ 和 EtherCAT 两种控制方式。",
+    "options": null,
+    "answer": ["0.2", "0.75", "CANopen"],
+    "analysis": "答案依据汇川官网 SVD60 低压伺服驱动器产品页原文：“产品功率范围为 0.2kW~0.75kW，支持 CANopen 和 EtherCAT 控制方式，配合上位机可实现多台伺服驱动器联网运行”，适用于物流、医药、电子制造、锂电、汽车、机床等行业。易错点是把低压伺服的功率段与交流伺服混记：0.05kW~7.5kW 是 SV660、SV630、SV670 等交流系列的官方范围，0.1kW~2kW 是 SV605 的范围；另一个易错点是给它加上 Modbus 或 PROFINET——官方资料下载区按控制方式只区分 SVD60C（CANopen）与 SVD60N（EtherCAT）两个子系列。AGV、穿梭车等车载平台选型时，功率、通信方式还要与 24V/48V/72V 电池母线一并对齐。",
+    "source": {
+      "title": "汇川技术 SVD60 低压伺服驱动器产品页",
+      "chapter": "产品简介",
+      "url": "https://www.inovance.com/portal/product/details?productId=509"
+    },
+    "tags": ["SVD60", "低压伺服", "功率范围", "选型"],
+    "roles": ["sales", "purchase"],
+    "security": "public"
+  },
+  {
+    "id": "SRV-065",
+    "category": "servo",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "汇川 SV605 经济型伺服驱动器容量代码 S012 在单相 220V 等级下的连续输出电流为 ____ Arms；同为 220V 等级、功率 2kW 的机型所对应的容量代码是 ____（该代码以字母 T 开头，仅填代码后四位，如 3R5），该机型仅出现在 ____ V 供电等级规格表中。",
+    "options": null,
+    "answer": ["8.5", "T8R4", "380"],
+    "analysis": "答案依据汇川官网 SV605 规格参数表：单相 220V 等级 Size D 机型 S012 的驱动器功率为 1.5kW、连续输出电流 8.5Arms、最大输出电流 23.1Arms（可与同为 220V 等级但三相输入的 S012 相互对照，两者的功率与电流数值一致）；三相 380V 等级列出 T3R5/T5R4/T8R4 三款，功率分别为 1/1.5/2kW，连续输出电流分别为 3.2/4.4/6.1Arms，其中 T8R4 是官方 380V 表格中独有、220V 表格中没有的机型。易错点有三处：把容量代码里的数字直接当功率（S012 并不是 1.2kW）；把 S 与 T 两个电压等级前缀看混（S 对应 220V 等级、T 对应 380V 等级）；只核对功率而不看连续输出电流。采购核对订单与报价时必须三项一起对，否则容易出现“功率对得上、电流不够用”的到货问题。",
+    "source": {
+      "title": "汇川技术 SV605 经济型伺服驱动器产品页",
+      "chapter": "规格参数 / 单相 220V、三相 220V 与三相 380V 等级驱动器电气规格",
+      "url": "https://www.inovance.com/portal/product/details?productId=541"
+    },
+    "tags": ["SV605", "容量代码", "连续输出电流", "采购核对"],
+    "roles": ["sales", "purchase"],
+    "security": "internal"
+  },
+  {
+    "id": "SRV-066",
+    "category": "servo",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "汇川 MS1-R 系列增安型防爆电机的功率范围是 0.2kW~1.8kW，机座号 60mm~____ mm，整机防护等级为 IP____，官方资料还标注其体积约为同功率隔爆型防爆电机的 ____%。",
+    "options": null,
+    "answer": ["130", "65", "50"],
+    "analysis": "答案依据汇川官网 MS1-R 系列增安型防爆电机产品页：功率范围 0.2kW~1.8kW、机座号 60mm~130mm；“整机防护等级为 IP65”；“继承小钢炮的小巧体积和强力性能，汇川防爆电机是同功率隔爆型防爆电机体积的 50%”。易错点是把机座号上限记成 180mm——40mm~180mm 是 MS1-R 通用系列的范围，防爆机型只到 130mm；把 IP65 记成 IP54（那是 ISMG 系列大功率伺服电机的防护等级）或 IP67（那是 IS650 编码器部位的防护等级，不是电机整机）。防爆项目必须先按危险区域与防爆型式确定机型，再核对功率、机座号与防护等级，安装尺寸对不上会直接导致机械接口返工。",
+    "source": {
+      "title": "汇川技术 MS1-R 系列增安型防爆电机产品页",
+      "chapter": "产品简介 / 产品特点",
+      "url": "https://www.inovance.com/portal/product/details?productId=407"
+    },
+    "tags": ["MS1-R", "防爆电机", "防护等级", "选型"],
+    "roles": ["sales", "purchase"],
+    "security": "public"
+  }
+]

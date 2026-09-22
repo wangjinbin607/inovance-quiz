@@ -1,0 +1,174 @@
+[
+  {
+    "id": "HMI-061",
+    "category": "hmi",
+    "type": "fill",
+    "difficulty": 1,
+    "stem": "汇川 ITS7000 系列标准型 HMI 中，屏幕尺寸最大的机型型号是 ____，其屏幕分辨率为 ____。",
+    "options": null,
+    "answer": [
+      "ITS7156E",
+      "1920×1080"
+    ],
+    "analysis": "依据汇川《ITS7000 系列HMI产品选型》3.6 节 15.6 寸基本参数：ITS7156E 屏幕尺寸 15.6 英寸、分辨率 1920×1080、亮度 300cd/m²、显示颜色 16.2M，处理器为四核 Cortex-A7，内存 512MB DDR3、存储 8GB，外壳为铸铝面板（银色）。ITS7000 标准型其余尺寸段的分辨率分别是：4.3 寸 480×272、7 寸 800×480 或 1024×600、10.1 寸 1024×600，只有 15.6 寸达到全高清。易错点是把 ITS7000 标准型的 ITS7156E 与 IT9000 高端型的 IT9156E 混为一谈，两者屏幕规格接近但组态软件完全不同（前者 InoTouchPad、后者 iFA Evolution），下单与报价时必须区分型号前缀 ITS 与 IT9。",
+    "source": {
+      "title": "汇川技术 ITS7000 系列HMI产品选型-中文（PS00017482，B02）",
+      "chapter": "3.6 15.6 寸基本参数（屏幕和处理器）",
+      "url": "https://www.inovance.com/portal/product/details?productId=531"
+    },
+    "tags": [
+      "ITS7156E",
+      "15.6寸",
+      "分辨率",
+      "选型"
+    ],
+    "roles": [
+      "sales",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "HMI-062",
+    "category": "hmi",
+    "type": "fill",
+    "difficulty": 1,
+    "stem": "汇川 ITS7000 系列标准型 7 英寸机型中，ITS7070SH 与 ITS7070EH 的屏幕分辨率为 ____，而 ITS7070S 与 ITS7070E 的分辨率为 ____。",
+    "options": null,
+    "answer": [
+      "1024×600",
+      "800×480"
+    ],
+    "analysis": "依据《ITS7000 系列HMI产品选型》3.4 节 7 寸基本参数：7 英寸机型的分辨率按型号分为两档——ITS7070SH、ITS7070EH 为 1024×600（亮度 500cd/m²），ITS7070S 与 ITS7070E 为 800×480（亮度 350cd/m²），型号中的 H 后缀正对应高清分档。易错点是采购和售前只按“7 寸”报价或下单，漏掉后缀 H，把标清型号当成高清交付。两种分辨率机型的安装开孔尺寸同为 192×138mm，装到现场才发现画面清晰度不符的返工代价很高，技术协议里必须写明带 H 后缀的完整型号。",
+    "source": {
+      "title": "汇川技术 ITS7000 系列HMI产品选型-中文（PS00017482，B02）",
+      "chapter": "3.4 7 寸基本参数（屏幕和处理器）",
+      "url": "https://www.inovance.com/portal/product/details?productId=531"
+    },
+    "tags": [
+      "ITS7070SH",
+      "ITS7070E",
+      "分辨率",
+      "选型"
+    ],
+    "roles": [
+      "sales",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "HMI-063",
+    "category": "hmi",
+    "type": "fill",
+    "difficulty": 1,
+    "stem": "汇川 ITU7000 系列显控一体机的屏幕分辨率为 ____，其触摸屏类型为 ____ 线工业电阻式。",
+    "options": null,
+    "answer": [
+      "800×480",
+      "4"
+    ],
+    "analysis": "依据《ITU7000 系列显控一体机用户手册》2.3 节基本参数：显示规格为 7 英寸、分辨率 800×480、亮度 350cd/m²、显示颜色 16.7M、背光灯寿命 30000H，触摸屏类型为 4 线工业电阻式；系统侧 CPU 为 A7 四核 1.2GHz，DRAM 256MB DDR3。易错点是 ITU7000 的卖点是把 HMI 与 PLC 集成在同一硬件平台上，屏幕规格以 7 寸 800×480 为基线，不能拿 IT7100E 的 1024×600、也不能拿 IT9000 高端型的全高清参数去套。客户若同时要求更大更高清的显示，应改为 ITS7000 或 IT9000 系列另配 PLC 的方案，不要把显控一体机硬塞进高清需求里。",
+    "source": {
+      "title": "汇川技术 ITU7000 系列显控一体机用户手册-中文（PS00011154，A07）",
+      "chapter": "2.3 基本参数（显示规格、系统规格）",
+      "url": "https://www.inovance.com/portal/product/details?productId=938"
+    },
+    "tags": [
+      "ITU7000",
+      "显控一体",
+      "屏幕规格"
+    ],
+    "roles": [
+      "sales",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "HMI-064",
+    "category": "hmi",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "汇川 ITS7000 系列标准型 4.3 英寸机型（ITS7043S/ITS7043E）的外形尺寸为 128mm×102mm×33mm，其面板安装开孔尺寸为 ____ mm（宽×高），安装板最大厚度为 ____ mm。",
+    "options": null,
+    "answer": [
+      "120×94",
+      "6.5"
+    ],
+    "analysis": "依据《ITS7000 系列HMI产品选型》3.3 节 4.3 寸基本参数：ITS7043S 与 ITS7043E 外形尺寸 128×102×33mm，面板安装开孔尺寸 120×94mm，安装板最大厚度 6.5mm，重量约 225~231g。易错点有两个：一是把开孔尺寸记成外形尺寸的长宽（128×102），二是直接套用 7 寸机型的 192×138mm 开孔。开孔开小装不进去只能返工，开得过大则密封面压不实，前面板 IP66 的防护能力无法保证。现场开孔前应按对应型号手册的开孔图核对，并确认安装板厚度不超过 6.5mm。",
+    "source": {
+      "title": "汇川技术 ITS7000 系列HMI产品选型-中文（PS00017482，B02）",
+      "chapter": "3.3 4.3 寸基本参数（机械特性）",
+      "url": "https://www.inovance.com/portal/product/details?productId=531"
+    },
+    "tags": [
+      "ITS7043",
+      "开孔尺寸",
+      "选型"
+    ],
+    "roles": [
+      "sales",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "HMI-065",
+    "category": "hmi",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "汇川 IT9000 系列高端型 HMI 中，7 英寸机型 IT9070E 的整机重量（不含包装）约为 ____ kg，15.6 英寸机型 IT9156E 约为 ____ kg。",
+    "options": null,
+    "answer": [
+      "0.8",
+      "2.7"
+    ],
+    "analysis": "依据《IT9000 系列人机界面用户手册》8.1.3 节结构参数：IT9070E 整机重量（不含包装）约 0.8kg、IT9100E 约 1.3kg、IT9156E 约 2.7kg；三款外形尺寸分别为 203×149×40.5mm、271×198×41.5mm、395×258×28mm。易错点是把 IT9000 高端型的 IT9156E（约 2.7kg、工程塑料外壳）与 ITS7000 标准型同为 15.6 寸的 ITS7156E（约 2kg、铸铝面板）混为一谈。重量数据直接用于电柜门板承重、悬臂与安装支架选型、以及运输包装核算，必须按具体型号查手册，不能用同尺寸机型的经验值估算。",
+    "source": {
+      "title": "汇川技术 IT9000 系列人机界面用户手册-中文（PS00022244，A01）",
+      "chapter": "8.1.3 结构（外形尺寸、重量）",
+      "url": "https://www.inovance.com/portal/product/details?productId=707"
+    },
+    "tags": [
+      "IT9000",
+      "IT9156E",
+      "重量",
+      "选型"
+    ],
+    "roles": [
+      "sales",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "HMI-066",
+    "category": "hmi",
+    "type": "fill",
+    "difficulty": 2,
+    "stem": "汇川 IT7000 系列通用 HMI 中，15 英寸机型（IT7150E、IT7150P）的屏幕分辨率为 ____，其面板开孔尺寸为 ____ mm（宽×高）。",
+    "options": null,
+    "answer": [
+      "1024×768",
+      "352×279"
+    ],
+    "analysis": "依据《IT7000 系列人机界面用户手册》2.2 节基本参数：15 英寸机型 IT7150E、IT7150P 的分辨率为 1024×768、面板开孔尺寸 352mm×279mm、背光灯寿命 50000H、处理器为 4 核 Cortex A7 1.2GHz；而 10 英寸机型（IT7100E、IT7100S）为 1024×600、开孔 260×202mm。1024×768 是汇川在售 HMI 中较特殊的一档分辨率，只有 IT7000 通用系列的 15 寸机型采用。易错点是做画面移植或柜体开孔时按 10 寸机型的 1024×600 与 260×202mm 套用，导致开孔与分辨率双双不符，采购备件时也会拿错型号。",
+    "source": {
+      "title": "汇川技术 IT7000 系列人机界面用户手册-中文（PS00005849，A08）",
+      "chapter": "2.2 基本参数（显示规格、结构规格）",
+      "url": "https://www.inovance.com/portal/product/details?productId=47"
+    },
+    "tags": [
+      "IT7150E",
+      "IT7000",
+      "开孔尺寸",
+      "分辨率"
+    ],
+    "roles": [
+      "sales",
+      "purchase"
+    ],
+    "security": "public"
+  }
+]

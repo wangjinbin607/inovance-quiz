@@ -1,0 +1,22 @@
+# ===== 运行时数据（不入库，首次启动自动重建）=====
+server/quiz.db
+server/quiz.db-shm
+server/quiz.db-wal
+
+# ===== 依赖与缓存 =====
+node_modules/
+__pycache__/
+*.pyc
+.pylibs/
+
+# ===== 系统与编辑器 =====
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# ===== 日志与临时文件 =====
+*.log
+*.tmp
+dist/*.tmp

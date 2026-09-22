@@ -1,0 +1,1046 @@
+[
+  {
+    "id": "HMI-001",
+    "category": "hmi",
+    "type": "single",
+    "difficulty": 1,
+    "stem": "汇川 ITS7000 系列标准型 HMI 的规格参数表中，\"组态软件\"一栏标注的软件是下列哪一个？",
+    "options": {
+      "A": "InoTouchPad",
+      "B": "AutoShop",
+      "C": "iFA Evolution（驭沃）",
+      "D": "InoDriveShop"
+    },
+    "answer": [
+      "A"
+    ],
+    "analysis": "ITS7000 系列标准型 HMI（ITS7043S/E、ITS7070 系列、ITS7100 系列、ITS7156E 等）规格表中组态软件明确为 InoTouchPad，这也是汇川 IT7000/ITS7000/ITP60 等通用 HMI 的统一组态平台。B 项 AutoShop 是汇川小型 PLC 的编程软件，只在 ITU7000 显控一体机上与 InoTouchPad 配合使用；C 项 iFA Evolution（驭沃）是汇川新一代全集成平台，IT9000 系列高端型 HMI 才用它组态；D 项 InoDriveShop 是伺服调试软件，与 HMI 无关。选型报价时若把 ITS7000 与 IT9000 的软件混谈，会导致客户拿到屏后无法打开工程。",
+    "source": {
+      "title": "汇川技术 ITS7000 系列标准型 HMI 产品页（规格参数）",
+      "chapter": "规格参数表 / 软件-组态软件",
+      "url": "https://www.inovance.com/portal/product/details?productId=531"
+    },
+    "tags": [
+      "ITS7000",
+      "InoTouchPad",
+      "参数配置"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase",
+      "partner"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "HMI-002",
+    "category": "hmi",
+    "type": "single",
+    "difficulty": 1,
+    "stem": "汇川 ITS7000 系列高防护型 HMI 的核心卖点是可直接安装于潮湿、多尘、油污的严苛工况，其整机防护等级是下列哪一项？",
+    "options": {
+      "A": "前面板 IP65、后盖板 IP20",
+      "B": "前面板 IP66、后盖板 IP20",
+      "C": "整机 IP67",
+      "D": "整机 IP54"
+    },
+    "answer": [
+      "C"
+    ],
+    "analysis": "ITS7000 系列高防护型 HMI（ITS7070S-HP、ITS7070E-HP、ITS7070EIW-HP、ITS7070EI4-HP 等）主打\"整机 IP67 极致防护、一体密封\"，因此现场无需再加防护柜即可直装使用。A、B 两项是汇川其它 HMI 的等级表述：ITS7000 标准型与 ITU7000 显控一体机都是\"前面板 IP66、后盖板 IP20\"，IT7000 通用 HMI 是\"前面板 IP65、后盖板 IP20\"，都属于仅正面防尘防水、背面必须装在电柜内的产品；D 项 IP54 是 ITP60 系列移动示教器的面板防护等级。把\"前面板 IPxx\"当成\"整机 IPxx\"去承诺客户，是现场最常见的选型失误。",
+    "source": {
+      "title": "汇川技术 ITS7000 系列高防护型 HMI 产品页（规格参数）",
+      "chapter": "规格参数表 / 环境-防护等级",
+      "url": "https://www.inovance.com/portal/product/details?productId=972"
+    },
+    "tags": [
+      "ITS7000高防护",
+      "IP67",
+      "选型"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase",
+      "partner"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "HMI-003",
+    "category": "hmi",
+    "type": "single",
+    "difficulty": 1,
+    "stem": "某产线控制柜内已有汇川 H5U 系列 PLC，现要配一台汇川 HMI 做本地画面。下列哪款 HMI 是\"屏与 PLC 集成在同一硬件平台、单机即可同时承担 HMI 组态与 PLC 逻辑控制\"的产品？",
+    "options": {
+      "A": "ITS7000 系列标准型 HMI",
+      "B": "ITP60 系列移动示教器",
+      "C": "ITU7000 系列显控一体型 HMI",
+      "D": "IT7000 系列物联 HMI"
+    },
+    "answer": [
+      "C"
+    ],
+    "analysis": "官网对 ITU7000 系列的定位原文是\"将人机界面（HMI）和可编程逻辑控制器（PLC）的核心功能集成在单一硬件平台上\"，即显控一体机，单台设备同时承担画面组态与逻辑控制，适合柜内空间紧张、要求紧凑设计的场合。A 项 ITS7000 是纯 HMI，必须外挂 PLC；B 项 ITP60 是移动示教器，用于产线调试与检修的移动操控；D 项 IT7000 物联 HMI 的强项是 4G/Wi-Fi 联网与 Uweb 远程运维，不带 PLC 控制功能。现场若按\"显控一体\"报价却发了普通 HMI，客户会发现无法下载 PLC 程序。",
+    "source": {
+      "title": "汇川技术 ITU7000 系列显控一体型 HMI 产品页",
+      "chapter": "产品概览",
+      "url": "https://www.inovance.com/portal/product/details?productId=938"
+    },
+    "tags": [
+      "ITU7000",
+      "显控一体",
+      "选型"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase",
+      "partner"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "HMI-004",
+    "category": "hmi",
+    "type": "single",
+    "difficulty": 1,
+    "stem": "客户要求 HMI 分辨率达到 1920×1080 全高清。在汇川 IT9000 系列高端型 HMI 中，符合该分辨率的型号是？",
+    "options": {
+      "A": "IT9070E",
+      "B": "IT9100E",
+      "C": "IT9156E",
+      "D": "IT9070E 与 IT9100E 均可"
+    },
+    "answer": [
+      "C"
+    ],
+    "analysis": "IT9000 系列规格表中三款型号的屏幕参数为：IT9070E 为 7″/1024×600，IT9100E 为 10.1″/1024×600，IT9156E 为 15.6″/1920×1080，只有 15.6 寸机型是全高清。除分辨率外，IT9156E 还与另两款有本质差别：它采用四核 Cortex-A55 处理器和电容触摸屏，而 IT9070E、IT9100E 是四核 Cortex-A53 加四线电阻式触摸。A、B、D 三项的典型错误是把 10.1 寸的 1024×600 误当成 1080P。需要全高清画面的场合（如放大显示高清趋势曲线、视频/多媒体控件）必须选 IT9156E。",
+    "source": {
+      "title": "汇川技术 IT9000 系列高端型 HMI 产品页（规格参数）",
+      "chapter": "规格参数表 / 屏幕",
+      "url": "https://www.inovance.com/portal/product/details?productId=707"
+    },
+    "tags": [
+      "IT9000",
+      "IT9156E",
+      "选型"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase",
+      "partner"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "HMI-005",
+    "category": "hmi",
+    "type": "single",
+    "difficulty": 1,
+    "stem": "汇川 IT7000 系列物联 HMI 的硬件平台采用的处理器规格是？",
+    "options": {
+      "A": "单核 Cortex-A8 600MHz",
+      "B": "单核 Cortex-A8 1GHz",
+      "C": "4 核 Cortex-A7 1.2GHz",
+      "D": "四核 Cortex-A53"
+    },
+    "answer": [
+      "C"
+    ],
+    "analysis": "IT7000 系列物联 HMI（IT7070Si-4G、IT7070Si-WIFI、IT7070Ei-4G、IT7100Ei-4G 等）官网概览明确\"高性能 4 核 A7 架构 CPU，主频高达 1.2GHz\"，规格表中 CPU 一栏也标注\"4 核 Cortex A7 1.2GHz\"。A、B 两项是上一代 IT7000 通用 HMI 的配置：IT7070E 等 7 寸与 IT7100E 等 10 寸为单核 Cortex-A8 600MHz，IT7100S/IT7150E 为单核 Cortex-A8 1GHz；D 项四核 Cortex-A53 是 IT9000 系列 IT9070E/IT9100E 的处理器。物联屏要同时跑 4G 通信、Uweb 对接和最多 1000 点数据采集，把老款单核平台的配置当作物联屏参数去承诺是不可行的。",
+    "source": {
+      "title": "汇川技术 IT7000 系列物联 HMI 产品页（规格参数）",
+      "chapter": "产品概览 / 规格参数-系统",
+      "url": "https://www.inovance.com/portal/product/details?productId=856"
+    },
+    "tags": [
+      "IT7000物联",
+      "处理器",
+      "选型"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase",
+      "partner"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "HMI-006",
+    "category": "hmi",
+    "type": "single",
+    "difficulty": 1,
+    "stem": "现场使用 ITP60 系列移动示教器进行产线调试与检修，该产品为保障人身与设备安全而内置的两项关键硬件安全部件是？",
+    "options": {
+      "A": "物理急停按钮与三位使能开关",
+      "B": "安全继电器与安全光幕",
+      "C": "双手启动按钮与安全地毯",
+      "D": "安全门锁与拉绳急停"
+    },
+    "answer": [
+      "A"
+    ],
+    "analysis": "ITP60 系列移动示教器的两大安全设计是\"物理急停，人机安全\"（工业级按钮、突发风险瞬时停机）和\"安全使能，防误操作\"（三位开关、松手即停），ITP60S 型号还配置 3 档开关。B、C、D 三项虽然在工业安全防护中确实存在，但都是安装在设备本体或围栏上的外围安全元件，不是示教器内置部件。需要特别注意：ITP60 移动示教器支持 5 米或 15 米电缆\"边走边调\"，操作人员在设备运动范围内活动，使能开关松开即停是防止失控的最后一道硬件防线，验收与日常点检必须确认这两个部件动作有效。",
+    "source": {
+      "title": "汇川技术 ITP60 系列移动示教器产品页",
+      "chapter": "产品概览 / 规格参数-按键",
+      "url": "https://www.inovance.com/portal/product/details?productId=939"
+    },
+    "tags": [
+      "ITP60",
+      "安全使能",
+      "接线安装"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "HMI-007",
+    "category": "hmi",
+    "type": "single",
+    "difficulty": 1,
+    "stem": "客户要在一条混线产线上用汇川 IT7000 系列 HMI 同时连接西门子、三菱、台达等不同品牌的 PLC，作为集中监控画面。选型沟通时应重点确认的通信能力是？",
+    "options": {
+      "A": "HMI 是否带 EtherCAT 主站口",
+      "B": "HMI 是否支持以太网与串口组网，并提供上述品牌 PLC 的通信协议驱动",
+      "C": "HMI 是否支持 PROFINET IRT 等时同步",
+      "D": "HMI 是否支持 CANopen 主站"
+    },
+    "answer": [
+      "B"
+    ],
+    "analysis": "IT7000 通用 HMI 的通信定位是\"协议丰富，组网灵活：支持以太网、串口的通信组网方案，支持西门子、欧姆龙、三菱、松下、安川、基恩士、台达、永宏、信捷等主流厂家协议\"，同时支持自由协议扩展，这正是混线集中监控的核心能力。A、C、D 三项都是汇川 PLC/伺服/驱动侧的总线能力（EtherCAT 主站、PROFINET、CANopen），HMI 作为上位监控设备不需要也不提供这些主站功能。现场经验：做多品牌 PLC 混线画面时，优先用以太网方式连接，串口数量有限且多台设备串接后轮询周期会明显变长，画面刷新会变慢。",
+    "source": {
+      "title": "汇川技术 IT7000 系列通用 HMI 产品页",
+      "chapter": "产品概览 / 功能特性",
+      "url": "https://www.inovance.com/portal/product/details?productId=47"
+    },
+    "tags": [
+      "IT7000",
+      "通信组网",
+      "多品牌PLC"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "HMI-008",
+    "category": "hmi",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "汇川 ITS7000 系列标准型 HMI 中，型号 ITS7043S 的屏幕尺寸、分辨率与 CPU 配置是？",
+    "options": {
+      "A": "4.3″、480×272、双核 Cortex-A7",
+      "B": "7″、800×480、双核 Cortex-A7",
+      "C": "4.3″、800×480、单核 Cortex-A8",
+      "D": "10.1″、1024×600、四核 Cortex-A7"
+    },
+    "answer": [
+      "A"
+    ],
+    "analysis": "ITS7000 标准型规格表中 ITS7043S 与 ITS7043E 均为 4.3″、480×272、350cd/m²、四线电阻式触摸，CPU 为双核 Cortex-A7，DRAM/Flash 各 128MB。B 项 7″/800×480 对应的是 ITS7070S、ITS7070E、ITS7070SH、ITS7070EH；C 项把老款 IT7000 的单核 Cortex-A8 与 ITS7000 的双核 A7 混淆；D 项 10.1″/1024×600 对应 ITS7100S、ITS7100E、ITS7100P。ITS7043S 与 ITS7043E 的差别只在以太网口有无：S 型无以太网口、E 型带 10M/100Mbit/s 网口，报价时必须确认客户是否需要以太网通信。",
+    "source": {
+      "title": "汇川技术 ITS7000 系列标准型 HMI 产品页（规格参数）",
+      "chapter": "规格参数表 / 屏幕、性能",
+      "url": "https://www.inovance.com/portal/product/details?productId=531"
+    },
+    "tags": [
+      "ITS7043S",
+      "选型",
+      "屏幕规格"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase",
+      "partner"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "HMI-009",
+    "category": "hmi",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "IT9000 系列高端型 HMI 的定位是\"高容量\"，其数据与报警记录存储能力的官方描述是？",
+    "options": {
+      "A": "支持 10 万条数据记录、1 万条报警记录",
+      "B": "支持 2000 万条以上数据记录、1000 万条以上报警记录，配 SD 卡/U 盘存储时数据记录最高可达上亿条",
+      "C": "仅支持 1000 条数据记录，超出后循环覆盖",
+      "D": "不支持本地记录，所有数据必须上传至云端"
+    },
+    "answer": [
+      "B"
+    ],
+    "analysis": "IT9000 系列官网\"高容量\"特性原文为：2000 万条以上的数据记录、1000 万条以上报警记录，支持 SD 卡/U 盘存储时数据记录存储最高可达上亿条，并支持 100 条以上趋势曲线。这是它能用于高容量数据追溯场景（如需要长期保存工艺曲线的设备）的关键。A、C 两项把容量量级缩小了几个数量级，是竞争对手常用来贬低汇川的表述；D 项把物联屏的云平台能力与 IT9000 的本地存储能力混为一谈。做方案时要提醒客户：本地存储容量依赖 SD 卡/U 盘的实际容量与品质，工程中应设置好记录条数上限与循环覆盖策略，避免卡满后停止记录。",
+    "source": {
+      "title": "汇川技术 IT9000 系列高端型 HMI 产品页",
+      "chapter": "产品概览 / 高容量特性",
+      "url": "https://www.inovance.com/portal/product/details?productId=707"
+    },
+    "tags": [
+      "IT9000",
+      "数据记录",
+      "选型"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase",
+      "partner"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "HMI-010",
+    "category": "hmi",
+    "type": "single",
+    "difficulty": 1,
+    "stem": "ITU7000 系列显控一体机在工程实施时的软件搭配方式是？",
+    "options": {
+      "A": "HMI 画面与 PLC 逻辑全部在 InoTouchPad 中完成",
+      "B": "HMI 画面与 PLC 逻辑全部在 AutoShop 中完成",
+      "C": "HMI 组态用 InoTouchPad，PLC 逻辑编程用 AutoShop，两者配合使用",
+      "D": "HMI 组态用 iFA Evolution，PLC 逻辑编程用 InoTouchPad"
+    },
+    "answer": [
+      "C"
+    ],
+    "analysis": "ITU7000 显控一体机的规格表中\"组态软件\"一栏为\"AutoShop + InoTouchPad\"，即画面侧走 InoTouchPad 组态、控制侧走 AutoShop 编程，这与它\"硬件融合 + 软件统一\"的产品定位一致——汇川官方资料下载区同时提供 InoTouchPad 安装包和 AutoShop V4.10.2.0.Litu7000_01（ITU7000S 系列）安装包，也印证了这一点。A、B 两项试图用单一软件包打天下，是现场新手最常犯的错；D 项把 IT9000 高端型的软件平台 iFA Evolution 错配到 ITU7000 上。工程交接时务必写清两套软件各自的版本号，否则后期维护无法复现。",
+    "source": {
+      "title": "汇川技术 ITU7000 系列显控一体型 HMI 产品页（资料下载）",
+      "chapter": "规格参数表 / 软件-组态软件；资料下载-软件与调试工具",
+      "url": "https://www.inovance.com/portal/product/details?productId=938"
+    },
+    "tags": [
+      "ITU7000",
+      "AutoShop",
+      "InoTouchPad"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "HMI-011",
+    "category": "hmi",
+    "type": "single",
+    "difficulty": 1,
+    "stem": "下列关于汇川 IT7000 系列物联 HMI 联网方式的描述，正确的是？",
+    "options": {
+      "A": "仅支持以太网有线联网",
+      "B": "仅支持 4G 无线联网",
+      "C": "支持 4G 与 Wi-Fi，配合有线以太网口组成多种联网方式",
+      "D": "必须外接第三方物联网关才能联网"
+    },
+    "answer": [
+      "C"
+    ],
+    "analysis": "IT7000 系列物联 HMI 按联网配置分为 IT7070Si-4G、IT7070Ei-4G、IT7100Ei-4G 等 4G 版本和 IT7070Si-WIFI、IT7070Ei-WIFI、IT7100Ei-WIFI 等 Wi-Fi 版本，其中 4G 版本另配 1 个 micro SIM 卡槽；规格表中以太网接口为\"1 个 10M/100M 自适应 RJ45 以太网口\"（IT7070Si 版本不支持以太网）。因此 4G、Wi-Fi、有线以太网三种方式按型号取舍。A、B 两项把型号差异说成系列共性；D 项恰恰相反——物联屏本身就是网关，它能免配置快速连接汇川 Uweb 平台，无需再外挂网关。选型时必须先确认现场是否有可用 SIM 卡与信号覆盖，否则 4G 版本到现场无法联网。",
+    "source": {
+      "title": "汇川技术 IT7000 系列物联 HMI 产品页（规格参数）",
+      "chapter": "规格参数表 / I/O 接口-无线通讯、以太网接口",
+      "url": "https://www.inovance.com/portal/product/details?productId=856"
+    },
+    "tags": [
+      "IT7000物联",
+      "4G",
+      "通信组网"
+    ],
+    "roles": [
+      "sales",
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "HMI-012",
+    "category": "hmi",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "食品加工车间要用高压水枪每日冲洗设备表面，客户希望 HMI 免防护柜直接装在设备上。从汇川 HMI 产品线中选择，最合适的系列及理由是？",
+    "options": {
+      "A": "ITS7000 系列标准型，因为前面板 IP66 已满足冲洗要求",
+      "B": "ITS7000 系列高防护型，因为整机 IP67 且三防面板适配手套操作、耐受消毒液与油污",
+      "C": "ITP60 系列移动示教器，因为可以拿在手里避开冲洗",
+      "D": "ITU7000 系列显控一体机，因为集成 PLC 可省掉一个电柜"
+    },
+    "answer": [
+      "B"
+    ],
+    "analysis": "ITS7000 高防护型就是为潮湿、多尘、油污、腐蚀的室内严苛环境打造的一体化人机界面：整机 IP67（6 级完全防尘 + 7 级短时浸水，1 米水深 30 分钟）、高强度 ABS 壳体耐酸碱水汽、三防面板配专业电阻触控，可直接戴乳胶/橡胶/棉纱手套操作，无需防护柜即可直装使用，并可跟随产线同步清洗消杀。A 项是最危险的误判：ITS7000 标准型只有前面板 IP66，后盖板仅 IP20，水枪从背面或缝隙进水会直接损坏设备；C 项示教器是移动调试工具，不能作为固定操作界面长期暴露在冲洗环境；D 项 ITU7000 的防护等级同样是前面板 IP66、后盖板 IP20，仍需装柜。",
+    "source": {
+      "title": "汇川技术 ITS7000 系列高防护型 HMI 产品页",
+      "chapter": "产品概览 / 规格参数-防护等级",
+      "url": "https://www.inovance.com/portal/product/details?productId=972"
+    },
+    "tags": [
+      "ITS7000高防护",
+      "IP67",
+      "方案应用"
+    ],
+    "roles": [
+      "sales",
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "HMI-013",
+    "category": "hmi",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "使用 InoTouchPad 组态汇川 ITS7000 系列标准型 HMI 时，下列哪项功能可以显著减少\"PLC 变量与 HMI 变量手工逐个对应\"的工作量？",
+    "options": {
+      "A": "PLC 标签变量组态自动同步",
+      "B": "一键换肤",
+      "C": "开放式 QSS 样式设置",
+      "D": "行业系统图库"
+    },
+    "answer": [
+      "A"
+    ],
+    "analysis": "ITS7000 标准型的\"组合高效\"特性原文是\"新增 IO 组合控件、PLC 标签变量组态自动同步，显著提高编程效率\"，配合 InoQuickPro 标准化编程平台使用，可直接复用 PLC 侧已定义的标签，避免在 HMI 里重复建变量并手工绑定地址。B、C 两项是界面外观层面的能力（一键换肤、QSS 开放式样式），解决的是画面美观与个性化，与工程效率无关；D 项行业图库缩短的是画图时间，也不解决变量对应问题。现场经验：用标签同步功能后，PLC 侧变量改名或改地址时 HMI 侧可同步更新，能避免大量\"画面上数值不动\"的低级故障。",
+    "source": {
+      "title": "汇川技术 ITS7000 系列标准型 HMI 产品页",
+      "chapter": "产品概览 / 组合高效",
+      "url": "https://www.inovance.com/portal/product/details?productId=531"
+    },
+    "tags": [
+      "InoTouchPad",
+      "变量组态",
+      "调试"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "internal"
+  },
+  {
+    "id": "HMI-014",
+    "category": "hmi",
+    "type": "single",
+    "difficulty": 3,
+    "stem": "某设备需在 HMI 与 PLC 之间做 4 轴运动的集中监控，画面数量多、变量规模大（数千点），并要求支持 Web 发布和多媒体控件展示。从汇川 HMI 产品线中选择最合适的是？",
+    "options": {
+      "A": "ITS7000 系列标准型，ITS7156E",
+      "B": "IT9000 系列高端型，IT9156E",
+      "C": "IT7000 系列物联 HMI，IT7100Ei-4G",
+      "D": "ITS7000 系列高防护型，ITS7100E-HP"
+    },
+    "answer": [
+      "B"
+    ],
+    "analysis": "IT9000 系列高端型定位\"高颜值、高性能、高容量、全集成\"，官方给出支持 1000+ 画面、5 万+ 标签变量通信、自定义复杂报表、音视频多媒体控件、Web 发布，且搭载四核处理器与 1GB DRAM/8GB Flash 存储，正是大画面量、大变量规模、需要 Web 发布与多媒体展示的场景。A 项 ITS7156E 虽同为 15.6 寸且用 InoTouchPad，但属于标准型，容量与性能定位低于 IT9000；C 项 IT7100Ei-4G 是 10 寸物联屏，强项是远程联网运维而非本地大容量监控；D 项高防护型面向严苛环境，10.1 寸机型官方标注\"即将上市\"，性能也非为大容量场景设计。选型沟通时要问清画面数、变量数与是否要 Web 发布，这三项直接决定系列档次。",
+    "source": {
+      "title": "汇川技术 IT9000 系列高端型 HMI 产品页",
+      "chapter": "产品概览 / 高性能、高容量、全集成",
+      "url": "https://www.inovance.com/portal/product/details?productId=707"
+    },
+    "tags": [
+      "IT9000",
+      "IT9156E",
+      "Web发布",
+      "选型"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "internal"
+  },
+  {
+    "id": "HMI-015",
+    "category": "hmi",
+    "type": "multi",
+    "difficulty": 1,
+    "stem": "下列哪些是汇川 ITS7000 系列标准型 HMI 的官方产品特性？（多选）",
+    "options": {
+      "A": "采用国产高性能芯片、多核处理器与全新架构",
+      "B": "15.6 寸机型采用铝合金外壳",
+      "C": "内置 4G 与 Wi-Fi 物联通信模块",
+      "D": "支持一键换肤与开放式 QSS 样式设置",
+      "E": "新增 IO 组合控件，支持 PLC 标签变量组态自动同步"
+    },
+    "answer": [
+      "A",
+      "B",
+      "D",
+      "E"
+    ],
+    "analysis": "A、B、D、E 四项均来自 ITS7000 系列标准型的官方概览特性：自主国产（国产高性能芯片、多核处理器）、全新外观设计（15.6 寸采用铝合金外壳）、样式灵活（一键换肤、开放式 QSS 样式设置）、组合高效（IO 组合控件、PLC 标签变量组态自动同步）。C 项是典型干扰项——内置 4G/Wi-Fi 物联通信模块是 IT7000 系列物联 HMI 的特性，ITS7000 标准型规格表中没有无线通讯一行。ITS7000 系列中真正带无线的是高防护型的 ITS7070EIW-HP（WiFi）与 ITS7070EI4-HP（4G），但那是另一个子系列。销售在讲卖点时必须区分\"标准型\"和\"物联型\"，否则会在投标应答中留下虚假应标风险。",
+    "source": {
+      "title": "汇川技术 ITS7000 系列标准型 HMI 产品页",
+      "chapter": "产品概览 / 产品特性",
+      "url": "https://www.inovance.com/portal/product/details?productId=531"
+    },
+    "tags": [
+      "ITS7000",
+      "产品特性",
+      "选型"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase",
+      "partner"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "HMI-016",
+    "category": "hmi",
+    "type": "multi",
+    "difficulty": 2,
+    "stem": "关于汇川 IT9000 系列高端型 HMI，下列描述正确的有？（多选）",
+    "options": {
+      "A": "搭载于汇川自主研发的 iFA Evolution（驭沃）全集成软件平台",
+      "B": "采用四核高性能处理器，DRAM 1GB、Flash 8GB",
+      "C": "支持 1000+ 画面与 5 万+ 标签变量通信，支持 Web 发布",
+      "D": "内置 4G 与 Wi-Fi 物联模块，可直接对接 Uweb 平台",
+      "E": "配置 Type-C 调试端口，支持上下位机联合仿真调试"
+    },
+    "answer": [
+      "A",
+      "B",
+      "C",
+      "E"
+    ],
+    "analysis": "A、B、C、E 均与官网一致：IT9000 搭载 iFA Evolution（驭沃）平台，四核处理器配 1GB DRAM/8GB Flash，支持 1000+ 画面与 5 万+ 标签变量、Web 发布、自定义复杂报表与音视频多媒体控件，\"全集成\"特性包含上下位机联合仿真调试、组态软件版本在线升级、集成诊断与指导式排障、Type-C 调试端口即插即用。D 项是核心干扰项：4G/Wi-Fi 物联与 Uweb 对接是 IT7000 系列物联 HMI 的能力，IT9000 的规格表中无线通讯一栏为空，其以太网为 10M/100Mbit×1 加 10M/100M/1000Mbit×1 双网口。把物联屏的能力写进 IT9000 方案，会导致技术协议与实际交付不符。",
+    "source": {
+      "title": "汇川技术 IT9000 系列高端型 HMI 产品页",
+      "chapter": "产品概览 / 高颜值、高性能、高容量、全集成",
+      "url": "https://www.inovance.com/portal/product/details?productId=707"
+    },
+    "tags": [
+      "IT9000",
+      "iFA Evolution",
+      "产品特性"
+    ],
+    "roles": [
+      "sales",
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "HMI-017",
+    "category": "hmi",
+    "type": "multi",
+    "difficulty": 2,
+    "stem": "汇川 IT7000 系列物联 HMI 能够帮助客户完成设备联网与远程运维，下列属于其官方能力的有？（多选）",
+    "options": {
+      "A": "搭载高可靠性 IoT 通信模组，支持 4G/Wi-Fi 快速联网",
+      "B": "免配置快速连接汇川 Uweb 平台，支持远程监控、调试、告警与上下载",
+      "C": "最高可支持 1000 点数据采集",
+      "D": "支持 EtherCAT 主站，可直接带伺服轴做运动控制",
+      "E": "内置隐藏式天线，无需外接天线即可联网"
+    },
+    "answer": [
+      "A",
+      "B",
+      "C",
+      "E"
+    ],
+    "analysis": "A、B、C、E 都是 IT7000 系列物联 HMI 的官方特性：可靠的网络接口（高可靠性 IoT 通信模组、支持 4G/Wi-Fi）、快速连接 Uweb 平台（免配置，支持远程监控、调试、告警、上下载、设备定位、物联网卡充值）、功能应用丰富（最高支持 1000 点数据采集）、隐藏式天线设计（内置天线、一体化设计、减少人为拆装质量风险）。D 项是干扰项：EtherCAT 主站运动控制是汇川 PLC（如 AM400、AM600 系列）与运动控制系统的能力，物联 HMI 是监控与数据采集设备，不承担实时运动控制。向客户介绍时若把物联屏说成\"能控轴\"，会带来严重的方案预期偏差。",
+    "source": {
+      "title": "汇川技术 IT7000 系列物联 HMI 产品页",
+      "chapter": "产品概览 / 产品特性",
+      "url": "https://www.inovance.com/portal/product/details?productId=856"
+    },
+    "tags": [
+      "IT7000物联",
+      "Uweb",
+      "远程运维"
+    ],
+    "roles": [
+      "sales",
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "HMI-018",
+    "category": "hmi",
+    "type": "multi",
+    "difficulty": 2,
+    "stem": "关于汇川 ITU7000 系列显控一体机，下列描述正确的有？（多选）",
+    "options": {
+      "A": "把 HMI 与 PLC 的核心功能集成在单一硬件平台上，可节省柜内空间、简化系统架构",
+      "B": "画面组态用 InoTouchPad，控制逻辑编程用 AutoShop",
+      "C": "支持 AC 供电，输入电压范围约 AC 17V~28V",
+      "D": "必须外接一台汇川 PLC 才能实现逻辑控制",
+      "E": "提供多路 RS485 串口，方便连接扩展设备"
+    },
+    "answer": [
+      "A",
+      "B",
+      "C",
+      "E"
+    ],
+    "analysis": "A、B、C、E 均有依据：A 来自官网对 ITU7000\"将人机界面（HMI）和可编程逻辑控制器（PLC）的核心功能集成在单一硬件平台上\"的定位；B 来自规格表\"组态软件：AutoShop + InoTouchPad\"以及官方同时提供两款软件安装包；C 来自规格表\"输入额定电压：DC 19V~28V / AC 17V~24V 电源隔离（ITU7070T-AC）\"与\"DC 20.4V~28.8V / AC 18V~22V（ITU7070S 系列）\"，即支持交直流宽压输入；E 来自官方\"接口丰富、扩展灵活\"特性中的\"3 路 RS485，连接扩展更方便\"。D 项与显控一体机的定义直接矛盾。注意 C 项的电压范围按型号有差异，现场接线前必须核对所选型号铭牌与手册。",
+    "source": {
+      "title": "汇川技术 ITU7000 系列显控一体型 HMI 产品页（规格参数）",
+      "chapter": "产品概览 / 规格参数-电气、接口",
+      "url": "https://www.inovance.com/portal/product/details?productId=938"
+    },
+    "tags": [
+      "ITU7000",
+      "显控一体",
+      "供电"
+    ],
+    "roles": [
+      "sales",
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "HMI-019",
+    "category": "hmi",
+    "type": "multi",
+    "difficulty": 3,
+    "stem": "某食品饮料厂要做\"免防护柜直装\"的现场操作界面，计划选用汇川 ITS7000 系列高防护型 HMI。下列哪些是该系列的官方能力或配置？（多选）",
+    "options": {
+      "A": "整机 IP67 防护，可直接用水枪冲洗机身",
+      "B": "采用专业电阻触控，可戴乳胶、橡胶、棉纱手套直接操作",
+      "C": "部分型号支持 WiFi 或 4G 无线通信",
+      "D": "配备 1 个 Micro SD 卡槽，用于本地数据记录与工程备份",
+      "E": "高强度 ABS 壳体，耐受含盐、含脂污水的冲刷与酸碱水汽侵蚀"
+    },
+    "answer": [
+      "A",
+      "B",
+      "C",
+      "E"
+    ],
+    "analysis": "A、B、C、E 均与官网一致：整机 IP67（6 级完全防尘、1 米水深 30 分钟短时浸水、无惧水枪直接冲）、三防面板配专业电阻触控（适配乳胶/橡胶/棉纱手套，无需反复摘戴）、ITS7070EIW-HP 支持 WiFi 而 ITS7070EI4-HP 支持 4G、高强度 ABS 壳体耐酸碱水汽侵蚀。D 项是干扰项：ITS7000 高防护型规格表中\"SD 卡\"一栏明确为\"不支持\"，USB 只有 1 路 USB2.0 Type-A 接口。现场若需要本地大容量数据记录或工程备份，高防护型不是合适选择，应考虑 IT9000 高端型（支持 SD 卡/U 盘）或通过网络把数据送出去。这条差异在选型阶段最容易被忽略。",
+    "source": {
+      "title": "汇川技术 ITS7000 系列高防护型 HMI 产品页（规格参数）",
+      "chapter": "产品概览 / 规格参数-接口、结构",
+      "url": "https://www.inovance.com/portal/product/details?productId=972"
+    },
+    "tags": [
+      "ITS7000高防护",
+      "IP67",
+      "SD卡",
+      "选型"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "internal"
+  },
+  {
+    "id": "HMI-020",
+    "category": "hmi",
+    "type": "multi",
+    "difficulty": 3,
+    "stem": "某机床厂需要一款可移动操作的调试终端：能边走边调、单手长时间握持不累、并能从硬件层面杜绝误操作引发的失控风险。关于汇川 ITP60 系列移动示教器，符合该需求的有？（多选）",
+    "options": {
+      "A": "提供 5 米与 15 米电缆规格，可在设备周边移动完成监控、调试与检修",
+      "B": "采用人体工学设计，贴合手掌，支持单手/双手舒适操作",
+      "C": "内置物理急停按钮，可在突发风险时瞬时停机",
+      "D": "配置三位使能开关，松手即停，防止误操作与失控",
+      "E": "内置锂电池，可脱离电缆无线使用 8 小时"
+    },
+    "answer": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "analysis": "A、B、C、D 均是 ITP60 系列移动示教器的官方四大特性：移动操控（5/15 米电缆，边走边调）、舒适握持（人体工学贴合手掌）、物理急停（工业级按钮，突发风险瞬时停机）、安全使能（三位开关，松手即停）。其中 ITP60L-E-L15-LF 为 15 米以太网线缆版本，ITP60S-E-L5 与 ITP60S-E-L5-XY01 为 5 米线缆版本，后者带三档开关。E 项是干扰项：ITP60 通过线缆与设备连接（规格表中\"网线长度\"\"散线长度\"为结构参数），官方资料中没有内置锂电池无线续航的配置。现场把示教器当成无线平板使用，既不符合安全设计逻辑，也无法实现。",
+    "source": {
+      "title": "汇川技术 ITP60 系列移动示教器产品页（规格参数）",
+      "chapter": "产品概览 / 规格参数-结构",
+      "url": "https://www.inovance.com/portal/product/details?productId=939"
+    },
+    "tags": [
+      "ITP60",
+      "安全使能",
+      "方案应用"
+    ],
+    "roles": [
+      "sales",
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "HMI-021",
+    "category": "hmi",
+    "type": "judge",
+    "difficulty": 1,
+    "stem": "汇川 IT7000 系列物联 HMI 标配 EtherCAT 主站接口，可以直接带汇川 SV660N 系列伺服做多轴运动控制。",
+    "options": null,
+    "answer": [
+      "F"
+    ],
+    "analysis": "错误。IT7000 系列物联 HMI 的接口能力是无线通讯（4G/Wi-Fi）、1 个 10M/100M 自适应 RJ45 以太网口、COM1~COM3 串口（RS422/RS485、RS232、RS485）、1 个 Micro SD 卡槽、1 个 Micro SIM 卡槽（4G 版本）与 USB 接口，规格表中没有任何 EtherCAT 相关项。它的定位是\"快速连接、丰富应用、安全可靠\"的物联监控终端，负责远程监控、调试、告警、上下载与数据采集（最高 1000 点）。带伺服轴做实时运动控制必须由 PLC（如 AM400、AM600 系列）或运动控制系统承担，HMI 通过以太网/串口与 PLC 交换数据。这一条是方案沟通中的高危误区，直接关系到系统架构是否成立。",
+    "source": {
+      "title": "汇川技术 IT7000 系列物联 HMI 产品页（规格参数）",
+      "chapter": "规格参数表 / I/O 接口",
+      "url": "https://www.inovance.com/portal/product/details?productId=856"
+    },
+    "tags": [
+      "IT7000物联",
+      "EtherCAT",
+      "通信组网"
+    ],
+    "roles": [
+      "sales",
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "HMI-022",
+    "category": "hmi",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "ITU7000 系列显控一体机支持在 AutoShop 中完成全部工程，包括 HMI 画面组态，因此现场只需要安装 AutoShop 一款软件。",
+    "options": null,
+    "answer": [
+      "F"
+    ],
+    "analysis": "错误。ITU7000 显控一体机是一个硬件平台承载两套功能，软件上也是两套：规格表\"组态软件\"一栏写明\"AutoShop + InoTouchPad\"，官网资料下载区同时列出 InoTouchPad_Setup-V1R7C01SPC7(HMI+PAC+IOT 合并版) 与 AutoShop V4.10.2.0.Litu7000_01(ITU7000S 系列) 两个安装包。AutoShop 负责 PLC 侧逻辑（梯形图/指令表等），InoTouchPad 负责画面组态，二者不能互相替代。工程交付时应在文档中记录两套软件各自的版本号，否则后期维护人员升级其中一套后可能出现 HMI 与 PLC 工程不匹配、下载失败或变量失效的问题。",
+    "source": {
+      "title": "汇川技术 ITU7000 系列显控一体型 HMI 产品页（资料下载）",
+      "chapter": "规格参数表 / 软件-组态软件；资料下载-软件与调试工具",
+      "url": "https://www.inovance.com/portal/product/details?productId=938"
+    },
+    "tags": [
+      "ITU7000",
+      "AutoShop",
+      "InoTouchPad"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "HMI-023",
+    "category": "hmi",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "汇川 iFA Evolution（驭沃）是 HMI 与 PLC 全集成软件平台，因此 ITS7000 系列标准型 HMI 也可以直接使用 iFA Evolution 进行画面组态。",
+    "options": null,
+    "answer": [
+      "F"
+    ],
+    "analysis": "错误。iFA Evolution（驭沃）确实是\"全场景智能化工业控制软件平台\"，可对汇川全体系自动化产品进行组态、编程、调试和仿真，但目前 HMI 侧使用该平台的是 IT9000 系列高端型（规格表：iFA Evolution（驭沃），IT9156E 标注 iFA Evolution（驭沃））。ITS7000 系列标准型、ITS7000 系列高防护型、ITP60 系列移动示教器、IT7000 系列物联 HMI 的规格表组态软件均为 InoTouchPad；ITU7000 显控一体机为 AutoShop + InoTouchPad。\"全集成平台\"描述的是软件的能力边界与演进方向，不等于所有在售 HMI 型号都已适配，选型与交付必须以对应型号规格表为准。",
+    "source": {
+      "title": "汇川技术 InoTouchPad 人机界面开发平台 / IT9000 系列高端型 HMI 产品页",
+      "chapter": "产品概览；规格参数表 / 软件-组态软件",
+      "url": "https://www.inovance.com/portal/product/details?productId=736"
+    },
+    "tags": [
+      "InoTouchPad",
+      "iFA Evolution",
+      "选型"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "HMI-024",
+    "category": "hmi",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "汇川 IT9000 系列高端型 HMI 的高性能定位包括支持 1000+ 画面、5 万+ 标签变量通信，以及上下位机联合仿真调试和组态软件版本在线升级。",
+    "options": null,
+    "answer": [
+      "T"
+    ],
+    "analysis": "正确。IT9000 系列官网\"高性能\"特性原文为：支持 1000+ 画面、5 万+ 标签变量通信、自定义复杂报表、音视频多媒体控件、Web 发布；\"全集成\"特性包含上下位机联合仿真调试、组态软件版本在线升级、集成诊断和指导式排障、Type-C 调试端口即插即用。这些能力配合四核处理器与 1GB DRAM/8GB Flash 硬件平台，使它适合大画面量、大变量规模的高端通用 HMI 场景。方案沟通中可以据此正面回应客户对\"画面多、变量多会不会卡\"的疑虑，并用联合仿真调试说明能缩短现场调试时间。",
+    "source": {
+      "title": "汇川技术 IT9000 系列高端型 HMI 产品页",
+      "chapter": "产品概览 / 高性能、全集成",
+      "url": "https://www.inovance.com/portal/product/details?productId=707"
+    },
+    "tags": [
+      "IT9000",
+      "产品特性",
+      "方案应用"
+    ],
+    "roles": [
+      "sales",
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "HMI-025",
+    "category": "hmi",
+    "type": "judge",
+    "difficulty": 3,
+    "stem": "IT9000 系列中 IT9070E 与 IT9100E 均采用四核 Cortex-A53 处理器，屏幕分辨率也都是 1024×600；IT9156E 则升级为四核 Cortex-A55 处理器、15.6 寸 1920×1080 分辨率并采用电容触摸屏。",
+    "options": null,
+    "answer": [
+      "T"
+    ],
+    "analysis": "正确。IT9000 系列规格表显示：IT9070E 为 7″/1024×600、四线电阻式触摸、四核 Cortex-A53；IT9100E 为 10.1″/1024×600、四线电阻式触摸、四核 Cortex-A53（两者亮度均为 500cd/m²，与 IT9156E 的 300cd/m² 不同）；IT9156E 为 15.6″/1920×1080、电容触摸屏、四核 Cortex-A55、显示颜色 16.2M。这组差异在现场很关键：若客户要求电容触摸（戴手套不方便、追求手感与多点操作）或要求全高清，只有 IT9156E 满足；若客户要求高亮度（强光环境），7 寸与 10.1 寸的 500cd/m² 反而优于 15.6 寸的 300cd/m²，需要按实际工况权衡。",
+    "source": {
+      "title": "汇川技术 IT9000 系列高端型 HMI 产品页（规格参数）",
+      "chapter": "规格参数表 / 屏幕、性能",
+      "url": "https://www.inovance.com/portal/product/details?productId=707"
+    },
+    "tags": [
+      "IT9000",
+      "IT9156E",
+      "屏幕规格"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "internal"
+  },
+  {
+    "id": "HMI-026",
+    "category": "hmi",
+    "type": "judge",
+    "difficulty": 1,
+    "stem": "汇川 ITS7000 系列标准型 HMI 的以太网接口为 10M/100M 自适应，而 IT9000 系列高端型 HMI 最高提供 10M/100M/1000Mbit 千兆网口。",
+    "options": null,
+    "answer": [
+      "T"
+    ],
+    "analysis": "正确。ITS7000 系列标准型规格表中带网口的型号（如 ITS7043E、ITS7070E、ITS7100E 等）以太网一栏均为\"10M/100Mbit/s*1\"；IT9000 系列高端型则为\"10M/100Mbit×1\"加\"10M/100M/1000Mbit×1\"双网口，其中一路为千兆。这个差异在大数据量场景下会体现出来：IT9000 支持 Web 发布、音视频多媒体控件与上亿条数据记录，对带宽要求高，千兆口是必要配置；ITS7000 标准型面向常规监控画面，百兆口足以满足。方案设计时若需通过 HMI 转发大量数据到上层信息系统，应优先选择 IT9000 系列并规划好双网口的网段划分。",
+    "source": {
+      "title": "汇川技术 ITS7000 系列标准型 HMI 产品页（规格参数）",
+      "chapter": "规格参数表 / 接口-以太网",
+      "url": "https://www.inovance.com/portal/product/details?productId=531"
+    },
+    "tags": [
+      "ITS7000",
+      "IT9000",
+      "以太网",
+      "通信组网"
+    ],
+    "roles": [
+      "sales",
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "HMI-027",
+    "category": "hmi",
+    "type": "short",
+    "difficulty": 2,
+    "stem": "请说明汇川 ITS7000 系列\"标准型 HMI\"与\"高防护型 HMI\"在防护等级、安装方式和典型适用场景上的区别，并指出选型时最容易被忽略的一个关键点。",
+    "options": null,
+    "answer": "参考答案要点：\n1) 防护等级：标准型为前面板 IP66、后盖板 IP20，属于仅正面防尘防水、背面必须置于电柜或防护箱内的产品；高防护型为整机 IP67（6 级完全防尘 + 7 级短时浸水，1 米水深 30 分钟），机身全域密封，无惧水枪冲洗。\n2) 安装方式：标准型采用面板安装，装在设备面板上、机身背面处于电柜内；高防护型无需防护柜即可直装使用，可跟随产线同步清洗消杀，面板为高耐候三防面板并采用专业电阻触控，可戴乳胶/橡胶/棉纱手套直接操作。\n3) 典型场景：标准型适用于常规电柜内环境（一般车间、机房、包装线等）；高防护型针对潮湿、多尘、油污、腐蚀的室内严苛工况，如食品饮料、机械加工、陶瓷水泥、化工、环卫等。\n4) 最易忽略的关键点：高防护型规格表中 SD 卡一栏为\"不支持\"，也没有千兆网口，接口相对精简（1 路 USB2.0 Type-A、COM1 可定制为 RS232），因此不要用高防护型承担需要本地大容量数据记录或大量扩展接口的场合；反过来，标准型只有前面板防护，绝不能承诺\"可直接用水冲洗\"。",
+    "analysis": "本题考察销售与工程师最常见的选型混淆点。核心是分清\"前面板 IPxx\"与\"整机 IPxx\"：标准型、ITU7000 显控一体机都是前面板 IP66/后盖板 IP20，IT7000 通用 HMI 是前面板 IP65/后盖板 IP20，只有 ITS7000 高防护型是整机 IP67。现场误判的后果很直接——按\"能冲洗\"承诺了标准型，水从背面或缝隙进入就会批量损坏。第二个易错点是把高防护型当作\"万能增强版\"，忽略它不支持 SD 卡、接口精简的限制。",
+    "source": {
+      "title": "汇川技术 ITS7000 系列高防护型 HMI 产品页（规格参数）",
+      "chapter": "规格参数表 / 环境-防护等级、接口-USB/SD 卡",
+      "url": "https://www.inovance.com/portal/product/details?productId=972"
+    },
+    "tags": [
+      "ITS7000",
+      "IP67",
+      "选型"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "HMI-028",
+    "category": "hmi",
+    "type": "short",
+    "difficulty": 2,
+    "stem": "请说明汇川 HMI 当前在售各系列分别使用哪款组态软件，并说明选用 ITU7000 系列显控一体机时，软件开发需要准备哪些软件环境。",
+    "options": null,
+    "answer": "参考答案要点：\n1) 软件对应关系（以官网规格表\"组态软件\"一栏为准）：\n   - ITS7000 系列标准型 HMI（ITS7043S/E、ITS7070 系列、ITS7100 系列、ITS7110P、ITS7156E、IT7150P 等）：InoTouchPad；\n   - ITS7000 系列高防护型 HMI（ITS7070S-HP、ITS7070E-HP、ITS7070EIW-HP、ITS7070EI4-HP 等）：InoTouchPad；\n   - ITP60 系列移动示教器（ITP60L-E-L15-LF、ITP60S-E-L5、ITP60S-E-L5-XY01）：InoTouchPad；\n   - IT7000 系列物联 HMI（IT7070Si-4G/WIFI、IT7070Ei-4G/WIFI、IT7100Ei-4G/WIFI 等）：InoTouchPad；\n   - IT9000 系列高端型 HMI（IT9070E、IT9100E、IT9156E）：iFA Evolution（驭沃），IT9156E 标注 iFA Evolution（驭沃）；\n   - ITU7000 系列显控一体机：AutoShop + InoTouchPad。\n2) ITU7000 的开发环境：需要同时准备两套软件——画面侧用 InoTouchPad（官网提供 InoTouchPad_Setup-V1R7C03SPC2 等 HMI+PAC+IOT 合并版安装包），控制侧用 AutoShop（官网提供 AutoShop V4.10.2.0.Litu7000_01，针对 ITU7000S 系列）；现场下载与后期维护都要保证两套软件的版本与工程匹配。\n3) 工程交付建议：在设备档案中记录屏型号、两套软件名称与版本号、工程文件路径，避免后续维护因软件版本不一致导致下载失败。",
+    "analysis": "本题考察\"型号—软件\"对应关系这一基础但高频出错的知识点。现场最常见的三类错误：一是把 ITS7000 与 IT9000 的软件混用（前者 InoTouchPad、后者 iFA Evolution）；二是以为 ITU7000 显控一体机只需要 AutoShop（漏装 InoTouchPad 后无法组态画面）；三是拿着老版本的 InoTouchPad 去打新硬件（V1R7 版本才有 HMI+PAC+IOT 合并版安装包）。回答时以规格表\"组态软件\"一栏为唯一依据，不凭印象作答。",
+    "source": {
+      "title": "汇川技术 InoTouchPad 人机界面开发平台产品页",
+      "chapter": "产品概览；各系列规格参数表-软件",
+      "url": "https://www.inovance.com/portal/product/details?productId=736"
+    },
+    "tags": [
+      "InoTouchPad",
+      "iFA Evolution",
+      "AutoShop",
+      "选型"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "internal"
+  },
+  {
+    "id": "HMI-029",
+    "category": "hmi",
+    "type": "short",
+    "difficulty": 2,
+    "stem": "客户有一台分散在多个厂区的空压机设备，希望实现远程查看运行数据、远程上下载 HMI 工程、远程排查故障。请基于汇川 IT7000 系列物联 HMI 给出联网方案与实施要点。",
+    "options": null,
+    "answer": "参考答案要点：\n1) 硬件选型：选择 IT7000 系列物联 HMI 的 4G 版本（如 IT7070Ei-4G、IT7100Ei-4G）用于无固定网络的厂区，或 WIFI 版本（IT7070Ei-WIFI、IT7100Ei-WIFI）用于厂内有稳定无线覆盖的场景；4G 版本自带 micro SIM 卡槽（4G 版本），需现场准备并激活物联网卡。7 寸机型分辨率为 800×480，10 寸机型为 1024×600，按显示内容量选择。\n2) 网络准备：确认设备安装位置的 4G 信号强度/Wi-Fi 覆盖质量，天线为内置隐藏式设计，无需外接但安装位置应避开金属屏蔽柜体的封闭遮挡；记录 SIM 卡与设备绑定关系。\n3) 平台对接：利用\"免配置快速连接汇川 Uweb 平台\"的能力完成设备注册，实现远程监控、调试、告警、工程上下载、设备定位与物联网卡充值等功能。\n4) 容量与规划：单台设备最高支持 1000 点数据采集，需按实际监控点位提前规划采集清单，避免点位超限后需要二次调整工程；报警与数据记录的关键点位要在组态阶段就定义好，便于远程排障时直接调取。\n5) 安全与运维：按物联屏的网络安全设计原则做好账号与权限管理，避免工程文件与账号口令外泄；建立设备台账（型号、SIM 卡号、所在厂区、工程版本），便于批量设备统一升级与故障定位。",
+    "analysis": "本题是典型的\"设备联网+远程运维\"方案题，考察对物联屏能力边界的掌握。回答必须落到 IT7000 物联系列的真实能力上：4G/Wi-Fi 型号区分、micro SIM 卡槽、免配置对接 Uweb、最高 1000 点采集、隐藏式内置天线、远程上下载与告警。常见错误有三类：一是把 4G 与 Wi-Fi 型号的能力说反（IT7070Si-WIFI 不支持以太网口，而 4G 机型才有 SIM 卡槽）；二是承诺无限制的数据采集点数，忽略 1000 点的官方上限；三是只讲联网不讲安全与台账，交付后几十台设备无法统一管理。",
+    "source": {
+      "title": "汇川技术 IT7000 系列物联 HMI 产品页（规格参数）",
+      "chapter": "产品概览 / 产品特性；规格参数表 / I-O 接口",
+      "url": "https://www.inovance.com/portal/product/details?productId=856"
+    },
+    "tags": [
+      "IT7000物联",
+      "Uweb",
+      "通信组网",
+      "远程运维"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "internal"
+  },
+  {
+    "id": "HMI-030",
+    "category": "hmi",
+    "type": "short",
+    "difficulty": 2,
+    "stem": "请说明 InoTouchPad 作为汇川人机界面开发平台的官方定位与主要能力，并列举在工程组态阶段提高效率的 3 项具体做法。",
+    "options": null,
+    "answer": "参考答案要点：\n1) 官方定位：InoTouchPad 是汇川专为工业自动化领域打造的人机界面（HMI）开发平台，创新采用拖拽式编程模式，极大降低开发门槛。\n2) 协议兼容：全面兼容 Modbus、EIP、OPC UA 等工业领域主流通信协议，能够无缝对接 PLC、变频器、传感器等各类工业设备，实现不同品牌、不同型号设备之间的数据互通与协同工作；IT7000 通用 HMI 还支持自由协议扩展，并内置西门子、欧姆龙、三菱、松下、安川、基恩士、台达、永宏、信捷等主流厂家协议驱动。\n3) 提高组态效率的具体做法（任选 3 项并说明）：\n   - 使用 PLC 标签变量组态自动同步：直接复用 PLC 侧标签，避免在 HMI 中重复建变量与手工绑定地址，PLC 变量改名/改地址后可同步更新；\n   - 使用 IO 组合控件：把常用的一组指示、按钮、设定值封装成组合控件，减少重复绘制与逐个绑定；\n   - 用拖拽方式生成控件并关联变量，配合表格式与批量式的创建、导入导出功能，批量生成同类对象；\n   - 使用行业系统图库与控件库，缩短画面美工与元件绘制时间；\n   - 使用 JavaScript 脚本与丰富的系统函数实现复杂逻辑，替代大量离散组态；\n   - 使用一键换肤与开放式 QSS 样式设置，快速统一整套画面的视觉风格。\n4) 版本提示：ITU7000 显控一体机、ITS7000 系列、ITP60 系列、IT7000 物联系列使用 InoTouchPad；IT9000 高端型使用 iFA Evolution，不要把两个平台的工程互相混用。",
+    "analysis": "本题考察对组态平台的整体认识，避免把 HMI 组态当成\"画图工具\"来理解。回答要点在于：一是平台定位（拖拽式、降低门槛）；二是协议兼容广度（Modbus/EIP/OPC UA 及主流品牌 PLC 驱动，这是混线集中监控能成立的前提）；三是提效手段要落到具体功能名称（标签变量自动同步、IO 组合控件、批量导入导出、脚本与系统函数），而不是笼统说\"效率高\"。同时要提醒软件与型号的对应关系，这是现场最容易造成工程打不开、下载失败的隐性坑。",
+    "source": {
+      "title": "汇川技术 InoTouchPad 人机界面开发平台产品页",
+      "chapter": "产品概览",
+      "url": "https://www.inovance.com/portal/product/details?productId=736"
+    },
+    "tags": [
+      "InoTouchPad",
+      "组态",
+      "效率"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "internal"
+  },
+  {
+    "id": "HMI-031",
+    "category": "hmi",
+    "type": "scenario",
+    "difficulty": 2,
+    "stem": "某食品加工厂杀菌工段，去年上一批设备用的是汇川 ITS7000 系列标准型 HMI，装在设备面板上、机身背面在电柜内。今年客户要求 HMI 免防护柜直装、并跟随产线每日用高压水枪冲洗机身与消毒液擦拭，还要工人戴棉纱手套直接点按操作。销售同事认为\"标准型前面板是 IP66，水冲正面没问题\"，准备直接沿用原型号。请判断该方案是否可行，说明理由，并给出正确的选型与实施建议。",
+    "options": null,
+    "answer": "参考答案要点：\n1) 结论：不可行。不能沿用 ITS7000 系列标准型。\n2) 理由：标准型的防护等级是\"前面板 IP66、后盖板 IP20\"，属于仅正面防尘防水、背面必须处于电柜/防护箱内的产品；高压水枪冲洗与每日消毒液擦拭必然有水从机身背面、接缝与线缆入口进入，IP20 背板无任何防水能力，会直接导致设备损坏甚至短路。IP66 只描述正面，不能作为整机可冲洗的依据。\n3) 正确选型：改用 ITS7000 系列高防护型 HMI（如 ITS7070S-HP、ITS7070E-HP、ITS7070EIW-HP 或 ITS7070EI4-HP 等），其整机 IP67（6 级完全防尘、7 级短时浸水：1 米水深浸泡 30 分钟、无惧水枪直接冲），高强度 ABS 壳体耐受含盐含脂污水与酸碱水汽，高耐候三防面板适配乳胶、橡胶、棉纱手套直接操作，无需防护柜即可直装使用，契合食品车间每日多次消杀的场景。\n4) 实施要点与需同步确认的限制：\n   - 高防护型规格表中 SD 卡一栏为\"不支持\"，接口较精简（1 路 USB2.0 Type-A、COM1 可定制为 RS232、以太网部分型号才有）；若原方案依赖 SD 卡做本地数据记录，必须改为网络上传或改用其它系列，不要默认沿用；\n   - 10.1 寸机型（ITS7100E-HP、ITS7100EIW-HP、ITS7100EI4-HP）官方状态为\"即将上市\"，交付节点要与供货状态对齐，不能直接写进近期交付清单；\n   - 供电支持 9~28V DC 宽压，现场确认电柜侧电源与线缆入口的密封处理；\n   - 安装方式为面板安装，需核对开孔尺寸（7 寸为 192×138mm、10.1 寸为 260×202mm）与安装板厚（MAX 6mm）。",
+    "analysis": "本题的关键是纠正\"前面板 IP66 等于整机防水\"这一现场高频误判。汇川产品线中，ITS7000 标准型与 ITU7000 显控一体机都是前面板 IP66、后盖板 IP20，IT7000 通用 HMI 是前面板 IP65、后盖板 IP20，只有 ITS7000 高防护型是整机 IP67。第二个考点是\"选型不能只看防护\"——高防护型为了密封精简了接口（不支持 SD 卡），若原方案有本地数据记录需求，换型时必须同步调整数据存储方案，否则换完屏发现记录功能做不了。第三个考点是对供货状态的把关，10.1 寸高防护机型官网标注\"即将上市\"，销售方案里必须如实标注，避免承诺无法交付的节点。",
+    "source": {
+      "title": "汇川技术 ITS7000 系列高防护型 HMI 产品页（规格参数）",
+      "chapter": "规格参数表 / 环境-防护等级、接口、结构；产品概览",
+      "url": "https://www.inovance.com/portal/product/details?productId=972"
+    },
+    "tags": [
+      "ITS7000高防护",
+      "IP67",
+      "选型",
+      "方案应用"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "internal"
+  },
+  {
+    "id": "HMI-032",
+    "category": "hmi",
+    "type": "scenario",
+    "difficulty": 2,
+    "stem": "某包装线正在调试：现场有汇川 H5U 系列 PLC 控制主传动，另有一台老设备的西门子 S7-200 SMART 需要把产量数据送到同一块汇川 IT7000 系列通用 HMI 上做集中显示。调试人员反馈\"HMI 连 PLC 一直连不上，画面数值全不动\"。请给出你的排查思路与处理建议。",
+    "options": null,
+    "answer": "参考答案要点：\n1) 先分清两类链路，分别定位：\n   - 链路一（H5U ↔ HMI）：常见于以太网方式，检查 HMI 与 PLC 的 IP 地址是否同网段、是否冲突，网线/交换机端口是否正常，PLC 侧是否已允许通信连接，HMI 工程中的设备类型与站号/端口号是否与 PLC 实际一致。\n   - 链路二（S7-200 SMART ↔ HMI）：确认通信物理层（以太网口还是串口）、S7-200 SMART 的 IP 与端口（以太网方式）、或串口参数（波特率、数据位、停止位、校验、站号）是否与 HMI 工程一致；S7-200 SMART 的以太网口与串口不是同一套参数，必须与 HMI 工程里选用的驱动一致。\n2) 确认协议驱动选择：IT7000 系列 HMI 支持以太网与串口的通信组网方案，并支持西门子、欧姆龙、三菱、松下、安川、基恩士、台达、永宏、信捷等主流厂家协议，组态时必须在设备列表中选择对应的品牌/型号驱动，选错驱动即使物理层通了也读不到数据。若设备型号不在预置驱动列表内，可使用自由协议方式自行组帧。\n3) 用分段验证法排除：先用电脑 ping 通两台 PLC（以太网方式），再用 InoTouchPad 的在线模拟/通信诊断功能单独测试每一台设备的通信，把\"两块屏都连不上\"拆成\"哪一台连不上、物理层还是协议层\"，避免在错误方向反复改工程。\n4) 检查共性原因：若两条链路同时不通，优先怀疑 HMI 本体的通信参数配置被误改、HMI 以太网口未启用、或交换机/网段整体规划错误——这类\"共因故障\"比两台设备同时各自出问题概率更高。\n5) 长期建议：把两台 PLC 的连接参数（IP、端口、串口参数、站号、驱动名称）整理成调试记录随工程归档；多台设备串口串接时注意轮询周期会随设备数量增加而变长，画面刷新变慢时不要误判为 HMI 故障。",
+    "analysis": "本题考察\"多品牌设备集中监控\"的实战排查能力。核心方法是先按链路拆分、再按物理层/协议层分层定位，而不是笼统地怀疑 HMI。IT7000 系列 HMI 的协议兼容性是方案成立的前提（支持以太网、串口组网与主流品牌协议驱动、自由协议扩展），但\"支持\"不等于\"自动识别\"，驱动、站号、串口参数仍需在工程中逐一匹配。常见的两个误判：一是把 S7-200 SMART 的以太网与串口参数混为一谈；二是两台设备同时不通时仍分头排查，忽略 HMI 侧或网络侧的共因。",
+    "source": {
+      "title": "汇川技术 IT7000 系列通用 HMI 产品页",
+      "chapter": "产品概览 / 协议丰富，组网灵活；通信组网",
+      "url": "https://www.inovance.com/portal/product/details?productId=47"
+    },
+    "tags": [
+      "IT7000",
+      "通信组网",
+      "故障排查",
+      "多品牌PLC"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "internal"
+  },
+  {
+    "id": "HMI-033",
+    "category": "hmi",
+    "type": "scenario",
+    "difficulty": 3,
+    "stem": "某注塑机设备厂要为出口机型配置 HMI：要求 15.6 寸全高清（1920×1080）电容触摸屏、支持 1000+ 画面与大量标签变量、需要 Web 发布把画面投到车间看板，还要能长期保存工艺曲线数据用于质量追溯，现场调试希望能做上下位机联合仿真以缩短调试周期。请给出选型结论、理由，以及需要提醒客户注意的实施要点。",
+    "options": null,
+    "answer": "参考答案要点：\n1) 选型结论：选用汇川 IT9000 系列高端型 HMI 的 IT9156E。\n2) 选择理由（逐条对应客户需求）：\n   - 15.6 寸、1920×1080 全高清、电容触摸屏：IT9000 系列中只有 IT9156E 是该规格（IT9070E 为 7″/1024×600、IT9100E 为 10.1″/1024×600，且均为四线电阻式触摸）；\n   - 大画面量与变量规模：IT9000\"高性能\"特性支持 1000+ 画面、5 万+ 标签变量通信，硬件为四核处理器配 1GB DRAM、8GB Flash（IT9156E 采用四核 Cortex-A55），满足大容量需求；\n   - Web 发布：属于 IT9000\"高性能\"特性之一，可直接满足车间看板需求，无需额外组态软件；\n   - 数据追溯：IT9000\"高容量\"特性支持 2000 万条以上数据记录、1000 万条以上报警记录，并可支持 100 条以上趋势曲线，数据记录配 SD 卡/U 盘存储时最高可达上亿条；\n   - 缩短调试周期：\"全集成\"特性包含上下位机联合仿真调试、集成诊断和指导式排障、Type-C 调试端口即插即用。\n3) 实施要点与提醒：\n   - 软件平台是 iFA Evolution（驭沃），不是 InoTouchPad；客户现有 ITS7000/IT7000 工程不能直接沿用，需重新组态，培训与工程周期要计入项目计划；设备档案中要记录 iFA Evolution 版本号；\n   - 存储可靠性：上亿条记录依赖 SD 卡/U 盘的实际容量与品质，必须设置记录条数上限与循环覆盖策略，并选用工业级存储介质，避免卡满或卡损坏导致记录中断；\n   - 组态软件版本在线升级、集成诊断与指导式排障属于内部调试技巧，向客户培训时可讲操作方法，但涉及工程内部结构的内容需按内部资料口径输出；\n   - 供电为 24V DC（@24V DC 额定电流 800mA），接地与屏蔽按手册要求执行。",
+    "analysis": "本题是\"高端 HMI 选型 + 实施风险\"的综合题。主要考点有三：一是能在同一系列内按屏幕尺寸、分辨率、触摸类型三项硬指标准确落到 IT9156E；二是能把客户需求逐条映射到 IT9000 的官方特性（1000+ 画面、5 万+ 标签、Web 发布、2000 万条以上记录、100 条以上趋势曲线、联合仿真）；三是能识别换平台带来的隐性成本——IT9000 走 iFA Evolution（驭沃），与 ITS7000/IT7000 的 InoTouchPad 工程不通用，这是方案报价与交期最容易漏算的一项。另外要提醒客户工艺数据的长期存储不能只依赖 HMI 本地卡，需与上层系统做好数据归档。",
+    "source": {
+      "title": "汇川技术 IT9000 系列高端型 HMI 产品页（规格参数）",
+      "chapter": "产品概览 / 高性能、高容量、全集成；规格参数表",
+      "url": "https://www.inovance.com/portal/product/details?productId=707"
+    },
+    "tags": [
+      "IT9000",
+      "IT9156E",
+      "Web发布",
+      "选型"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "confidential"
+  },
+  {
+    "id": "HMI-034",
+    "category": "hmi",
+    "type": "scenario",
+    "difficulty": 3,
+    "stem": "某设备厂用 ITU7000 系列显控一体机（ITU7070T-AC）替代原来\"7 寸 HMI + 小型 PLC\"的分体方案，已进入调试阶段。调试人员反馈三个问题：①上位机连不上设备，无法下载工程；②画面组态文件下载后不生效；③部分数字量输入点接上信号后画面上没有反应。请给出排查思路与处理建议。",
+    "options": null,
+    "answer": "参考答案要点：\n1) 先厘清一个前提：ITU7000 显控一体机是一个硬件平台承载 HMI 与 PLC 两套功能，软件也是两套——画面侧用 InoTouchPad 组态，控制侧用 AutoShop 编程（规格表\"组态软件\"一栏为 AutoShop + InoTouchPad，官网分别提供 InoTouchPad_Setup-V1R7C03SPC2 与 AutoShop V4.10.2.0.Litu7000_01 两个安装包）。很多\"连不上、下载不生效\"的问题根源是先搞混了这两套软件。\n2) 问题① 上位机连不上设备：\n   - 确认下载线缆与端口：该机型调试可用以太网或 USB（规格表为 1 路 USB2.0 Type-A 接口）；核对上位机 IP 与设备 IP 是否同网段；\n   - 确认下载对象：画面工程要用 InoTouchPad 连接，PLC 工程要用 AutoShop 连接，用错软件会出现\"连不上\"；\n   - 核对软件版本是否与 ITU7000S 系列匹配（官网 AutoShop 安装包标注 Litu7000_01、适用于 ITU7000S 系列）。\n3) 问题② 画面组态下载后不生效：\n   - 常见原因是下载到了错误的对象（把画面工程下到 PLC 侧）或工程实际未下载完成；\n   - 确认是否使用了正确的工程文件与目标设备型号；确认下载后是否执行了重启/重新运行；\n   - 若画面能打开但数值不动，转向检查变量与 PLC 侧的对应关系（是否已用标签同步方式绑定）。\n4) 问题③ 数字量输入点无反应：\n   - 硬件通道分配要按所选型号的规格核对：ITU7070T-AC 为 9 路 X0~X7、X10 数字量输入（其中 X5~X7、X10 支持 PTC 输入）加 12 路 Y0~Y7、Y10~Y13 全继电器输出；而 ITU7070S 系列为 8 路 X0~X7（其中 X6~X7 支持 PTC）加 6 路（3 继电器 + 3 晶体管）或 6 路继电器输出。通道号与型号不匹配会导致组态里的地址对不上实际端子；\n   - 确认输入的公共端接线方式与信号类型（PTC 输入端子与普通数字量输入端子的用法不同，接错会导致该点无动作）；\n   - 确认该点已在 PLC 侧程序中正确读取，并在画面变量中绑定到对应地址；\n   - 用 AutoShop 在线监控该输入点状态：PLC 侧有变化而画面无变化 → 变量绑定问题；PLC 侧也无变化 → 接线或端子问题。\n5) 供电与结构核对：ITU7070T-AC 支持 DC 19V~28V / AC 17V~24V 电源隔离输入，额定电流最大 2A，接线前确认供电形式与端子；安装为面板安装、开孔 243×179.5mm、外形 258×194×67mm、安装板厚 MAX 6.5mm。",
+    "analysis": "本题紧贴显控一体机\"一台设备、两套软件\"的特点设计，是 ITU7000 调试中最集中的一类问题。核心方法论是\"先分清是哪一侧的问题，再用在线监控把故障边界卡在 PLC 侧还是画面侧\"。三个小问分别对应三类典型原因：①软件选错/版本不匹配/网段不对；②下载对象或工程本身不对；③型号通道分配与实际接线/变量绑定不一致——其中把 ITU7070T 的 9 入 12 出（Y 为全继电器）与 ITU7070S 的 8 入 6 出混淆，是最容易导致\"点接上了但没反应\"的根因。回答时能引用具体通道数与型号差异，才算真正掌握该产品。",
+    "source": {
+      "title": "汇川技术 ITU7000 系列显控一体型 HMI 产品页（规格参数）",
+      "chapter": "规格参数表 / 接口-数字量输入、数字量输出、电气；资料下载-软件与调试工具",
+      "url": "https://www.inovance.com/portal/product/details?productId=938"
+    },
+    "tags": [
+      "ITU7000",
+      "AutoShop",
+      "调试",
+      "故障排查"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "confidential"
+  }
+]

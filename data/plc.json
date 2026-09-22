@@ -1,0 +1,1045 @@
+[
+  {
+    "id": "PLC-001",
+    "category": "plc",
+    "type": "single",
+    "difficulty": 1,
+    "stem": "汇川技术推出首个应用 EtherCAT 总线的小型 PLC、被官方定位为「EtherCAT 总线高性能小型 PLC」的是下列哪个系列？",
+    "options": {
+      "A": "H1U/S 系列",
+      "B": "H3U/S 系列",
+      "C": "H5U 系列",
+      "D": "Easy301 系列"
+    },
+    "answer": [
+      "C"
+    ],
+    "analysis": "官网对 H5U 的定位是「EtherCAT 总线高性能小型 PLC」，产品简介明确写到「汇川技术推出首个应用 EtherCAT 总线的小型 PLC H5U」，因此 C 正确。A 的 H1U/S 是简易型经济系列，靠 3 轴 100KHz 脉冲做定位，本体不带 EtherCAT；B 的 H3U/S 是 CAN 总线高性能小型 PLC，走脉冲 + CANopen/CANlink 路线；D 的 Easy301 属于 Easy 全场景紧凑型系列中的入门机型，EtherCAT 主站能力集中在 Easy511、Easy52X 等机型上，301 本身不以 EtherCAT 为卖点。现场选型时不要把「小型机」和「不带总线」划等号，H5U 与 Easy511 都属于小型机里带 EtherCAT 主站的产品。",
+    "source": {
+      "title": "汇川技术 H5U 系列 EtherCAT 总线高性能小型 PLC 产品页",
+      "chapter": "产品概览",
+      "url": "https://www.inovance.com/portal/product/details?productId=54"
+    },
+    "tags": [
+      "H5U",
+      "EtherCAT",
+      "选型"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "PLC-002",
+    "category": "plc",
+    "type": "single",
+    "difficulty": 1,
+    "stem": "汇川 AM400、AM600、AM500、AM760 等中型 PLC 系列，官方配套的后台编程软件是哪一个？",
+    "options": {
+      "A": "AutoShop",
+      "B": "InoProShop",
+      "C": "iFA Evolution（驭沃）",
+      "D": "InoDriveShop"
+    },
+    "answer": [
+      "B"
+    ],
+    "analysis": "AM400、AM600、AM300、AM500、AM760 以及 AC700/AC800 的产品页「资料下载」中，软件类资料统一为「InoProShop 中型PLC后台编程软件完整包」，编程手册也是《中型PLC编程手册（软件使用篇）》，因此 B 正确。A 的 AutoShop 是小型 PLC 的后台软件，官方挂在 H5U、H3U、H1U、Easy 系列的下载区，是本题最主要的干扰项；C 的 iFA Evolution（驭沃）是 EVO400/EVO500/EVO700/EVO800 与功能安全 PLC 的新一代全场景智能化平台，不用于 AM 系列；D 的 InoDriveShop 是伺服调试软件。现场遇到「AM 系列连不上、找不到工程文件」的问题，先确认工程师用的到底是 InoProShop 还是 AutoShop。",
+    "source": {
+      "title": "汇川技术 AM600 系列通用型中型 PLC 产品页",
+      "chapter": "资料下载 / 软件",
+      "url": "https://www.inovance.com/portal/product/details?productId=52"
+    },
+    "tags": [
+      "AM400",
+      "AM600",
+      "InoProShop",
+      "编程软件"
+    ],
+    "roles": [
+      "sales",
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "PLC-003",
+    "category": "plc",
+    "type": "single",
+    "difficulty": 1,
+    "stem": "汇川官网将 EVO400、EVO500、EVO700、EVO800 以及 EVO1000EF 功能安全 PLC 的编程平台统一描述为下列哪一个？",
+    "options": {
+      "A": "AutoShop 小型 PLC 后台编程软件",
+      "B": "InoProShop 中型 PLC 后台编程软件",
+      "C": "iFA Evolution（驭沃）全场景智能化工业控制软件平台",
+      "D": "iFA EX 机电一体化仿真软件"
+    },
+    "answer": [
+      "C"
+    ],
+    "analysis": "官网对 iFA Evolution（驭沃）的定义是「全场景智能化工业控制软件平台」，可对汇川全体系自动化产品进行组态、编程、调试和仿真；EVO400 被明确写成「基于 iFA Evolution（驭沃）平台自主研发的新一代标准中型 PLC」，EVO52X、EVO760、EVO800、EVO1000EF 的下载区软件也统一是 iFA Evolution，因此 C 正确。A 的 AutoShop 只覆盖小型 PLC；B 的 InoProShop 覆盖的是 AM/AC 系列这一代中型控制器；D 的 iFA EX 是机电一体化仿真软件（虚拟调试），它是 iFA 体系里的仿真工具而非组态编程主体，是很容易混淆的一项。",
+    "source": {
+      "title": "汇川技术 iFA Evolution（驭沃）产品页",
+      "chapter": "产品概览",
+      "url": "https://www.inovance.com/portal/product/details?productId=652"
+    },
+    "tags": [
+      "EVO",
+      "iFA Evolution",
+      "编程软件"
+    ],
+    "roles": [
+      "sales",
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "PLC-004",
+    "category": "plc",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "某设备需要 5 个轴做脉冲定位，并要求本体自带 CAN 口可接入 CANopen 从站、同时自带百兆以太网口支持 Modbus TCP，成本敏感。按汇川官网规格，下列哪个系列最贴合该需求？",
+    "options": {
+      "A": "H1U/S 系列（3 轴 100KHz 脉冲）",
+      "B": "H3U/S 系列（5 路 200KHz 脉冲输出，本体带 CAN 与以太网口）",
+      "C": "H5U 系列（4 轴 200KHz 脉冲输出）",
+      "D": "AM600 系列（中型 PLC）"
+    },
+    "answer": [
+      "B"
+    ],
+    "analysis": "H3U/S 的官网规格为「5 路 200KHz 脉冲输出」「1 路 CAN 接口支持 CANlink 和 CANopen 协议」「1 路 100M 的以太网接口支持 MODBUS TCP/IP 和自由口协议」，5 轴脉冲 + 本体 CAN + 本体以太网三项完全对上，B 正确。A 的 H1U/S 只有 3 轴高速 100K 脉冲，轴数不够；C 的 H5U 本体是 4 轴 200KHz 脉冲输出，脉冲轴数差 1 轴，虽然它能用 EtherCAT 扩到 32 轴，但本题明确要求脉冲定位且成本敏感；D 的 AM600 是中型 PLC，用在这里属于能力与成本双过剩。选型时先数「脉冲轴数」，再核「本体通信口」，最后才考虑升级到总线方案。",
+    "source": {
+      "title": "汇川技术 H3U/S 系列 CAN 总线高性能小型 PLC 产品页",
+      "chapter": "产品概览 / 产品特性及优点",
+      "url": "https://www.inovance.com/portal/product/details?productId=55"
+    },
+    "tags": [
+      "H3U",
+      "选型",
+      "脉冲定位"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "PLC-005",
+    "category": "plc",
+    "type": "single",
+    "difficulty": 1,
+    "stem": "汇川 H1U/S 系列属于经济型小型 PLC，其官网标称的点数覆盖范围是多少？",
+    "options": {
+      "A": "14~60 点",
+      "B": "8~32 点",
+      "C": "16~128 点",
+      "D": "32~256 点"
+    },
+    "answer": [
+      "A"
+    ],
+    "analysis": "H1U 产品页原文为「该系列 PLC 点数覆盖 14~60 点。是小型自动化设备高性价比的选择」，A 正确。H1U 的关键定位是「小体积、大程序容量（无需外部扩展内存卡即可达到 16K 步）+ 3 轴高速 100K 脉冲」，本体标配 2 个独立串口并支持 USB 监控下载，支持 CANlink3.0 组网。B、C、D 都是常见的「凭印象填」的干扰项：8~32 点通常是更小型的专用控制器形态，128 点以上一般要靠扩展模块或直接进入中型 PLC 的范畴。向客户报价时，点数上限要连同扩展能力一起讲清楚，避免客户按最大点数理解成单机本体就能做到。",
+    "source": {
+      "title": "汇川技术 H1U/S 系列简易型小型 PLC 产品页",
+      "chapter": "产品概览",
+      "url": "https://www.inovance.com/portal/product/details?productId=59"
+    },
+    "tags": [
+      "H1U",
+      "选型",
+      "点数"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "PLC-006",
+    "category": "plc",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "汇川 Easy 系列有下列几款紧凑型机型，其中本体自带 EtherCAT 口、出厂标配 GE21-EN 以太网卡，可同时兼顾 EtherCAT 主站与标准以太网通信的是哪一款？",
+    "options": {
+      "A": "Easy301",
+      "B": "Easy302",
+      "C": "Easy321",
+      "D": "Easy511"
+    },
+    "answer": [
+      "D"
+    ],
+    "analysis": "Easy 系列卧式形态产品页写明「Easy511 产品包含 NPN 机型，本体自带一路 EtherCAT 口，支持 EtherNet 切换，且出厂标配 GE21-EN 以太网卡，支持标准以太网通信协议」，D 正确。A 的 Easy301、B 的 Easy302 是 Easy 系列里的紧凑型入门机型，官方下载区对应的是《Easy301 用户手册》《Easy302 用户手册》，不以 EtherCAT 主站为核心配置；C 的 Easy321 是卧式形态机型，官方描述为「包含继电器、NPN 和 PNP 机型，本体自带一路 EtherNet 口」，它的强项是 EtherNet 与 GE21-RTU 配置卡转智能 IO，本体并不自带 EtherCAT 口。这是 Easy 系列选型里最容易出错的一处，谈方案前务必按机型逐一核对本体接口。",
+    "source": {
+      "title": "汇川技术 Easy 系列卧式形态小型 PLC 产品页",
+      "chapter": "产品概览",
+      "url": "https://www.inovance.com/portal/product/details?productId=740"
+    },
+    "tags": [
+      "Easy511",
+      "EtherCAT",
+      "选型"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "PLC-007",
+    "category": "plc",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "按汇川官网产品页给出的规格，AM760 系列高性能中型 PLC 的带轴能力与 GL20 模块扩展能力分别是多少？",
+    "options": {
+      "A": "1ms 周期 32 轴同步，可扩展 16 个 GL20 模块",
+      "B": "1ms 周期 64 轴同步，可扩展 32 个 GL20 模块",
+      "C": "4ms 周期 256 轴运算，可扩展 8 个 GL20 模块",
+      "D": "500μs 周期 32 轴同步，可扩展 64 个 GL20 模块"
+    },
+    "answer": [
+      "B"
+    ],
+    "analysis": "AM760 产品页卖点原文为「基于风电设计打造的稳定性、1ms 周期 64 轴同步能力、可扩展 32 个 GL20 模块」，B 正确。A 的「32 轴」出现在 AC700（最大支持 1ms-32 轴同步运行）和 H5U（32 轴 EtherCAT）身上，属于跨系列串号；C 的「4ms-256 轴运算速度」是 AC800 的规格（还包含 250μs-8 轴、500μs-32 轴），而且 GL20 扩展 8 个是 EVO400 的本地扩展模块数；D 的 500μs 也是 AC800 的档位。AM760 面向硅晶、锂电、汽车、金属线缆等对运动控制要求高的场景，讲轴数时最好连「周期」一起讲，单说轴数没有意义。",
+    "source": {
+      "title": "汇川技术 AM760 系列高性能中型 PLC 产品页",
+      "chapter": "产品概览",
+      "url": "https://www.inovance.com/portal/product/details?productId=559"
+    },
+    "tags": [
+      "AM760",
+      "带轴能力",
+      "选型"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "PLC-008",
+    "category": "plc",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "某高速包装设备需要 EtherCAT 总线带轴、并要求本体集成 UPS 实现数据掉电保存，同时要求用 InoProShop 平台开发。下列汇川产品中最合适的是？",
+    "options": {
+      "A": "H5U-1614MTD",
+      "B": "EVO521-0808TN",
+      "C": "AC700 系列书本式智能机械控制器",
+      "D": "Easy511-2416TN"
+    },
+    "answer": [
+      "C"
+    ],
+    "analysis": "AC700 产品页写明「本体集成 UPS（不间断电源），即无需外接 UPS 即可实现数据掉电保存」，其规格为「最大支持 1ms-32 轴同步运行」，软件侧归属中型 PLC 体系（下载区为 InoProShop 与《中型PLC编程手册》系列），三项要求全部命中，C 正确。A 的 H5U 虽支持 32 轴 EtherCAT，但编程平台是 AutoShop，本体也不带 UPS；B 的 EVO521 基于 iFA Evolution 平台，平台要求不符；D 的 Easy511 同为 AutoShop 平台的小型机。这说明「带轴能力」只是选型的第一层，编程平台、掉电保持、行业工艺库这些隐性要求往往才是决定系列归属的关键。",
+    "source": {
+      "title": "汇川技术 AC700 系列书本式智能机械控制器产品页",
+      "chapter": "产品概览 / 集成化设计",
+      "url": "https://www.inovance.com/portal/product/details?productId=327"
+    },
+    "tags": [
+      "AC700",
+      "掉电保持",
+      "选型"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "PLC-009",
+    "category": "plc",
+    "type": "single",
+    "difficulty": 1,
+    "stem": "汇川 EVO1000EF 系列功能安全 PLC，官方标称最高可达到的功能安全等级是？",
+    "options": {
+      "A": "PL c / Cat.2 / SIL 1",
+      "B": "PL d / Cat.3 / SIL 2",
+      "C": "PL e / Cat.4 / SIL 3",
+      "D": "仅满足 IEC 61131-3，不涉及功能安全等级"
+    },
+    "answer": [
+      "C"
+    ],
+    "analysis": "官网对 EVO1000EF&Hi50 的描述是「符合 IEC 61508、IEC 62061 以及 ISO 13849 等国际安全标准，最高可达 PL e/Cat.4/SIL 3 的安全级别，具备高可靠性和实时性」，并采用冗余架构和故障安全机制、支持本地和远程扩展安全 I/O，因此 C 正确。A、B 都是低一档的安全等级，属于「记不牢就往低报」的典型错误；D 把功能安全 PLC 混同于普通 PLC，安全 PLC 的核心价值恰恰在于安全功能而不是编程标准符合性。对客户讲这类型号时应同时说明适用领域（汽车制造、智能物流、新能源、半导体、食品饮料等对机械安全要求严苛的场合），避免被当成普通 CPU 报价。",
+    "source": {
+      "title": "汇川技术 EVO1000EF 系列功能安全 PLC 产品页",
+      "chapter": "产品概览",
+      "url": "https://www.inovance.com/portal/product/details?productId=797"
+    },
+    "tags": [
+      "EVO1000EF",
+      "功能安全",
+      "选型"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "PLC-010",
+    "category": "plc",
+    "type": "single",
+    "difficulty": 3,
+    "stem": "AM500 系列与 EVO500 系列都带「5」字头，但二者分属不同代际。按汇川官网信息，下列关于两者编程平台的对应关系，正确的是？",
+    "options": {
+      "A": "AM500 使用 iFA Evolution，EVO500 使用 InoProShop",
+      "B": "AM500 使用 InoProShop，EVO500 使用 iFA Evolution（驭沃）",
+      "C": "两者都使用 AutoShop，可直接互换工程文件",
+      "D": "两者都使用 iFA Evolution，工程文件完全通用"
+    },
+    "answer": [
+      "B"
+    ],
+    "analysis": "AM500 系列产品页在介绍「其开发编程平台 InoProShop 覆盖从多轴复杂应用、离散单机应用到基本逻辑应用」，下载区软件也是 InoProShop；而 EVO500 系列（EVO51X/EVO52X）明确写为「基于 iFA Evolution（驭沃）平台打造」，下载区软件是 iFA Evolution，因此 B 正确。A 把两者对调，是本题最容易上当的选项；C 的 AutoShop 只服务小型 PLC；D 的「完全通用」不成立，两代平台是不同架构，工程文件不能直接互导。销售的常见事故是客户手里有 AM500 的程序就想直接搬到 EVO500 上，这种情况必须按迁移项目评估而不是换型号了事。",
+    "source": {
+      "title": "汇川技术 AM500 系列标准型中型 PLC 产品页",
+      "chapter": "产品概览 / 编程平台",
+      "url": "https://www.inovance.com/portal/product/details?productId=455"
+    },
+    "tags": [
+      "AM500",
+      "EVO500",
+      "iFA Evolution",
+      "InoProShop"
+    ],
+    "roles": [
+      "sales",
+      "engineer"
+    ],
+    "security": "internal"
+  },
+  {
+    "id": "PLC-011",
+    "category": "plc",
+    "type": "single",
+    "difficulty": 2,
+    "stem": "汇川 Easy 系列卧式形态小型 PLC 家族目前包含 Easy321 与 Easy511 两款。按官网描述，其编程平台与运动控制指令的规范基础是？",
+    "options": {
+      "A": "基于 AutoShop 编程平台，运动控制指令符合 PLCopen 规范",
+      "B": "基于 InoProShop 编程平台，运动控制指令符合 PLCopen 规范",
+      "C": "基于 AutoShop 编程平台，运动控制指令为自定义非标指令集",
+      "D": "基于 iFA Evolution 编程平台，运动控制指令符合 IEC 61131-3 规范"
+    },
+    "answer": [
+      "A"
+    ],
+    "analysis": "产品页原文为「Easy321 和 Easy511 是汇川技术新推出的 Easy 系列卧式形态小型 PLC，基于 Autoshop 编程平台，其运动控制指令符合 PLCopen 规范，支持 ST、LD、SFC 等编程语言」，因此 A 正确。B 把平台错配成 InoProShop（AM/AC 系列平台）；C 错在这是标准 PLCopen 指令集而非自定义非标指令，这一点在客户做工艺库复用时很关键；D 同时错了两处，平台不是 iFA Evolution，而 PLCopen 本身就是建立在 IEC 61131-3 之上的运动控制规范，两者不该混为一谈。",
+    "source": {
+      "title": "汇川技术 Easy 系列卧式形态小型 PLC 产品页",
+      "chapter": "产品概览",
+      "url": "https://www.inovance.com/portal/product/details?productId=740"
+    },
+    "tags": [
+      "Easy321",
+      "AutoShop",
+      "PLCopen"
+    ],
+    "roles": [
+      "sales",
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "PLC-012",
+    "category": "plc",
+    "type": "single",
+    "difficulty": 1,
+    "stem": "某客户做空调箱、水处理等过程控制项目，控制点数不多但对内外网隔离、EtherNet/IP 与 OPC UA 接入上位系统有明确要求，且希望走标准化编程模板降低人员培训成本。按汇川官网定位，下列系列中最贴合的是？",
+    "options": {
+      "A": "H1U/S 简易型小型 PLC",
+      "B": "AM300 系列纯网络型中型 PLC",
+      "C": "H5U 系列 EtherCAT 总线高性能小型 PLC",
+      "D": "EVO1000EF 功能安全 PLC"
+    },
+    "answer": [
+      "B"
+    ],
+    "analysis": "官网对 AM300 的定位是「纯网络型中型 PLC」，明确写到集成 EtherNet/IP、OPC UA、Modbus TCP（支持两路不同网段的 IP 地址）、TCP/IP、RS485、CAN 总线等全球标准工业网络，主要应用于暖通空调、化工印染、水处理、污水处理、热处理等过程控制行业，并「可搭载汇川技术基于 ISA88 标准开发的 InoQuickPro 标准化编程模板框架」，与题目要求逐条对应，B 正确。A 的 H1U 是经济型小型机，无 OPC UA 能力；C 的 H5U 强项是 EtherCAT 带轴而非过程控制组网；D 的 EVO1000EF 是功能安全产品，用在这里既不经济也不对口。",
+    "source": {
+      "title": "汇川技术 AM300 系列纯网络型中型 PLC 产品页",
+      "chapter": "产品概览",
+      "url": "https://www.inovance.com/portal/product/details?productId=454"
+    },
+    "tags": [
+      "AM300",
+      "过程控制",
+      "通信组网",
+      "选型"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "PLC-013",
+    "category": "plc",
+    "type": "multi",
+    "difficulty": 2,
+    "stem": "按汇川官网 H5U 系列产品页给出的规格，下列关于 H5U 本体能力的描述，正确的有哪些？（多选）",
+    "options": {
+      "A": "支持 32 轴 EtherCAT 总线运动控制，最大支持 72 个 EtherCAT 从站",
+      "B": "本体自带 16 路输入和 14 路输出，最大可扩展 16 个本地扩展模块",
+      "C": "支持直线圆弧插补，并支持电子凸轮、电子齿轮（脉冲轴与 EtherCAT 轴可混合凸轮与插补）",
+      "D": "本体自带 5 路 200KHz 脉冲输出，与 H3U/S 的脉冲输出路数一致",
+      "E": "不支持 CAN 接口，只能通过 EtherCAT 组网"
+    },
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "analysis": "A、B、C 均为 H5U 产品页原文条目：A 对应「功能强大」，B 对应「支持扩展模块」，C 对应「圆弧插补/凸轮/齿轮」。D 错在把 H3U/S 的规格安到了 H5U 头上——H5U 主机是「4 轴 200KHz 脉冲输出，4 路 200KHz 高速输入」，5 路 200KHz 脉冲输出是 H3U/S 的规格，这是两条产品线间最典型的串号；E 明显错误，H5U 明确「支持 RS485、CAN、以太网和 EtherCAT 接口，可实现多层次网络通信」。做方案比对时建议直接调出两家的产品页逐条对照，不要凭「都是汇川小型机」的印象推算。",
+    "source": {
+      "title": "汇川技术 H5U 系列 EtherCAT 总线高性能小型 PLC 产品页",
+      "chapter": "产品概览 / 产品特性及优点",
+      "url": "https://www.inovance.com/portal/product/details?productId=54"
+    },
+    "tags": [
+      "H5U",
+      "运动控制",
+      "I/O点数",
+      "EtherCAT"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "PLC-014",
+    "category": "plc",
+    "type": "multi",
+    "difficulty": 2,
+    "stem": "按汇川官网对 Easy 系列全场景紧凑型小型 PLC 的介绍，下列哪些属于该系列的官方特性？（多选）",
+    "options": {
+      "A": "全系列 8 个机型，机身模块化设计，支持扩展卡和模块扩展",
+      "B": "本地可扩展 GL20 系列刀片式 IO，采用 Push-in 端子、免工具接线",
+      "C": "支持 ST 语言编程与功能块封装，支持和 IT7000 进行联合离线仿真",
+      "D": "CPU 及核心器件 100% 国产化",
+      "E": "本体为单网口设计，必须外接交换机才能组网"
+    },
+    "answer": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "analysis": "A 对应「Easy 系列全场景紧凑型小型控制器全系列 8 个机型……机身模块化设计，支持扩展卡和模块扩展」；B 对应「本地扩展 GL20 系列刀片式 IO，采用 Push-in 端子，免工具接线，垂直插拔装配工时缩短 80%」；C 对应「支持 ST 语言编程……支持功能块封装……支持和汇川技术 HMI 产品 IT7000 进行联合离线仿真」；D 对应「CPU 及核心器件 100% 国产化，保证客户供应安全」，四项均正确。E 与官网描述相反，Easy 采用「双网口设计，省网线省交换机的同时，实现便捷组网可级联」，还支持双网段 IP 做内外网隔离。E 这类反向描述在客户比价时经常被其它品牌拿来攻击，一线人员要能当场纠正。",
+    "source": {
+      "title": "汇川技术 Easy 系列全场景紧凑型小型 PLC 产品页",
+      "chapter": "产品概览 / 产品特点及优点",
+      "url": "https://www.inovance.com/portal/product/details?productId=350"
+    },
+    "tags": [
+      "Easy系列",
+      "选型",
+      "国产化",
+      "扩展"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "PLC-015",
+    "category": "plc",
+    "type": "multi",
+    "difficulty": 2,
+    "stem": "汇川 AM400 系列经济型中型 PLC 的开发符合 IEC-61131-3 模型规范。按官网产品页描述，下列哪些属于该系列支持的编程语言或随平台提供的应用库？（多选）",
+    "options": {
+      "A": "支持 IL、LD、SFC、CFC、ST 等编程语言",
+      "B": "提供基于 EtherCAT 的运动控制库，涵盖点对点运动、凸轮运动、插补运动",
+      "C": "提供 CANopen 通信库、文件处理、字符串处理、以太网通信、485 通信等库",
+      "D": "提供基于 PLCopen 的机器人正逆解算库，可直接做六轴机器人控制",
+      "E": "仅支持梯形图 LD 一种编程语言，其它语言需额外购买授权"
+    },
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "analysis": "A、B、C 均出自 AM400 产品页原文：「完全符合 IEC-61131-3 模型规范。支持 IL,LD,SFC,CFC,ST 等编程语言，同时提供各种应用库，包括基于 EtherCAT 的运动控制库，运动控制包括点对点运动，凸轮运动，插补运动等，另外还包括 CANopen 通信库，文件处理，字符串处理，以太网通信，485 通信等库」。D 是编造的：机器人集成控制能力对应的是《中型PLC编程手册（机器人集成控制篇）》所覆盖的 AC 系列智能机械控制器，不是 AM400 的官方卖点；E 与 A 直接矛盾，IEC-61131-3 多语言支持本身就是 AM 系列的基础能力，不存在按语言收费的说法。遇到客户拿 D 这类说法询价，应先澄清是控制器选型问题而不是软件授权问题。",
+    "source": {
+      "title": "汇川技术 AM400 系列经济型中型 PLC 产品页",
+      "chapter": "产品概览",
+      "url": "https://www.inovance.com/portal/product/details?productId=53"
+    },
+    "tags": [
+      "AM400",
+      "IEC61131-3",
+      "运动控制库"
+    ],
+    "roles": [
+      "sales",
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "PLC-016",
+    "category": "plc",
+    "type": "multi",
+    "difficulty": 3,
+    "stem": "某大型产线改造项目要求控制器具备多路 CAN 通讯、多路串口、多网段 IP 地址以及 EtherCAT 组网能力。按汇川官网对 AM760 系列的描述，下列哪些说法是正确的？（多选）",
+    "options": {
+      "A": "AM760 属于卧式形态的高性能中型 PLC，设计完全符合 PLCopen 规范和 IEC 61131-3 标准",
+      "B": "支持 EtherCAT、EtherNet/IP、OPC UA、Modbus TCP、TCP/IP、RS485、CAN 总线等工业网络",
+      "C": "开发编程平台为 InoProShop，可搭载基于 ISA88 标准开发的 InoQuickPro 标准化编程模板框架",
+      "D": "硬件平台为 Intel X86 架构，本体标配 4 个千兆网口",
+      "E": "支持 1ms 周期 64 轴同步能力，并可扩展 32 个 GL20 模块"
+    },
+    "answer": [
+      "A",
+      "B",
+      "C",
+      "E"
+    ],
+    "analysis": "A、B、C、E 均为 AM760 产品页原文：它被定义为「卧式形态的高性能中型 PLC」，符合 PLCopen 规范与 IEC 61131-3，支持 ST/LD/SFC/CFC，网络覆盖 EtherCAT、EtherNet/IP、OPC UA、Modbus TCP、TCP/IP、RS485、CAN，平台为 InoProShop 并可搭载 InoQuickPro 模板，官方卖点还写明「1ms 周期 64 轴同步能力、可扩展 32 个 GL20 模块」。D 错在两点：Intel X86 硬件平台与四网口设计是 AC700/AC800 智能机械控制器的特征（官网写 AC700「EtherCAT+2*EtherNet」，AC800 为双 EtherCAT 口 + 双 EtherNet 口），AM760 并未以此作为产品定位。把 AC 系列的特征安到 AM760 上是方案对比阶段最容易出现的张冠李戴，落笔前务必回到产品页核对。",
+    "source": {
+      "title": "汇川技术 AM760 系列高性能中型 PLC 产品页",
+      "chapter": "产品概览",
+      "url": "https://www.inovance.com/portal/product/details?productId=559"
+    },
+    "tags": [
+      "AM760",
+      "通信组网",
+      "方案应用"
+    ],
+    "roles": [
+      "sales",
+      "engineer"
+    ],
+    "security": "internal"
+  },
+  {
+    "id": "PLC-017",
+    "category": "plc",
+    "type": "multi",
+    "difficulty": 2,
+    "stem": "现场一台 Easy 系列小型 PLC 作为 EtherCAT 主站，上电后组态中的 EtherCAT 从站全部扫描不到。下列排查方向中，合理的有哪些？（多选）",
+    "options": {
+      "A": "确认该机型本体是否具备 EtherCAT 主站口，例如 Easy511 本体自带 EtherCAT 口，而部分机型本体只有 EtherNet 口",
+      "B": "确认 EtherCAT 从站的站地址设置是否重复或冲突，并逐一核对拓扑顺序",
+      "C": "确认从站是否被工程中的变量或系统参数禁用，部分机型支持通过变量启动和禁用 EtherCAT 从站",
+      "D": "检查 EtherCAT 网线水晶头压接质量与屏蔽层接地，排除接触不良或电磁干扰",
+      "E": "重新给伺服驱动器做电机参数自整定，从站扫描不到主要是驱动器环路增益不合适造成的"
+    },
+    "answer": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "analysis": "A 是首要动作：Easy 系列不同机型本体接口差异很大，官网明确 Easy511 本体自带 EtherCAT 口并支持 EtherNet 切换、Easy321 本体自带一路 EtherNet 口，用错机型或错插网口是最常见的低错；B、C、D 分属站号/拓扑、软件禁用、物理链路三类原因，都是 EtherCAT 扫描失败的常规排查项，其中 C 的依据是官网「支持通过变量启动和禁用本地模块/EtherCAT 从站/伺服轴，支持系统参数程序修改」这一特性。E 不成立：环路增益影响的是伺服运行平稳性，与主站能否在组态中扫描到从站没有因果关系，把它列为第一步会浪费大量现场时间。排查应遵循「物理链路 → 机型接口 → 站号拓扑 → 软件启用状态」的顺序。",
+    "source": {
+      "title": "汇川技术 Easy 系列全场景紧凑型小型 PLC 产品页",
+      "chapter": "产品概览 / 易编程、易调试",
+      "url": "https://www.inovance.com/portal/product/details?productId=350"
+    },
+    "tags": [
+      "Easy系列",
+      "EtherCAT",
+      "故障排查"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "internal"
+  },
+  {
+    "id": "PLC-018",
+    "category": "plc",
+    "type": "multi",
+    "difficulty": 3,
+    "stem": "一名新同事在整理汇川中型控制器的组网与平台资料，下列哪些表述是符合汇川官网信息的？（多选）",
+    "options": {
+      "A": "AM300 集成 OPC UA、EtherNet/IP、Modbus TCP、RS485、CAN 等网络，其 Modbus TCP 支持两路不同网段的 IP 地址",
+      "B": "AM500 本体支持 EtherCAT、EtherNet/IP、OPC UA、Modbus TCP、TCP/IP、RS485、CAN 等工业网络",
+      "C": "AC700 标配 EtherCAT 工业以太网实时总线，可实现最大 32 轴同步控制，全系配置两路千兆以太网口",
+      "D": "AC800 采用双 EtherCAT 口与双 EtherNet 口设计，其中两个 EtherNet 口独立 IP，一个用于设备间组网、一个连接信息层",
+      "E": "AM400 与 EVO400 使用同一套编程平台，工程文件可双向直接导入导出"
+    },
+    "answer": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "analysis": "A、B、C、D 均对应官网原文：AM300「Modbus TCP（支持两路不同网段的 IP 地址）」；AM500 的网络清单与 AM300 同源但 Modbus TCP 为「两路同一网段的 IP 地址」，这个「不同网段/同一网段」的差异是两代产品的重要区分点；AC700「标配 EtherCAT 工业以太网实时总线，可以实现最大 32 轴同步控制。全系配置两路千兆以太网口」；AC800「双 EtherCAT 口……双 EtherNet 口独立 IP，一个口设备间的组网，一个口连接信息层，IP 分开，安全隔离」。E 错误：AM400 使用 InoProShop，EVO400 基于 iFA Evolution（驭沃）平台，两者是不同代际的不同平台，工程文件不能双向直接导入导出。",
+    "source": {
+      "title": "汇川技术 AM300 系列纯网络型中型 PLC 产品页",
+      "chapter": "产品概览",
+      "url": "https://www.inovance.com/portal/product/details?productId=454"
+    },
+    "tags": [
+      "AM300",
+      "AC700",
+      "AC800",
+      "通信组网"
+    ],
+    "roles": [
+      "sales",
+      "engineer"
+    ],
+    "security": "internal"
+  },
+  {
+    "id": "PLC-019",
+    "category": "plc",
+    "type": "judge",
+    "difficulty": 1,
+    "stem": "汇川 H5U 系列小型 PLC 主机本体自带 16 路输入和 14 路输出，其中包含 4 路高速输入、4 路中速输入和 4 路高速输出。",
+    "options": null,
+    "answer": [
+      "T"
+    ],
+    "analysis": "该描述与 H5U 产品页「支持扩展模块」条目完全一致：「主机本体自带 16 路输入和 14 路输出，含 4 路高速输入、4 路中速输入和 4 路高速输出，可实现 4 轴脉冲输出和 4 轴编码器计数；最大可扩展 16 个本地扩展模块」。判断此类题的关键是抓住「16 进 14 出」这个不对称配置，以及高速点数与轴数的对应关系：4 路高速输出对应 4 轴脉冲输出，4 路高速输入对应编码器计数。现场做 IO 点表时若按 16 进 16 出预留端子，会直接导致接线图返工。",
+    "source": {
+      "title": "汇川技术 H5U 系列 EtherCAT 总线高性能小型 PLC 产品页",
+      "chapter": "产品概览 / 支持扩展模块",
+      "url": "https://www.inovance.com/portal/product/details?productId=54"
+    },
+    "tags": [
+      "H5U",
+      "I/O点数",
+      "接线安装"
+    ],
+    "roles": [
+      "sales",
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "PLC-020",
+    "category": "plc",
+    "type": "judge",
+    "difficulty": 1,
+    "stem": "汇川 AM 系列中型 PLC 与 Easy 系列小型 PLC 使用同一套后台编程软件，工程师只需要安装一个软件即可同时维护这两类设备。",
+    "options": null,
+    "answer": [
+      "F"
+    ],
+    "analysis": "说法错误。AM400、AM600、AM300、AM500、AM760 以及 AC700/AC800 的后台编程软件是 InoProShop（官方资料名称为「InoProShop 中型PLC后台编程软件完整包」），而 H5U、H3U、H1U、Easy 系列小型 PLC 的后台软件是 AutoShop（「AutoShop 小型PLC后台编程软件」）。两者是定位不同的两套平台，工程文件也不能通用。新同事入职配备电脑时，如果只装了 AutoShop，接到 AM 系列项目就会完全无从下手。EVO 系列则进一步切换到 iFA Evolution（驭沃）平台，形成第三套体系。",
+    "source": {
+      "title": "汇川技术 H5U 系列 EtherCAT 总线高性能小型 PLC 产品页 / AM600 系列通用型中型 PLC 产品页",
+      "chapter": "资料下载 / 软件",
+      "url": "https://www.inovance.com/portal/product/details?productId=52"
+    },
+    "tags": [
+      "InoProShop",
+      "AutoShop",
+      "编程软件"
+    ],
+    "roles": [
+      "sales",
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "PLC-021",
+    "category": "plc",
+    "type": "single",
+    "difficulty": 1,
+    "stem": "汇川 H3U/S 系列 CAN 总线高性能小型 PLC 本体自带 1 路 CAN 接口，该接口支持的协议是？",
+    "options": {
+      "A": "仅支持 CANlink 协议",
+      "B": "仅支持 CANopen 协议",
+      "C": "同时支持 CANlink 和 CANopen 协议",
+      "D": "仅支持 DeviceNet 协议"
+    },
+    "answer": [
+      "C"
+    ],
+    "analysis": "H3U/S 产品页原文为「2 路串口支持 MODBUS、监控等其他协议；1 路 CAN 接口支持 CANlink 和 CANopen 协议」，因此 C 正确。CANlink 是汇川自有的组网协议（H1U/S 也支持 CANlink3.0 组网），CANopen 则是国际标准协议，同一个物理 CAN 口同时支持两种协议意味着现场可以按对端设备类型灵活选择，这是 H3U 作为「CAN 总线高性能小型 PLC」的核心价值。A、B 都把能力砍掉一半，属于典型的「只记住一种协议」的错误；D 的 DeviceNet 在汇川该系列产品页中没有出现，属于无依据选项。另外该系列本体还提供 1 路 100M 以太网口（支持 MODBUS TCP/IP 和自由口协议），编程口支持 USB 与以太网两种通用接口。",
+    "source": {
+      "title": "汇川技术 H3U/S 系列 CAN 总线高性能小型 PLC 产品页",
+      "chapter": "产品概览 / 产品特性及优点",
+      "url": "https://www.inovance.com/portal/product/details?productId=55"
+    },
+    "tags": [
+      "H3U",
+      "CANopen",
+      "通信组网"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "PLC-022",
+    "category": "plc",
+    "type": "single",
+    "difficulty": 1,
+    "stem": "在汇川 H5U、Easy 系列等小型 PLC 组建的 EtherCAT 网络中，从站设备（如 SV660N 伺服）的站地址通常是如何确定的？",
+    "options": {
+      "A": "通过从站设备上的旋转拨码开关手动设定",
+      "B": "由 EtherCAT 主站在组态扫描时按拓扑顺序自动分配，现场一般无需拨码设定",
+      "C": "由上位机软件 InoProShop 在线逐个分配后固化到从站",
+      "D": "由从站设备上电时随机生成，冲突时自动重排"
+    },
+    "answer": [
+      "B"
+    ],
+    "analysis": "汇川的 EtherCAT 从站（伺服、远程 IO 等）站地址由主站扫描组态时按拓扑顺序分配，现场用拨码去设站号反而容易与主站组态产生冲突，因此 B 正确。与之对应，H5U、Easy 系列的官方资料中都提供 EDS/GSDML 等组态描述文件（如「H5U_V1.00.eds」「GSDML-V2.31-inovance-EASY」），说明这类设备的标准接入方式是靠主站组态文件识别，而非硬件拨码。A 描述的是脉冲型或早期 CANopen 产品的习惯做法；C 的平台对应关系错误，InoProShop 是 AM/AC 系列中型控制器的软件，H5U 与 Easy 系列使用 AutoShop；D 的「随机生成」在 EtherCAT 协议中不存在。若现场扫描不到从站，应按「物理链路 → 机型接口 → 站号/拓扑 → 软件启用状态」的顺序排查，而不是先动拨码。",
+    "source": {
+      "title": "汇川技术 H5U 系列 EtherCAT 总线高性能小型 PLC 产品页",
+      "chapter": "资料下载 / 组态文件",
+      "url": "https://www.inovance.com/portal/product/details?productId=54"
+    },
+    "tags": [
+      "EtherCAT",
+      "站地址",
+      "通信组网"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "PLC-023",
+    "category": "plc",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "汇川 Easy 系列支持 EtherNet/IP 通信，其最小通信周期可以达到 5ms。",
+    "options": null,
+    "answer": [
+      "T"
+    ],
+    "analysis": "描述与官网一致：Easy 系列产品页写有「支持 EtherNet/IP（最小通信周期 5ms）、Modbus-TCP、CANopen 等多种工业通信协议，从容接入周边设备，高速数据传输」。要注意区分不同产品线的 EtherNet/IP 性能指标：EVO400 的官网规格是「EtherNet/IP 最小通信周期可以达到 1ms，最大连接数可以达到 128」，与 Easy 系列的 5ms 不是同一档位。在方案里写通信周期指标时，必须与具体系列的产品页对齐，否则容易被客户在评测阶段抓住前后矛盾。",
+    "source": {
+      "title": "汇川技术 Easy 系列全场景紧凑型小型 PLC 产品页",
+      "chapter": "产品概览 / 易互联、易组网",
+      "url": "https://www.inovance.com/portal/product/details?productId=350"
+    },
+    "tags": [
+      "Easy系列",
+      "EtherNet/IP",
+      "通信组网"
+    ],
+    "roles": [
+      "sales",
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "PLC-024",
+    "category": "plc",
+    "type": "judge",
+    "difficulty": 3,
+    "stem": "汇川 EVO800 系列大型冗余 PLC 控制系统仅支持 CPU 冗余一种架构，且只支持 EtherNet/IP 一种总线协议。",
+    "options": null,
+    "answer": [
+      "F"
+    ],
+    "analysis": "说法错误，两处都不成立。官网对 EVO800 的描述是「具备强兼容、易迁移、高保护、全自主等特性，PLC 支持单机模式、单机架多 CPU、冗余模式」，即该系列并非只有 CPU 冗余一种架构（提示：官网「规格参数」表对「CPU 冗余」标注为“不支持”，与产品概览文案存在口径差异；凡涉及 EVO800 冗余方案，均应以《EVO800&Hi80 系列大型 PLC 系统选型手册》与冗余系统手册确认后再承诺），并支持电源冗余、DLR 设备级环网冗余与 PRP 并行冗余网络；总线方面明确「主流总线全覆盖，支持 EtherNet/IP、OPC UA、Modbus TCP、PROFINET、PROFIBUS DP 等主流总线和协议」。EVO800 面向冶金、汽车、市政、水利、石油、矿山、港口、化工、电力等大型产线改造，这类现场往往混杂多品牌老设备，「强兼容、继承现有资产」正是其核心卖点，把它说成单一协议会直接丢掉项目。",
+    "source": {
+      "title": "汇川技术 EVO800 系列大型冗余 PLC 控制系统产品页",
+      "chapter": "产品概览 / 强兼容",
+      "url": "https://www.inovance.com/portal/product/details?productId=765"
+    },
+    "tags": [
+      "EVO800",
+      "冗余",
+      "方案应用"
+    ],
+    "roles": [
+      "sales",
+      "engineer"
+    ],
+    "security": "internal"
+  },
+  {
+    "id": "PLC-025",
+    "category": "plc",
+    "type": "judge",
+    "difficulty": 1,
+    "stem": "汇川 EVO400 系列标准中型 PLC 的主机自带 3 路以太网，其中 2 路为交换机模式、另外 1 路为独立 IP 模式。",
+    "options": null,
+    "answer": [
+      "T"
+    ],
+    "analysis": "描述与 EVO400 产品页一致：「网络通信：主机自带 3 路以太网，其中 2 路是交换机模式，另外一路是独立 IP 模式，可以快速完成现场设备间和设备内进行组网」，因此说法正确。同一页「外设接口」条目进一步细化为「LAN1 口：2 路百兆网口支持交换机模式，实现多 PLC 互联；LAN2 口：1 路百兆网口支持独立 IP 模式」。这种「2+1」的网口设计价值在于免交换机级联、同时把设备内部网络与对外的信息层网络在物理上分开，是做产线数据采集时的常见需求；EVO51X 也采用相同的 3 路以太网设计。",
+    "source": {
+      "title": "汇川技术 EVO400 系列标准中型 PLC 产品页",
+      "chapter": "产品概览 / 网络通信、外设接口",
+      "url": "https://www.inovance.com/portal/product/details?productId=943"
+    },
+    "tags": [
+      "EVO400",
+      "以太网",
+      "通信组网"
+    ],
+    "roles": [
+      "sales",
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "PLC-026",
+    "category": "plc",
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "汇川 EVO52X 高性能小体积中型 PLC 的官方规格中包含「支持 256 回路 PID 同步运算」与「1ms/12 轴高精运动控制」。",
+    "options": null,
+    "answer": [
+      "T"
+    ],
+    "analysis": "描述与官网 EVO52X 产品页「高性能」条目原文一致：「纳秒级指令处理速度、支持 256 回路 PID 同步运算、1ms/12 轴高精运动控制、高阶凸轮」。这一条规格很值得一线人员记住，因为它同时体现了 EVO52X 的两个能力面：256 回路 PID 同步运算说明它在过程控制（温度、压力、流量等多回路场合）上有余量，1ms/12 轴高精运动控制说明它同时能带多轴做高精度运动控制，属于「运动 + 过程」兼顾的定位。要避免与其它系列的指标串号：1ms 周期 64 轴对应 AM760，1ms-32 轴同步对应 AC700，Easy 系列的 EtherNet/IP 最小通信周期 5ms 与 EVO400 的 1ms 也不是同一回事。",
+    "source": {
+      "title": "汇川技术 EVO500 系列—EVO52X 高性能小体积中型 PLC 产品页",
+      "chapter": "产品概览 / 高性能",
+      "url": "https://www.inovance.com/portal/product/details?productId=615"
+    },
+    "tags": [
+      "EVO52X",
+      "运动控制",
+      "PID"
+    ],
+    "roles": [
+      "sales",
+      "engineer",
+      "purchase"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "PLC-027",
+    "category": "plc",
+    "type": "short",
+    "difficulty": 1,
+    "stem": "请简述汇川小型 PLC 四个主要系列——H1U/S、H3U/S、H5U、Easy 系列——各自的官方定位与典型适用场景。",
+    "options": null,
+    "answer": "参考答案要点：\n1）H1U/S 系列：官网定位「简易型小型 PLC」，属经济型系列，小体积、大程序容量（无需外部扩展内存卡即可达到 16K 步），具备 3 轴高速 100K 脉冲用于高精度定位，支持 CANlink3.0 组网并提供 Modbus 指令，点数覆盖 14~60 点。适用于点位少、以逻辑控制和小规模定位为主、对成本敏感的小型自动化设备。\n2）H3U/S 系列：官网定位「CAN 总线高性能小型 PLC」，第三代高性能小型 PLC；程序存储空间 64K 步、数据存储容量 48K 字；5 路 200KHz 脉冲输出，支持 S 曲线加减速、凸轮同步控制、2 轴直线与圆弧插补；8 路 200KHz 高速输入；2 路串口 + 1 路 CAN（CANlink/CANopen）+ 1 路 100M 以太网（Modbus TCP/IP 与自由口）。主要应用于产线自动化、木工机械、玻璃机械、搬运上下料、电子非标等。\n3）H5U 系列：官网定位「EtherCAT 总线高性能小型 PLC」，是汇川首个应用 EtherCAT 总线的小型 PLC；支持 32 轴 EtherCAT 运动控制、最大 72 个从站；本体 16 入 14 出，4 轴 200KHz 脉冲输出、4 路 200KHz 高速输入，最大可扩展 16 个本地扩展模块；支持 RS485、CAN、以太网和 EtherCAT；支持直线圆弧插补与电子凸轮/齿轮（脉冲轴与 EtherCAT 轴可混合）。适用于需要多轴同步的中小型线体设备。\n4）Easy 系列：官网定位「全场景紧凑型小型 PLC」，全系列 8 个机型，四核处理器、纳秒级指令处理速度，32 轴高速总线控制，集成免调试自整定自适应 PID；双网口设计、支持双网段 IP，支持 EtherNet/IP（最小通信周期 5ms）、Modbus-TCP、CANopen；本地可扩展 GL20 系列刀片式 IO，CPU 及核心器件 100% 国产化。适用于严苛体积、多轴运控、温度控制、通信组网等中小型设备场景。\n5）选型落点：先看轴数与轴控方式（脉冲还是总线），再看通信接口与组网需求，最后看编程平台（四个系列均使用 AutoShop）。",
+    "analysis": "本题考察小型 PLC 全系列的整体谱系认知，是销售和工程师做选型推荐的基础。答题时最容易失分的是把四条产品线的规格互相串号，例如把 H3U 的 5 路 200KHz 脉冲说成 H5U 的、把 H1U 的 3 轴 100KHz 当成全系标配。建议按「定位一句话 + 轴控能力 + 通信接口 + 点数/程序容量」四要素成组记忆，并牢记这四条线共用 AutoShop 平台，这是与 AM/EVO 系列最本质的分界。",
+    "source": {
+      "title": "汇川技术小型 PLC 产品线（H1U/S、H3U/S、H5U、Easy 系列）产品页",
+      "chapter": "产品概览",
+      "url": "https://www.inovance.com/portal/product/list?typeId=158"
+    },
+    "tags": [
+      "H1U",
+      "H3U",
+      "H5U",
+      "Easy系列",
+      "选型"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "PLC-028",
+    "category": "plc",
+    "type": "short",
+    "difficulty": 2,
+    "stem": "请说明汇川中型及以上 PLC 当前涉及的三套编程/软件平台分别是什么，各自覆盖哪些产品线，并说明 InoQuickPro 在其中的作用。",
+    "options": null,
+    "answer": "参考答案要点：\n1）AutoShop：小型 PLC 后台编程软件（官方资料名为「AutoShop 小型PLC后台编程软件」），覆盖 H1U/S、H3U/S、H5U、Easy 系列。Easy 系列卧式形态机型（Easy321/Easy511）也明确「基于 Autoshop 编程平台」，运动控制指令符合 PLCopen 规范，支持 ST、LD、SFC 等语言、支持梯形图内嵌 ST 执行块。\n2）InoProShop：中型 PLC 后台编程软件，覆盖 AM300、AM400、AM500、AM600、AM760 以及 AC700/AC800 智能机械控制器。这些产品页的「资料下载」中，软件类资料统一为「InoProShop 中型PLC后台编程软件完整包」，配套文档为《中型PLC编程手册（软件使用篇）》《（运动控制篇）》《（机器人集成控制篇）》和《中型PLC指令手册》等。\n3）iFA Evolution（驭沃）：全场景智能化工业控制软件平台，可对汇川全体系自动化产品进行组态、编程、调试和仿真，覆盖 EVO400、EVO500（EVO51X/EVO52X）、EVO700（EVO760）、EVO800 大型冗余 PLC、EVO1000EF 功能安全 PLC 等新一代产品；APC760C 则基于 iDA 数智平台（IDA_Designer），属于工艺控制器专用软件体系。\n4）InoQuickPro 的作用：它是汇川基于 ISA88 标准开发的标准化编程模板框架，可搭载在 InoProShop 平台上（AM300、AM500、AM760 产品页均有说明），用于实现规范的标准化管理开发，降低人才培训成本；AM760 产品页称其可「提升至少 50% 开发效率」；EVO400 也提供基于汇川 InoQuickPro 工艺规范的编程模板。\n5）实践提醒：三套平台对应三代产品，工程文件不可直接互导，跨平台迁移需按项目评估；工程师电脑上应同时具备 AutoShop 与 InoProShop，涉及 EVO 项目时另装 iFA Evolution。",
+    "analysis": "本题考察「产品线—软件平台」的对应关系，这是实际工作中出错率最高的一类问题，也是客户做技术评测时最容易问倒一线人员的点。答题的关键在于把三套平台与产品代际绑定：AutoShop 对应小型 PLC、InoProShop 对应 AM/AC 这一代中型控制器、iFA Evolution 对应 EVO 新一代产品。常见错误是把 AM500 与 EVO500 归为同一平台（两者型号都带 500，但分属 InoProShop 与 iFA Evolution），以及把 InoQuickPro 误当成一套独立软件（它是运行在 InoProShop 上的编程模板框架，不是软件本身）。",
+    "source": {
+      "title": "汇川技术 AM500 系列标准型中型 PLC 产品页 / iFA Evolution（驭沃）产品页",
+      "chapter": "产品概览、资料下载",
+      "url": "https://www.inovance.com/portal/product/details?productId=455"
+    },
+    "tags": [
+      "InoProShop",
+      "AutoShop",
+      "iFA Evolution",
+      "InoQuickPro",
+      "编程软件"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "PLC-029",
+    "category": "plc",
+    "type": "short",
+    "difficulty": 2,
+    "stem": "请说明汇川 AM 系列中型 PLC 各型号的定位差异（AM300、AM400、AM500、AM600、AM760），以及 AC700/AC800 与之的本质区别。",
+    "options": null,
+    "answer": "参考答案要点：\n1）AM600 系列：官网定位「通用型中型 PLC」，是汇川技术自主开发的首款中型 PLC，适用于大规模控制的工厂自动化、产线自动化、过程控制自动化设备。\n2）AM400 系列：官网定位「经济型中型 PLC」，为经济型高性能中型 PLC，完全符合 IEC-61131-3 模型规范，支持 IL、LD、SFC、CFC、ST 等语言，提供基于 EtherCAT 的运动控制库（点对点、凸轮、插补）以及 CANopen 通信库、文件处理、字符串处理、以太网通信、485 通信等库。\n3）AM300 系列：官网定位「纯网络型中型 PLC」，符合 PLCopen 规范和 IEC-61131-3，高性能、小体积、模块化；集成 EtherNet/IP、OPC UA、Modbus TCP（支持两路不同网段的 IP 地址）、TCP/IP、RS485（最大可扩展至 3 路）、CAN 等；主要面向暖通空调、化工印染、水处理、污水处理、热处理等过程控制行业，也可作为物流、汽车、日用品等单机组合产线的网络通信站点。\n4）AM500 系列：官网定位「标准型中型 PLC」，小巧 CPU 体积、模块化灵活组合、高节拍生产；支持 EtherCAT、EtherNet/IP、OPC UA、Modbus TCP（支持两路同一网段的 IP 地址）、TCP/IP、RS485（最大可扩展至 3 路）、CAN；主要应用于食品饮料、包装、印刷、硅晶、医疗、SMT 周边等单机自动化设备及单机组合产线。\n5）AM760 系列：官网定位「高性能中型 PLC」，卧式形态，基于风电设计打造的稳定性，1ms 周期 64 轴同步能力，可扩展 32 个 GL20 模块；面向硅晶、锂电、汽车、金属线缆等对运动控制要求较高的场景，以及需要多路 CAN/多路串口/多网段 IP/EtherCAT 环网的大型产线复杂组网场景。\n6）与 AC700/AC800 的本质区别：AM 系列是标准中型 PLC；AC700/AC800 是「书本式智能机械控制器」，基于 Intel X86 处理器硬件平台，以 EtherCAT 为总线实现多轴伺服控制（AC700 最大 1ms-32 轴同步、EtherCAT 单口最大 128 从站、本体集成 UPS；AC800 支持 250μs-8 轴、500μs-32 轴、4ms-256 轴运算速度，双 EtherCAT 口 + 双 EtherNet 口，支持机械手、电子凸轮、电子齿轮，抖动 40μs），定位是高性能多轴运动控制与边缘计算载体，尤其适用于高速生产装备和大型设备控制。\n7）平台共性：AM 系列与 AC 系列均使用 InoProShop，并可搭载基于 ISA88 的 InoQuickPro 标准化编程模板。",
+    "analysis": "本题考察中型控制器内部的定位分层，是方案阶段区分「经济型/标准型/高性能型/网络型」的关键。失分点通常集中在三处：一是把 AM300 与 AM500 的 Modbus TCP 网段能力搞混（前者两路不同网段，后者两路同一网段）；二是把 AM760 的 1ms 周期 64 轴与 AC700 的 1ms 周期 32 轴记反；三是把 AC 系列当成「更高配的 AM」，忽略了它基于 Intel X86 硬件平台、定位为智能机械控制器/边缘计算载体这一根本差异。建议按「定位关键词 + 带轴能力 + 网络能力 + 目标行业」四栏做一张对照表随身使用。",
+    "source": {
+      "title": "汇川技术 AM 系列与 AC 系列产品页",
+      "chapter": "产品概览",
+      "url": "https://www.inovance.com/portal/product/list?typeId=157"
+    },
+    "tags": [
+      "AM400",
+      "AM500",
+      "AM760",
+      "AC700",
+      "选型"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "public"
+  },
+  {
+    "id": "PLC-030",
+    "category": "plc",
+    "type": "short",
+    "difficulty": 3,
+    "stem": "请梳理汇川 EVO 系列 PLC 的产品构成（基于 iFA Evolution 平台），说明各型号的定位，并把该系列与「大型冗余 PLC」「功能安全 PLC」两个子品类的关系讲清楚。",
+    "options": null,
+    "answer": "参考答案要点：\n1）平台基础：EVO 系列是汇川基于 iFA Evolution（驭沃）全场景智能化工业控制软件平台打造的新一代控制器家族，产品设计符合 PLCopen 规范和 IEC 61131-3 标准，EVO52X 被官方称为「基于 iFA Evolution 平台打造的首款产品」，综合性能相较前代提升 3-4 倍。\n2）EVO400 系列：标准中型 PLC，机身小巧（53mm/80mm/100mm 级别），位指令运算 2.5ns、整型运算 3ns、双精度浮点运算 5ns；主机自带 3 路以太网，其中 2 路为交换机模式、1 路为独立 IP 模式；支持 2 个 GE20 系列扩展卡、16 个 GL20 系列扩展模块（本地及远程扩展，官方另表述为本地最多扩展 8 个模块）；EtherNet/IP 最小通信周期 1ms、最大连接数 128。\n3）EVO500 系列分两条：EVO52X 为高性能小体积中型 PLC，纳秒级指令处理速度、支持 256 回路 PID 同步运算、1ms/12 轴高精运动控制、高阶凸轮；EVO51X 为纯网络型小体积中型 PLC，面向非流程行业 OEM 设备，自带 3 路以太网（2 路交换机模式 + 1 路独立 IP 模式），支持 PN 从站、EtherNet/IP、Modbus、OPC UA、CANopen、自由协议。\n4）EVO700 系列：EVO760 为旗舰型中型 PLC，支持 EtherCAT、EtherNet/IP、OPC UA、Modbus TCP、TCP/IP、CAN 等标准工业网络。\n5）与「大型冗余 PLC」的关系：该子品类对应 EVO800 系列大型冗余 PLC 控制系统，同样依托 iFA Evolution 平台，按车规级高可靠标准打造，支持单机模式、单机架多 CPU、冗余模式，以及电源冗余、DLR 设备级环网冗余、PRP 并行冗余网络；总线覆盖 EtherNet/IP、OPC UA、Modbus TCP、PROFINET、PROFIBUS DP；配套高可靠 Hi80 系列 IO 与自研光电复用一体式 DLR 交换机，支持星型、线型、环形、环形+分支等拓扑，可覆盖长距离 10Km 光纤通信；面向冶金、汽车、市政、水利、石油、矿山、港口、化工、电力等大型产线。\n6）与「功能安全 PLC」的关系：该子品类对应 EVO1000EF 系列功能安全 PLC（配套 Hi50），符合 IEC 61508、IEC 62061、ISO 13849 等标准，最高可达 PL e/Cat.4/SIL 3，采用冗余架构和故障安全机制，支持本地和远程扩展安全 I/O，适用于汽车制造、智能物流、新能源、半导体、食品饮料等对机械安全要求严苛的领域。\n7）共性结论：EVO400/500/700/800/1000EF 同属 iFA Evolution 生态，官方称该平台「支持多 PLC、多设备编程，图形化组态，可覆盖大型冗余、功能安全、中型标准 PLC 等应用场景，一次学习，全场景适用」，并提供覆盖仿真模型、信号处理、回路控制、阀门电机控制的工艺算法库，还集成 AI 助手（AI 问答、AI 注释、AI 代码自动生成）。",
+    "analysis": "本题考察对汇川新一代控制器家族的整体把握，难度在于要把「四个中型型号 + 一个大类冗余品类 + 一个功能安全品类」放进同一平台框架里讲清楚。常见错误：把 EVO800 和 EVO1000EF 当成独立于 EVO 家族之外的产品；把 EVO51X 与 EVO52X 的能力对调（52X 强在运动控制，51X 强在纯网络通信）；混淆 EVO400 与 EVO52X 的带轴指标。做客户宣讲时，最有效的切入点是「一次学习、全场景适用」这一平台价值主张，而不是逐个型号堆参数。",
+    "source": {
+      "title": "汇川技术 EVO400 / EVO500 / EVO700 / EVO800 / EVO1000EF 产品页",
+      "chapter": "产品概览",
+      "url": "https://www.inovance.com/portal/product/list?typeId=420"
+    },
+    "tags": [
+      "EVO",
+      "iFA Evolution",
+      "冗余",
+      "功能安全",
+      "选型"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "internal"
+  },
+  {
+    "id": "PLC-031",
+    "category": "plc",
+    "type": "scenario",
+    "difficulty": 3,
+    "stem": "某包装机械客户新机型需要做 10 轴同步运动控制，节拍要求 1ms 级别，同时希望用一台控制器同时承担运动控制与产线数据上传（OPC UA + EtherNet/IP 接入上位 MES），并且要求本体自带 UPS 实现数据掉电保存、支持电子凸轮与电子齿轮。客户预算充足，明确不接受外置 UPS 方案。请从汇川 PLC 产品线中给出选型建议，说明你选择哪个系列/型号，并列出判断依据与需要向客户确认的边界条件。",
+    "options": null,
+    "answer": "参考答案要点：\n1）首选方向：AC 系列书本式智能机械控制器，具体可在 AC700 与 AC800 之间按轴数与算力定档。AC700 官网规格为「采用 Intel Celeron x86 高性能 CPU+64GSSD+4GDDR，最大支持 1ms-32 轴同步运行」，10 轴同步落在能力范围内；其官网明确「本体集成 UPS 设计，无需外接 UPS 即可实现数据掉电保存」，与客户「不接受外置 UPS」的要求直接命中；同时 AC700「标配 EtherCAT 工业以太网实时总线」「全系配置两路千兆以太网口，支持 EtherNet/IP 与 OPC UA 等主流通讯协议，可以轻松实现生产现场与 IT 系统的数据交互」，运动 + 数据上传一体化的诉求也满足；本体还自带 200kHz 高速 IO（8×DI+4×DO）与一路 RS232/RS485 串口，本体集成度高。\n2）若节拍与算力要求进一步上探，可直接选 AC800：官网规格为「支持 250μs-8 轴、500μs-32 轴、4ms-256 轴运算速度」「同步支持机械手、电子凸轮、电子齿轮」「抖动 40μs」「双 EtherCAT 口，可以兼顾高响应实时轴控和 PTP 点位控制，轻松实现环形组网；双 EtherNet 口独立 IP，一个口设备间的组网，一个口连接信息层，IP 分开，安全隔离」，10 轴 1ms 级别绰绰有余，且四网口设计天然满足内外网隔离。\n3）编程平台与工艺复用：AC700/AC800 均使用 InoProShop 中型 PLC 后台编程软件，官方下载区提供《中型PLC编程手册（机器人集成控制篇）》与基于 PackML 的标准化程序开发模板（AC700 页面提及），电子凸轮/电子齿轮属于平台运动控制功能的常规能力；包装机械属于标准化程度较高的机型，PackML 模板可直接降低开发工作量。\n4）AM760 是否可行——需要明确说明而不是简单地排除：AM760 同样满足本题的多项硬指标，官网写明其「本体集成 UPS，无需外接 UPS 即可实现数据掉电保存」「500μs 周期 32 轴同步控制，1ms 周期 64 轴同步控制，支持 32/64/96 轴控制」「本体可扩展 32 个 GL20 系列模块」，性能甚至在部分维度超过 AC700。因此两者都能做，差别在于定位与配套：AC 系列是「书本式智能机械控制器」，面向高速高精的多轴运动控制与边缘计算，本体自带高速 IO，开发模板（PackML）与包装行业工艺贴合度更高；AM760 是通用型高性能中型 PLC，强在大型产线复杂组网（多路 CAN、多路串口、多网段 IP、EtherCAT 环网）与过程控制回路。若客户后续还要在同一控制器上做大量过程控制回路或跨车间组网，AM760 的性价比更好；若以纯运动控制为主且追求开机即用的行业模板，AC 系列更合适。\n5）需向客户确认的边界条件：a）10 轴是 EtherCAT 总线轴还是脉冲轴，是否全部为汇川伺服（SV660N/SV680N 等），从站总数与拓扑形式（线型/环型）；b）1ms 是指总线周期还是整机节拍，若为整机节拍需进一步核算单周期运算量；c）是否需要机器人集成控制或视觉协同；d）电柜安装空间与散热条件，AC 系列为书本式形态；e）上位 MES 侧的协议栈与标签规范，EtherNet/IP 侧是否需要 EIP 标签通信库支持；f）是否需要冗余或功能安全，若有则需升级到 EVO800 / EVO1000EF 体系（平台切换为 iFA Evolution）。\n6）不建议的方案：不要用小型 PLC（H5U 支持 32 轴 EtherCAT，但平台为 AutoShop，本体不集成 UPS，数据层与 V/I 刷新能力也有限，与客户「本体自带 UPS、不接受外置 UPS」的要求冲突）。",
+    "analysis": "本题是典型的「多约束条件选型」场景题，考察的不仅是被不被「轴数」这一个显性指标带偏，更在于能否意识到「多个系列都满足硬指标」这一现实，并给出有理据的优先级排序。客户提了五个条件：10 轴、1ms、运动+数据一体、本体 UPS、电子凸轮/齿轮。AC700 本体集成 UPS、最大 1ms-32 轴同步、标配 EtherCAT 与两路千兆网口、本体自带 200kHz 高速 IO，是本题的最佳落点；AC800 是算力更充裕的同族升级项。最关键的一处专业度体现在 AM760 的判断上：AM760 官网同样写明「本体集成 UPS，无需外接 UPS 即可实现数据掉电保存」，并支持 500μs/32 轴与 1ms/64 轴，性能甚至更强，所以把它简单说成「本体不集成 UPS、方案不可行」是事实性错误——正确的答法是承认两者都可行，再从产品定位（智能机械控制器 vs 通用型中型 PLC）、本体高速 IO、行业开发模板、后续过程控制与复杂组网需求四个维度给出取舍理由。本题配 AC700 与 AM760 两个产品页交叉印证，建议答题时同时打开两份资料对照。",
+    "source": {
+      "title": "汇川技术 AC700 系列书本式智能机械控制器产品页 / AM760 系列高性能中型 PLC 产品页",
+      "chapter": "产品概览、集成化设计、可靠的系统设计",
+      "url": "https://www.inovance.com/portal/product/details?productId=327"
+    },
+    "tags": [
+      "AC700",
+      "AC800",
+      "方案应用",
+      "选型",
+      "多轴同步"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "internal"
+  },
+  {
+    "id": "PLC-032",
+    "category": "plc",
+    "type": "scenario",
+    "difficulty": 3,
+    "stem": "某电子非标设备使用汇川 Easy 系列小型 PLC 作为 EtherCAT 主站，带 6 台伺服轴。设备出厂前在厂内调试一切正常，运到终端客户现场后，上电时偶发「EtherCAT 从站扫描不到」，重新上电有时又能恢复；发生故障时上位机与 PLC 的以太网通信仍然正常。现场电柜内装有变频器与开关电源。请说明你的排查思路、优先怀疑的原因以及处理建议。",
+    "options": null,
+    "answer": "参考答案要点：\n1）现象分析：以太网通信正常说明 PLC 本体工作正常、供电与程序运行无碍，问题被限定在 EtherCAT 网段本身；「偶发、重新上电有时恢复」进一步指向物理层/时序类问题，而不是组态配置的硬性错误（若为组态或站号错误，应当每次都不通）。\n2）优先怀疑顺序与排查动作：\na）物理链路与EMC：检查 EtherCAT 网线是否使用带屏蔽的专用网线、水晶头压接质量、屏蔽层是否按规范单端或双端接地；网线是否与变频器动力线、电机线同槽并行敷设；电柜内变频器/开关电源是否加装滤波器、动力线与信号线是否分区走线。这是与「现场环境有变频器」这一线索最匹配的方向。\nb）机型接口核对：确认所选 Easy 机型本体确实具备 EtherCAT 主站口（官网明确 Easy511 本体自带一路 EtherCAT 口并支持 EtherNet 切换、出厂标配 GE21-EN 以太网卡；Easy321 本体自带一路 EtherNet 口），并确认 EtherCAT 从站未误接到普通 EtherNet 口上。\nc）从站供电与上电时序：6 台伺服的 24V 控制电源是否与主站同时上电、是否存在从站上电慢于主站扫描窗口的情况；建议核对从站供电容量与上电顺序。\nd）从站地址与拓扑：核对拓扑顺序与组态是否一致，站号有无重复；注意 EtherCAT 从站站号由主站扫描时按拓扑顺序分配，现场不应通过拨码另行设定。\ne）软件启用状态：核对工程中是否有变量或系统参数在特定条件下禁用了 EtherCAT 从站（官网明确 Easy 系列「支持通过变量启动和禁用本地模块/EtherCAT 从站/伺服轴，支持系统参数程序修改」），这类逻辑在厂内调试时可能因条件不同而未触发。\nf）固件与组态文件版本：核对各从站 EDS 与主站组态版本是否一致。\n3）处理建议：优先整治电柜 EMC 与线缆敷设（信号线与动力线分槽、加装滤波器、完善接地），更换合格屏蔽网线并重新压接；把伺服控制电源与主站电源做统一上电管理；在程序侧增加 EtherCAT 通信状态诊断与报警提示，出厂前加做满载与变频器同时运行的联动老化测试，把这类现场偶发问题提前暴露在厂内。\n4）闭环动作：把本次故障现象、排查路径与最终原因记入设备出厂检查清单（EtherCAT 组网专项），并在客户现场交付时同步说明电柜走线与接地的要求。",
+    "analysis": "本题考察「EtherCAT 偶发掉站」这一类现场疑难问题的判断能力，核心是能否用「以太网正常而 EtherCAT 异常」「偶发且可恢复」这两条线索把范围快速收敛到物理层与 EMC，而不是一上来就怀疑配置或换件。依据官网信息，Easy 系列本身具备自动扫描和一键配置 EtherCAT 从站、免程序调试伺服的能力，也支持通过变量启用/禁用从站，因此排查顺序应当是「物理层 → 机型接口 → 上电时序 → 站号拓扑 → 软件启用状态」。最典型的错误是把偶发通信问题归因于伺服环路增益或电机参数，去做自整定，既解决不了问题又拉长停机时间。",
+    "source": {
+      "title": "汇川技术 Easy 系列全场景紧凑型小型 PLC 产品页",
+      "chapter": "产品概览 / 易编程、易调试",
+      "url": "https://www.inovance.com/portal/product/details?productId=350"
+    },
+    "tags": [
+      "Easy系列",
+      "EtherCAT",
+      "故障排查",
+      "接线安装"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "confidential"
+  },
+  {
+    "id": "PLC-033",
+    "category": "plc",
+    "type": "scenario",
+    "difficulty": 2,
+    "stem": "某客户要改造一台小型包装机，需求为：8 轴运动控制（其中 2 轴做主从同步）、需要与上位管理系统通过以太网交换数据、现场还有一批老设备走 CAN 总线和 RS485，客户希望尽量统一到一套 PLC 上，并且对成本比较敏感。请给出基于汇川小型 PLC 的方案建议，说明芯片/接口层面的匹配关系，以及必须向客户澄清的关键参数。",
+    "options": null,
+    "answer": "参考答案要点：\n1）主控选型：推荐 H5U 系列 EtherCAT 总线高性能小型 PLC。依据：官网明确其「支持 32 轴 EtherCAT 总线运动控制，支持绝对/相对、速度、转矩、点动控制、插补功能，最大支持 72 个 EtherCAT 从站」，8 轴远在能力范围内；「支持 RS485、CAN、以太网和 EtherCAT 接口，可实现多层次网络通信；以太网接口支持 ModbusTCP 协议和套接字通信」，恰好覆盖客户的以太网数据交换 + CAN + RS485 三类需求；「支持直线圆弧插补，支持电子凸轮、电子齿轮（脉冲轴和 EtherCAT 轴可以混合凸轮与插补）」，2 轴主从同步可用电子齿轮/电子凸轮实现。成本敏感场景下，H5U 相比中型 PLC 有明确的价格优势，编程平台为 AutoShop。\n2）接口与轴控匹配：H5U 本体自带 16 路输入和 14 路输出，含 4 路高速输入、4 路中速输入和 4 路高速输出，可实现 4 轴 200KHz 脉冲输出和 4 轴编码器计数，最大可扩展 16 个本地扩展模块。若 8 轴全部走 EtherCAT 总线（配汇川总线型伺服），本体 IO 可留给传感器与执行机构；若其中部分轴必须走脉冲，则要注意本体脉冲轴上限为 4 轴，超出部分需改用总线轴或增加扩展。\n3）老设备接入：CAN 侧需确认老设备协议是 CANopen 还是汇川 CANlink（H3U/S 官网明确「1 路 CAN 接口支持 CANlink 和 CANopen 协议」），H5U 的 CAN 口协议能力需按具体机型与手册确认；RS485 侧走 Modbus RTU 主站方式接入。若老设备协议不标准，需评估是否加协议转换网关。\n4）数据上传：以太网口支持 Modbus TCP 与套接字通信，可直接与上位系统（SCADA/MES）对接；若上位要求 OPC UA 或 EtherNet/IP，则需要评估升级到 Easy 系列（Easy 支持 EtherNet/IP、OPC UA（服务器）、Socket 等）或中型 PLC。\n5）必须澄清的关键参数：a）8 轴的轴类型构成（总线轴/脉冲轴各几个、是否全部使用汇川伺服）；b）「2 轴主从同步」的精度与相位要求，决定用电子齿轮还是电子凸轮，以及是否需要色标/编码器反馈；c）上位管理系统的具体协议与数据点表规模；d）CAN 老设备的协议类型、波特率与节点数；e）是否需要运动控制与数据上传的实时性隔离（如双网段 IP）；f）电柜空间与散热、本体点数是否够用，需要的扩展模块数量与类型。\n6）备选与升级路径：若客户后续对数据层要求提高到 OPC UA/EtherNet/IP 或要求 100% 国产化核心器件，可切换到 Easy 系列（全系列 8 个机型、双网口设计、支持双网段 IP、CPU 及核心器件 100% 国产化）；若点数与工艺复杂度增长则进入 AM 系列中型 PLC（InoProShop 平台）。",
+    "analysis": "本题考察在成本约束下做「小型 PLC 多协议一体化」方案的取舍能力。关键判断点有两处：一是 H5U 同时具备 EtherCAT、以太网、CAN、RS485 四类接口，这是它区别于 H1U/H3U 的核心价值，也是本题的最优解基础；二是必须把「8 轴」拆开看——EtherCAT 总线轴可到 32 轴，但本体脉冲轴只有 4 轴，混用时的分配直接决定方案是否可行。常见错答是直接推荐中型 PLC（成本过剩）或忽略 CAN/RS485 老设备协议差异（实施阶段返工）。答题时给出「主控 + 接口匹配 + 待澄清清单 + 升级路径」四段结构，能体现完整的方案思维。",
+    "source": {
+      "title": "汇川技术 H5U 系列 EtherCAT 总线高性能小型 PLC 产品页",
+      "chapter": "产品概览 / 产品特性及优点",
+      "url": "https://www.inovance.com/portal/product/details?productId=54"
+    },
+    "tags": [
+      "H5U",
+      "通信组网",
+      "方案应用",
+      "选型"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "internal"
+  },
+  {
+    "id": "PLC-034",
+    "category": "plc",
+    "type": "scenario",
+    "difficulty": 3,
+    "stem": "某冶金产线的老控制系统需要整体改造，现场情况：控制器要按冗余架构设计，要求接入既有的大量第三方设备（含 PROFINET、PROFIBUS DP 等总线），产线跨度大、有长距离通信需求，还要支持环网冗余，并且客户非常在意既有程序与工程资产的复用、不希望全部重写。客户的技术负责人问你：汇川有没有对应的大型冗余 PLC 方案？请把可以复述给客户的关键信息整理出来。",
+    "options": null,
+    "answer": "参考答案要点：\n1）方案对应产品：汇川 EVO800 系列大型冗余 PLC 控制系统，属官网 PLC 品类下「大型冗余 PLC」子品类，基于 iFA Evolution（驭沃）全场景智能化工业控制平台，按车规级高可靠标准、遵循 IEC 规范打造，官网概括其特性为「强兼容、易迁移、高保护、全自主」。\n2）冗余架构：官网明确「PLC 支持单机模式、单机架多 CPU、冗余模式」，即不止 CPU 冗余一种形态；同时「全面的冗余架构，支持 CPU 单机/单机架多 CPU/CPU 冗余/电源冗余等多种模式，支持 DLR 设备级环网冗余、支持 PRP 并行冗余网络，可灵活应对多种冗余场景需求」。\n3）总线与兼容性（对应客户「既有第三方设备多」的诉求）：官网写明「主流总线全覆盖，支持 EtherNet/IP、OPC UA、Modbus TCP、PROFINET、PROFIBUS DP 等主流总线和协议，继承现有资产，降低投资成本」——这是本题最关键的卖点，正面回应了客户对既有资产复用的担忧。\n4）拓扑与长距离（对应「产线跨度大、要环网」）：官网写「灵活的拓扑组态，搭配自研的光电复用一体式 DLR 交换机，支持星型、线型、环形、环形+分支等多种组网形式，拓扑灵活，并可覆盖长距离 10Km 光纤通信的工业应用场景」。\n5）IO 配套：搭配高可靠 Hi80 系列高性能分布式 IO 模块。\n6）工程资产复用（对应「不希望全部重写」）：依托 iFA Evolution 平台，官网表述为「一站式开发平台，支持多 PLC、多设备编程，图形化组态，可覆盖大型冗余、功能安全、中型标准 PLC 等应用场景，一次学习，全场景适用」，并提供「丰富的工艺算法库，分层分类功能块，覆盖仿真模型、信号处理、回路控制、阀门电机控制多种算法集，满足不同项目开发场景、助力工程快速交付和迁移」；平台还集成汇川 AI 助手，支持 AI 问答、AI 注释、AI 代码自动生成。此外官网提到「高保护」——完整的工程加密体系。\n7）适用行业印证：官网明确 EVO800 可广泛用于冶金、汽车、市政、水利、石油、矿山、港口、化工、电力等大型产线，冶金正是其官方列出的目标行业之一。\n8）需要与客户确认的事项（避免过度承诺）：a）既有程序的具体平台与语言，迁移工作量需实测评估，「易迁移」指平台提供迁移支持能力，不等于零改造；b）第三方设备清单与协议明细，特别是有无 PROFIBUS DP 从站需要网关；c）长距离光纤段的具体距离与拓扑冗余等级（DLR 与 PRP 的取舍）；d）IO 点数与分布式站点分布；e）是否需要同时满足功能安全要求，若是则需并行引入 EVO1000EF 系列功能安全 PLC（最高 PL e/Cat.4/SIL 3）。",
+    "analysis": "本题考察面向大型产线客户做方案宣讲的能力，重点不是背参数，而是能否把官网的四个价值关键词「强兼容、易迁移、高保护、全自主」翻译成客户的具体关切：第三方设备多→主流总线全覆盖、继承现有资产；跨度大→10Km 光纤与多种拓扑；要冗余→单机/单机架多 CPU/CPU 冗余/电源冗余 + DLR/PRP；怕重写→iFA Evolution 统一平台与工艺算法库。常见错答是把 EVO800 说成只支持 EtherNet/IP 或只有 CPU 冗余（这是对公司产品能力的严重低报），以及在「易迁移」上给出零改造的承诺。答题时应保留最后的待确认清单，这是方案类问题专业度的体现。",
+    "source": {
+      "title": "汇川技术 EVO800 系列大型冗余 PLC 控制系统产品页",
+      "chapter": "产品概览 / 强兼容、易迁移、高保护",
+      "url": "https://www.inovance.com/portal/product/details?productId=765"
+    },
+    "tags": [
+      "EVO800",
+      "冗余",
+      "方案应用",
+      "通信组网"
+    ],
+    "roles": [
+      "engineer"
+    ],
+    "security": "confidential"
+  }
+]
