@@ -32,11 +32,16 @@ V2.0 起新增**结构化知识库**：把静态 PDF 变成可检索、可关联
 
 ### 方式 2：本地服务（推荐，体验一致）
 
+**双击启动（Windows）**：双击 `启动刷题工具.bat`，会自动启动服务并打开浏览器（默认 8123 端口）；
+关掉那个命令行窗口即停止服务。需要换端口时在命令行执行 `启动刷题工具.bat 9000`。
+
+**命令行启动**：
+
 ```powershell
 cd inovance-quiz
-node tools/serve.mjs          # 默认 8080 端口
-# 刷题端：   http://localhost:8080/index.html
-# 管理后台： http://localhost:8080/admin.html
+node tools/serve.mjs 8123     # 端口可自定义，不填默认 8080
+# 刷题端：   http://localhost:8123/index.html
+# 管理后台： http://localhost:8123/admin.html
 ```
 
 ### 方式 3：带后端（多端同步 / 服务端判分）
@@ -128,7 +133,8 @@ inovance-quiz/
 │  ├─ gen-md3-tokens.mjs      # Material You 设计令牌生成（种子色 → md3-tokens.css）
 │  ├─ package.mjs             # 打包可移植文件（单文件 HTML + 完整目录 + zip）
 │  └─ serve.mjs               # 零依赖本地静态服务器
-├─ dist/                      # 打包产物（由 tools/package.mjs 生成，可整包拷走）
+├─ 启动刷题工具.bat            # Windows 一键启动（起服务 + 开浏览器，默认 8123）
+├─ dist/                      # 打包产物（由 tools/package.mjs 生成，可整包拷走；已 gitignore）
 │  ├─ 汇川产品刷题工具-单文件版.html
 │  ├─ 汇川产品刷题工具-管理端-单文件版.html
 │  ├─ 汇川产品刷题工具-便携版-<日期>.zip
